@@ -1,0 +1,28 @@
+<Stats BUILD_NAME="Noita-Build-Dec  1 2020-15:56:41" >
+  <stats biomes_visited_with_wands="9" damage_taken="66.7795" dead="1" death_count="0" death_pos.x="321.19" death_pos.y="11318.8" enemies_killed="117" gold="147" gold_all="1327" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="21" kicks="1" killed_by="Turso | melee" killed_by_extra=", while polymorphed to Lentolammas" places_visited="9" playtime="1765.47" playtime_str="0:29:25" projectiles_shot="699" teleports="0" wands_edited="5" world_seed="2146403275" >
+  </stats>
+  <biome_baseline biomes_visited_with_wands="8" damage_taken="58.8087" dead="0" death_count="0" death_pos.x="0" death_pos.y="0" enemies_killed="101" gold="147" gold_all="1327" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="21" kicks="1" killed_by="" killed_by_extra="" places_visited="8" playtime="1651.13" playtime_str="0:27:31" projectiles_shot="656" teleports="0" wands_edited="5" world_seed="2146403275" >
+  </biome_baseline>
+  <item_map>
+  </item_map>
+  <biomes_visited>
+    <E key="$biome_coalmine" value="1" >
+    </E>
+    <E key="$biome_crypt" value="1" >
+    </E>
+    <E key="$biome_excavationsite" value="1" >
+    </E>
+    <E key="$biome_fungicave" value="1" >
+    </E>
+    <E key="$biome_holymountain" value="1" >
+    </E>
+    <E key="$biome_rainforest" value="1" >
+    </E>
+    <E key="$biome_snowcastle" value="1" >
+    </E>
+    <E key="$biome_snowcave" value="1" >
+    </E>
+    <E key="$biome_vault" value="1" >
+    </E>
+  </biomes_visited>
+</Stats>

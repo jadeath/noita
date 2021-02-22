@@ -1,0 +1,72 @@
+<Stats deaths="1" kills="117" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="tentacler | $damage_melee" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="acidshooter" value="1" >
+    </E>
+    <E key="acidshooter_weak" value="2" >
+    </E>
+    <E key="acidshot" value="3" >
+    </E>
+    <E key="bat" value="9" >
+    </E>
+    <E key="bigfirebug" value="2" >
+    </E>
+    <E key="dripping_oil" value="1" >
+    </E>
+    <E key="failed_alchemist_b" value="2" >
+    </E>
+    <E key="failed_alchemist_orb" value="1" >
+    </E>
+    <E key="firebug" value="13" >
+    </E>
+    <E key="firebugnest" value="1" >
+    </E>
+    <E key="fungus" value="1" >
+    </E>
+    <E key="glitter_bomb" value="3" >
+    </E>
+    <E key="goblin_bomb" value="1" >
+    </E>
+    <E key="iceskull" value="1" >
+    </E>
+    <E key="longleg" value="9" >
+    </E>
+    <E key="miner" value="5" >
+    </E>
+    <E key="miner_weak" value="6" >
+    </E>
+    <E key="physics_torch_stand" value="1" >
+    </E>
+    <E key="pipe_bomb" value="1" >
+    </E>
+    <E key="rat" value="2" >
+    </E>
+    <E key="scavenger_grenade" value="9" >
+    </E>
+    <E key="scavenger_heal" value="1" >
+    </E>
+    <E key="scavenger_invis" value="1" >
+    </E>
+    <E key="scavenger_smg" value="13" >
+    </E>
+    <E key="shotgunner" value="2" >
+    </E>
+    <E key="skullrat" value="2" >
+    </E>
+    <E key="slimeshooter" value="1" >
+    </E>
+    <E key="slimeshooter_weak" value="5" >
+    </E>
+    <E key="sniper" value="4" >
+    </E>
+    <E key="tentacler_small" value="1" >
+    </E>
+    <E key="tnt" value="1" >
+    </E>
+    <E key="zombie_weak" value="12" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,16 @@
+<Stats deaths="2" kills="3" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | physics body damaged" value="1" >
+    </E>
+    <E key="bat | $damage_melee" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="bat" value="1" >
+    </E>
+    <E key="phantom_a" value="1" >
+    </E>
+    <E key="wizard_poly" value="1" >
+    </E>
+  </kill_map>
+</Stats>

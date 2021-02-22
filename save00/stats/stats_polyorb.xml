@@ -1,0 +1,16 @@
+<Stats deaths="10" kills="0" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+    <E key="player | $damage_slice" value="4" >
+    </E>
+    <E key="spitmonster | $damage_projectile" value="1" >
+    </E>
+    <E key="tentacle_portal | $damage_melee" value="3" >
+    </E>
+    <E key="wand_ghost | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+  </kill_map>
+</Stats>

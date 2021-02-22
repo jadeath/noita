@@ -1,0 +1,18 @@
+<Stats BUILD_NAME="Noita-Build-Dec  1 2020-15:56:41" >
+  <stats biomes_visited_with_wands="4" damage_taken="7.85686" dead="1" death_count="0" death_pos.x="-307.78" death_pos.y="2157.99" enemies_killed="11" gold="241" gold_all="241" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="10" kicks="1" killed_by="Haulikkohiisi | projectile" killed_by_extra="" places_visited="4" playtime="360.267" playtime_str="0:06:00" projectiles_shot="100" teleports="0" wands_edited="0" world_seed="837548345" >
+  </stats>
+  <biome_baseline biomes_visited_with_wands="3" damage_taken="1.71366" dead="0" death_count="0" death_pos.x="0" death_pos.y="0" enemies_killed="4" gold="51" gold_all="51" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="5" kicks="1" killed_by="" killed_by_extra="" places_visited="3" playtime="229.8" playtime_str="0:03:49" projectiles_shot="52" teleports="0" wands_edited="0" world_seed="837548345" >
+  </biome_baseline>
+  <item_map>
+  </item_map>
+  <biomes_visited>
+    <E key="$biome_coalmine" value="1" >
+    </E>
+    <E key="$biome_excavationsite" value="1" >
+    </E>
+    <E key="$biome_holymountain" value="1" >
+    </E>
+    <E key="$biome_orbroom" value="1" >
+    </E>
+  </biomes_visited>
+</Stats>

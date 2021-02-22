@@ -1,0 +1,36 @@
+<Stats deaths="115" kills="2" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_electricity" value="2" >
+    </E>
+    <E key="NULL | $damage_explosion" value="67" >
+    </E>
+    <E key="NULL | $damage_fire" value="18" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="4" >
+    </E>
+    <E key="NULL | damage from material: toxic rock" value="4" >
+    </E>
+    <E key="blob | $damage_melee" value="1" >
+    </E>
+    <E key="bloom | $damage_projectile" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="11" >
+    </E>
+    <E key="player | $damage_slice" value="2" >
+    </E>
+    <E key="roboguard | $damage_projectile" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="1" >
+    </E>
+    <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="rat" value="2" >
+    </E>
+  </kill_map>
+</Stats>

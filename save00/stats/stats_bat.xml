@@ -1,0 +1,102 @@
+<Stats deaths="635" kills="75" player_kills="1" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="7" >
+    </E>
+    <E key="NULL | $damage_electricity" value="2" >
+    </E>
+    <E key="NULL | $damage_explosion" value="20" >
+    </E>
+    <E key="NULL | $damage_fire" value="125" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="58" >
+    </E>
+    <E key="NULL | $damage_plasmabeam" value="2" >
+    </E>
+    <E key="NULL | damage from material: Poison" value="1" >
+    </E>
+    <E key="NULL | damage from material: freezing liquid" value="2" >
+    </E>
+    <E key="NULL | damage from material: lava" value="24" >
+    </E>
+    <E key="NULL | damage from material: toxic rock" value="1" >
+    </E>
+    <E key="bigfirebug | $damage_fire" value="5" >
+    </E>
+    <E key="crystal_physics | $damage_projectile" value="1" >
+    </E>
+    <E key="disc_bullet_big | bzzt!" value="9" >
+    </E>
+    <E key="firebug | $damage_fire" value="3" >
+    </E>
+    <E key="fly | $damage_melee" value="2" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="2" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="1" >
+    </E>
+    <E key="iceskull | $damage_ice" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="3" >
+    </E>
+    <E key="miner | $damage_melee" value="2" >
+    </E>
+    <E key="pebble_player_physics | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="21" >
+    </E>
+    <E key="player | $damage_plasmabeam" value="2" >
+    </E>
+    <E key="player | $damage_projectile" value="202" >
+    </E>
+    <E key="player | $damage_slice" value="100" >
+    </E>
+    <E key="player_rng_items | $damage_slice" value="8" >
+    </E>
+    <E key="rat | $damage_melee" value="7" >
+    </E>
+    <E key="shooterflower | $damage_projectile" value="1" >
+    </E>
+    <E key="shotgunner | $damage_melee" value="3" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="3" >
+    </E>
+    <E key="tentacle_portal | $damage_melee" value="4" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
+    </E>
+    <E key="tentacler_small | $damage_melee" value="1" >
+    </E>
+    <E key="wizard_tele | $damage_projectile" value="1" >
+    </E>
+    <E key="worm | worm bite" value="6" >
+    </E>
+    <E key="worm_tiny | worm bite" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="crystal_physics" value="1" >
+    </E>
+    <E key="firebug" value="10" >
+    </E>
+    <E key="goblin_bomb" value="4" >
+    </E>
+    <E key="miner" value="1" >
+    </E>
+    <E key="player" value="1" >
+    </E>
+    <E key="rat" value="53" >
+    </E>
+    <E key="sheep" value="1" >
+    </E>
+    <E key="shotgunner" value="2" >
+    </E>
+    <E key="tentacler_small" value="1" >
+    </E>
+    <E key="zombie" value="1" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,26 @@
+<Stats deaths="7" kills="13" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="1" >
+    </E>
+    <E key="NULL | damage from material: lava" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="3" >
+    </E>
+    <E key="skullrat | $damage_melee" value="1" >
+    </E>
+    <E key="worm_skull | worm bite" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="egg_purple" value="1" >
+    </E>
+    <E key="giantshooter" value="1" >
+    </E>
+    <E key="longleg" value="8" >
+    </E>
+    <E key="skullrat" value="1" >
+    </E>
+    <E key="slimeshooter" value="2" >
+    </E>
+  </kill_map>
+</Stats>

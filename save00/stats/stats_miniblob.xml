@@ -1,0 +1,136 @@
+<Stats deaths="546" kills="47" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="5" >
+    </E>
+    <E key="NULL | $damage_electricity" value="98" >
+    </E>
+    <E key="NULL | $damage_explosion" value="82" >
+    </E>
+    <E key="NULL | $damage_fire" value="1" >
+    </E>
+    <E key="NULL | $damage_melee" value="13" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="13" >
+    </E>
+    <E key="NULL | $damage_plasmabeam" value="3" >
+    </E>
+    <E key="ant | $damage_melee" value="7" >
+    </E>
+    <E key="bigfirebug | $damage_fire" value="1" >
+    </E>
+    <E key="bigzombie | $damage_explosion" value="1" >
+    </E>
+    <E key="bigzombie | $damage_melee" value="1" >
+    </E>
+    <E key="bigzombiehead | $damage_melee" value="1" >
+    </E>
+    <E key="blob | $damage_melee" value="5" >
+    </E>
+    <E key="disc_bullet_big | bzzt!" value="3" >
+    </E>
+    <E key="firemage_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="frog_big | $damage_melee" value="6" >
+    </E>
+    <E key="longleg | $damage_melee" value="3" >
+    </E>
+    <E key="miner | $damage_melee" value="3" >
+    </E>
+    <E key="miner_weak | $damage_melee" value="2" >
+    </E>
+    <E key="miniblob | $damage_melee" value="4" >
+    </E>
+    <E key="necromancer | $damage_melee" value="1" >
+    </E>
+    <E key="phantom_b | $damage_melee" value="2" >
+    </E>
+    <E key="player | $damage_electricity" value="3" >
+    </E>
+    <E key="player | $damage_explosion" value="38" >
+    </E>
+    <E key="player | $damage_projectile" value="157" >
+    </E>
+    <E key="player | $damage_slice" value="11" >
+    </E>
+    <E key="roboguard | $damage_explosion" value="3" >
+    </E>
+    <E key="roboguard | $damage_melee" value="17" >
+    </E>
+    <E key="roboguard | $damage_projectile" value="2" >
+    </E>
+    <E key="shooterflower | $damage_projectile" value="2" >
+    </E>
+    <E key="shotgunner_weak | $damage_melee" value="2" >
+    </E>
+    <E key="shotgunner_weak | $damage_projectile" value="1" >
+    </E>
+    <E key="skullfly | $damage_projectile" value="4" >
+    </E>
+    <E key="skullrat | $damage_melee" value="1" >
+    </E>
+    <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
+    </E>
+    <E key="slimeshooter_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="sniper | $damage_explosion" value="4" >
+    </E>
+    <E key="sniper | $damage_melee" value="6" >
+    </E>
+    <E key="sniper | $damage_projectile" value="13" >
+    </E>
+    <E key="tentacler | $damage_melee" value="2" >
+    </E>
+    <E key="tentacler_small | $damage_melee" value="1" >
+    </E>
+    <E key="thundermage | $damage_electricity" value="1" >
+    </E>
+    <E key="thundermage | $damage_explosion" value="3" >
+    </E>
+    <E key="thunderskull | $damage_explosion" value="1" >
+    </E>
+    <E key="thunderskull | $damage_melee" value="3" >
+    </E>
+    <E key="turret_right | $damage_projectile" value="2" >
+    </E>
+    <E key="wizard_dark | $damage_projectile" value="3" >
+    </E>
+    <E key="wizard_hearty | $damage_projectile" value="1" >
+    </E>
+    <E key="worm | worm bite" value="5" >
+    </E>
+    <E key="zombie | $damage_melee" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="alchemist" value="1" >
+    </E>
+    <E key="fly" value="1" >
+    </E>
+    <E key="frog_big" value="1" >
+    </E>
+    <E key="longleg" value="4" >
+    </E>
+    <E key="lukki_longleg" value="1" >
+    </E>
+    <E key="miner_weak" value="1" >
+    </E>
+    <E key="miniblob" value="4" >
+    </E>
+    <E key="rat" value="12" >
+    </E>
+    <E key="sheep" value="6" >
+    </E>
+    <E key="sheep_fly" value="1" >
+    </E>
+    <E key="shotgunner_weak" value="1" >
+    </E>
+    <E key="slimeshooter_nontoxic" value="1" >
+    </E>
+    <E key="wizard_dark" value="1" >
+    </E>
+    <E key="wizard_swapper" value="3" >
+    </E>
+    <E key="zombie" value="9" >
+    </E>
+  </kill_map>
+</Stats>

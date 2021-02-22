@@ -1,0 +1,58 @@
+<Stats deaths="1" kills="111" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="scavenger_smg | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="acidshot" value="1" >
+    </E>
+    <E key="bat" value="18" >
+    </E>
+    <E key="bigbat" value="1" >
+    </E>
+    <E key="bigfirebug" value="1" >
+    </E>
+    <E key="dripping_water" value="1" >
+    </E>
+    <E key="firebug" value="8" >
+    </E>
+    <E key="fireskull" value="3" >
+    </E>
+    <E key="fish" value="3" >
+    </E>
+    <E key="giant" value="1" >
+    </E>
+    <E key="goblin_bomb" value="7" >
+    </E>
+    <E key="iceskull" value="3" >
+    </E>
+    <E key="longleg" value="8" >
+    </E>
+    <E key="miner" value="3" >
+    </E>
+    <E key="miner_weak" value="8" >
+    </E>
+    <E key="pebble_physics" value="1" >
+    </E>
+    <E key="rat" value="3" >
+    </E>
+    <E key="scavenger_grenade" value="5" >
+    </E>
+    <E key="scavenger_smg" value="1" >
+    </E>
+    <E key="shotgunner" value="8" >
+    </E>
+    <E key="shotgunner_weak" value="3" >
+    </E>
+    <E key="slimeshooter" value="4" >
+    </E>
+    <E key="sniper" value="1" >
+    </E>
+    <E key="tnt" value="1" >
+    </E>
+    <E key="zombie" value="1" >
+    </E>
+    <E key="zombie_weak" value="17" >
+    </E>
+  </kill_map>
+</Stats>

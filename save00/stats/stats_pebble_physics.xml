@@ -1,0 +1,38 @@
+<Stats deaths="144" kills="64" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="2" >
+    </E>
+    <E key="NULL | $damage_explosion" value="3" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="4" >
+    </E>
+    <E key="NULL | damage from material: freezing vapour" value="23" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="1" >
+    </E>
+    <E key="pebble_physics | $damage_explosion" value="63" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="24" >
+    </E>
+    <E key="player | $damage_slice" value="2" >
+    </E>
+    <E key="player_rng_items | $damage_projectile" value="5" >
+    </E>
+    <E key="scavenger_smg | $damage_projectile" value="2" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="4" >
+    </E>
+    <E key="sniper | $damage_projectile" value="7" >
+    </E>
+    <E key="tank | $damage_projectile" value="3" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="pebble_physics" value="63" >
+    </E>
+    <E key="shotgunner" value="1" >
+    </E>
+  </kill_map>
+</Stats>

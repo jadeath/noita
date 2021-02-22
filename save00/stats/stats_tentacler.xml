@@ -1,0 +1,66 @@
+<Stats deaths="59" kills="53" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_electricity" value="5" >
+    </E>
+    <E key="NULL | $damage_explosion" value="15" >
+    </E>
+    <E key="NULL | $damage_fire" value="1" >
+    </E>
+    <E key="NULL | $damage_plasmabeam" value="1" >
+    </E>
+    <E key="NULL | damage from material: acid" value="3" >
+    </E>
+    <E key="NULL | damage from material: toxic rock" value="1" >
+    </E>
+    <E key="flamer | $damage_explosion" value="1" >
+    </E>
+    <E key="flamer | $damage_fire" value="1" >
+    </E>
+    <E key="phantom_a | $damage_projectile" value="1" >
+    </E>
+    <E key="player | $damage_electricity" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="6" >
+    </E>
+    <E key="player | $damage_projectile" value="21" >
+    </E>
+    <E key="tentacler | $damage_melee" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="acidshot" value="3" >
+    </E>
+    <E key="bat" value="1" >
+    </E>
+    <E key="blob" value="1" >
+    </E>
+    <E key="fungus" value="1" >
+    </E>
+    <E key="miniblob" value="2" >
+    </E>
+    <E key="physics_torch_stand" value="1" >
+    </E>
+    <E key="rat" value="7" >
+    </E>
+    <E key="scavenger_grenade" value="2" >
+    </E>
+    <E key="scorpion" value="13" >
+    </E>
+    <E key="sheep_bat" value="1" >
+    </E>
+    <E key="skullfly" value="3" >
+    </E>
+    <E key="skullrat" value="6" >
+    </E>
+    <E key="slimeshooter" value="1" >
+    </E>
+    <E key="sniper" value="1" >
+    </E>
+    <E key="tentacler" value="2" >
+    </E>
+    <E key="tentacler_small" value="5" >
+    </E>
+    <E key="zombie" value="3" >
+    </E>
+  </kill_map>
+</Stats>

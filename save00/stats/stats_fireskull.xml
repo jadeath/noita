@@ -1,0 +1,36 @@
+<Stats deaths="84" kills="10" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="3" >
+    </E>
+    <E key="NULL | $damage_explosion" value="29" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="9" >
+    </E>
+    <E key="NULL | $damage_plasmabeam" value="1" >
+    </E>
+    <E key="NULL | damage from material: Water" value="9" >
+    </E>
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+    <E key="firemage_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="5" >
+    </E>
+    <E key="miner_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="16" >
+    </E>
+    <E key="player | $damage_slice" value="4" >
+    </E>
+    <E key="shotgunner_weak | $damage_projectile" value="3" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="rat" value="10" >
+    </E>
+  </kill_map>
+</Stats>

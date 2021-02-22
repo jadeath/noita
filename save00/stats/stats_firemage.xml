@@ -1,0 +1,14 @@
+<Stats deaths="6" kills="1" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_water" value="4" >
+    </E>
+    <E key="NULL | damage from material: Water" value="1" >
+    </E>
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="acidshot" value="1" >
+    </E>
+  </kill_map>
+</Stats>

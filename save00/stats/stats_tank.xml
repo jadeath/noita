@@ -1,0 +1,42 @@
+<Stats deaths="53" kills="54" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_electricity" value="5" >
+    </E>
+    <E key="NULL | $damage_explosion" value="11" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="4" >
+    </E>
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+    <E key="player | $damage_electricity" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="6" >
+    </E>
+    <E key="player | $damage_projectile" value="16" >
+    </E>
+    <E key="player_rng_items | $damage_projectile" value="6" >
+    </E>
+    <E key="tank | $damage_explosion" value="2" >
+    </E>
+    <E key="thundermage | $damage_explosion" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="drone_lasership" value="1" >
+    </E>
+    <E key="iceskull" value="6" >
+    </E>
+    <E key="pebble_physics" value="3" >
+    </E>
+    <E key="rat" value="38" >
+    </E>
+    <E key="scavenger_heal" value="1" >
+    </E>
+    <E key="slimeshooter" value="2" >
+    </E>
+    <E key="sniper" value="1" >
+    </E>
+    <E key="tank" value="2" >
+    </E>
+  </kill_map>
+</Stats>
