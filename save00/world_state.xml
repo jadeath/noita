@@ -18,8 +18,8 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="58.9791" 
-    clouds_02_target="92.9452" 
+    clouds_01_target="64.6175" 
+    clouds_02_target="105.598" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
     day_count="2" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.151042" 
+    time="0.702492" 
     time_dt="1" 
-    time_total="1.65808" 
+    time_total="2.21043" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0239012" 
-    wind_speed="1.43414" 
+    wind="0.0750488" 
+    wind_speed="4.50312" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -72,20 +72,32 @@
         value="0" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-359_4891" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_COLLAPSED_0_5" 
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_0_9" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="7" >
+        value="10" >
+      </E>
+      <E 
+        key="TEMPLE_SPAWN_GUARDIAN" 
+        value="1" >
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_snowcave,$biome_holymountain,$biome_fungicave,$biome_excavationsi" >
+        value="$biome_snowcastle,_EMPTY_,$biome_snowcave,$biome_holymountain,$biome_fungicave,$" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="10" >
+        value="11" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -123,6 +135,27 @@
       </string>
       <string>
         PERK_PICKED_PROJECTILE_SLOW_FIELD
+      </string>
+      <string>
+        statue_hands_destroyed_1
+      </string>
+      <string>
+        new_kill_monk
+      </string>
+      <string>
+        PERK_HOVER_BOOST
+      </string>
+      <string>
+        PERK_STAINLESS_ARMOUR
+      </string>
+      <string>
+        PERK_EXPLODING_GOLD
+      </string>
+      <string>
+        PERK_PICKED_HOVER_BOOST
+      </string>
+      <string>
+        new_action_fly_downwards
       </string>
     </flags>
   </WorldStateComponent>

@@ -1,4 +1,4 @@
-<Stats deaths="413" kills="168" player_kills="5" player_projectile_count="0" >
+<Stats deaths="418" kills="177" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="10" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | $damage_ice" value="2" >
     </E>
-    <E key="NULL | $damage_physicshit" value="21" >
+    <E key="NULL | $damage_physicshit" value="22" >
     </E>
     <E key="NULL | $damage_radioactive" value="6" >
     </E>
@@ -18,7 +18,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="4" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="22" >
+    <E key="NULL | damage from material: freezing vapour" value="23" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -34,9 +34,9 @@
     </E>
     <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="142" >
+    <E key="player | $damage_projectile" value="143" >
     </E>
-    <E key="player | $damage_slice" value="30" >
+    <E key="player | $damage_slice" value="31" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="21" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="sniper | $damage_projectile" value="5" >
     </E>
-    <E key="thundermage | $damage_electricity" value="1" >
+    <E key="thundermage | $damage_electricity" value="2" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
     </E>
@@ -64,13 +64,15 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="fish_large" value="1" >
+    </E>
     <E key="iceskull" value="4" >
     </E>
     <E key="pebble_physics" value="2" >
     </E>
     <E key="player" value="5" >
     </E>
-    <E key="rat" value="156" >
+    <E key="rat" value="164" >
     </E>
     <E key="thunderskull" value="1" >
     </E>

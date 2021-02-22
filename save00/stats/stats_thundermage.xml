@@ -1,10 +1,10 @@
-<Stats deaths="11" kills="44" player_kills="3" player_projectile_count="0" >
+<Stats deaths="12" kills="47" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
     <E key="NULL | $damage_physicshit" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="1" >
+    <E key="player | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_slice" value="3" >
     </E>
@@ -26,15 +26,15 @@
     </E>
     <E key="player" value="3" >
     </E>
-    <E key="rat" value="19" >
+    <E key="rat" value="20" >
     </E>
     <E key="scavenger_grenade" value="4" >
     </E>
-    <E key="scavenger_smg" value="2" >
+    <E key="scavenger_smg" value="3" >
     </E>
     <E key="shotgunner" value="3" >
     </E>
-    <E key="slimeshooter" value="1" >
+    <E key="slimeshooter" value="2" >
     </E>
     <E key="slimeshooter_nontoxic" value="2" >
     </E>
