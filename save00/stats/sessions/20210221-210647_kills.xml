@@ -1,4 +1,4 @@
-<Stats deaths="0" kills="179" player_kills="0" player_projectile_count="0" >
+<Stats deaths="0" kills="241" player_kills="0" player_projectile_count="0" >
   <death_map>
   </death_map>
   <kill_map>
@@ -11,6 +11,8 @@
     <E key="bigzombiehead" value="1" >
     </E>
     <E key="blob" value="7" >
+    </E>
+    <E key="drone_lasership" value="9" >
     </E>
     <E key="firebug" value="10" >
     </E>
@@ -34,7 +36,7 @@
     </E>
     <E key="maggot" value="1" >
     </E>
-    <E key="miner" value="3" >
+    <E key="miner" value="5" >
     </E>
     <E key="miniblob" value="33" >
     </E>
@@ -46,13 +48,17 @@
     </E>
     <E key="rat" value="19" >
     </E>
-    <E key="scavenger_grenade" value="11" >
+    <E key="scavenger_grenade" value="35" >
+    </E>
+    <E key="scavenger_heal" value="2" >
     </E>
     <E key="scavenger_invis" value="1" >
     </E>
-    <E key="scavenger_smg" value="8" >
+    <E key="scavenger_leader" value="1" >
     </E>
-    <E key="shotgunner" value="13" >
+    <E key="scavenger_smg" value="20" >
+    </E>
+    <E key="shotgunner" value="17" >
     </E>
     <E key="shotgunner_weak" value="1" >
     </E>
@@ -60,9 +66,13 @@
     </E>
     <E key="slimeshooter_weak" value="1" >
     </E>
-    <E key="sniper" value="6" >
+    <E key="sniper" value="9" >
     </E>
-    <E key="tank" value="1" >
+    <E key="tank" value="3" >
+    </E>
+    <E key="tank_rocket" value="2" >
+    </E>
+    <E key="tank_super" value="1" >
     </E>
     <E key="tentacler" value="2" >
     </E>

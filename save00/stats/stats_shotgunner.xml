@@ -1,4 +1,4 @@
-<Stats deaths="680" kills="306" player_kills="7" player_projectile_count="0" >
+<Stats deaths="687" kills="306" player_kills="7" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="24" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="51" >
+    <E key="NULL | $damage_physicshit" value="53" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="157" >
+    <E key="player | $damage_projectile" value="161" >
     </E>
     <E key="player | $damage_slice" value="66" >
     </E>
@@ -92,7 +92,7 @@
     </E>
     <E key="slimeshooter_nontoxic | $damage_melee" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="11" >
+    <E key="sniper | $damage_projectile" value="12" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
