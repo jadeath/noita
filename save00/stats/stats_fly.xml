@@ -1,6 +1,6 @@
-<Stats deaths="83" kills="8" player_kills="1" player_projectile_count="0" >
+<Stats deaths="104" kills="8" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="1" >
+    <E key="NULL | $damage_drowning" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="11" >
     </E>
@@ -18,11 +18,11 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="6" >
+    <E key="player | $damage_explosion" value="7" >
     </E>
-    <E key="player | $damage_projectile" value="37" >
+    <E key="player | $damage_projectile" value="52" >
     </E>
-    <E key="player | $damage_slice" value="9" >
+    <E key="player | $damage_slice" value="10" >
     </E>
     <E key="scavenger_clusterbomb | $damage_projectile" value="1" >
     </E>
@@ -30,7 +30,7 @@
     </E>
     <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
-    <E key="shooterflower | $damage_projectile" value="3" >
+    <E key="shooterflower | $damage_projectile" value="5" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
     </E>

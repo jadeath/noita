@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="45.4231" 
-    clouds_02_target="62.5243" 
+    clouds_01_target="29.9679" 
+    clouds_02_target="27.8413" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="3" 
+    day_count="4" 
     fog="0.00498429" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.263702" 
+    time="0.265068" 
     time_dt="1" 
-    time_total="2.77269" 
+    time_total="3.77588" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0856637" 
-    wind_speed="5.13955" 
+    wind="0.0523194" 
+    wind_speed="3.13926" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -76,6 +76,10 @@
         value="0" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-359_6427" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_COLLAPSED_0_5" 
         value="1" >
       </E>
@@ -84,12 +88,20 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_0_12" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_9" 
         value="1" >
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="10" >
+        value="13" >
+      </E>
+      <E 
+        key="TEMPLE_PERK_COUNT" 
+        value="4" >
       </E>
       <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
@@ -97,11 +109,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_holymountain,$biome_snowcastle,_EMPTY_,$biome_snowcave,$biome_holymountai" >
+        value="_EMPTY_,$biome_rainforest,$biome_holymountain,$biome_snowcastle,_EMPTY_,$biome_s" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="12" >
+        value="14" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -166,6 +178,21 @@
       </string>
       <string>
         new_kill_tank_super
+      </string>
+      <string>
+        PERK_BLEED_SLIME
+      </string>
+      <string>
+        PERK_EXTRA_PERK
+      </string>
+      <string>
+        PERK_ATTRACT_ITEMS
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_PERK
+      </string>
+      <string>
+        new_action_decelerating_shot
       </string>
     </flags>
   </WorldStateComponent>
