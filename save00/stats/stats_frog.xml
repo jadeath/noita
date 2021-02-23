@@ -1,4 +1,4 @@
-<Stats deaths="128" kills="20" player_kills="3" player_projectile_count="0" >
+<Stats deaths="132" kills="20" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_fire" value="17" >
     </E>
-    <E key="NULL | $damage_physicshit" value="9" >
+    <E key="NULL | $damage_physicshit" value="10" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
@@ -24,11 +24,11 @@
     </E>
     <E key="player | $damage_explosion" value="4" >
     </E>
-    <E key="player | $damage_projectile" value="29" >
+    <E key="player | $damage_projectile" value="30" >
     </E>
     <E key="player | $damage_slice" value="22" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="1" >
+    <E key="shotgunner | $damage_projectile" value="3" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="2" >
     </E>

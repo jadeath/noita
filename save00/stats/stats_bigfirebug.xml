@@ -1,12 +1,12 @@
-<Stats deaths="110" kills="37" player_kills="3" player_projectile_count="0" >
+<Stats deaths="112" kills="38" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="14" >
+    <E key="NULL | $damage_physicshit" value="15" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
-    <E key="NULL | damage from material: Water" value="16" >
+    <E key="NULL | damage from material: Water" value="17" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
@@ -54,7 +54,7 @@
     </E>
     <E key="sheep" value="2" >
     </E>
-    <E key="shotgunner" value="4" >
+    <E key="shotgunner" value="5" >
     </E>
     <E key="slimeshooter" value="3" >
     </E>

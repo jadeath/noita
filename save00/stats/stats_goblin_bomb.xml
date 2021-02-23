@@ -1,10 +1,10 @@
-<Stats deaths="168" kills="32" player_kills="0" player_projectile_count="0" >
+<Stats deaths="173" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="3" >
+    <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_explosion" value="23" >
     </E>
-    <E key="NULL | $damage_physicshit" value="21" >
+    <E key="NULL | $damage_physicshit" value="25" >
     </E>
     <E key="NULL | $damage_radioactive" value="31" >
     </E>
@@ -46,7 +46,7 @@
   <kill_map>
     <E key="goblin_bomb" value="3" >
     </E>
-    <E key="rat" value="28" >
+    <E key="rat" value="29" >
     </E>
     <E key="shotgunner" value="1" >
     </E>

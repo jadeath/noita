@@ -1,16 +1,16 @@
-<Stats deaths="711" kills="188" player_kills="5" player_projectile_count="0" >
+<Stats deaths="724" kills="191" player_kills="5" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="10" >
+    <E key="NULL | $damage_drowning" value="11" >
     </E>
     <E key="NULL | $damage_electricity" value="9" >
     </E>
     <E key="NULL | $damage_explosion" value="64" >
     </E>
-    <E key="NULL | $damage_fire" value="14" >
+    <E key="NULL | $damage_fire" value="15" >
     </E>
     <E key="NULL | $damage_ice" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="49" >
+    <E key="NULL | $damage_physicshit" value="52" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -20,7 +20,7 @@
     </E>
     <E key="NULL | damage from material: acid" value="9" >
     </E>
-    <E key="NULL | damage from material: freezing liquid" value="4" >
+    <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="35" >
     </E>
@@ -38,7 +38,7 @@
     </E>
     <E key="iceskull | $damage_explosion" value="6" >
     </E>
-    <E key="iceskull | $damage_ice" value="5" >
+    <E key="iceskull | $damage_ice" value="6" >
     </E>
     <E key="iceskull | $damage_melee" value="1" >
     </E>
@@ -50,7 +50,7 @@
     </E>
     <E key="player | $damage_fire" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="231" >
+    <E key="player | $damage_projectile" value="232" >
     </E>
     <E key="player | $damage_slice" value="78" >
     </E>
@@ -68,7 +68,7 @@
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="2" >
     </E>
-    <E key="sniper | $damage_projectile" value="5" >
+    <E key="sniper | $damage_projectile" value="7" >
     </E>
     <E key="tentacler | $damage_melee" value="2" >
     </E>
@@ -78,7 +78,7 @@
     </E>
     <E key="worm | worm bite" value="16" >
     </E>
-    <E key="worm_big | worm bite" value="33" >
+    <E key="worm_big | worm bite" value="36" >
     </E>
     <E key="worm_tiny | worm bite" value="5" >
     </E>
@@ -94,7 +94,7 @@
     </E>
     <E key="player" value="5" >
     </E>
-    <E key="rat" value="151" >
+    <E key="rat" value="153" >
     </E>
     <E key="scavenger_grenade" value="1" >
     </E>
@@ -107,6 +107,8 @@
     <E key="tentacler_small" value="1" >
     </E>
     <E key="thundermage" value="1" >
+    </E>
+    <E key="thunderskull" value="1" >
     </E>
     <E key="worm_big" value="1" >
     </E>

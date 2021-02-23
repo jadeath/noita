@@ -1,4 +1,4 @@
-<Stats deaths="19" kills="23" player_kills="0" player_projectile_count="0" >
+<Stats deaths="20" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="1" >
+    <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
@@ -38,17 +38,21 @@
     </E>
     <E key="fungus" value="1" >
     </E>
+    <E key="iceskull" value="1" >
+    </E>
     <E key="longleg" value="3" >
     </E>
     <E key="miner_weak" value="3" >
     </E>
     <E key="miniblob" value="1" >
     </E>
+    <E key="pebble_physics" value="2" >
+    </E>
     <E key="rat" value="1" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
-    <E key="shotgunner" value="3" >
+    <E key="shotgunner" value="4" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>

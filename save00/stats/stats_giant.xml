@@ -1,8 +1,10 @@
-<Stats deaths="17" kills="22" player_kills="0" player_projectile_count="0" >
+<Stats deaths="20" kills="25" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
@@ -16,13 +18,15 @@
     </E>
     <E key="player_rng_items | $damage_slice" value="1" >
     </E>
+    <E key="sniper | $damage_projectile" value="1" >
+    </E>
     <E key="worm_big | worm bite" value="1" >
     </E>
   </death_map>
   <kill_map>
     <E key="iceskull" value="1" >
     </E>
-    <E key="rat" value="21" >
+    <E key="rat" value="24" >
     </E>
   </kill_map>
 </Stats>

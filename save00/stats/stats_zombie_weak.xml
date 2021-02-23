@@ -1,4 +1,4 @@
-<Stats deaths="2080" kills="71" player_kills="1" player_projectile_count="0" >
+<Stats deaths="2100" kills="71" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="52" >
     </E>
@@ -6,11 +6,11 @@
     </E>
     <E key="NULL | $damage_explosion" value="57" >
     </E>
-    <E key="NULL | $damage_fire" value="188" >
+    <E key="NULL | $damage_fire" value="192" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="64" >
+    <E key="NULL | $damage_physicshit" value="71" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="11" >
     </E>
@@ -44,11 +44,11 @@
     </E>
     <E key="longleg | $damage_melee" value="36" >
     </E>
-    <E key="miner_weak | $damage_explosion" value="253" >
+    <E key="miner_weak | $damage_explosion" value="254" >
     </E>
     <E key="miner_weak | $damage_fire" value="1" >
     </E>
-    <E key="miner_weak | $damage_melee" value="180" >
+    <E key="miner_weak | $damage_melee" value="182" >
     </E>
     <E key="miner_weak | $damage_projectile" value="1" >
     </E>
@@ -56,7 +56,7 @@
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="523" >
+    <E key="player | $damage_projectile" value="526" >
     </E>
     <E key="player | $damage_slice" value="178" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="shotgunner_weak | $damage_melee" value="42" >
     </E>
-    <E key="shotgunner_weak | $damage_projectile" value="321" >
+    <E key="shotgunner_weak | $damage_projectile" value="323" >
     </E>
     <E key="shotgunner_weak | $damage_slice" value="1" >
     </E>
@@ -80,7 +80,7 @@
     </E>
     <E key="slimeshooter_weak | $damage_explosion" value="3" >
     </E>
-    <E key="slimeshooter_weak | $damage_projectile" value="29" >
+    <E key="slimeshooter_weak | $damage_projectile" value="30" >
     </E>
     <E key="thundermage | $damage_electricity" value="1" >
     </E>

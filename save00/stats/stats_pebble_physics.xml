@@ -1,20 +1,22 @@
-<Stats deaths="145" kills="64" player_kills="0" player_projectile_count="0" >
+<Stats deaths="168" kills="78" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
     <E key="NULL | $damage_explosion" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="4" >
+    <E key="NULL | $damage_physicshit" value="8" >
+    </E>
+    <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="23" >
     </E>
     <E key="iceskull | $damage_explosion" value="1" >
     </E>
-    <E key="pebble_physics | $damage_explosion" value="63" >
+    <E key="pebble_physics | $damage_explosion" value="77" >
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="25" >
+    <E key="player | $damage_projectile" value="27" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -24,13 +26,15 @@
     </E>
     <E key="slimeshooter | $damage_projectile" value="4" >
     </E>
+    <E key="slimeshooter_nontoxic | $damage_projectile" value="2" >
+    </E>
     <E key="sniper | $damage_projectile" value="7" >
     </E>
     <E key="tank | $damage_projectile" value="3" >
     </E>
   </death_map>
   <kill_map>
-    <E key="pebble_physics" value="63" >
+    <E key="pebble_physics" value="77" >
     </E>
     <E key="shotgunner" value="1" >
     </E>
