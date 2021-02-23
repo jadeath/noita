@@ -1,5 +1,9 @@
-<Stats deaths="0" kills="241" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="286" player_kills="0" player_projectile_count="0" >
   <death_map>
+    <E key="NULL | $damage_explosion" value="1" >
+    </E>
+    <E key="NULL | damage from material: lava" value="1" >
+    </E>
   </death_map>
   <kill_map>
     <E key="alchemist" value="1" >
@@ -12,7 +16,7 @@
     </E>
     <E key="blob" value="7" >
     </E>
-    <E key="drone_lasership" value="9" >
+    <E key="drone_lasership" value="11" >
     </E>
     <E key="firebug" value="10" >
     </E>
@@ -36,7 +40,9 @@
     </E>
     <E key="maggot" value="1" >
     </E>
-    <E key="miner" value="5" >
+    <E key="miner" value="14" >
+    </E>
+    <E key="miner_weak" value="1" >
     </E>
     <E key="miniblob" value="33" >
     </E>
@@ -48,7 +54,7 @@
     </E>
     <E key="rat" value="19" >
     </E>
-    <E key="scavenger_grenade" value="35" >
+    <E key="scavenger_grenade" value="42" >
     </E>
     <E key="scavenger_heal" value="2" >
     </E>
@@ -56,9 +62,9 @@
     </E>
     <E key="scavenger_leader" value="1" >
     </E>
-    <E key="scavenger_smg" value="20" >
+    <E key="scavenger_smg" value="33" >
     </E>
-    <E key="shotgunner" value="17" >
+    <E key="shotgunner" value="25" >
     </E>
     <E key="shotgunner_weak" value="1" >
     </E>
@@ -66,9 +72,9 @@
     </E>
     <E key="slimeshooter_weak" value="1" >
     </E>
-    <E key="sniper" value="9" >
+    <E key="sniper" value="10" >
     </E>
-    <E key="tank" value="3" >
+    <E key="tank" value="5" >
     </E>
     <E key="tank_rocket" value="2" >
     </E>
@@ -81,6 +87,8 @@
     <E key="thundermage" value="2" >
     </E>
     <E key="thunderskull" value="1" >
+    </E>
+    <E key="turret_right" value="2" >
     </E>
     <E key="wizard_dark" value="3" >
     </E>

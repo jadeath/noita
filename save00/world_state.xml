@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="13.5002" 
-    clouds_02_target="-9.11381" 
+    clouds_01_target="45.4231" 
+    clouds_02_target="62.5243" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
     day_count="3" 
-    fog="0.45153" 
-    fog_target="0.456513" 
+    fog="0.00498429" 
+    fog_target="0" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -45,63 +45,51 @@
     player_did_damage_over_1milj="0" 
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
-    player_polymorph_count="0" 
+    player_polymorph_count="3" 
     player_polymorph_random_count="0" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.85837" 
-    rain_target="0.863368" 
-    session_stat_file="??STA/sessions/20210222-212716" 
+    rain="0" 
+    rain_target="0" 
+    session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.544975" 
+    time="0.263702" 
     time_dt="1" 
-    time_total="2.65889" 
+    time_total="2.77269" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.0727574" 
-    wind_speed="-4.36547" 
+    wind="0.0856637" 
+    wind_speed="5.13955" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
       <E 
         key="TEMPLE_ACTIVE_-359_1307" 
-        value="0" >
+        value="1" >
       </E>
       <E 
         key="TEMPLE_ACTIVE_-359_2843" 
         value="0" >
       </E>
       <E 
-        key="TEMPLE_COLLAPSED_0_2" 
-        value="1" >
+        key="TEMPLE_ACTIVE_-359_4891" 
+        value="0" >
       </E>
       <E 
         key="TEMPLE_COLLAPSED_0_5" 
         value="1" >
       </E>
       <E 
-        key="TEMPLE_LEAKED_0_2" 
+        key="TEMPLE_COLLAPSED_0_9" 
         value="1" >
       </E>
       <E 
-        key="TEMPLE_LEAKED_0_5" 
+        key="TEMPLE_LEAKED_0_9" 
         value="1" >
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="7" >
-      </E>
-      <E 
-        key="TEMPLE_PERK_REROLL_COUNT" 
-        value="2" >
-      </E>
-      <E 
-        key="TEMPLE_REROLL_PERK_INDEX" 
-        value="294" >
-      </E>
-      <E 
-        key="TEMPLE_SHOP_ITEM_COUNT" 
-        value="6" >
+        value="10" >
       </E>
       <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
@@ -109,11 +97,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_snowcave,$biome_excavationsite,$biome_holymountain,$biome_coalmine_alt,_E" >
+        value="$biome_holymountain,$biome_snowcastle,_EMPTY_,$biome_snowcave,$biome_holymountai" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="7" >
+        value="12" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -129,49 +117,55 @@
     </orbs_found_thisrun>
     <flags>
       <string>
-        weather_this_run_no_gradient
-      </string>
-      <string>
-        PERK_PROJECTILE_HOMING_SHOOTER
-      </string>
-      <string>
-        PERK_BLEED_SLIME
+        PERK_FASTER_LEVITATION
       </string>
       <string>
         PERK_EXPLODING_CORPSES
       </string>
       <string>
-        PERK_NO_MORE_KNOCKBACK
+        PERK_PROJECTILE_HOMING_SHOOTER
       </string>
       <string>
-        PERK_ATTRACT_ITEMS
+        PERK_PICKED_FASTER_LEVITATION
       </string>
       <string>
-        PERK_LASER_AIM
+        PERK_PROJECTILE_SLOW_FIELD
       </string>
       <string>
-        PERK_GENOME_MORE_HATRED
+        PERK_FREEZE_FIELD
+      </string>
+      <string>
+        PERK_TELEKINESIS
+      </string>
+      <string>
+        PERK_PICKED_PROJECTILE_SLOW_FIELD
+      </string>
+      <string>
+        statue_hands_destroyed_1
+      </string>
+      <string>
+        new_kill_monk
+      </string>
+      <string>
+        PERK_HOVER_BOOST
       </string>
       <string>
         PERK_STAINLESS_ARMOUR
       </string>
       <string>
-        PERK_EXTRA_SHOP_ITEM
+        PERK_EXPLODING_GOLD
       </string>
       <string>
-        PERK_PICKED_EXTRA_SHOP_ITEM
+        PERK_PICKED_HOVER_BOOST
       </string>
       <string>
-        PERK_EXTRA_MANA
+        new_action_fly_downwards
       </string>
       <string>
-        PERK_DISSOLVE_POWDERS
+        new_action_explosive_projectile
       </string>
       <string>
-        PERK_PERSONAL_LASER
-      </string>
-      <string>
-        PERK_PICKED_DISSOLVE_POWDERS
+        new_kill_tank_super
       </string>
     </flags>
   </WorldStateComponent>

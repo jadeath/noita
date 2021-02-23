@@ -1,4 +1,4 @@
-<Stats deaths="410" kills="143" player_kills="1" player_projectile_count="0" >
+<Stats deaths="414" kills="148" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
@@ -8,7 +8,7 @@
     </E>
     <E key="NULL | $damage_fire" value="19" >
     </E>
-    <E key="NULL | $damage_physicshit" value="21" >
+    <E key="NULL | $damage_physicshit" value="22" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -42,9 +42,9 @@
     </E>
     <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="90" >
+    <E key="player | $damage_projectile" value="91" >
     </E>
-    <E key="player | $damage_slice" value="41" >
+    <E key="player | $damage_slice" value="42" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="1" >
     </E>
@@ -62,7 +62,7 @@
     </E>
     <E key="shotgunner | $damage_projectile" value="14" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="10" >
+    <E key="slimeshooter | $damage_explosion" value="11" >
     </E>
     <E key="sniper | $damage_projectile" value="33" >
     </E>
@@ -110,9 +110,9 @@
     </E>
     <E key="pebble_physics" value="4" >
     </E>
-    <E key="player" value="1" >
+    <E key="player" value="2" >
     </E>
-    <E key="rat" value="73" >
+    <E key="rat" value="76" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
@@ -122,7 +122,7 @@
     </E>
     <E key="shotgunner" value="9" >
     </E>
-    <E key="slimeshooter" value="10" >
+    <E key="slimeshooter" value="11" >
     </E>
     <E key="sniper" value="1" >
     </E>

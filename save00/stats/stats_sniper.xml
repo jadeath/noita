@@ -1,12 +1,12 @@
-<Stats deaths="231" kills="274" player_kills="2" player_projectile_count="0" >
+<Stats deaths="234" kills="274" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="33" >
+    <E key="NULL | $damage_explosion" value="34" >
     </E>
-    <E key="NULL | $damage_fire" value="9" >
+    <E key="NULL | $damage_fire" value="10" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -38,7 +38,7 @@
     </E>
     <E key="necromancer_shop | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="1" >
+    <E key="player | $damage_electricity" value="2" >
     </E>
     <E key="player | $damage_explosion" value="7" >
     </E>
