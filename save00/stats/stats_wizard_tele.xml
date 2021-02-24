@@ -1,6 +1,8 @@
-<Stats deaths="28" kills="31" player_kills="1" player_projectile_count="0" >
+<Stats deaths="30" kills="33" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
+    </E>
+    <E key="NULL | $damage_electricity" value="1" >
     </E>
     <E key="NULL | $damage_explosion" value="11" >
     </E>
@@ -20,7 +22,7 @@
     </E>
     <E key="player | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="2" >
+    <E key="player | $damage_projectile" value="3" >
     </E>
   </death_map>
   <kill_map>
@@ -29,6 +31,8 @@
     <E key="bat" value="1" >
     </E>
     <E key="egg_monster" value="1" >
+    </E>
+    <E key="longleg" value="2" >
     </E>
     <E key="player" value="1" >
     </E>

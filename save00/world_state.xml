@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="52.4843" 
-    clouds_02_target="78.3704" 
+    clouds_01_target="39.9277" 
+    clouds_02_target="50.192" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="7" 
+    day_count="8" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.239235" 
+    time="0.631809" 
     time_dt="1" 
-    time_total="6.72923" 
+    time_total="8.11096" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.107184" 
-    wind_speed="6.4304" 
+    wind="0.132973" 
+    wind_speed="7.97853" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -125,11 +125,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_vault,$biome_fungicave,$biome_holymountain,$biome_rainforest,$biome_vault" >
+        value="$biome_snowcastle,$biome_holymountain,_EMPTY_,$biome_rainforest,$biome_vault,$bi" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="24" >
+        value="28" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -305,6 +305,15 @@
       </string>
       <string>
         new_kill_missilecrab
+      </string>
+      <string>
+        new_action_lifetime_down
+      </string>
+      <string>
+        new_action_clipping_shot
+      </string>
+      <string>
+        new_action_spitter_tier_2
       </string>
     </flags>
   </WorldStateComponent>
