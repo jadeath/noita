@@ -1,6 +1,6 @@
-<Stats deaths="25" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="30" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_explosion" value="8" >
+    <E key="NULL | $damage_explosion" value="10" >
     </E>
     <E key="NULL | $damage_fire" value="1" >
     </E>
@@ -12,15 +12,19 @@
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
     </E>
+    <E key="blob | $damage_melee" value="1" >
+    </E>
     <E key="frog_big | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="1" >
+    <E key="player | $damage_explosion" value="2" >
     </E>
     <E key="player | $damage_projectile" value="8" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="scavenger_invis | $damage_explosion" value="1" >
+    </E>
+    <E key="wizard_swapper | $damage_projectile" value="1" >
     </E>
   </death_map>
   <kill_map>

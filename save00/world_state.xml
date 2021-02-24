@@ -18,12 +18,12 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="27.1493" 
-    clouds_02_target="21.5161" 
+    clouds_01_target="29.0659" 
+    clouds_02_target="25.8171" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="4" 
-    fog="0.1851" 
+    day_count="5" 
+    fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="1" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.185101" 
+    rain="0.00499398" 
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.865281" 
+    time="0.810403" 
     time_dt="1" 
-    time_total="4.37365" 
+    time_total="5.31144" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0826093" 
-    wind_speed="4.95659" 
+    wind="0.0946404" 
+    wind_speed="5.67853" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -109,11 +109,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_fungicave,_EMPTY_,$biome_rainforest,$biome_holymountain,$biome_snowcastle" >
+        value="$biome_orbroom,$biome_rainforest,$biome_holymountain,$biome_fungicave,_EMPTY_,$b" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="15" >
+        value="18" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -202,6 +202,9 @@
       </string>
       <string>
         new_kill_flynest
+      </string>
+      <string>
+        new_action_poison_trail
       </string>
     </flags>
   </WorldStateComponent>

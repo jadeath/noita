@@ -1,10 +1,10 @@
-<Stats deaths="414" kills="148" player_kills="2" player_projectile_count="0" >
+<Stats deaths="422" kills="155" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
     <E key="NULL | $damage_electricity" value="6" >
     </E>
-    <E key="NULL | $damage_explosion" value="99" >
+    <E key="NULL | $damage_explosion" value="104" >
     </E>
     <E key="NULL | $damage_fire" value="19" >
     </E>
@@ -40,9 +40,11 @@
     </E>
     <E key="miner_weak | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="5" >
+    <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="91" >
+    <E key="player | $damage_explosion" value="6" >
+    </E>
+    <E key="player | $damage_projectile" value="92" >
     </E>
     <E key="player | $damage_slice" value="42" >
     </E>
@@ -90,6 +92,8 @@
     </E>
     <E key="bigfirebug" value="4" >
     </E>
+    <E key="blob" value="1" >
+    </E>
     <E key="bomb" value="1" >
     </E>
     <E key="firebug" value="13" >
@@ -112,7 +116,7 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="76" >
+    <E key="rat" value="82" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>

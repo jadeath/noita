@@ -1,6 +1,6 @@
-<Stats deaths="1505" kills="62" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1516" kills="62" player_kills="4" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="17" >
+    <E key="NULL | $damage_drowning" value="18" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
@@ -14,7 +14,9 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="4" >
     </E>
-    <E key="NULL | damage from material: acid" value="22" >
+    <E key="NULL | $damage_slice" value="1" >
+    </E>
+    <E key="NULL | damage from material: acid" value="23" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
@@ -62,7 +64,7 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="679" >
+    <E key="player | $damage_projectile" value="687" >
     </E>
     <E key="player | $damage_slice" value="68" >
     </E>
