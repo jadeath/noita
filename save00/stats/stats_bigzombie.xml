@@ -1,22 +1,32 @@
-<Stats deaths="19" kills="3" player_kills="0" player_projectile_count="0" >
+<Stats deaths="24" kills="13" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="3" >
     </E>
-    <E key="NULL | $damage_fire" value="6" >
+    <E key="NULL | $damage_fire" value="8" >
     </E>
-    <E key="NULL | damage from material: acid" value="4" >
+    <E key="NULL | damage from material: acid" value="5" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
     </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
     <E key="player | $damage_projectile" value="2" >
+    </E>
+    <E key="scavenger_leader | $damage_explosion" value="1" >
     </E>
   </death_map>
   <kill_map>
-    <E key="blob" value="1" >
+    <E key="blob" value="2" >
     </E>
-    <E key="miniblob" value="2" >
+    <E key="miniblob" value="4" >
+    </E>
+    <E key="scavenger_grenade" value="4" >
+    </E>
+    <E key="scavenger_heal" value="1" >
+    </E>
+    <E key="scavenger_smg" value="2" >
     </E>
   </kill_map>
 </Stats>

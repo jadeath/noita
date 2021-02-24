@@ -1,4 +1,4 @@
-<Stats deaths="471" kills="187" player_kills="5" player_projectile_count="0" >
+<Stats deaths="474" kills="187" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="10" >
     </E>
@@ -22,6 +22,8 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
+    <E key="bigzombie | $damage_explosion" value="2" >
+    </E>
     <E key="disc_bullet_big | bzzt!" value="3" >
     </E>
     <E key="drone_lasership | $damage_projectile" value="8" >
@@ -36,7 +38,7 @@
     </E>
     <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="173" >
+    <E key="player | $damage_projectile" value="174" >
     </E>
     <E key="player | $damage_slice" value="31" >
     </E>

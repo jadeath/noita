@@ -1,10 +1,10 @@
-<Stats deaths="743" kills="191" player_kills="5" player_projectile_count="0" >
+<Stats deaths="763" kills="191" player_kills="5" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="11" >
+    <E key="NULL | $damage_drowning" value="12" >
     </E>
     <E key="NULL | $damage_electricity" value="9" >
     </E>
-    <E key="NULL | $damage_explosion" value="66" >
+    <E key="NULL | $damage_explosion" value="67" >
     </E>
     <E key="NULL | $damage_fire" value="16" >
     </E>
@@ -12,19 +12,21 @@
     </E>
     <E key="NULL | $damage_physicshit" value="57" >
     </E>
-    <E key="NULL | $damage_plasmabeam" value="1" >
+    <E key="NULL | $damage_plasmabeam" value="6" >
     </E>
     <E key="NULL | $damage_radioactive" value="8" >
     </E>
     <E key="NULL | damage from material: Poison" value="2" >
     </E>
-    <E key="NULL | damage from material: acid" value="9" >
+    <E key="NULL | damage from material: acid" value="12" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="36" >
     </E>
     <E key="NULL | damage from material: lava" value="8" >
+    </E>
+    <E key="bigzombie | $damage_explosion" value="4" >
     </E>
     <E key="bigzombietorso | $damage_melee" value="1" >
     </E>
@@ -46,11 +48,11 @@
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="26" >
+    <E key="player | $damage_explosion" value="27" >
     </E>
     <E key="player | $damage_fire" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="240" >
+    <E key="player | $damage_projectile" value="245" >
     </E>
     <E key="player | $damage_slice" value="78" >
     </E>

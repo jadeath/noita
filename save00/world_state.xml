@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="39.638" 
-    clouds_02_target="49.5421" 
+    clouds_01_target="52.4843" 
+    clouds_02_target="78.3704" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="6" 
+    day_count="7" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="1" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00499398" 
+    rain="0.00499396" 
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.224342" 
+    time="0.239235" 
     time_dt="1" 
-    time_total="5.72218" 
+    time_total="6.72923" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.175503" 
-    wind_speed="10.5302" 
+    wind="0.107184" 
+    wind_speed="6.4304" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -96,6 +96,10 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_0_16" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_9" 
         value="1" >
       </E>
@@ -108,16 +112,24 @@
         value="4" >
       </E>
       <E 
+        key="TEMPLE_PERK_REROLL_COUNT" 
+        value="6" >
+      </E>
+      <E 
+        key="TEMPLE_REROLL_PERK_INDEX" 
+        value="276" >
+      </E>
+      <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
         value="1" >
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_holymountain,$biome_rainforest,$biome_vault,$biome_fungicave,$biome_orbro" >
+        value="$biome_vault,$biome_fungicave,$biome_holymountain,$biome_rainforest,$biome_vault" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="22" >
+        value="24" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -224,6 +236,75 @@
       </string>
       <string>
         PERK_NO_WAND_EDITING
+      </string>
+      <string>
+        PERK_REVENGE_TENTACLE
+      </string>
+      <string>
+        PERK_PLAGUE_RATS
+      </string>
+      <string>
+        PERK_BLEED_OIL
+      </string>
+      <string>
+        PERK_PROJECTILE_EATER_SECTOR
+      </string>
+      <string>
+        PERK_PROTECTION_RADIOACTIVITY
+      </string>
+      <string>
+        PERK_VAMPIRISM
+      </string>
+      <string>
+        PERK_DISSOLVE_POWDERS
+      </string>
+      <string>
+        PERK_WAND_EXPERIMENTER
+      </string>
+      <string>
+        PERK_STRONG_KICK
+      </string>
+      <string>
+        PERK_WORM_DETRACTOR
+      </string>
+      <string>
+        PERK_REVENGE_BULLET
+      </string>
+      <string>
+        PERK_EDIT_WANDS_EVERYWHERE
+      </string>
+      <string>
+        PERK_PERKS_LOTTERY
+      </string>
+      <string>
+        PERK_FIRE_GAS
+      </string>
+      <string>
+        PERK_SAVING_GRACE
+      </string>
+      <string>
+        PERK_INVISIBILITY
+      </string>
+      <string>
+        PERK_NO_MORE_KNOCKBACK
+      </string>
+      <string>
+        PERK_GOLD_IS_FOREVER
+      </string>
+      <string>
+        PERK_GLOBAL_GORE
+      </string>
+      <string>
+        PERK_HIGH_GRAVITY
+      </string>
+      <string>
+        PERK_MOVEMENT_FASTER
+      </string>
+      <string>
+        new_kill_firemage
+      </string>
+      <string>
+        new_kill_missilecrab
       </string>
     </flags>
   </WorldStateComponent>
