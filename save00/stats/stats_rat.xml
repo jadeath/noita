@@ -1,4 +1,4 @@
-<Stats deaths="2074" kills="55" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2077" kills="55" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="23" >
     </E>
@@ -48,7 +48,7 @@
     </E>
     <E key="fireskull | $damage_melee" value="10" >
     </E>
-    <E key="fly | $damage_melee" value="1" >
+    <E key="fly | $damage_melee" value="3" >
     </E>
     <E key="frog | $damage_melee" value="11" >
     </E>
@@ -178,7 +178,7 @@
     </E>
     <E key="wand_ghost | $damage_projectile" value="1" >
     </E>
-    <E key="wizard_dark | $damage_projectile" value="12" >
+    <E key="wizard_dark | $damage_projectile" value="13" >
     </E>
     <E key="wizard_neutral | $damage_projectile" value="6" >
     </E>
