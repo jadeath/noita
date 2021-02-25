@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="1025" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="1175" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -6,7 +6,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshooter" value="10" >
+    <E key="acidshooter" value="11" >
     </E>
     <E key="acidshot" value="6" >
     </E>
@@ -72,7 +72,7 @@
     </E>
     <E key="lasershooter" value="2" >
     </E>
-    <E key="longleg" value="20" >
+    <E key="longleg" value="22" >
     </E>
     <E key="lukki" value="3" >
     </E>
@@ -80,7 +80,7 @@
     </E>
     <E key="maggot" value="4" >
     </E>
-    <E key="mine_scavenger" value="1" >
+    <E key="mine_scavenger" value="2" >
     </E>
     <E key="miner" value="21" >
     </E>
@@ -108,21 +108,23 @@
     </E>
     <E key="root_grower" value="1" >
     </E>
-    <E key="scavenger_clusterbomb" value="8" >
+    <E key="scavenger_clusterbomb" value="23" >
     </E>
-    <E key="scavenger_grenade" value="132" >
+    <E key="scavenger_grenade" value="206" >
     </E>
     <E key="scavenger_heal" value="9" >
     </E>
-    <E key="scavenger_invis" value="2" >
+    <E key="scavenger_invis" value="5" >
     </E>
-    <E key="scavenger_leader" value="8" >
+    <E key="scavenger_leader" value="19" >
     </E>
-    <E key="scavenger_mine" value="7" >
+    <E key="scavenger_mine" value="14" >
     </E>
-    <E key="scavenger_poison" value="3" >
+    <E key="scavenger_poison" value="18" >
     </E>
-    <E key="scavenger_smg" value="70" >
+    <E key="scavenger_smg" value="80" >
+    </E>
+    <E key="scorpion" value="1" >
     </E>
     <E key="shaman" value="3" >
     </E>
@@ -131,6 +133,8 @@
     <E key="shotgunner" value="40" >
     </E>
     <E key="shotgunner_weak" value="3" >
+    </E>
+    <E key="skullrat" value="1" >
     </E>
     <E key="slimeshooter" value="15" >
     </E>
@@ -142,7 +146,7 @@
     </E>
     <E key="tank" value="18" >
     </E>
-    <E key="tank_rocket" value="4" >
+    <E key="tank_rocket" value="11" >
     </E>
     <E key="tank_super" value="1" >
     </E>
@@ -152,7 +156,7 @@
     </E>
     <E key="thundermage" value="2" >
     </E>
-    <E key="thunderskull" value="1" >
+    <E key="thunderskull" value="2" >
     </E>
     <E key="tnt" value="1" >
     </E>
@@ -163,6 +167,8 @@
     <E key="wizard_dark" value="10" >
     </E>
     <E key="wizard_hearty" value="1" >
+    </E>
+    <E key="wizard_neutral" value="1" >
     </E>
     <E key="wizard_swapper" value="2" >
     </E>

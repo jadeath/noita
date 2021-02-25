@@ -1,8 +1,8 @@
-<Stats deaths="30" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="35" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_explosion" value="10" >
+    <E key="NULL | $damage_explosion" value="11" >
     </E>
-    <E key="NULL | $damage_fire" value="1" >
+    <E key="NULL | $damage_fire" value="2" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
@@ -16,9 +16,11 @@
     </E>
     <E key="frog_big | $damage_melee" value="1" >
     </E>
+    <E key="player | $damage_electricity" value="1" >
+    </E>
     <E key="player | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="8" >
+    <E key="player | $damage_projectile" value="10" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
