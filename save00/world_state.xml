@@ -18,8 +18,8 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="39.8755" 
-    clouds_02_target="50.0751" 
+    clouds_01_target="37.8653" 
+    clouds_02_target="45.5639" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
     day_count="12" 
@@ -53,13 +53,13 @@
     rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.0125785" 
+    time="0.123546" 
     time_dt="1" 
-    time_total="11.4658" 
+    time_total="11.5759" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0392328" 
-    wind_speed="2.354" 
+    wind="0.0401178" 
+    wind_speed="2.40708" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -326,6 +326,9 @@
       </string>
       <string>
         new_kill_physics_torch_stand_blue
+      </string>
+      <string>
+        new_kill_slimeshooter_boss_limbs
       </string>
     </flags>
   </WorldStateComponent>

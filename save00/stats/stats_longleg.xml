@@ -1,4 +1,4 @@
-<Stats deaths="1543" kills="62" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1548" kills="62" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="19" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="blob | $damage_melee" value="2" >
     </E>
-    <E key="boss_limbs | hit" value="2" >
+    <E key="boss_limbs | hit" value="3" >
     </E>
     <E key="boss_pit | $damage_explosion" value="1" >
     </E>
@@ -68,7 +68,7 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="700" >
+    <E key="player | $damage_projectile" value="703" >
     </E>
     <E key="player | $damage_slice" value="68" >
     </E>
@@ -85,6 +85,8 @@
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
+    </E>
+    <E key="slimeshooter_boss_limbs | $damage_melee" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
     </E>
