@@ -1,4 +1,4 @@
-<Stats deaths="2110" kills="55" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2118" kills="55" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="24" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="NULL | damage from material: lava" value="23" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="5" >
+    <E key="NULL | damage from material: toxic rock" value="6" >
     </E>
     <E key="acidshooter | $damage_melee" value="1" >
     </E>
@@ -98,7 +98,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="130" >
+    <E key="player | $damage_projectile" value="134" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
@@ -158,7 +158,7 @@
     </E>
     <E key="tank | $damage_explosion" value="8" >
     </E>
-    <E key="tank | $damage_projectile" value="32" >
+    <E key="tank | $damage_projectile" value="33" >
     </E>
     <E key="tank_rocket | $damage_explosion" value="8" >
     </E>
@@ -168,9 +168,9 @@
     </E>
     <E key="tentacler_small | $damage_melee" value="20" >
     </E>
-    <E key="thundermage | $damage_electricity" value="9" >
+    <E key="thundermage | $damage_electricity" value="10" >
     </E>
-    <E key="thundermage | $damage_explosion" value="10" >
+    <E key="thundermage | $damage_explosion" value="11" >
     </E>
     <E key="thundermage | $damage_melee" value="1" >
     </E>
