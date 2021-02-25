@@ -1,10 +1,10 @@
-<Stats deaths="1532" kills="62" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1543" kills="62" player_kills="4" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="18" >
+    <E key="NULL | $damage_drowning" value="19" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="40" >
+    <E key="NULL | $damage_explosion" value="44" >
     </E>
     <E key="NULL | $damage_fire" value="266" >
     </E>
@@ -31,6 +31,8 @@
     <E key="acidshooter_weak | $damage_projectile" value="2" >
     </E>
     <E key="blob | $damage_melee" value="2" >
+    </E>
+    <E key="boss_limbs | hit" value="2" >
     </E>
     <E key="boss_pit | $damage_explosion" value="1" >
     </E>
@@ -66,7 +68,7 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="696" >
+    <E key="player | $damage_projectile" value="700" >
     </E>
     <E key="player | $damage_slice" value="68" >
     </E>

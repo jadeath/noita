@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="42.899" 
-    clouds_02_target="56.86" 
+    clouds_01_target="39.8755" 
+    clouds_02_target="50.0751" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="11" 
+    day_count="12" 
     fog="0.842817" 
     fog_target="0.84781" 
     global_genome_relations_modifier="0" 
@@ -53,13 +53,13 @@
     rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.390874" 
+    time="0.0125785" 
     time_dt="1" 
-    time_total="10.8487" 
+    time_total="11.4658" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.00968192" 
-    wind_speed="0.580935" 
+    wind="0.0392328" 
+    wind_speed="2.354" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -125,11 +125,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_orbroom,$biome_sandcave,$biome_pyramid,$biome_desert,_EMPTY_,$biome_coalm" >
+        value="_EMPTY_,$biome_orbroom,$biome_sandcave,$biome_pyramid,$biome_desert,_EMPTY_,$bio" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="38" >
+        value="39" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -150,6 +150,9 @@
       </primitive>
       <primitive>
         0
+      </primitive>
+      <primitive>
+        4
       </primitive>
     </orbs_found_thisrun>
     <flags>
@@ -320,6 +323,9 @@
       </string>
       <string>
         new_action_spitter_tier_2
+      </string>
+      <string>
+        new_kill_physics_torch_stand_blue
       </string>
     </flags>
   </WorldStateComponent>
