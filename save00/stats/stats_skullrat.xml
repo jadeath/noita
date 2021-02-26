@@ -28,13 +28,15 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="11" >
+    <E key="player | $damage_explosion" value="10" >
     </E>
     <E key="player | $damage_projectile" value="20" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="skullrat | $damage_melee" value="10" >
+    </E>
+    <E key="slimeshooter_boss_limbs | $damage_projectile" value="1" >
     </E>
     <E key="tentacler | $damage_melee" value="6" >
     </E>

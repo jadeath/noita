@@ -4,8 +4,8 @@
   serialize="1" 
   tags="hittable,mortal,human,peasant,prey,player_unit,teleportable" >
   <_Transform 
-    position.x="9791.99" 
-    position.y="-927.964" 
+    position.x="-9844.77" 
+    position.y="2884.04" 
     rotation="0" 
     scale.x="-1" 
     scale.y="1" >
@@ -216,14 +216,14 @@
     fire_damage_ignited_amount="0.0003" 
     fire_how_much_fire_generates="4" 
     fire_probability_of_ignition="1" 
-    hp="12.1173" 
+    hp="19.4677" 
     in_liquid_shooting_electrify_prob="0" 
     invincibility_frames="0" 
     is_on_fire="0" 
     kill_now="0" 
-    mLastElectricityResistanceFrame="328479" 
+    mLastElectricityResistanceFrame="488634" 
     mLastFrameReportedBlock="-2147483648" 
-    mLastMaxHpChangeFrame="464781" 
+    mLastMaxHpChangeFrame="468075" 
     material_damage_min_cell_count="4" 
     materials_create_messages="0" 
     materials_damage="1" 
@@ -231,9 +231,9 @@
     materials_how_much_damage="0.005,0.003,0.0006,0.0009,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.005,-0.005,0.0002,0.0002,0.004,0.0005" 
     materials_that_create_messages="meat" 
     materials_that_damage="acid,lava,blood_cold_vapour,blood_cold,poison,radioactive_gas,radioactive_gas_static,rock_static_radioactive,rock_static_poison,ice_radioactive_static,ice_radioactive_glass,ice_acid_static,ice_acid_glass,rock_static_cursed,magic_gas_hp_regeneration,gold_radioactive,gold_static_radioactive,rock_static_cursed_green,cursed_liquid" 
-    max_hp="18.96" 
+    max_hp="19.96" 
     max_hp_cap="0" 
-    max_hp_old="17.96" 
+    max_hp_old="18.96" 
     minimum_knockback_force="0" 
     physics_objects_damage="0" 
     ragdoll_blood_amount_absolute="-1" 
@@ -329,6 +329,12 @@
       </string>
       <string>
         $biome_sandcave
+      </string>
+      <string>
+        $biome_winter
+      </string>
+      <string>
+        $biome_vault_frozen
       </string>
     </mVisitiedBiomes>
   </GameLogComponent>
@@ -445,15 +451,15 @@
   <InventoryGuiComponent 
     _enabled="1" 
     has_opened_inventory_edit="1" 
-    wallet_money_target="18760" >
+    wallet_money_target="28990" >
   </InventoryGuiComponent>
   <ItemPickUpperComponent 
     _enabled="1" 
     drop_items_on_death="0" 
     is_immune_to_kicks="0" 
     is_in_npc="0" 
-    mLatestItemOverlapInfoBoxPosition.x="362.991" 
-    mLatestItemOverlapInfoBoxPosition.y="47.3906" >
+    mLatestItemOverlapInfoBoxPosition.x="381.664" 
+    mLatestItemOverlapInfoBoxPosition.y="28.1111" >
   </ItemPickUpperComponent>
   <KickComponent 
     _enabled="1" 
@@ -491,7 +497,7 @@
     execute_on_added="0" 
     execute_on_removed="0" 
     execute_times="0" 
-    mLastExecutionFrame="465361" 
+    mLastExecutionFrame="506641" 
     mModAppendsDone="1" 
     remove_after_executed="0" 
     script_audio_event_dead="" 
@@ -813,8 +819,8 @@
     next_rect_animation="" 
     offset_animator_offset.x="0" 
     offset_animator_offset.y="0" 
-    offset_x="29.2869" 
-    offset_y="66.0046" 
+    offset_x="55.5325" 
+    offset_y="-24.0806" 
     rect_animation="" 
     smooth_filtering="0" 
     special_scale_x="1" 
@@ -935,8 +941,8 @@
     stain_shaken_drop_chance_multiplier="1" >
     <mData 
       reference_frame_h="19" 
-      reference_frame_materials="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAABFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABBFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAABFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAABFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABBFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABBFABAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAABFABAAAABFABAAAABFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
-      reference_frame_stains="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEHFNCOJAEOGICKJDFBGOCKLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAELFPCPKPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIFJCKKOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFFGGCNJEAAAAAAAAEPGPCNJCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEGECLKFEJGDCPKBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCGKCJKNEFFHCOLGELGACMLJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJGACNIPAAAAAAAAEIFMCNJKFEGCCOJFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFFGCCLKFFDGECNJAEHFLCKLGFDGNCMJPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEGFKCLIPAAAAAAAAEFGACPKKENGBCLKOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENGICMLIAAAAAAAAELGDCPLMEKGDCNKFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFFGCCOJDEJFPCKKCFBGLCJJGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEFICKJCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENGECOKHEJGDCOJIEPGDCLJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENGPCOKIEOGJCOKCAAAAAAAAEJFMCPJPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFFGGCNLNAAAAAAAAEHFPCOJAAAAAAAAAEGFPCNJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      reference_frame_materials="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAAAAAAAAAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAFEAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      reference_frame_stains="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAHAHCEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALALALFBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAHAHEOAIAIAIDGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABFLAAAAAAAAAAAAAAAAAJAJAJGBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABFPAEAEAEDDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAJAJDEAHAHAHCOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAEDOAAAAAAAAABABABFLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAKAKCMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAICGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAMFAMDEIBLEALEBIBLFALECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABABCGICLGALDOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
       reference_frame_w="12" >
     </mData>
   </SpriteStainsComponent>
@@ -948,7 +954,7 @@
         0
       </primitive>
       <primitive>
-        0
+        0.153846
       </primitive>
       <primitive>
         0
@@ -957,7 +963,7 @@
         0
       </primitive>
       <primitive>
-        1.46154
+        0
       </primitive>
       <primitive>
         0
@@ -1064,7 +1070,7 @@
         0
       </primitive>
       <primitive>
-        0
+        0.153846
       </primitive>
       <primitive>
         0
@@ -1073,7 +1079,7 @@
         0
       </primitive>
       <primitive>
-        1.46154
+        0
       </primitive>
       <primitive>
         0
@@ -1454,7 +1460,7 @@
     gravity_x="0" 
     gravity_y="400" 
     liquid_death_threshold="0" 
-    mVelocity.x="0.000976563" 
+    mVelocity.x="0.0224609" 
     mVelocity.y="0" 
     mass="0.05" 
     terminal_velocity="1000" 
@@ -1463,8 +1469,8 @@
   <WalletComponent 
     _enabled="1" 
     mHasReachedInf="0" 
-    mMoneyPrevFrame="18760" 
-    money="18760" 
+    mMoneyPrevFrame="28990" 
+    money="28990" 
     money_spent="15515" >
   </WalletComponent>
   <Entity 
@@ -1473,9 +1479,9 @@
     serialize="1" 
     tags="player_arm_r" >
     <_Transform 
-      position.x="9794.99" 
-      position.y="-932.964" 
-      rotation="-2.31473" 
+      position.x="-9841.79" 
+      position.y="2877.04" 
+      rotation="2.71162" 
       scale.x="1" 
       scale.y="-1" >
     </_Transform>
@@ -1520,7 +1526,7 @@
       offset_animator_offset.y="0" 
       offset_x="0" 
       offset_y="0" 
-      rect_animation="default" 
+      rect_animation="down" 
       smooth_filtering="0" 
       special_scale_x="1" 
       special_scale_y="1" 
@@ -1540,8 +1546,8 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="9792.99" 
-      position.y="-934.964" 
+      position.x="-9843.79" 
+      position.y="2876.04" 
       rotation="0" 
       scale.x="-1" 
       scale.y="1" >
@@ -1573,16 +1579,16 @@
       cloth_color_edge="ff9a6f9b" 
       cloth_sprite_z_index="0.7" 
       collide_with_cells="1" 
-      colors="DJELCAIHDJELCAIHDJELCAIHDJELCAIHDJELCAIHDJELCAIHBEAMAGEMANAAAAEAANAAAAEAALAOAFECECFGCGJFDMEOCBIJDIEJBOIDDEEFBMHODADPBJHHCJDEBEGLBJBKAJEPAPAMADDLAJAFABCHAAAAAAAAEBFDCFIFDNEPCBIHDHEJBNIBDBECBJHICLDJBFGNCDCNBAFPBJBOAJELBABCAFDHAKALADCEAJAMAGBDEJGACIJMEAFFCDIODIELBNICDAEBBIHFCJDGBDGICBCLAOFJBIBPAJEHBABEAFDFAJALADCAAAAAAAAAENGICPKKEDFKCGJFDJENBOIEDAEBBIHFCIDFBDGGCACKAOFGBIBPAJEGBBBFAGDHANBAAFCKBBBGALCEFHHCDDLBEHFPCIJKDLEPBPIGDBECBIHFCIDFBDGFCACJAOFFBIBOAJEFBABEAFDHAJALADCNAAAAAADFFMHKDCLFEJGCCIJMDMFBCAIIDCEDBJHGCJDGBDGFCACKAOFEBIBOAJEEBBBDAFDEAKAJACCBAAAAAAAAFFHBDDLBEIGACIJLDNFBCAIIDDEDBJHGCKDHBDGFCBCLAOFEBJBPAJEEBCBDAEDEAPAJABCFBIAAAACAEOGGCNKHEGFNCHJJDNFBCAIIDEEEBJHHCLDIBDGGCCCMAOFFBJCAAJEFBBBEAEDEAKAJABCBAAAAAAAAFDGLDAKNEIFOCHJLDOFCCAIKDFEFBKHJCMDJBEGICDCNAOFHBKCBAJEHBCBFAFDIALAKACCOAAAAAADFFDGODAKOEJGACIJMEAFECBIMDHEIBLHMCODMBFGMCFDAAPFLBMCDAKEJBEBHAFDIBBAMACCKBIAAAACAFFHDDBLBEKGDCIJNECFHCCIODKEMBMIBDBEBBHHCCHDEBBGABNCFALELBEBIAGDHAPBAAECFALAOAFBDFAGKCMKAEKGCCHJKEEFKCDJBDOFCBPIIDHEIBKHLCMDKBEGJBNCGAMEPBCBHAGDGAMAOAECAAJAMAGBDEGFNCHJJELGCCHJKEHFNCFJEEGFMCDJDEBFGCAIMDIEJBKHMBMCFANFDANBAAFDEAGAHACBFAAAAAAAAFHHECNKOFFGOCKKDEIFPCKJDFEGNCJKGFBGLCLKIFHHBCJKJBBBGALEOAAAAAADFAAAAAAAABLCDAODDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      colors="AAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFCCAAAAGBAAAAAAEHAAAAAAEHAAAAAAEHAAAAAADJAAAAAADFAAAAAADDAAAAAADDAAAAAADEACAAAADJAKAAAAEGACAAAAEFAAAAAAEHAAAAAADFAAAAAADGAAAAAADDAAAAAADBAAAAAADAAAAAAADBABAAAADFADAAAADMABAAAAEBAAAAAAEHAAAAAAEHAAAAAADJAAAAAADDAAAAAACPAAAAAACOAAAAAACOAAAAAADBAAAAAADGAAAAAADNAAAAAAEHAAAAAADFAAAAAADFAAAAAADBAAAAAACNAAAAAACLAAAAAACLAAAAAACNAAAAAADBAAAAAADJAAAAAAEHAAAAAAEHAAAAAADHAAAAAADAAAAAAACMAAAAAACJAAAAAACIAAAAAACIAAAAAACKAAAAAADAAAAAAAEHAAAAAADFAAAAAADDAAAAAACOAAAAAACKAAAAAACHAAAAAACFAAAAAACDAAAAAACAAAAAAABIAAAAAAAAAAAAAAEHAAABAADCAAABAACMAAAAAACJAAAAAACGAAAAAACDAAAAAACAAAAAAABLAAAAAABBAAAAAAAAAAAAAAAAABADAACDAAADAACJAAACAACIAAABAACGAAAAAACDAAAAAABPAAAAAABLAAAAAABEAAAAAAAABCBJABEFAGAKAADDACAGAACNABAEAACKAAADAACHAAABAACEAAAAAACBAAAAAACAAAAAAACFAAAAAAEHAAAAAAEHAEAHAADIAEAIAADAADAIAACMACAGAACIABAEAACFAAACAACCAAAAAABPAAAAAABKAAAAAAAAAAAAAAEHAHALAADFAJAOAADBAIAOAACOAGALAACLAEAIAACIABAEAACEAAABAACBAAAAAACGAAAAAAEHAAAAAAAABCBKAACHBBBJAADAAPBHAADBALBCAACPAIANAACLADAGAACGABACAABOAAAAAABIAAAAAAAAGLJHABDNDCEGAADIBLCHAADJBKCGAADJBBBKAADHAPBHAADBAEAHAACOABACAABKAAAAAABOAAAAAAAAEIGFABEBDAEDABEDBCBJABEFDAEDABEDBCBJABEFCCCPABDFAAAAAAEHAAAAAAAAAAAAAAEHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
       constrain_stretching="1" 
       follow_entity_transform="1" 
       gets_entity_velocity_coeff="0" 
       m_is_culled_previous="0" 
-      m_position_previous.x="9792.99" 
-      m_position_previous.y="-934.964" 
+      m_position_previous.x="-9843.79" 
+      m_position_previous.y="2876.04" 
       mass_max="0.2" 
       mass_min="0.1" 
-      materials="slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,blood,blood,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,slime_green,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,water,water,,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,water,blood,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,blood,slime_green,water,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,slime_green,water,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,blood,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,water,water,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,water,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,blood,,blood,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,,slime_green,slime_green,,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,slime_green,water,,slime_green,,,,,,,,,,," 
+      materials="water,water,water,water,water,water,water,blood,oil,oil,oil,water,water,water,water,water,oil,,water,oil,water,water,water,water,,oil,,oil,,oil,oil,oil,oil,,oil,oil,oil,,,oil,water,,,,,,oil,oil,oil,oil,oil,,oil,oil,oil,oil,oil,oil,,oil,water,water,water,water,water,water,oil,,,,oil,oil,radioactive_liquid,water,oil,water,oil,,oil,,,water,oil,water,water,radioactive_liquid,oil,,,,radioactive_liquid,oil,radioactive_liquid,radioactive_liquid,oil,radioactive_liquid,,oil,oil,oil,oil,radioactive_liquid,radioactive_liquid,radioactive_liquid,radioactive_liquid,oil,,radioactive_liquid,oil,,oil,radioactive_liquid,oil,radioactive_liquid,radioactive_liquid,oil,oil,,,oil,,oil,oil,radioactive_liquid,radioactive_liquid,radioactive_liquid,oil,oil,oil,,radioactive_liquid,radioactive_liquid,radioactive_liquid,oil,radioactive_liquid,radioactive_liquid,oil,oil,,,radioactive_liquid,radioactive_liquid,radioactive_liquid,radioactive_liquid,radioactive_liquid,radioactive_liquid,oil,,oil,,,,,,,,,,,," 
       num_links="300" 
       num_points="150" 
       pixelate_sprite_transforms="1" 
@@ -1616,11 +1622,11 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.45967" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="0.295507" 
         scale.x="1" 
-        scale.y="-1" >
+        scale.y="1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -1657,7 +1663,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0929.png" 
         stat_times_player_has_edited="53" 
-        stat_times_player_has_shot="67937" 
+        stat_times_player_has_shot="74460" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Big Rapid bolt wand" 
@@ -2091,8 +2097,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9910.26" 
-          position.y="-910.571" 
+          position.x="-9706.4" 
+          position.y="2844.27" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2321,8 +2327,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9910.26" 
-          position.y="-910.571" 
+          position.x="-9706.4" 
+          position.y="2844.27" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2587,8 +2593,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9910.26" 
-          position.y="-910.571" 
+          position.x="-9706.4" 
+          position.y="2844.27" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2853,8 +2859,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9910.26" 
-          position.y="-910.571" 
+          position.x="-9706.4" 
+          position.y="2844.27" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -3119,8 +3125,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9910.26" 
-          position.y="-910.571" 
+          position.x="-9706.4" 
+          position.y="2844.27" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -3385,11 +3391,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9951.4" 
-          position.y="-882.075" 
-          rotation="-2.46083" 
+          position.x="-9706.9" 
+          position.y="2787.91" 
+          rotation="0.295507" 
           scale.x="1" 
-          scale.y="-1" >
+          scale.y="1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -3732,11 +3738,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9959.95" 
-          position.y="-875.152" 
-          rotation="-2.46083" 
+          position.x="-9717.43" 
+          position.y="2784.71" 
+          rotation="0.295507" 
           scale.x="1" 
-          scale.y="-1" >
+          scale.y="1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -4050,9 +4056,9 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.49624" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="1.98021" 
         scale.x="1" 
         scale.y="-1" >
       </_Transform>
@@ -4091,7 +4097,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0535.png" 
         stat_times_player_has_edited="11" 
-        stat_times_player_has_shot="823" 
+        stat_times_player_has_shot="984" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Veteran Rapid bolt wand" 
@@ -4525,9 +4531,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9954.47" 
-          position.y="-891.377" 
-          rotation="-2.50132" 
+          position.x="-9643.93" 
+          position.y="2899.8" 
+          rotation="1.99476" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -4892,9 +4898,9 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="9791.05" 
-        position.y="-934.73" 
-        rotation="-1.96036" 
+        position.x="-9845.51" 
+        position.y="2880.11" 
+        rotation="2.52735" 
         scale.x="1" 
         scale.y="-1" >
       </_Transform>
@@ -4918,7 +4924,7 @@
         item_recoil_rotation_coeff="5" 
         mChargeCount="0" 
         mIsInitialized="1" 
-        mana="630" 
+        mana="534.363" 
         mana_charge_speed="214" 
         mana_max="630" 
         max_amount_in_inventory="1" 
@@ -4933,7 +4939,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0073.png" 
         stat_times_player_has_edited="83" 
-        stat_times_player_has_shot="189" 
+        stat_times_player_has_shot="286" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Rapid bolt wand" 
@@ -5367,8 +5373,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -5597,8 +5603,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -5827,9 +5833,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -6208,9 +6214,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -6589,8 +6595,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -6819,8 +6825,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -7085,8 +7091,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -7315,16 +7321,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="1" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -7825,9 +7831,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -8206,8 +8212,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -8436,8 +8442,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9962.11" 
-          position.y="-880.811" 
+          position.x="-9870.04" 
+          position.y="2911.17" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -8666,9 +8672,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -9047,16 +9053,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="9788.01" 
-          position.y="-942.131" 
-          rotation="-1.96036" 
+          position.x="-9852.07" 
+          position.y="2884.73" 
+          rotation="2.52633" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="1" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -9522,10 +9528,10 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.30158" 
-        scale.x="0.75" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="2.91031" 
+        scale.x="1" 
         scale.y="-1" >
       </_Transform>
       <AbilityComponent 
@@ -9563,7 +9569,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0849.png" 
         stat_times_player_has_edited="26" 
-        stat_times_player_has_shot="133" 
+        stat_times_player_has_shot="149" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Rapid bolt wand" 
@@ -9997,8 +10003,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10081.3" 
-          position.y="-749.581" 
+          position.x="-9867.8" 
+          position.y="2908.07" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -10227,10 +10233,10 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10074.1" 
-          position.y="-764.674" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9887.02" 
+          position.y="2908.83" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <HitboxComponent 
@@ -10608,8 +10614,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10081.3" 
-          position.y="-749.581" 
+          position.x="-9867.8" 
+          position.y="2908.07" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -10838,16 +10844,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -11267,10 +11273,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -11312,16 +11318,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -11741,10 +11747,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -11786,16 +11792,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -12215,10 +12221,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -12260,10 +12266,10 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10074.1" 
-          position.y="-764.674" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9887.02" 
+          position.y="2908.83" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <HitboxComponent 
@@ -12641,16 +12647,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -13070,10 +13076,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -13115,8 +13121,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10081.3" 
-          position.y="-749.581" 
+          position.x="-9867.8" 
+          position.y="2908.07" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -13345,10 +13351,10 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10077.8" 
-          position.y="-760.568" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9876.19" 
+          position.y="2906.9" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <HitboxComponent 
@@ -13656,16 +13662,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -14085,10 +14091,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -14130,16 +14136,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -14559,10 +14565,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -14604,8 +14610,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10081.3" 
-          position.y="-749.581" 
+          position.x="-9867.8" 
+          position.y="2908.07" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -14834,16 +14840,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -15263,10 +15269,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -15308,8 +15314,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10081.3" 
-          position.y="-749.581" 
+          position.x="-9867.8" 
+          position.y="2908.07" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -15538,16 +15544,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -15967,10 +15973,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -16012,16 +16018,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10076.8" 
-          position.y="-761.688" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9879.14" 
+          position.y="2907.43" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="0" 
+          charge="-1" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -16441,10 +16447,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59" 
-          randomize_velocity.max_y="59" 
-          randomize_velocity.min_x="-59" 
-          randomize_velocity.min_y="-59" 
+          randomize_velocity.max_x="59.5" 
+          randomize_velocity.max_y="59.5" 
+          randomize_velocity.min_x="-59.5" 
+          randomize_velocity.min_y="-59.5" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -16486,10 +16492,10 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="10074.1" 
-          position.y="-764.674" 
-          rotation="-2.29864" 
-          scale.x="0.5" 
+          position.x="-9887.02" 
+          position.y="2908.83" 
+          rotation="2.96566" 
+          scale.x="1" 
           scale.y="-1" >
         </_Transform>
         <HitboxComponent 
@@ -16798,9 +16804,9 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.29415" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="3.07504" 
         scale.x="1" 
         scale.y="-1" >
       </_Transform>
@@ -17154,7 +17160,7 @@
         on_death_spill="1" >
         <count_per_material_type>
           <Material 
-            count="987" 
+            count="827" 
             material="water" >
           </Material>
         </count_per_material_type>
@@ -17164,7 +17170,7 @@
         _tags="enabled_in_world,enabled_in_hand" 
         barrel_size="1000" 
         last_material_id="0" 
-        mAmountUsed="987" 
+        mAmountUsed="827" 
         material_type="0" 
         num_cells_sucked_per_frame="5" 
         randomized_position.max_x="1" 
@@ -17612,11 +17618,11 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics,forgeable,broken_wand,ggs" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.17747" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="-0.325339" 
         scale.x="1" 
-        scale.y="-1" >
+        scale.y="1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -18428,11 +18434,11 @@
       serialize="1" 
       tags="forgeable,tablet" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-0.0493122" 
-        scale.x="0.75" 
-        scale.y="1" >
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="2.29016" 
+        scale.x="1" 
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -19032,9 +19038,9 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
-        rotation="-2.96128" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
+        rotation="2.56443" 
         scale.x="1" 
         scale.y="-1" >
       </_Transform>
@@ -19859,8 +19865,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -20240,8 +20246,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -20470,8 +20476,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -20700,8 +20706,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -20966,8 +20972,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -21313,8 +21319,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -21543,8 +21549,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -21924,8 +21930,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -22235,8 +22241,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -22546,8 +22552,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -22776,8 +22782,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23006,8 +23012,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23236,8 +23242,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="9791.99" 
-        position.y="-927.964" 
+        position.x="-9844.79" 
+        position.y="2884.04" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23570,8 +23576,8 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="9791.99" 
-      position.y="-927.964" 
+      position.x="-9844.79" 
+      position.y="2884.04" 
       rotation="0" 
       scale.x="-1" 
       scale.y="1" >
@@ -23651,8 +23657,8 @@
     serialize="1" 
     tags="projectile_slow_field" >
     <_Transform 
-      position.x="9791.99" 
-      position.y="-931.964" 
+      position.x="-9844.79" 
+      position.y="2880.04" 
       rotation="0" 
       scale.x="-1" 
       scale.y="1" >
@@ -23681,7 +23687,7 @@
       execute_on_added="0" 
       execute_on_removed="0" 
       execute_times="0" 
-      mLastExecutionFrame="465389" 
+      mLastExecutionFrame="506715" 
       mModAppendsDone="1" 
       remove_after_executed="0" 
       script_audio_event_dead="" 
@@ -23801,8 +23807,8 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="9791.99" 
-      position.y="-927.964" 
+      position.x="-9844.79" 
+      position.y="2884.04" 
       rotation="0" 
       scale.x="-1" 
       scale.y="1" >
@@ -23882,8 +23888,8 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="9791.99" 
-      position.y="-927.964" 
+      position.x="-9844.79" 
+      position.y="2884.04" 
       rotation="0" 
       scale.x="-1" 
       scale.y="1" >
@@ -23891,12 +23897,12 @@
     <GameEffectComponent 
       _enabled="1" 
       caused_by_ingestion_status_effect="0" 
-      causing_status_effect="SLIMY" 
+      causing_status_effect="WET" 
       custom_effect_id="" 
       disable_movement="0" 
-      effect="SLIMY" 
+      effect="WET" 
       exclusivity_group="0" 
-      frames="228" 
+      frames="23" 
       mCaster="0" 
       mCasterHerdId="0" 
       mCharmDisabledCameraBound="0" 

@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="37.8653" 
-    clouds_02_target="45.5639" 
+    clouds_01_target="43.7078" 
+    clouds_02_target="58.6749" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="12" 
-    fog="0.842817" 
-    fog_target="0.84781" 
+    day_count="13" 
+    fog="0.00499397" 
+    fog_target="0" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="1" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.842817" 
-    rain_target="0.84781" 
+    rain="0.00499397" 
+    rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.123546" 
+    time="0.156217" 
     time_dt="1" 
-    time_total="11.5759" 
+    time_total="12.6005" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0401178" 
-    wind_speed="2.40708" 
+    wind="0.101941" 
+    wind_speed="6.11659" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -125,11 +125,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_orbroom,$biome_sandcave,$biome_pyramid,$biome_desert,_EMPTY_,$bio" >
+        value="$biome_orbroom,_EMPTY_,$biome_vault_frozen,$biome_winter,$biome_desert,_EMPTY_,$" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="39" >
+        value="44" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -153,6 +153,9 @@
       </primitive>
       <primitive>
         4
+      </primitive>
+      <primitive>
+        1
       </primitive>
     </orbs_found_thisrun>
     <flags>
@@ -329,6 +332,12 @@
       </string>
       <string>
         new_kill_slimeshooter_boss_limbs
+      </string>
+      <string>
+        new_kill_scavenger_shield
+      </string>
+      <string>
+        new_kill_drone_shield
       </string>
     </flags>
   </WorldStateComponent>
