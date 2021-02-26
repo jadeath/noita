@@ -1,6 +1,6 @@
-<Stats deaths="742" kills="314" player_kills="7" player_projectile_count="0" >
+<Stats deaths="751" kills="315" player_kills="7" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="24" >
+    <E key="NULL | $damage_drowning" value="25" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
@@ -10,13 +10,13 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="60" >
+    <E key="NULL | $damage_physicshit" value="61" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | $damage_radioactive" value="70" >
+    <E key="NULL | $damage_radioactive" value="72" >
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
@@ -70,9 +70,9 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="184" >
+    <E key="player | $damage_projectile" value="188" >
     </E>
-    <E key="player | $damage_slice" value="68" >
+    <E key="player | $damage_slice" value="69" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="5" >
     </E>
@@ -128,7 +128,7 @@
     </E>
     <E key="shotgunner" value="3" >
     </E>
-    <E key="slimeshooter" value="14" >
+    <E key="slimeshooter" value="15" >
     </E>
     <E key="tentacler_small" value="1" >
     </E>

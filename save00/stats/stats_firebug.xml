@@ -1,4 +1,4 @@
-<Stats deaths="600" kills="55" player_kills="1" player_projectile_count="0" >
+<Stats deaths="612" kills="55" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
-    <E key="bat | $damage_melee" value="10" >
+    <E key="bat | $damage_melee" value="13" >
     </E>
     <E key="bigbat | $damage_melee" value="2" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="181" >
+    <E key="player | $damage_projectile" value="190" >
     </E>
     <E key="player | $damage_slice" value="79" >
     </E>
