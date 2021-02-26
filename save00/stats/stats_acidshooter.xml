@@ -1,6 +1,6 @@
-<Stats deaths="84" kills="16" player_kills="0" player_projectile_count="0" >
+<Stats deaths="93" kills="17" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
@@ -14,23 +14,27 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
+    <E key="crystal_physics | $damage_projectile" value="1" >
+    </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
     <E key="miner_weak | $damage_explosion" value="3" >
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="1" >
+    <E key="phantom_b | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="15" >
+    <E key="player | $damage_electricity" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="24" >
+    <E key="player | $damage_explosion" value="16" >
+    </E>
+    <E key="player | $damage_projectile" value="26" >
     </E>
     <E key="player | $damage_slice" value="3" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
-    <E key="skullfly | $damage_projectile" value="1" >
+    <E key="skullfly | $damage_projectile" value="2" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
     </E>
@@ -52,7 +56,7 @@
     </E>
     <E key="rat" value="4" >
     </E>
-    <E key="scorpion" value="7" >
+    <E key="scorpion" value="8" >
     </E>
     <E key="sheep" value="1" >
     </E>

@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="43.3654" 
-    clouds_02_target="57.9066" 
+    clouds_01_target="47.7017" 
+    clouds_02_target="67.6377" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="15" 
+    day_count="16" 
     fog="0.842817" 
     fog_target="0.84781" 
     global_genome_relations_modifier="0" 
@@ -46,23 +46,27 @@
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
     player_polymorph_count="3" 
-    player_polymorph_random_count="1" 
+    player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
     rain="0.842817" 
     rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.0169763" 
+    time="0.519552" 
     time_dt="1" 
-    time_total="14.4469" 
+    time_total="15.9376" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.157525" 
-    wind_speed="9.45152" 
+    wind="0.0943886" 
+    wind_speed="5.66333" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
+      <E 
+        key="TEMPLE_ACTIVE_-359_10523" 
+        value="1" >
+      </E>
       <E 
         key="TEMPLE_ACTIVE_-359_1307" 
         value="1" >
@@ -104,12 +108,16 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_0_20" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_9" 
         value="1" >
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="17" >
+        value="21" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -117,11 +125,11 @@
       </E>
       <E 
         key="TEMPLE_PERK_REROLL_COUNT" 
-        value="6" >
+        value="8" >
       </E>
       <E 
         key="TEMPLE_REROLL_PERK_INDEX" 
-        value="276" >
+        value="268" >
       </E>
       <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
@@ -129,11 +137,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_vault,$biome_holymountain,$biome_fungicave,$biome_rainforest,$biome_snowc" >
+        value="$biome_crypt,$biome_vault,$biome_holymountain,$biome_fungicave,$biome_rainforest" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="56" >
+        value="57" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -360,6 +368,45 @@
       </string>
       <string>
         new_action_lava_to_blood
+      </string>
+      <string>
+        PERK_BOUNCE
+      </string>
+      <string>
+        PERK_NO_MORE_SHUFFLE
+      </string>
+      <string>
+        PERK_PEACE_WITH_GODS
+      </string>
+      <string>
+        PERK_PROJECTILE_HOMING
+      </string>
+      <string>
+        PERK_FAST_PROJECTILES
+      </string>
+      <string>
+        PERK_SPEED_DIVER
+      </string>
+      <string>
+        PERK_EXTRA_SLOTS
+      </string>
+      <string>
+        new_kill_crystal_physics
+      </string>
+      <string>
+        new_kill_wraith
+      </string>
+      <string>
+        new_kill_barfer
+      </string>
+      <string>
+        new_kill_wraith_glowing
+      </string>
+      <string>
+        new_kill_firetrap_left
+      </string>
+      <string>
+        PERK_EXTRA_HP
       </string>
     </flags>
   </WorldStateComponent>
