@@ -1,16 +1,18 @@
-<Stats deaths="10" kills="12" player_kills="1" player_projectile_count="0" >
+<Stats deaths="16" kills="12" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="4" >
     </E>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="1" >
+    <E key="player | $damage_explosion" value="3" >
+    </E>
+    <E key="player | $damage_projectile" value="2" >
     </E>
   </death_map>
   <kill_map>

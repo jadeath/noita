@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="54.8795" 
-    clouds_02_target="83.7454" 
+    clouds_01_target="57.1963" 
+    clouds_02_target="88.9445" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="20" 
-    fog="0.00499396" 
-    fog_target="0" 
+    day_count="22" 
+    fog="0.842817" 
+    fog_target="0.84781" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00499396" 
-    rain_target="0" 
+    rain="0.842817" 
+    rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.37879" 
+    time="0.201792" 
     time_dt="1" 
-    time_total="19.7671" 
+    time_total="21.5761" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.311039" 
-    wind_speed="18.6624" 
+    wind="0.123692" 
+    wind_speed="7.42158" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -145,11 +145,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_crypt,???,$biome_holymountain,$biome_boss_arena,$biome_crypt,$bio" >
+        value="$biome_rainforest,$biome_fungicave,$biome_vault,$biome_holymountain,$biome_crypt" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="62" >
+        value="69" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -442,6 +442,15 @@
       </string>
       <string>
         PERK_PICKED_UNLIMITED_SPELLS
+      </string>
+      <string>
+        new_kill_wand_ghost
+      </string>
+      <string>
+        new_action_fireball_ray_line
+      </string>
+      <string>
+        new_action_random_explosion
       </string>
     </flags>
   </WorldStateComponent>

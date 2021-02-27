@@ -1,18 +1,20 @@
-<Stats deaths="102" kills="41" player_kills="0" player_projectile_count="0" >
+<Stats deaths="108" kills="41" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="4" >
+    <E key="NULL | $damage_electricity" value="5" >
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
-    <E key="NULL | $damage_physicshit" value="8" >
+    <E key="NULL | $damage_physicshit" value="9" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
+    <E key="NULL | damage from material: lava" value="1" >
+    </E>
     <E key="drone_lasership | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="8" >
+    <E key="player | $damage_electricity" value="10" >
     </E>
-    <E key="player | $damage_explosion" value="12" >
+    <E key="player | $damage_explosion" value="13" >
     </E>
     <E key="player | $damage_projectile" value="46" >
     </E>
