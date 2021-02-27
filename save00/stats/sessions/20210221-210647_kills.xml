@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2000" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2127" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -6,7 +6,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshooter" value="33" >
+    <E key="acidshooter" value="34" >
     </E>
     <E key="acidshot" value="20" >
     </E>
@@ -14,13 +14,13 @@
     </E>
     <E key="ant" value="4" >
     </E>
-    <E key="arrowtrap_left" value="21" >
+    <E key="arrowtrap_left" value="23" >
     </E>
-    <E key="arrowtrap_right" value="21" >
+    <E key="arrowtrap_right" value="27" >
     </E>
     <E key="assassin" value="4" >
     </E>
-    <E key="barfer" value="1" >
+    <E key="barfer" value="2" >
     </E>
     <E key="bat" value="12" >
     </E>
@@ -58,9 +58,9 @@
     </E>
     <E key="failed_alchemist" value="2" >
     </E>
-    <E key="failed_alchemist_b" value="3" >
+    <E key="failed_alchemist_b" value="4" >
     </E>
-    <E key="failed_alchemist_orb" value="3" >
+    <E key="failed_alchemist_orb" value="4" >
     </E>
     <E key="firebug" value="19" >
     </E>
@@ -70,9 +70,9 @@
     </E>
     <E key="fireskull" value="3" >
     </E>
-    <E key="firetrap_left" value="3" >
+    <E key="firetrap_left" value="7" >
     </E>
-    <E key="firetrap_right" value="2" >
+    <E key="firetrap_right" value="4" >
     </E>
     <E key="flamer" value="5" >
     </E>
@@ -102,13 +102,13 @@
     </E>
     <E key="lasershooter" value="4" >
     </E>
-    <E key="longleg" value="28" >
+    <E key="longleg" value="35" >
     </E>
     <E key="lukki" value="4" >
     </E>
     <E key="lukki_longleg" value="8" >
     </E>
-    <E key="maggot" value="6" >
+    <E key="maggot" value="8" >
     </E>
     <E key="mine_scavenger" value="2" >
     </E>
@@ -124,17 +124,17 @@
     </E>
     <E key="monk" value="2" >
     </E>
-    <E key="necromancer" value="13" >
+    <E key="necromancer" value="14" >
     </E>
     <E key="necromancer_shop" value="5" >
     </E>
     <E key="pebble_physics" value="2" >
     </E>
-    <E key="phantom_a" value="16" >
+    <E key="phantom_a" value="22" >
     </E>
-    <E key="phantom_b" value="17" >
+    <E key="phantom_b" value="30" >
     </E>
-    <E key="physics_torch_stand" value="3" >
+    <E key="physics_torch_stand" value="4" >
     </E>
     <E key="physics_torch_stand_blue" value="6" >
     </E>
@@ -166,7 +166,7 @@
     </E>
     <E key="scavenger_smg" value="95" >
     </E>
-    <E key="scorpion" value="8" >
+    <E key="scorpion" value="9" >
     </E>
     <E key="shaman" value="4" >
     </E>
@@ -176,9 +176,9 @@
     </E>
     <E key="shotgunner_weak" value="3" >
     </E>
-    <E key="skullfly" value="30" >
+    <E key="skullfly" value="39" >
     </E>
-    <E key="skullrat" value="82" >
+    <E key="skullrat" value="119" >
     </E>
     <E key="slimeshooter" value="17" >
     </E>
@@ -192,9 +192,9 @@
     </E>
     <E key="spidernest" value="3" >
     </E>
-    <E key="spittrap_left" value="3" >
+    <E key="spittrap_left" value="4" >
     </E>
-    <E key="spittrap_right" value="3" >
+    <E key="spittrap_right" value="4" >
     </E>
     <E key="tank" value="18" >
     </E>
@@ -202,15 +202,15 @@
     </E>
     <E key="tank_super" value="1" >
     </E>
-    <E key="tentacler" value="31" >
+    <E key="tentacler" value="41" >
     </E>
-    <E key="tentacler_small" value="43" >
+    <E key="tentacler_small" value="51" >
     </E>
     <E key="thundermage" value="4" >
     </E>
     <E key="thunderskull" value="2" >
     </E>
-    <E key="thundertrap_right" value="2" >
+    <E key="thundertrap_right" value="3" >
     </E>
     <E key="tnt" value="1" >
     </E>
@@ -218,19 +218,19 @@
     </E>
     <E key="turret_right" value="7" >
     </E>
-    <E key="wizard_dark" value="15" >
+    <E key="wizard_dark" value="16" >
     </E>
-    <E key="wizard_hearty" value="3" >
+    <E key="wizard_hearty" value="6" >
     </E>
-    <E key="wizard_neutral" value="12" >
+    <E key="wizard_neutral" value="14" >
     </E>
     <E key="wizard_poly" value="4" >
     </E>
-    <E key="wizard_returner" value="1" >
+    <E key="wizard_returner" value="4" >
     </E>
-    <E key="wizard_swapper" value="3" >
+    <E key="wizard_swapper" value="4" >
     </E>
-    <E key="wizard_tele" value="5" >
+    <E key="wizard_tele" value="6" >
     </E>
     <E key="wizard_twitchy" value="5" >
     </E>

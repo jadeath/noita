@@ -1,6 +1,6 @@
-<Stats deaths="98" kills="54" player_kills="0" player_projectile_count="0" >
+<Stats deaths="109" kills="56" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="7" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_explosion" value="18" >
     </E>
@@ -22,13 +22,13 @@
     </E>
     <E key="phantom_a | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="4" >
+    <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="20" >
+    <E key="player | $damage_explosion" value="23" >
     </E>
-    <E key="player | $damage_projectile" value="32" >
+    <E key="player | $damage_projectile" value="36" >
     </E>
-    <E key="player | $damage_slice" value="1" >
+    <E key="player | $damage_slice" value="3" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
-    <E key="scorpion" value="13" >
+    <E key="scorpion" value="14" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
@@ -66,7 +66,7 @@
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="tentacler_small" value="5" >
+    <E key="tentacler_small" value="6" >
     </E>
     <E key="zombie" value="3" >
     </E>
