@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2262" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2265" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="blob" value="68" >
     </E>
-    <E key="bloom" value="10" >
+    <E key="bloom" value="11" >
     </E>
     <E key="chest_mimic" value="1" >
     </E>
@@ -86,7 +86,7 @@
     </E>
     <E key="frog_big" value="5" >
     </E>
-    <E key="fungus" value="13" >
+    <E key="fungus" value="14" >
     </E>
     <E key="giant" value="4" >
     </E>
@@ -172,7 +172,7 @@
     </E>
     <E key="shaman" value="4" >
     </E>
-    <E key="shooterflower" value="12" >
+    <E key="shooterflower" value="13" >
     </E>
     <E key="shotgunner" value="45" >
     </E>

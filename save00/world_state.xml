@@ -18,8 +18,8 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="57.1963" 
-    clouds_02_target="88.9445" 
+    clouds_01_target="57.222" 
+    clouds_02_target="89.0021" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
     day_count="22" 
@@ -53,13 +53,13 @@
     rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.201792" 
+    time="0.453234" 
     time_dt="1" 
-    time_total="21.5761" 
+    time_total="21.8254" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.123692" 
-    wind_speed="7.42158" 
+    wind="0.116988" 
+    wind_speed="7.01926" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -145,11 +145,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_rainforest,$biome_fungicave,$biome_vault,$biome_holymountain,$biome_crypt" >
+        value="$biome_rainforest,$biome_dragoncave,_EMPTY_,$biome_holymountain,$biome_rainfores" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="69" >
+        value="73" >
       </E>
     </lua_globals>
     <pending_portals>
