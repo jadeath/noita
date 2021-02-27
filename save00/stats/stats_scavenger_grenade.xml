@@ -1,4 +1,4 @@
-<Stats deaths="1084" kills="194" player_kills="5" player_projectile_count="0" >
+<Stats deaths="1087" kills="194" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="13" >
     </E>
@@ -42,7 +42,7 @@
     </E>
     <E key="iceskull | $damage_ice" value="6" >
     </E>
-    <E key="iceskull | $damage_melee" value="1" >
+    <E key="iceskull | $damage_melee" value="2" >
     </E>
     <E key="miner | $damage_explosion" value="3" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="player | $damage_fire" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="427" >
+    <E key="player | $damage_projectile" value="429" >
     </E>
     <E key="player | $damage_slice" value="84" >
     </E>
