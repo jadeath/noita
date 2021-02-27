@@ -1,12 +1,12 @@
-<Stats deaths="143" kills="36" player_kills="0" player_projectile_count="0" >
+<Stats deaths="183" kills="39" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
-    <E key="NULL | $damage_electricity" value="7" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
-    <E key="NULL | damage from material: Cursed rock" value="1" >
+    <E key="NULL | damage from material: Cursed rock" value="2" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
@@ -28,13 +28,13 @@
     </E>
     <E key="phantom_b | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="4" >
+    <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="23" >
+    <E key="player | $damage_explosion" value="33" >
     </E>
-    <E key="player | $damage_projectile" value="46" >
+    <E key="player | $damage_projectile" value="65" >
     </E>
-    <E key="player | $damage_slice" value="3" >
+    <E key="player | $damage_slice" value="8" >
     </E>
     <E key="skullrat | $damage_melee" value="10" >
     </E>
@@ -48,6 +48,8 @@
     </E>
     <E key="wizard_returner | $damage_explosion" value="1" >
     </E>
+    <E key="worm | worm bite" value="3" >
+    </E>
   </death_map>
   <kill_map>
     <E key="acidshooter" value="1" >
@@ -58,7 +60,7 @@
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="scorpion" value="10" >
+    <E key="scorpion" value="11" >
     </E>
     <E key="skullfly" value="1" >
     </E>
@@ -66,7 +68,7 @@
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>
-    <E key="tentacler_small" value="7" >
+    <E key="tentacler_small" value="9" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>

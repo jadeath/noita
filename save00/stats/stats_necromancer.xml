@@ -1,14 +1,14 @@
-<Stats deaths="14" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="22" kills="11" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_fire" value="1" >
     </E>
     <E key="NULL | $damage_physicshit" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="3" >
+    <E key="player | $damage_electricity" value="4" >
     </E>
-    <E key="player | $damage_explosion" value="2" >
+    <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="4" >
+    <E key="player | $damage_projectile" value="7" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -29,6 +29,8 @@
     <E key="skullrat" value="1" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
+    </E>
+    <E key="tentacler_small" value="1" >
     </E>
   </kill_map>
 </Stats>

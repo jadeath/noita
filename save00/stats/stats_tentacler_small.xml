@@ -1,5 +1,7 @@
-<Stats deaths="141" kills="36" player_kills="0" player_projectile_count="0" >
+<Stats deaths="156" kills="39" player_kills="0" player_projectile_count="0" >
   <death_map>
+    <E key="NULL | $damage_drowning" value="1" >
+    </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
     <E key="NULL | $damage_explosion" value="22" >
@@ -12,7 +14,7 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: lava" value="2" >
     </E>
@@ -26,15 +28,17 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
+    <E key="necromancer | $damage_melee" value="1" >
+    </E>
     <E key="orb_green | $damage_projectile" value="2" >
     </E>
     <E key="phantom_a | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="5" >
+    <E key="player | $damage_electricity" value="7" >
     </E>
-    <E key="player | $damage_explosion" value="4" >
+    <E key="player | $damage_explosion" value="9" >
     </E>
-    <E key="player | $damage_projectile" value="57" >
+    <E key="player | $damage_projectile" value="60" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -48,7 +52,7 @@
     </E>
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
-    <E key="skullrat | $damage_melee" value="7" >
+    <E key="skullrat | $damage_melee" value="9" >
     </E>
     <E key="sniper | $damage_projectile" value="3" >
     </E>
@@ -64,11 +68,13 @@
     </E>
     <E key="bat" value="1" >
     </E>
+    <E key="ghost_crystal" value="1" >
+    </E>
     <E key="miniblob" value="1" >
     </E>
     <E key="rat" value="20" >
     </E>
-    <E key="scorpion" value="10" >
+    <E key="scorpion" value="12" >
     </E>
     <E key="skullrat" value="1" >
     </E>

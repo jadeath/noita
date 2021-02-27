@@ -1,8 +1,14 @@
-<Stats deaths="4" kills="6" player_kills="0" player_projectile_count="0" >
+<Stats deaths="7" kills="6" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_fire" value="1" >
     </E>
+    <E key="NULL | damage from material: lava" value="1" >
+    </E>
     <E key="player | $damage_projectile" value="3" >
+    </E>
+    <E key="player | $damage_slice" value="1" >
+    </E>
+    <E key="worm | worm bite" value="1" >
     </E>
   </death_map>
   <kill_map>

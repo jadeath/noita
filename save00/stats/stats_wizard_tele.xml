@@ -1,8 +1,8 @@
-<Stats deaths="32" kills="34" player_kills="1" player_projectile_count="0" >
+<Stats deaths="33" kills="35" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="1" >
+    <E key="NULL | $damage_electricity" value="2" >
     </E>
     <E key="NULL | $damage_explosion" value="11" >
     </E>
@@ -38,7 +38,7 @@
     </E>
     <E key="rat" value="27" >
     </E>
-    <E key="scorpion" value="1" >
+    <E key="scorpion" value="2" >
     </E>
   </kill_map>
 </Stats>
