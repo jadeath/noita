@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2271" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2305" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -8,7 +8,7 @@
   <kill_map>
     <E key="acidshooter" value="37" >
     </E>
-    <E key="acidshot" value="36" >
+    <E key="acidshot" value="41" >
     </E>
     <E key="alchemist" value="2" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="blob" value="68" >
     </E>
-    <E key="bloom" value="11" >
+    <E key="bloom" value="12" >
     </E>
     <E key="boss_dragon" value="1" >
     </E>
@@ -126,27 +126,27 @@
     </E>
     <E key="missilecrab" value="7" >
     </E>
-    <E key="monk" value="6" >
+    <E key="monk" value="8" >
     </E>
-    <E key="necromancer" value="15" >
+    <E key="necromancer" value="16" >
     </E>
     <E key="necromancer_shop" value="5" >
     </E>
     <E key="pebble_physics" value="2" >
     </E>
-    <E key="phantom_a" value="24" >
+    <E key="phantom_a" value="27" >
     </E>
-    <E key="phantom_b" value="32" >
+    <E key="phantom_b" value="34" >
     </E>
     <E key="physics_torch_stand" value="4" >
     </E>
     <E key="physics_torch_stand_blue" value="6" >
     </E>
-    <E key="polyorb" value="8" >
+    <E key="polyorb" value="9" >
     </E>
     <E key="potion" value="2" >
     </E>
-    <E key="rat" value="27" >
+    <E key="rat" value="30" >
     </E>
     <E key="roboguard" value="14" >
     </E>
@@ -154,9 +154,9 @@
     </E>
     <E key="scavenger_clusterbomb" value="32" >
     </E>
-    <E key="scavenger_grenade" value="302" >
+    <E key="scavenger_grenade" value="304" >
     </E>
-    <E key="scavenger_heal" value="12" >
+    <E key="scavenger_heal" value="13" >
     </E>
     <E key="scavenger_invis" value="14" >
     </E>
@@ -168,7 +168,7 @@
     </E>
     <E key="scavenger_shield" value="8" >
     </E>
-    <E key="scavenger_smg" value="95" >
+    <E key="scavenger_smg" value="100" >
     </E>
     <E key="scorpion" value="9" >
     </E>
@@ -176,7 +176,7 @@
     </E>
     <E key="shooterflower" value="13" >
     </E>
-    <E key="shotgunner" value="45" >
+    <E key="shotgunner" value="47" >
     </E>
     <E key="shotgunner_weak" value="3" >
     </E>
@@ -190,7 +190,7 @@
     </E>
     <E key="slimeshooter_weak" value="6" >
     </E>
-    <E key="sniper" value="26" >
+    <E key="sniper" value="29" >
     </E>
     <E key="spearbot" value="3" >
     </E>
@@ -220,9 +220,9 @@
     </E>
     <E key="turret_left" value="6" >
     </E>
-    <E key="turret_right" value="7" >
+    <E key="turret_right" value="8" >
     </E>
-    <E key="wand_ghost" value="2" >
+    <E key="wand_ghost" value="4" >
     </E>
     <E key="wizard_dark" value="17" >
     </E>
