@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2350" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2391" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -8,7 +8,7 @@
   <kill_map>
     <E key="acidshooter" value="37" >
     </E>
-    <E key="acidshot" value="46" >
+    <E key="acidshot" value="51" >
     </E>
     <E key="alchemist" value="2" >
     </E>
@@ -38,6 +38,8 @@
     </E>
     <E key="bloom" value="12" >
     </E>
+    <E key="boss_alchemist" value="1" >
+    </E>
     <E key="boss_dragon" value="1" >
     </E>
     <E key="chest_mimic" value="1" >
@@ -58,13 +60,13 @@
     </E>
     <E key="drone_shield" value="3" >
     </E>
-    <E key="enlightened_alchemist" value="3" >
+    <E key="enlightened_alchemist" value="7" >
     </E>
-    <E key="failed_alchemist" value="3" >
+    <E key="failed_alchemist" value="9" >
     </E>
-    <E key="failed_alchemist_b" value="4" >
+    <E key="failed_alchemist_b" value="6" >
     </E>
-    <E key="failed_alchemist_orb" value="4" >
+    <E key="failed_alchemist_orb" value="7" >
     </E>
     <E key="firebug" value="19" >
     </E>
@@ -106,7 +108,7 @@
     </E>
     <E key="iceskull" value="8" >
     </E>
-    <E key="lasergun" value="1" >
+    <E key="lasergun" value="14" >
     </E>
     <E key="lasershooter" value="6" >
     </E>
@@ -148,7 +150,7 @@
     </E>
     <E key="polyorb" value="9" >
     </E>
-    <E key="potion" value="2" >
+    <E key="potion" value="3" >
     </E>
     <E key="rat" value="31" >
     </E>
@@ -176,7 +178,7 @@
     </E>
     <E key="scorpion" value="9" >
     </E>
-    <E key="shaman" value="4" >
+    <E key="shaman" value="5" >
     </E>
     <E key="shooterflower" value="13" >
     </E>
@@ -232,11 +234,11 @@
     </E>
     <E key="wizard_hearty" value="7" >
     </E>
-    <E key="wizard_neutral" value="17" >
+    <E key="wizard_neutral" value="19" >
     </E>
     <E key="wizard_poly" value="4" >
     </E>
-    <E key="wizard_returner" value="7" >
+    <E key="wizard_returner" value="10" >
     </E>
     <E key="wizard_swapper" value="4" >
     </E>

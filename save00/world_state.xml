@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="38.9654" 
-    clouds_02_target="48.0325" 
+    clouds_01_target="40.3671" 
+    clouds_02_target="51.1782" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="28" 
-    fog="0.477574" 
-    fog_target="0.482561" 
+    day_count="29" 
+    fog="0.00498838" 
+    fog_target="0" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -45,7 +45,7 @@
     player_did_damage_over_1milj="0" 
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
-    player_polymorph_count="3" 
+    player_polymorph_count="8" 
     player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.406571" 
+    time="0.106943" 
     time_dt="1" 
-    time_total="27.7329" 
+    time_total="28.428" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.0484777" 
-    wind_speed="-2.90868" 
+    wind="-0.0565449" 
+    wind_speed="-3.39276" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -145,11 +145,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_liquidcave,_EMPTY_,$biome_coalmine_alt,$biome_holymountain,$biome_coalmin" >
+        value="$biome_secret_lab,$biome_liquidcave,_EMPTY_,$biome_coalmine_alt,$biome_holymount" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="97" >
+        value="98" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -466,6 +466,9 @@
       </string>
       <string>
         new_kill_lasergun
+      </string>
+      <string>
+        new_kill_boss_alchemist
       </string>
     </flags>
   </WorldStateComponent>

@@ -1,4 +1,4 @@
-<Stats deaths="259" kills="278" player_kills="2" player_projectile_count="0" >
+<Stats deaths="260" kills="278" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -29,6 +29,8 @@
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
     <E key="drone_lasership | $damage_projectile" value="1" >
+    </E>
+    <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
