@@ -18,8 +18,8 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="57.222" 
-    clouds_02_target="89.0021" 
+    clouds_01_target="57.2281" 
+    clouds_02_target="89.0159" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
     day_count="22" 
@@ -53,13 +53,13 @@
     rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.453234" 
+    time="0.543647" 
     time_dt="1" 
-    time_total="21.8254" 
+    time_total="21.9151" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.116988" 
-    wind_speed="7.01926" 
+    wind="0.114057" 
+    wind_speed="6.84348" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -451,6 +451,9 @@
       </string>
       <string>
         new_action_random_explosion
+      </string>
+      <string>
+        new_kill_boss_dragon
       </string>
     </flags>
   </WorldStateComponent>
