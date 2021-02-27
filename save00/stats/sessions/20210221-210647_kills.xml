@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2326" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2350" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -8,7 +8,7 @@
   <kill_map>
     <E key="acidshooter" value="37" >
     </E>
-    <E key="acidshot" value="45" >
+    <E key="acidshot" value="46" >
     </E>
     <E key="alchemist" value="2" >
     </E>
@@ -94,6 +94,8 @@
     </E>
     <E key="giantshooter" value="1" >
     </E>
+    <E key="giantshooter_weak" value="1" >
+    </E>
     <E key="glitter_bomb" value="1" >
     </E>
     <E key="goblin_bomb" value="3" >
@@ -104,9 +106,11 @@
     </E>
     <E key="iceskull" value="8" >
     </E>
+    <E key="lasergun" value="1" >
+    </E>
     <E key="lasershooter" value="6" >
     </E>
-    <E key="longleg" value="35" >
+    <E key="longleg" value="46" >
     </E>
     <E key="lukki" value="4" >
     </E>
@@ -184,7 +188,7 @@
     </E>
     <E key="skullrat" value="129" >
     </E>
-    <E key="slimeshooter" value="17" >
+    <E key="slimeshooter" value="20" >
     </E>
     <E key="slimeshooter_boss_limbs" value="5" >
     </E>
@@ -228,7 +232,7 @@
     </E>
     <E key="wizard_hearty" value="7" >
     </E>
-    <E key="wizard_neutral" value="16" >
+    <E key="wizard_neutral" value="17" >
     </E>
     <E key="wizard_poly" value="4" >
     </E>
@@ -242,13 +246,15 @@
     </E>
     <E key="worm_big" value="1" >
     </E>
+    <E key="worm_tiny" value="1" >
+    </E>
     <E key="wraith" value="1" >
     </E>
     <E key="wraith_glowing" value="2" >
     </E>
     <E key="zombie" value="29" >
     </E>
-    <E key="zombie_weak" value="8" >
+    <E key="zombie_weak" value="13" >
     </E>
   </kill_map>
 </Stats>

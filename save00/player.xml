@@ -4,10 +4,10 @@
   serialize="1" 
   tags="mortal,hittable,human,peasant,prey,player_unit,teleportable" >
   <_Transform 
-    position.x="838.844" 
-    position.y="-6795.94" 
+    position.x="-2024.25" 
+    position.y="719.063" 
     rotation="0" 
-    scale.x="1" 
+    scale.x="-1" 
     scale.y="1" >
   </_Transform>
   <AudioComponent 
@@ -216,14 +216,14 @@
     fire_damage_ignited_amount="0.0003" 
     fire_how_much_fire_generates="4" 
     fire_probability_of_ignition="1" 
-    hp="25.28" 
+    hp="24.71" 
     in_liquid_shooting_electrify_prob="0" 
     invincibility_frames="0" 
     is_on_fire="0" 
     kill_now="0" 
-    mLastElectricityResistanceFrame="857715" 
-    mLastFrameReportedBlock="872218" 
-    mLastMaxHpChangeFrame="901629" 
+    mLastElectricityResistanceFrame="1116864" 
+    mLastFrameReportedBlock="1099269" 
+    mLastMaxHpChangeFrame="1114490" 
     material_damage_min_cell_count="4" 
     materials_create_messages="0" 
     materials_damage="1" 
@@ -231,9 +231,9 @@
     materials_how_much_damage="0.005,0.003,0.0006,0.0009,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.005,-0.005,0.0002,0.0002,0.004,0.0005" 
     materials_that_create_messages="meat" 
     materials_that_damage="acid,lava,blood_cold_vapour,blood_cold,poison,radioactive_gas,radioactive_gas_static,rock_static_radioactive,rock_static_poison,ice_radioactive_static,ice_radioactive_glass,ice_acid_static,ice_acid_glass,rock_static_cursed,magic_gas_hp_regeneration,gold_radioactive,gold_static_radioactive,rock_static_cursed_green,cursed_liquid" 
-    max_hp="29.36" 
+    max_hp="30.36" 
     max_hp_cap="0" 
-    max_hp_old="28.36" 
+    max_hp_old="29.36" 
     minimum_knockback_force="0" 
     physics_objects_damage="0" 
     ragdoll_blood_amount_absolute="-1" 
@@ -277,12 +277,12 @@
       nightvision_amount="0" >
     </drug_fx_target>
     <m_drug_fx_current 
-      color_amount="0" 
+      color_amount="0.3" 
       distortion_amount="0" 
       doublevision_amount="0" 
       fractals_amount="0" 
       fractals_size="0" 
-      nightvision_amount="0" >
+      nightvision_amount="1" >
     </m_drug_fx_current>
   </DrugEffectComponent>
   <GameLogComponent 
@@ -353,6 +353,12 @@
       </string>
       <string>
         $biome_boss_victoryroom
+      </string>
+      <string>
+        $biome_gold
+      </string>
+      <string>
+        $biome_liquidcave
       </string>
     </mVisitiedBiomes>
   </GameLogComponent>
@@ -455,7 +461,7 @@
     ingestion_capacity="7500" 
     ingestion_cooldown_delay_frames="600" 
     ingestion_reduce_every_n_frame="5" 
-    ingestion_size="0" 
+    ingestion_size="1907" 
     m_ingestion_cooldown_frames="0" 
     overingestion_damage="0.002" >
   </IngestionComponent>
@@ -469,15 +475,15 @@
   <InventoryGuiComponent 
     _enabled="1" 
     has_opened_inventory_edit="1" 
-    wallet_money_target="46748" >
+    wallet_money_target="305165" >
   </InventoryGuiComponent>
   <ItemPickUpperComponent 
     _enabled="1" 
     drop_items_on_death="0" 
     is_immune_to_kicks="0" 
     is_in_npc="0" 
-    mLatestItemOverlapInfoBoxPosition.x="368.557" 
-    mLatestItemOverlapInfoBoxPosition.y="152.8" >
+    mLatestItemOverlapInfoBoxPosition.x="398.026" 
+    mLatestItemOverlapInfoBoxPosition.y="61.1454" >
   </ItemPickUpperComponent>
   <KickComponent 
     _enabled="1" 
@@ -515,7 +521,7 @@
     execute_on_added="0" 
     execute_on_removed="0" 
     execute_times="0" 
-    mLastExecutionFrame="952798" 
+    mLastExecutionFrame="1116968" 
     mModAppendsDone="1" 
     remove_after_executed="0" 
     script_audio_event_dead="" 
@@ -601,11 +607,11 @@
         material="swamp" >
       </Material>
       <Material 
-        count="33" 
+        count="149" 
         material="blood" >
       </Material>
       <Material 
-        count="36" 
+        count="37" 
         material="blood_fading" >
       </Material>
       <Material 
@@ -613,7 +619,7 @@
         material="blood_fungi" >
       </Material>
       <Material 
-        count="322" 
+        count="592" 
         material="blood_worm" >
       </Material>
       <Material 
@@ -649,7 +655,7 @@
         material="fungi" >
       </Material>
       <Material 
-        count="4" 
+        count="17" 
         material="moss" >
       </Material>
       <Material 
@@ -657,7 +663,7 @@
         material="acid" >
       </Material>
       <Material 
-        count="103" 
+        count="143" 
         material="meat" >
       </Material>
       <Material 
@@ -675,6 +681,10 @@
       <Material 
         count="1" 
         material="meat_slime_green" >
+      </Material>
+      <Material 
+        count="1" 
+        material="water_fading" >
       </Material>
     </count_per_material_type>
   </MaterialInventoryComponent>
@@ -853,8 +863,8 @@
     next_rect_animation="" 
     offset_animator_offset.x="0" 
     offset_animator_offset.y="0" 
-    offset_x="-11.8798" 
-    offset_y="67.6155" 
+    offset_x="63.7922" 
+    offset_y="28.3213" 
     rect_animation="" 
     smooth_filtering="0" 
     special_scale_x="1" 
@@ -975,20 +985,20 @@
     stain_shaken_drop_chance_multiplier="1" >
     <mData 
       reference_frame_h="19" 
-      reference_frame_materials="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
-      reference_frame_stains="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      reference_frame_materials="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAADAAADAAADAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      reference_frame_stains="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAJAJCFAIAIAIEFABABABEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACACBMAMAMAMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAMAMCBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAEDOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAACACACBLAEAEAEEFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALALALBMAKAKAKDGAEAEAEDGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALALALCKAFAFAFBNAJAJAJECADADADDGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALALALBNACACACEHABABABCNAEAEAEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAFAFBPAAAAAAAAAIAIAICPAEAEAEEDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAEBPAFAFAFEGAFAFAFCHAJAJAJDBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACACCHAJAJAJDGAAAAAACEAHAHAHCDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACACDFAGAGAGCNABABABCOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAKAKBLAEAEAEDJAIAIAIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAFAFBKADADADEGACACACDIADADADDIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACACCLAIAIAIBJAKAKAKBKADADADDJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAIEHADADADDBACACACDFAAAAAAEIADADADEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
       reference_frame_w="12" >
     </mData>
   </SpriteStainsComponent>
   <StatusEffectDataComponent 
     _enabled="1" 
-    ingestion_effect_causes="air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air" >
+    ingestion_effect_causes="air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,air,blood_worm,air,air,air,air,air,air,air,air,air" >
     <stain_effects>
       <primitive>
         0
       </primitive>
       <primitive>
-        0
+        0.980769
       </primitive>
       <primitive>
         0
@@ -1104,7 +1114,7 @@
         0
       </primitive>
       <primitive>
-        0
+        0.980769
       </primitive>
       <primitive>
         0
@@ -1301,7 +1311,7 @@
         0
       </primitive>
       <primitive>
-        0
+        62.9519
       </primitive>
       <primitive>
         0
@@ -1494,8 +1504,8 @@
     gravity_x="0" 
     gravity_y="400" 
     liquid_death_threshold="0" 
-    mVelocity.x="-0.0223389" 
-    mVelocity.y="-0.000488281" 
+    mVelocity.x="-0.0012207" 
+    mVelocity.y="0" 
     mass="0.05" 
     terminal_velocity="1000" 
     updates_velocity="0" >
@@ -1503,8 +1513,8 @@
   <WalletComponent 
     _enabled="1" 
     mHasReachedInf="0" 
-    mMoneyPrevFrame="46748" 
-    money="46748" 
+    mMoneyPrevFrame="305165" 
+    money="305165" 
     money_spent="60715" >
   </WalletComponent>
   <Entity 
@@ -1513,11 +1523,11 @@
     serialize="1" 
     tags="player_arm_r" >
     <_Transform 
-      position.x="835.866" 
-      position.y="-6802.94" 
-      rotation="-0.881622" 
+      position.x="-2021.25" 
+      position.y="712.063" 
+      rotation="-2.93049" 
       scale.x="1" 
-      scale.y="1" >
+      scale.y="-1" >
     </_Transform>
     <HotspotComponent 
       _enabled="1" 
@@ -1580,10 +1590,10 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="837.866" 
-      position.y="-6803.94" 
+      position.x="-2023.25" 
+      position.y="711.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <InheritTransformComponent 
@@ -1613,16 +1623,16 @@
       cloth_color_edge="ff9a6f9b" 
       cloth_sprite_z_index="0.7" 
       collide_with_cells="1" 
-      colors="AAAAAAEHAAAAAAEHAAAAAAEHAAAAAAEHAAAAAAEHAAAAAAEHAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAAAAAAAAAACAAAAAAACMAAAAAADAAAAAAADBAAAAAACPAAAAAACIAAAAAACCAAAAAABIAAAAAAAAAAAAAAAAAAAAAABAAAAAAABKAAAAAABPAAAAAACAAAAAAABOAAAAAABKAAAAAABEAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAPAAAAAABCAAAAAABDAAAAAABCAAAAAAAPAAAAAAALAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAKAAAAAAALAAAAAAAKAAAAAAAIAAAAAAAGAAAAAAADAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAFAAAAAAAFAAAAAAAFAAAAAAAEAAAAAAADAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAFAAAAAAADAAAAAAACAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADFAAAAAABBAAAAAAAGAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAADAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADFAAAAAAAPAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
+      colors="AAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAADEAAAAAADDAAAAAADCAAAAAADBAAAAAADAAAAAAACPAAAAAACMAAAAAACDAAAAAAAAAAAAAADFAAAAAADDAAAAAADBAAAAAACPAAAAAACOAAAAAACNAAAAAACMAAAAAACLAAAAAACMAAAAAADFAAAAAADFAAAAAADCAAAAAADAAAAAAACOAAAAAACMAAAAAACLAAAAAACKAAAAAACKAAAAAACNAAAAAADFAAAAAADFAAAAAADBAAAAAACPAAAAAACNAAAAAACLAAAAAACJAAAAAACIAAAAAACHAAAAAACJAAAAAADFAAAAAADFAAAAAADBAAAAAACOAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACDAAAAAABMAAAAAAAAAAAAAADFAAAAAADAAAAAAACNAAAAAACLAAAAAACJAAAAAACHAAAAAACFAAAAAACEAAAAAACHAAAAAADFAAAAAADFAAAAAADAAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACEAAAAAACEAAAAAACHAAAAAADFAAAAAADFAAAAAADAAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACEAAAAAACCAAAAAABMAAAAAAAAAAAAAADFAAAAAADAAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACFAAAAAACFAAAAAACIAAAAAADFAAAAAADFAAAAAADAAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACFAAAAAACGAAAAAACKAAAAAADFAAAAAADFAAAAAACPAAAAAACMAAAAAACKAAAAAACIAAAAAACGAAAAAACEAAAAAACFAAAAAACIAAAAAADFAAAAAADFAAAAAACMAAAAAACLAAAAAACLAAAAAACJAAAAAACGAAAAAACCAAAAAACCAAAAAABNAAAAAAAAAAAAAADFAAAAAACDAAAAAACMAAAAAACOAAAAAACNAAAAAACJAAAAAABMAAAAAACHAAAAAACLAAAAAADFAAAAAADFAAAAAAAAAAAAAADFAAAAAADFAAAAAADFAAAAAADFAAAAAAAAAAAAAADFAAAAAADFAAAAAADFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" 
       constrain_stretching="1" 
       follow_entity_transform="1" 
       gets_entity_velocity_coeff="0" 
       m_is_culled_previous="0" 
-      m_position_previous.x="837.866" 
-      m_position_previous.y="-6803.94" 
+      m_position_previous.x="-2023.25" 
+      m_position_previous.y="711.063" 
       mass_max="0.2" 
       mass_min="0.1" 
-      materials="oil,oil,oil,oil,oil,oil,magic_liquid_movement_faster,magic_liquid_movement_faster,magic_liquid_movement_faster,magic_liquid_movement_faster,,,,,,,,,,,,,,oil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,water,,,,,,,,,water,,,,water,,,,,,,,,water,,water,,,,,,,,water,water,water,,,,,,water,,,,water,,,,,,water,,water,,,,,,,,,water,,,,,,,,water,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," 
+      materials="water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,,,water,,water,water,water,water,water,water,alcohol,water,water,water,water,water,water,water,water,water,,water,water,magic_liquid_charm,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,,water,water,,water,water,water,water,water,water,,water,,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,water,,magic_liquid_berserk,water,,water,water,water,water,water,water,water,,water,water,water,water,water,water,water,water,,alcohol,water,water,water,water,water,water,water,water,,,water,water,water,water,water,water,water,water,water,alcohol,magic_liquid_berserk,,water,water,water,water,water,water,water,water,water,magic_liquid_charm,water,,water,water,water,water,,magic_liquid_berserk,water,water,,,,,,,,,,," 
       num_links="300" 
       num_points="150" 
       pixelate_sprite_transforms="1" 
@@ -1656,9 +1666,9 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-1.67679" 
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-2.96297" 
         scale.x="1" 
         scale.y="-1" >
       </_Transform>
@@ -1697,7 +1707,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0929.png" 
         stat_times_player_has_edited="70" 
-        stat_times_player_has_shot="142096" 
+        stat_times_player_has_shot="160047" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Big Rapid bolt wand" 
@@ -1884,7 +1894,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="30031" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -2131,8 +2141,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.413" 
-          position.y="-1275.19" 
+          position.x="-2171.01" 
+          position.y="664.901" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2181,7 +2191,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="1" 
           play_hover_animation="0" 
@@ -2300,7 +2310,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2311,7 +2321,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2322,7 +2332,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2333,7 +2343,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2361,8 +2371,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.413" 
-          position.y="-1275.19" 
+          position.x="-2171.01" 
+          position.y="664.901" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2411,7 +2421,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="25308" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -2566,7 +2576,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2577,7 +2587,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2588,7 +2598,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2599,7 +2609,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2627,8 +2637,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.413" 
-          position.y="-1275.19" 
+          position.x="-2171.01" 
+          position.y="664.901" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2677,7 +2687,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="50801" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -2832,7 +2842,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2843,7 +2853,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2854,7 +2864,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2865,7 +2875,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -2893,8 +2903,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.413" 
-          position.y="-1275.19" 
+          position.x="-2171.01" 
+          position.y="664.901" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -2943,7 +2953,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="25363" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -3098,7 +3108,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3109,7 +3119,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3120,7 +3130,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3131,7 +3141,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3159,8 +3169,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.413" 
-          position.y="-1275.19" 
+          position.x="-2171.01" 
+          position.y="664.901" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -3209,7 +3219,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="25378" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -3364,7 +3374,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3375,7 +3385,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3386,7 +3396,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3397,7 +3407,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-248.826" 
+          x_phase_offset="52.9633" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3425,9 +3435,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="851.845" 
-          position.y="-1296.13" 
-          rotation="-1.67605" 
+          position.x="-2219.45" 
+          position.y="641.82" 
+          rotation="-2.97207" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -3492,7 +3502,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="51138" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -3711,7 +3721,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-265.767" 
+          x_phase_offset="52.3035" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3722,7 +3732,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-265.767" 
+          x_phase_offset="52.3035" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3733,7 +3743,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-265.767" 
+          x_phase_offset="52.3035" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3744,7 +3754,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-265.767" 
+          x_phase_offset="52.3035" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3772,9 +3782,9 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="853.001" 
-          position.y="-1285.19" 
-          rotation="-1.67605" 
+          position.x="-2208.6" 
+          position.y="643.675" 
+          rotation="-2.97207" 
           scale.x="1" 
           scale.y="-1" >
         </_Transform>
@@ -3839,7 +3849,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -3958,7 +3968,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.453" 
+          x_phase_offset="52.3762" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3969,7 +3979,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.453" 
+          x_phase_offset="52.3762" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3980,7 +3990,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.453" 
+          x_phase_offset="52.3762" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -3991,7 +4001,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.453" 
+          x_phase_offset="52.3762" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -4090,11 +4100,11 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="839.681" 
-        position.y="-6804.89" 
-        rotation="-1.25946" 
+        position.x="-2025.87" 
+        position.y="712.703" 
+        rotation="-2.84002" 
         scale.x="1" 
-        scale.y="1" >
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -4131,7 +4141,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0535.png" 
         stat_times_player_has_edited="27" 
-        stat_times_player_has_shot="2982" 
+        stat_times_player_has_shot="3505" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Veteran Rapid bolt wand" 
@@ -4318,7 +4328,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="580926" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -4565,11 +4575,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="842.156" 
-          position.y="-6812.5" 
-          rotation="-1.25969" 
+          position.x="-2033.51" 
+          position.y="710.327" 
+          rotation="-2.84003" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -4632,7 +4642,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="25426" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -4800,7 +4810,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -4811,7 +4821,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -4822,7 +4832,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -4833,7 +4843,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -4931,8 +4941,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="854.272" 
-          position.y="-1273.69" 
+          position.x="-2158.65" 
+          position.y="684.063" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -4981,7 +4991,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="576504" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -5136,7 +5146,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5147,7 +5157,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5158,7 +5168,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5169,7 +5179,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5197,8 +5207,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="854.272" 
-          position.y="-1273.69" 
+          position.x="-2158.65" 
+          position.y="684.063" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -5247,7 +5257,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="826630" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -5402,7 +5412,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5413,7 +5423,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5424,7 +5434,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5435,7 +5445,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-264.568" 
+          x_phase_offset="53.392" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -5463,11 +5473,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="842.156" 
-          position.y="-6812.5" 
-          rotation="-1.25969" 
+          position.x="-2033.51" 
+          position.y="710.327" 
+          rotation="-2.84003" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <AudioComponent 
           _enabled="1" 
@@ -5555,7 +5565,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="887784" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -6150,7 +6160,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6161,7 +6171,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6172,7 +6182,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6183,7 +6193,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-266.42" 
+          x_phase_offset="52.6332" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6210,9 +6220,9 @@
           serialize="1" 
           tags="" >
           <_Transform 
-            position.x="854.272" 
-            position.y="-1273.69" 
-            rotation="0.369841" 
+            position.x="-2158.65" 
+            position.y="684.063" 
+            rotation="-1.25969" 
             scale.x="1" 
             scale.y="1" >
           </_Transform>
@@ -6268,11 +6278,11 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-1.47365" 
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-2.82478" 
         scale.x="1" 
-        scale.y="1" >
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -6309,7 +6319,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0460.png" 
         stat_times_player_has_edited="48" 
-        stat_times_player_has_shot="168" 
+        stat_times_player_has_shot="169" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="Rapid bolt wand" 
@@ -6496,7 +6506,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="785897" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -6743,8 +6753,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -6793,7 +6803,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="291008" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -6912,7 +6922,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6923,7 +6933,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6934,7 +6944,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6945,7 +6955,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -6973,8 +6983,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -7023,7 +7033,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -7142,7 +7152,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7153,7 +7163,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7164,7 +7174,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7175,7 +7185,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7203,8 +7213,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -7253,7 +7263,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -7372,7 +7382,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7383,7 +7393,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7394,7 +7404,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7405,7 +7415,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7433,11 +7443,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -7500,7 +7510,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -7683,7 +7693,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7694,7 +7704,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7705,7 +7715,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7716,7 +7726,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -7814,11 +7824,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -7881,7 +7891,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -8064,7 +8074,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8075,7 +8085,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8086,7 +8096,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8097,7 +8107,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8195,8 +8205,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -8245,7 +8255,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -8364,7 +8374,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8375,7 +8385,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8386,7 +8396,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8397,7 +8407,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8425,8 +8435,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -8475,7 +8485,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="284660" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -8630,7 +8640,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8641,7 +8651,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8652,7 +8662,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8663,7 +8673,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -8691,16 +8701,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="-1" 
+          charge="0" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -8768,7 +8778,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="50924" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -9000,7 +9010,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9011,7 +9021,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9022,7 +9032,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9033,7 +9043,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9156,10 +9166,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59.5" 
-          randomize_velocity.max_y="59.5" 
-          randomize_velocity.min_x="-59.5" 
-          randomize_velocity.min_y="-59.5" 
+          randomize_velocity.max_x="59" 
+          randomize_velocity.max_y="59" 
+          randomize_velocity.min_x="-59" 
+          randomize_velocity.min_y="-59" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -9201,11 +9211,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -9268,7 +9278,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -9451,7 +9461,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9462,7 +9472,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9473,7 +9483,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9484,7 +9494,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9582,8 +9592,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -9632,7 +9642,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -9751,7 +9761,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9762,7 +9772,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9773,7 +9783,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9784,7 +9794,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9812,8 +9822,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -9862,7 +9872,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -9981,7 +9991,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -9992,7 +10002,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10003,7 +10013,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10014,7 +10024,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10042,11 +10052,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -10109,7 +10119,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -10292,7 +10302,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10303,7 +10313,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10314,7 +10324,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10325,7 +10335,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10423,16 +10433,16 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.877" 
-          position.y="-1278.91" 
-          rotation="-1.47483" 
+          position.x="-2167.88" 
+          position.y="675.167" 
+          rotation="-2.82478" 
           scale.x="1" 
-          scale.y="1" >
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
           _tags="enabled_in_hand,item_identified" 
-          charge="-1" 
+          charge="0" 
           charge_time_frames="120" 
           electricity_emission_interval_frames="10" 
           fx_emission_interval_max="15" 
@@ -10500,7 +10510,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -10696,7 +10706,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10707,7 +10717,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10718,7 +10728,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10729,7 +10739,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.32" 
+          x_phase_offset="52.4776" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -10852,10 +10862,10 @@
           randomize_scale.max_y="0" 
           randomize_scale.min_x="0" 
           randomize_scale.min_y="0" 
-          randomize_velocity.max_x="59.5" 
-          randomize_velocity.max_y="59.5" 
-          randomize_velocity.min_x="-59.5" 
-          randomize_velocity.min_y="-59.5" 
+          randomize_velocity.max_x="59" 
+          randomize_velocity.max_y="59" 
+          randomize_velocity.min_x="-59" 
+          randomize_velocity.min_y="-59" 
           render_back="0" 
           rotation="0" 
           scale.x="1" 
@@ -10897,8 +10907,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="846.954" 
-          position.y="-1253.56" 
+          position.x="-2229.92" 
+          position.y="643.299" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -10947,7 +10957,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -11066,7 +11076,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11077,7 +11087,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11088,7 +11098,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11099,7 +11109,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-263.474" 
+          x_phase_offset="52.9346" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11128,11 +11138,11 @@
       serialize="1" 
       tags="teleportable_NOT,item,wand" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-1.47758" 
-        scale.x="0.5" 
-        scale.y="1" >
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-2.57989" 
+        scale.x="1" 
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -11160,7 +11170,7 @@
         max_amount_in_inventory="1" 
         max_charged_actions="0" 
         never_reload="0" 
-        reload_time_frames="0" 
+        reload_time_frames="16" 
         rotate_hand_amount="0.7" 
         rotate_in_hand="1" 
         rotate_in_hand_amount="1" 
@@ -11169,7 +11179,7 @@
         slot_consumption_function="_get_gun_slot_durability_default" 
         sprite_file="data/items_gfx/wands/wand_0885.png" 
         stat_times_player_has_edited="70" 
-        stat_times_player_has_shot="107" 
+        stat_times_player_has_shot="110" 
         swim_propel_amount="0" 
         throw_as_item="0" 
         ui_name="New Rapid bolt wand" 
@@ -11356,7 +11366,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="824872" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -11603,11 +11613,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.973" 
-          position.y="-1269.68" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2131.62" 
+          position.y="672.613" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -11670,7 +11680,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -11853,7 +11863,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.976" 
+          x_phase_offset="52.4844" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11864,7 +11874,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.976" 
+          x_phase_offset="52.4844" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11875,7 +11885,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.976" 
+          x_phase_offset="52.4844" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11886,7 +11896,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.976" 
+          x_phase_offset="52.4844" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -11984,11 +11994,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.623" 
-          position.y="-1266.19" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2119.66" 
+          position.y="679.89" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -12051,7 +12061,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -12234,7 +12244,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.221" 
+          x_phase_offset="52.4437" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12245,7 +12255,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.221" 
+          x_phase_offset="52.4437" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12256,7 +12266,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.221" 
+          x_phase_offset="52.4437" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12267,7 +12277,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.221" 
+          x_phase_offset="52.4437" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12295,11 +12305,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -12372,7 +12382,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -12568,7 +12578,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12579,7 +12589,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12590,7 +12600,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12601,7 +12611,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12769,8 +12779,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -12819,7 +12829,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -12938,7 +12948,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12949,7 +12959,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12960,7 +12970,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12971,7 +12981,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -12999,11 +13009,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -13076,7 +13086,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -13272,7 +13282,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13283,7 +13293,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13294,7 +13304,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13305,7 +13315,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13473,11 +13483,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -13550,7 +13560,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -13746,7 +13756,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13757,7 +13767,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13768,7 +13778,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13779,7 +13789,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -13947,8 +13957,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -13997,7 +14007,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -14116,7 +14126,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14127,7 +14137,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14138,7 +14148,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14149,7 +14159,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14177,11 +14187,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -14254,7 +14264,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -14450,7 +14460,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14461,7 +14471,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14472,7 +14482,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14483,7 +14493,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14651,8 +14661,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -14701,7 +14711,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -14820,7 +14830,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14831,7 +14841,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14842,7 +14852,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14853,7 +14863,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -14881,11 +14891,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -14958,7 +14968,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -15154,7 +15164,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15165,7 +15175,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15176,7 +15186,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15187,7 +15197,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15355,8 +15365,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -15405,7 +15415,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -15524,7 +15534,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15535,7 +15545,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15546,7 +15556,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15557,7 +15567,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15585,11 +15595,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -15662,7 +15672,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -15858,7 +15868,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15869,7 +15879,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15880,7 +15890,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -15891,7 +15901,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16059,8 +16069,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -16109,7 +16119,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -16228,7 +16238,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16239,7 +16249,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16250,7 +16260,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16261,7 +16271,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16289,11 +16299,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -16366,7 +16376,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="557982" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -16598,7 +16608,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16609,7 +16619,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16620,7 +16630,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16631,7 +16641,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16799,8 +16809,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -16849,7 +16859,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -16968,7 +16978,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16979,7 +16989,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -16990,7 +17000,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17001,7 +17011,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17029,11 +17039,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -17106,7 +17116,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -17302,7 +17312,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17313,7 +17323,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17324,7 +17334,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17335,7 +17345,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17503,8 +17513,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -17553,7 +17563,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -17672,7 +17682,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17683,7 +17693,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17694,7 +17704,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17705,7 +17715,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -17733,11 +17743,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -17810,7 +17820,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -18006,7 +18016,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18017,7 +18027,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18028,7 +18038,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18039,7 +18049,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18207,11 +18217,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -18284,7 +18294,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -18480,7 +18490,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18491,7 +18501,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18502,7 +18512,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18513,7 +18523,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18681,8 +18691,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -18731,7 +18741,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -18850,7 +18860,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18861,7 +18871,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18872,7 +18882,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18883,7 +18893,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -18911,11 +18921,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <ElectricChargeComponent 
           _enabled="0" 
@@ -18988,7 +18998,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="0" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -19184,7 +19194,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19195,7 +19205,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19206,7 +19216,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19217,7 +19227,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19385,8 +19395,8 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.08" 
-          position.y="-1255.54" 
+          position.x="-2132.73" 
+          position.y="790.001" 
           rotation="0" 
           scale.x="1" 
           scale.y="1" >
@@ -19435,7 +19445,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="348720" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -19590,7 +19600,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19601,7 +19611,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19612,7 +19622,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19623,7 +19633,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-201.548" 
+          x_phase_offset="52.9425" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19651,11 +19661,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -19718,7 +19728,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="674453" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -19850,7 +19860,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19861,7 +19871,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19872,7 +19882,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19883,7 +19893,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -19981,11 +19991,11 @@
         serialize="1" 
         tags="card_action" >
         <_Transform 
-          position.x="847.698" 
-          position.y="-1266.94" 
-          rotation="-1.47066" 
-          scale.x="0.25" 
-          scale.y="1" >
+          position.x="-2122.22" 
+          position.y="678.331" 
+          rotation="-2.59497" 
+          scale.x="1" 
+          scale.y="-1" >
         </_Transform>
         <HitboxComponent 
           _enabled="0" 
@@ -20048,7 +20058,7 @@
           item_pickup_radius="14.1" 
           mFramePickedUp="825595" 
           max_child_items="0" 
-          next_frame_pickable="914884" 
+          next_frame_pickable="952814" 
           npc_next_frame_pickable="0" 
           permanently_attached="0" 
           play_hover_animation="0" 
@@ -20180,7 +20190,7 @@
           sprite_id="0" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -20191,7 +20201,7 @@
           sprite_id="1" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -20202,7 +20212,7 @@
           sprite_id="2" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -20213,7 +20223,7 @@
           sprite_id="3" 
           x_amount="0" 
           x_phase="16" 
-          x_phase_offset="-267.383" 
+          x_phase_offset="52.4524" 
           x_speed="0" 
           y_amount="1" 
           y_speed="2.5" >
@@ -20312,11 +20322,11 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-1.47025" 
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-2.37274" 
         scale.x="1" 
-        scale.y="1" >
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -20632,7 +20642,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="1929" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -20668,8 +20678,12 @@
         on_death_spill="1" >
         <count_per_material_type>
           <Material 
-            count="899" 
+            count="992" 
             material="water" >
+          </Material>
+          <Material 
+            count="8" 
+            material="radioactive_liquid" >
           </Material>
         </count_per_material_type>
       </MaterialInventoryComponent>
@@ -20678,7 +20692,7 @@
         _tags="enabled_in_world,enabled_in_hand" 
         barrel_size="1000" 
         last_material_id="0" 
-        mAmountUsed="899" 
+        mAmountUsed="1000" 
         material_type="0" 
         num_cells_sucked_per_frame="5" 
         randomized_position.max_x="1" 
@@ -21126,9 +21140,9 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-0.395556" 
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="1.12195" 
         scale.x="1" 
         scale.y="1" >
       </_Transform>
@@ -21344,7 +21358,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="610247" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -21922,11 +21936,11 @@
       serialize="1" 
       tags="teleportable_NOT,hittable,item_physics" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
-        rotation="-0.172282" 
-        scale.x="1" 
-        scale.y="1" >
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-2.6956" 
+        scale.x="0.75" 
+        scale.y="-1" >
       </_Transform>
       <AbilityComponent 
         _enabled="0" 
@@ -22242,7 +22256,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="41625" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -22738,6 +22752,514 @@
         updates_velocity="1" >
       </VelocityComponent>
     </Entity>
+    <Entity 
+      _version="1" 
+      name="" 
+      serialize="1" 
+      tags="teleportable_NOT,item_physics" >
+      <_Transform 
+        position.x="-2024.25" 
+        position.y="719.063" 
+        rotation="-0.23914" 
+        scale.x="1" 
+        scale.y="1" >
+      </_Transform>
+      <AbilityComponent 
+        _enabled="0" 
+        add_these_child_actions="" 
+        amount_in_inventory="1" 
+        base_item_file="data/entities/base_item.xml" 
+        charge_wait_frames="10" 
+        click_to_use="1" 
+        cooldown_frames="0" 
+        current_slot_durability="-1" 
+        drop_as_item_on_death="1" 
+        entity_count="1" 
+        entity_file="" 
+        fast_projectile="0" 
+        is_petris_gun="0" 
+        item_recoil_max="1" 
+        item_recoil_offset_coeff="1" 
+        item_recoil_recovery_speed="15" 
+        item_recoil_rotation_coeff="5" 
+        mChargeCount="0" 
+        mIsInitialized="1" 
+        mana="100" 
+        mana_charge_speed="10" 
+        mana_max="100" 
+        max_amount_in_inventory="1" 
+        max_charged_actions="0" 
+        never_reload="0" 
+        reload_time_frames="0" 
+        rotate_hand_amount="0.7" 
+        rotate_in_hand="1" 
+        rotate_in_hand_amount="1" 
+        shooting_reduces_amount_in_inventory="0" 
+        simulate_throw_as_item="0" 
+        slot_consumption_function="_get_gun_slot_durability_default" 
+        sprite_file="" 
+        stat_times_player_has_edited="0" 
+        stat_times_player_has_shot="0" 
+        swim_propel_amount="0" 
+        throw_as_item="1" 
+        ui_name="$item_runestone_disc" 
+        use_entity_file_as_projectile_info_proxy="0" 
+        use_gun_script="0" >
+        <gun_config 
+          actions_per_round="1" 
+          deck_capacity="0" 
+          reload_time="40" 
+          shuffle_deck_when_empty="0" >
+        </gun_config>
+        <gunaction_config 
+          action_ai_never_uses="0" 
+          action_description="" 
+          action_draw_many_count="0" 
+          action_id="" 
+          action_is_dangerous_blast="0" 
+          action_mana_drain="10" 
+          action_max_uses="-1" 
+          action_name="" 
+          action_never_unlimited="0" 
+          action_spawn_level="" 
+          action_spawn_manual_unlock="0" 
+          action_spawn_probability="" 
+          action_spawn_requires_flag="" 
+          action_sprite_filename="" 
+          action_type="0" 
+          action_unidentified_sprite_filename="data/ui_gfx/gun_actions/unidentified.png" 
+          blood_count_multiplier="1" 
+          bounces="0" 
+          child_speed_multiplier="1" 
+          custom_xml_file="" 
+          damage_critical_chance="0" 
+          damage_critical_multiplier="0" 
+          damage_electricity_add="0" 
+          damage_explosion_add="0" 
+          damage_fire_add="0" 
+          damage_melee_add="0" 
+          damage_projectile_add="0" 
+          dampening="1" 
+          explosion_damage_to_materials="0" 
+          explosion_radius="0" 
+          extra_entities="" 
+          fire_rate_wait="0" 
+          friendly_fire="0" 
+          game_effect_entities="" 
+          gore_particles="0" 
+          gravity="0" 
+          knockback_force="0" 
+          lifetime_add="0" 
+          light="0" 
+          lightning_count="0" 
+          material="" 
+          material_amount="0" 
+          pattern_degrees="0" 
+          physics_impulse_coeff="0" 
+          projectile_file="" 
+          ragdoll_fx="0" 
+          recoil="0" 
+          reload_time="0" 
+          screenshake="0" 
+          sound_loop_tag="" 
+          speed_multiplier="1" 
+          spread_degrees="0" 
+          sprite="" 
+          state_cards_drawn="0" 
+          state_destroyed_action="0" 
+          state_discarded_action="0" 
+          state_shuffled="0" 
+          trail_material="" 
+          trail_material_amount="0" >
+        </gunaction_config>
+      </AbilityComponent>
+      <AudioLoopComponent 
+        _enabled="0" 
+        _tags="activate" 
+        auto_play="0" 
+        auto_play_if_enabled="1" 
+        calculate_material_lowpass="0" 
+        event_name="misc/runestone_loop" 
+        file="data/audio/Desktop/misc.bank" 
+        play_on_component_enable="1" 
+        set_speed_parameter="0" 
+        set_speed_parameter_only_based_on_x_movement="0" 
+        set_speed_parameter_only_based_on_y_movement="0" 
+        volume_autofade_speed="0" >
+      </AudioLoopComponent>
+      <CameraBoundComponent 
+        _enabled="0" 
+        distance="1000" 
+        distance_border="20" 
+        enabled="1" 
+        freeze_on_distance_kill="1" 
+        freeze_on_max_count_kill="1" 
+        max_count="50" >
+      </CameraBoundComponent>
+      <ItemComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        always_use_item_name_in_ui="0" 
+        auto_pickup="0" 
+        camera_max_distance="50" 
+        camera_smooth_speed_multiplier="1" 
+        collect_nondefault_actions="0" 
+        custom_pickup_string="" 
+        enable_orb_hacks="0" 
+        has_been_picked_by_player="1" 
+        inventory_slot.x="3" 
+        inventory_slot.y="0" 
+        is_all_spells_book="0" 
+        is_consumable="0" 
+        is_equipable_forced="1" 
+        is_frozen="0" 
+        is_hittable_always="0" 
+        is_identified="1" 
+        is_pickable="1" 
+        is_stackable="0" 
+        item_name="$item_runestone_disc" 
+        item_pickup_radius="14.1" 
+        mFramePickedUp="1111870" 
+        max_child_items="0" 
+        next_frame_pickable="1110383" 
+        npc_next_frame_pickable="0" 
+        permanently_attached="0" 
+        play_hover_animation="0" 
+        play_pick_sound="1" 
+        play_spinning_animation="1" 
+        preferred_inventory="QUICK" 
+        remove_default_child_actions_on_death="0" 
+        remove_on_death="0" 
+        remove_on_death_if_empty="0" 
+        spawn_pos.x="-309" 
+        spawn_pos.y="6700" 
+        stats_count_as_item_pick_up="1" 
+        ui_description="$itemdesc_runestone" 
+        ui_display_description_on_pick_up_hint="0" 
+        ui_sprite="data/ui_gfx/items/runestone_disc.png" 
+        uses_remaining="-1" >
+      </ItemComponent>
+      <LuaComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        call_init_function="0" 
+        enable_coroutines="0" 
+        execute_every_n_frame="-1" 
+        execute_on_added="0" 
+        execute_on_removed="0" 
+        execute_times="0" 
+        mLastExecutionFrame="392222" 
+        mModAppendsDone="0" 
+        remove_after_executed="0" 
+        script_audio_event_dead="" 
+        script_collision_trigger_hit="" 
+        script_collision_trigger_timer_finished="" 
+        script_damage_about_to_be_received="" 
+        script_damage_received="" 
+        script_death="" 
+        script_electricity_receiver_electrified="" 
+        script_electricity_receiver_switched="" 
+        script_enabled_changed="" 
+        script_inhaled_material="" 
+        script_interacting="" 
+        script_item_picked_up="" 
+        script_kick="data/scripts/items/runestones/runestone_activate.lua" 
+        script_material_area_checker_failed="" 
+        script_material_area_checker_success="" 
+        script_physics_body_modified="" 
+        script_portal_teleport_used="" 
+        script_pressure_plate_change="" 
+        script_shot="" 
+        script_source_file="" 
+        script_teleported="" 
+        script_throw_item="" 
+        script_wand_fired="" 
+        vm_type="SHARED_BY_MANY_COMPONENTS" >
+      </LuaComponent>
+      <LuaComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        call_init_function="0" 
+        enable_coroutines="0" 
+        execute_every_n_frame="-1" 
+        execute_on_added="0" 
+        execute_on_removed="0" 
+        execute_times="0" 
+        mLastExecutionFrame="387597" 
+        mModAppendsDone="0" 
+        remove_after_executed="0" 
+        script_audio_event_dead="" 
+        script_collision_trigger_hit="" 
+        script_collision_trigger_timer_finished="" 
+        script_damage_about_to_be_received="" 
+        script_damage_received="" 
+        script_death="" 
+        script_electricity_receiver_electrified="" 
+        script_electricity_receiver_switched="" 
+        script_enabled_changed="" 
+        script_inhaled_material="" 
+        script_interacting="" 
+        script_item_picked_up="" 
+        script_kick="" 
+        script_material_area_checker_failed="" 
+        script_material_area_checker_success="" 
+        script_physics_body_modified="" 
+        script_portal_teleport_used="" 
+        script_pressure_plate_change="" 
+        script_shot="" 
+        script_source_file="" 
+        script_teleported="" 
+        script_throw_item="data/scripts/items/runestones/runestone_activate.lua" 
+        script_wand_fired="" 
+        vm_type="SHARED_BY_MANY_COMPONENTS" >
+      </LuaComponent>
+      <LuaComponent 
+        _enabled="0" 
+        _tags="enabled_in_world,activate" 
+        call_init_function="0" 
+        enable_coroutines="0" 
+        execute_every_n_frame="5" 
+        execute_on_added="0" 
+        execute_on_removed="0" 
+        execute_times="0" 
+        mLastExecutionFrame="392218" 
+        mModAppendsDone="1" 
+        remove_after_executed="0" 
+        script_audio_event_dead="" 
+        script_collision_trigger_hit="" 
+        script_collision_trigger_timer_finished="" 
+        script_damage_about_to_be_received="" 
+        script_damage_received="" 
+        script_death="" 
+        script_electricity_receiver_electrified="" 
+        script_electricity_receiver_switched="" 
+        script_enabled_changed="" 
+        script_inhaled_material="" 
+        script_interacting="" 
+        script_item_picked_up="" 
+        script_kick="" 
+        script_material_area_checker_failed="" 
+        script_material_area_checker_success="" 
+        script_physics_body_modified="" 
+        script_portal_teleport_used="" 
+        script_pressure_plate_change="" 
+        script_shot="" 
+        script_source_file="data/scripts/items/runestones/runestone_disc.lua" 
+        script_teleported="" 
+        script_throw_item="" 
+        script_wand_fired="" 
+        vm_type="SHARED_BY_MANY_COMPONENTS" >
+      </LuaComponent>
+      <LuaComponent 
+        _enabled="0" 
+        _tags="enabled_in_hand" 
+        call_init_function="0" 
+        enable_coroutines="0" 
+        execute_every_n_frame="-1" 
+        execute_on_added="0" 
+        execute_on_removed="0" 
+        execute_times="0" 
+        mLastExecutionFrame="1111870" 
+        mModAppendsDone="0" 
+        remove_after_executed="0" 
+        script_audio_event_dead="" 
+        script_collision_trigger_hit="" 
+        script_collision_trigger_timer_finished="" 
+        script_damage_about_to_be_received="" 
+        script_damage_received="" 
+        script_death="" 
+        script_electricity_receiver_electrified="" 
+        script_electricity_receiver_switched="" 
+        script_enabled_changed="" 
+        script_inhaled_material="" 
+        script_interacting="" 
+        script_item_picked_up="data/scripts/items/runestones/runestone_activate.lua" 
+        script_kick="" 
+        script_material_area_checker_failed="" 
+        script_material_area_checker_success="" 
+        script_physics_body_modified="" 
+        script_portal_teleport_used="" 
+        script_pressure_plate_change="" 
+        script_shot="" 
+        script_source_file="" 
+        script_teleported="" 
+        script_throw_item="" 
+        script_wand_fired="" 
+        vm_type="SHARED_BY_MANY_COMPONENTS" >
+      </LuaComponent>
+      <ParticleEmitterComponent 
+        _enabled="0" 
+        _tags="activate" 
+        airflow_force="0.251" 
+        airflow_scale="0.05" 
+        airflow_time="1.01" 
+        area_circle_radius.max="16" 
+        area_circle_radius.min="16" 
+        area_circle_sector_degrees="360" 
+        attractor_force="0" 
+        b2_force="0" 
+        collide_with_gas_and_fire="1" 
+        collide_with_grid="0" 
+        color="0" 
+        cosmetic_force_create="1" 
+        count_max="100" 
+        count_min="100" 
+        create_real_particles="0" 
+        custom_style="NONE" 
+        delay_frames="0" 
+        direction_random_deg="0" 
+        draw_as_long="0" 
+        emission_chance="100" 
+        emission_interval_max_frames="20" 
+        emission_interval_min_frames="20" 
+        emit_cosmetic_particles="1" 
+        emit_real_particles="0" 
+        emitted_material_name="spark_white" 
+        emitter_lifetime_frames="-1" 
+        fade_based_on_lifetime="1" 
+        fire_cells_dont_ignite_damagemodel="0" 
+        friction="0" 
+        gravity.x="0" 
+        gravity.y="0" 
+        image_animation_colors_file="" 
+        image_animation_emission_probability="1" 
+        image_animation_file="" 
+        image_animation_loop="1" 
+        image_animation_phase="0" 
+        image_animation_raytrace_from_center="0" 
+        image_animation_speed="1" 
+        image_animation_use_entity_rotation="0" 
+        is_emitting="1" 
+        is_trail="0" 
+        lifetime_max="8.1" 
+        lifetime_min="8.01" 
+        offset.x="0" 
+        offset.y="0" 
+        particle_single_width="1" 
+        render_back="1" 
+        render_on_grid="0" 
+        set_magic_creation="0" 
+        trail_gap="0" 
+        use_material_inventory="0" 
+        velocity_always_away_from_center="100" 
+        x_pos_offset_max="0" 
+        x_pos_offset_min="0" 
+        x_vel_max="0" 
+        x_vel_min="0" 
+        y_pos_offset_max="0" 
+        y_pos_offset_min="0" 
+        y_vel_max="0" 
+        y_vel_min="0" >
+      </ParticleEmitterComponent>
+      <PhysicsBodyCollisionDamageComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        damage_multiplier="0.016667" 
+        speed_threshold="140" >
+      </PhysicsBodyCollisionDamageComponent>
+      <PhysicsBodyComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        allow_sleep="1" 
+        angular_damping="0" 
+        auto_clean="0" 
+        buoyancy="0.7" 
+        fixed_rotation="0" 
+        force_add_update_areas="0" 
+        go_through_sand="0" 
+        gridworld_box2d="1" 
+        hax_fix_going_through_ground="1" 
+        hax_fix_going_through_sand="0" 
+        hax_wait_till_pixel_scenes_loaded="0" 
+        initial_velocity.x="0" 
+        initial_velocity.y="0" 
+        is_bullet="1" 
+        is_character="0" 
+        is_enabled="1" 
+        is_external="0" 
+        is_kinematic="0" 
+        is_static="0" 
+        kills_entity="1" 
+        linear_damping="0" 
+        mActiveState="0" 
+        on_death_leave_physics_body="0" 
+        on_death_really_leave_body="0" 
+        projectiles_rotate_toward_velocity="0" 
+        randomize_init_velocity="0" 
+        uid="1" 
+        update_entity_transform="1" >
+      </PhysicsBodyComponent>
+      <PhysicsImageShapeComponent 
+        _enabled="0" 
+        body_id="1" 
+        centered="1" 
+        image_file="data/items_gfx/runestones/runestone_disc.png" 
+        is_circle="0" 
+        is_root="0" 
+        material="rock_box2d_hard" 
+        offset_x="6" 
+        offset_y="8" 
+        use_sprite="0" 
+        z="0" >
+      </PhysicsImageShapeComponent>
+      <PhysicsThrowableComponent 
+        _enabled="0" 
+        attach_min_speed="70" 
+        attach_to_surfaces_knife_style="0" 
+        hp="100" 
+        max_throw_speed="180" 
+        max_torque="8" 
+        min_torque="0.5" 
+        throw_force_coeff="1.5" 
+        tip_check_offset_max="5" 
+        tip_check_offset_min="3" 
+        tip_check_random_rotation_deg="9" >
+      </PhysicsThrowableComponent>
+      <SpriteComponent 
+        _enabled="0" 
+        _tags="enabled_in_hand" 
+        additive="0" 
+        alpha="1" 
+        emissive="0" 
+        fog_of_war_hole="0" 
+        has_special_scale="0" 
+        image_file="data/items_gfx/in_hand/runestone_disc.png" 
+        is_text_sprite="0" 
+        kill_entity_after_finished="0" 
+        never_ragdollify_on_death="0" 
+        next_rect_animation="" 
+        offset_animator_offset.x="0" 
+        offset_animator_offset.y="0" 
+        offset_x="4" 
+        offset_y="8" 
+        rect_animation="" 
+        smooth_filtering="0" 
+        special_scale_x="1" 
+        special_scale_y="1" 
+        text="" 
+        transform_offset.x="0" 
+        transform_offset.y="0" 
+        ui_is_parent="0" 
+        update_transform="1" 
+        update_transform_rotation="1" 
+        visible="1" 
+        z_index="-1" >
+      </SpriteComponent>
+      <UIInfoComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        name="$item_runestone_disc" >
+      </UIInfoComponent>
+      <VariableStorageComponent 
+        _enabled="0" 
+        _tags="enabled_in_world" 
+        name="active" 
+        value_bool="0" 
+        value_float="0" 
+        value_int="0" 
+        value_string="" >
+      </VariableStorageComponent>
+    </Entity>
   </Entity>
   <Entity 
     _version="1" 
@@ -22757,8 +23279,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -22807,7 +23329,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="0" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -22926,7 +23448,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -22937,7 +23459,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -22948,7 +23470,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -22959,7 +23481,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -22987,8 +23509,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23164,7 +23686,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="920841" 
         max_child_items="0" 
-        next_frame_pickable="920767" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -23377,7 +23899,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-272.063" 
+        x_phase_offset="0" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -23388,7 +23910,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-272.063" 
+        x_phase_offset="0" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -23399,7 +23921,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-272.063" 
+        x_phase_offset="0" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -23410,7 +23932,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-272.063" 
+        x_phase_offset="0" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -23508,8 +24030,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23575,7 +24097,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="0" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -23819,8 +24341,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -23869,7 +24391,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675398" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -23988,7 +24510,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -23999,7 +24521,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24010,7 +24532,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24021,7 +24543,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24049,8 +24571,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -24116,7 +24638,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675409" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -24360,8 +24882,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -24427,7 +24949,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="676875" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -24707,8 +25229,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -24757,7 +25279,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675417" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -24876,7 +25398,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24887,7 +25409,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24898,7 +25420,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24909,7 +25431,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -24937,8 +25459,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -25004,7 +25526,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675424" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -25318,8 +25840,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -25368,7 +25890,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675458" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -25487,7 +26009,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25498,7 +26020,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25509,7 +26031,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25520,7 +26042,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25548,8 +26070,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -25598,7 +26120,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675466" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -25717,7 +26239,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25728,7 +26250,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25739,7 +26261,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25750,7 +26272,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25778,8 +26300,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -25828,7 +26350,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675474" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -25947,7 +26469,7 @@
         sprite_id="0" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25958,7 +26480,7 @@
         sprite_id="1" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25969,7 +26491,7 @@
         sprite_id="2" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -25980,7 +26502,7 @@
         sprite_id="3" 
         x_amount="0" 
         x_phase="16" 
-        x_phase_offset="-266.952" 
+        x_phase_offset="52.4291" 
         x_speed="0" 
         y_amount="1" 
         y_speed="2.5" >
@@ -26008,8 +26530,8 @@
       serialize="1" 
       tags="card_action" >
       <_Transform 
-        position.x="838.866" 
-        position.y="-6795.94" 
+        position.x="-2024.25" 
+        position.y="719.063" 
         rotation="0" 
         scale.x="1" 
         scale.y="1" >
@@ -26075,7 +26597,7 @@
         item_pickup_radius="14.1" 
         mFramePickedUp="675481" 
         max_child_items="0" 
-        next_frame_pickable="914884" 
+        next_frame_pickable="952814" 
         npc_next_frame_pickable="0" 
         permanently_attached="0" 
         play_hover_animation="0" 
@@ -26412,10 +26934,10 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="838.866" 
-      position.y="-6795.94" 
+      position.x="-2024.25" 
+      position.y="719.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <GameEffectComponent 
@@ -26493,10 +27015,10 @@
     serialize="1" 
     tags="projectile_slow_field" >
     <_Transform 
-      position.x="838.866" 
-      position.y="-6799.94" 
+      position.x="-2024.25" 
+      position.y="715.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <InheritTransformComponent 
@@ -26523,7 +27045,7 @@
       execute_on_added="0" 
       execute_on_removed="0" 
       execute_times="0" 
-      mLastExecutionFrame="952798" 
+      mLastExecutionFrame="1117002" 
       mModAppendsDone="1" 
       remove_after_executed="0" 
       script_audio_event_dead="" 
@@ -26643,10 +27165,10 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="838.866" 
-      position.y="-6795.94" 
+      position.x="-2024.25" 
+      position.y="719.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <GameEffectComponent 
@@ -26746,10 +27268,10 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="838.866" 
-      position.y="-6795.94" 
+      position.x="-2024.25" 
+      position.y="719.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <GameEffectComponent 
@@ -26827,10 +27349,69 @@
     serialize="1" 
     tags="" >
     <_Transform 
-      position.x="838.866" 
-      position.y="-6795.94" 
+      position.x="-2024.25" 
+      position.y="719.063" 
       rotation="0" 
-      scale.x="1" 
+      scale.x="-1" 
+      scale.y="1" >
+    </_Transform>
+    <GameEffectComponent 
+      _enabled="1" 
+      caused_by_ingestion_status_effect="0" 
+      causing_status_effect="WET" 
+      custom_effect_id="" 
+      disable_movement="0" 
+      effect="WET" 
+      exclusivity_group="0" 
+      frames="515" 
+      mCaster="0" 
+      mCasterHerdId="0" 
+      mCharmDisabledCameraBound="0" 
+      mCharmEnabledTeleporting="0" 
+      mCooldown="0" 
+      mCounter="0" 
+      mInvisible="0" 
+      mIsExtension="0" 
+      mSerializedData="" 
+      polymorph_target="" 
+      ragdoll_effect="NONE" 
+      ragdoll_effect_custom_entity_file="" 
+      ragdoll_fx_custom_entity_apply_only_to_largest_body="0" 
+      ragdoll_material="air" 
+      report_block_msg="1" 
+      teleportation_delay_min_frames="30" 
+      teleportation_probability="600" 
+      teleportation_radius_max="1024" 
+      teleportation_radius_min="128" 
+      teleportations_num="0" >
+    </GameEffectComponent>
+    <InheritTransformComponent 
+      _enabled="1" 
+      always_use_immediate_parent_rotation="0" 
+      only_position="0" 
+      parent_hotspot_tag="" 
+      parent_sprite_id="-1" 
+      rotate_based_on_x_scale="0" 
+      use_root_parent="0" >
+      <Transform 
+        position.x="0" 
+        position.y="0" 
+        rotation="0" 
+        scale.x="1" 
+        scale.y="1" >
+      </Transform>
+    </InheritTransformComponent>
+  </Entity>
+  <Entity 
+    _version="1" 
+    name="" 
+    serialize="1" 
+    tags="" >
+    <_Transform 
+      position.x="-2024.25" 
+      position.y="719.063" 
+      rotation="0" 
+      scale.x="-1" 
       scale.y="1" >
     </_Transform>
     <AudioComponent 
@@ -26970,5 +27551,67 @@
       velocity_slowdown="0" 
       z_index="0" >
     </SpriteParticleEmitterComponent>
+  </Entity>
+  <Entity 
+    _version="1" 
+    name="" 
+    serialize="1" 
+    tags="" >
+    <_Transform 
+      position.x="-2028.36" 
+      position.y="701.952" 
+      rotation="0" 
+      scale.x="1" 
+      scale.y="1" >
+    </_Transform>
+    <DrugEffectModifierComponent 
+      _enabled="1" >
+      <fx_add 
+        color_amount="0.3" 
+        distortion_amount="0" 
+        doublevision_amount="0" 
+        fractals_amount="0" 
+        fractals_size="0" 
+        nightvision_amount="1" >
+      </fx_add>
+      <fx_multiply 
+        color_amount="0" 
+        distortion_amount="0" 
+        doublevision_amount="0" 
+        fractals_amount="0" 
+        fractals_size="0" 
+        nightvision_amount="0" >
+      </fx_multiply>
+    </DrugEffectModifierComponent>
+    <GameEffectComponent 
+      _enabled="1" 
+      caused_by_ingestion_status_effect="0" 
+      causing_status_effect="NIGHTVISION" 
+      custom_effect_id="NIGHTVISION" 
+      disable_movement="0" 
+      effect="CUSTOM" 
+      exclusivity_group="0" 
+      frames="486" 
+      mCaster="0" 
+      mCasterHerdId="0" 
+      mCharmDisabledCameraBound="0" 
+      mCharmEnabledTeleporting="0" 
+      mCooldown="0" 
+      mCounter="0" 
+      mInvisible="0" 
+      mIsExtension="0" 
+      mSerializedData="" 
+      polymorph_target="" 
+      ragdoll_effect="NONE" 
+      ragdoll_effect_custom_entity_file="" 
+      ragdoll_fx_custom_entity_apply_only_to_largest_body="0" 
+      ragdoll_material="air" 
+      report_block_msg="1" 
+      teleportation_delay_min_frames="30" 
+      teleportation_probability="600" 
+      teleportation_radius_max="1024" 
+      teleportation_radius_min="128" 
+      teleportations_num="0" >
+    </GameEffectComponent>
   </Entity>
 </Entity>
