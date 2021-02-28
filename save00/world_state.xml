@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="40.3671" 
-    clouds_02_target="51.1782" 
+    clouds_01_target="38.1626" 
+    clouds_02_target="46.231" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="29" 
-    fog="0.00498838" 
-    fog_target="0" 
+    day_count="32" 
+    fog="0.0377135" 
+    fog_target="0.0327265" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -45,21 +45,21 @@
     player_did_damage_over_1milj="0" 
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
-    player_polymorph_count="8" 
+    player_polymorph_count="9" 
     player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00499397" 
-    rain_target="0" 
+    rain="0.494616" 
+    rain_target="0.489625" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.106943" 
+    time="0.389957" 
     time_dt="1" 
-    time_total="28.428" 
+    time_total="31.6855" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.0565449" 
-    wind_speed="-3.39276" 
+    wind="-0.108129" 
+    wind_speed="-6.4878" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -145,11 +145,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_secret_lab,$biome_liquidcave,_EMPTY_,$biome_coalmine_alt,$biome_holymount" >
+        value="_EMPTY_,$biome_orbroom,$biome_wandcave,$biome_snowcave,_EMPTY_,$biome_fungicave," >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="98" >
+        value="120" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -469,6 +469,39 @@
       </string>
       <string>
         new_kill_boss_alchemist
+      </string>
+      <string>
+        musicmachine3
+      </string>
+      <string>
+        musicmachine3_done
+      </string>
+      <string>
+        musicmachine2
+      </string>
+      <string>
+        musicmachine2_done
+      </string>
+      <string>
+        musicmachine4
+      </string>
+      <string>
+        musicmachine4_done
+      </string>
+      <string>
+        new_kill_wizard_weaken
+      </string>
+      <string>
+        new_action_bomb_holy
+      </string>
+      <string>
+        new_action_zeta
+      </string>
+      <string>
+        new_action_draw_random
+      </string>
+      <string>
+        new_action_draw_random_x3
       </string>
     </flags>
   </WorldStateComponent>
