@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="38.1626" 
-    clouds_02_target="46.231" 
+    clouds_01_target="37.1732" 
+    clouds_02_target="44.0108" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="32" 
-    fog="0.0377135" 
-    fog_target="0.0327265" 
+    day_count="34" 
+    fog="0.842817" 
+    fog_target="0.84781" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.494616" 
-    rain_target="0.489625" 
+    rain="0.84282" 
+    rain_target="0.84781" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.389957" 
+    time="0.160476" 
     time_dt="1" 
-    time_total="31.6855" 
+    time_total="33.5534" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.108129" 
-    wind_speed="-6.4878" 
+    wind="-0.117891" 
+    wind_speed="-7.07349" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -145,11 +145,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_orbroom,$biome_wandcave,$biome_snowcave,_EMPTY_,$biome_fungicave," >
+        value="$biome_coalmine,$biome_winter,_EMPTY_,$biome_orbroom,$biome_wandcave,$biome_snow" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="120" >
+        value="122" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -502,6 +502,9 @@
       </string>
       <string>
         new_action_draw_random_x3
+      </string>
+      <string>
+        statue_hands_destroyed_3
       </string>
     </flags>
   </WorldStateComponent>

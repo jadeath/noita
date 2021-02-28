@@ -1,4 +1,4 @@
-<Stats deaths="2" kills="2459" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2" kills="2542" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
@@ -8,7 +8,7 @@
   <kill_map>
     <E key="acidshooter" value="44" >
     </E>
-    <E key="acidshot" value="64" >
+    <E key="acidshot" value="65" >
     </E>
     <E key="alchemist" value="2" >
     </E>
@@ -124,7 +124,7 @@
     </E>
     <E key="mine_scavenger" value="2" >
     </E>
-    <E key="miner" value="29" >
+    <E key="miner" value="39" >
     </E>
     <E key="miner_fire" value="1" >
     </E>
@@ -134,7 +134,7 @@
     </E>
     <E key="missilecrab" value="7" >
     </E>
-    <E key="monk" value="8" >
+    <E key="monk" value="13" >
     </E>
     <E key="necromancer" value="16" >
     </E>
@@ -154,7 +154,7 @@
     </E>
     <E key="potion" value="3" >
     </E>
-    <E key="rat" value="31" >
+    <E key="rat" value="36" >
     </E>
     <E key="roboguard" value="15" >
     </E>
@@ -176,7 +176,7 @@
     </E>
     <E key="scavenger_shield" value="9" >
     </E>
-    <E key="scavenger_smg" value="103" >
+    <E key="scavenger_smg" value="104" >
     </E>
     <E key="scorpion" value="9" >
     </E>
@@ -198,7 +198,7 @@
     </E>
     <E key="slimeshooter_weak" value="6" >
     </E>
-    <E key="sniper" value="30" >
+    <E key="sniper" value="31" >
     </E>
     <E key="spearbot" value="3" >
     </E>
@@ -224,7 +224,7 @@
     </E>
     <E key="thundertrap_right" value="3" >
     </E>
-    <E key="tnt" value="1" >
+    <E key="tnt" value="2" >
     </E>
     <E key="turret_left" value="6" >
     </E>
@@ -258,7 +258,7 @@
     </E>
     <E key="wraith_glowing" value="2" >
     </E>
-    <E key="zombie" value="29" >
+    <E key="zombie" value="88" >
     </E>
     <E key="zombie_weak" value="13" >
     </E>
