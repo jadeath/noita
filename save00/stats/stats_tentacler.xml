@@ -1,5 +1,7 @@
-<Stats deaths="131" kills="61" player_kills="0" player_projectile_count="0" >
+<Stats deaths="139" kills="62" player_kills="0" player_projectile_count="0" >
   <death_map>
+    <E key="NULL | $damage_drowning" value="1" >
+    </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_explosion" value="19" >
@@ -10,7 +12,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
-    <E key="NULL | damage from material: acid" value="5" >
+    <E key="NULL | damage from material: acid" value="6" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
     </E>
@@ -20,21 +22,23 @@
     </E>
     <E key="orb_green | $damage_projectile" value="1" >
     </E>
-    <E key="phantom_a | $damage_projectile" value="1" >
+    <E key="phantom_a | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
     <E key="player | $damage_explosion" value="27" >
     </E>
-    <E key="player | $damage_projectile" value="49" >
+    <E key="player | $damage_projectile" value="52" >
     </E>
-    <E key="player | $damage_slice" value="4" >
+    <E key="player | $damage_slice" value="5" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
     <E key="tentacler | $damage_melee" value="2" >
+    </E>
+    <E key="worm_skull | worm bite" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -68,7 +72,7 @@
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="tentacler_small" value="7" >
+    <E key="tentacler_small" value="8" >
     </E>
     <E key="zombie" value="3" >
     </E>

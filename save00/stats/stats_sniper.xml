@@ -1,4 +1,4 @@
-<Stats deaths="272" kills="286" player_kills="2" player_projectile_count="0" >
+<Stats deaths="279" kills="287" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="5" >
     </E>
@@ -18,13 +18,15 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="5" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="6" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
     <E key="bigfirebug | $damage_projectile" value="1" >
+    </E>
+    <E key="bigzombie | $damage_melee" value="1" >
     </E>
     <E key="chest_mimic | $damage_melee" value="1" >
     </E>
@@ -46,9 +48,9 @@
     </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
-    <E key="player | $damage_explosion" value="9" >
+    <E key="player | $damage_explosion" value="11" >
     </E>
-    <E key="player | $damage_projectile" value="84" >
+    <E key="player | $damage_projectile" value="85" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
@@ -120,7 +122,7 @@
     </E>
     <E key="tentacler_small" value="3" >
     </E>
-    <E key="thunderskull" value="1" >
+    <E key="thunderskull" value="2" >
     </E>
     <E key="wizard_dark" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="26" kills="11" player_kills="0" player_projectile_count="0" >
+<Stats deaths="27" kills="12" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="13" >
+    <E key="player | $damage_explosion" value="14" >
     </E>
     <E key="player | $damage_projectile" value="9" >
     </E>
@@ -21,6 +21,8 @@
     <E key="scavenger_heal" value="1" >
     </E>
     <E key="scorpion" value="3" >
+    </E>
+    <E key="tentacler_small" value="1" >
     </E>
   </kill_map>
 </Stats>

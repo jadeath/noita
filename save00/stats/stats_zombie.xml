@@ -1,4 +1,4 @@
-<Stats deaths="489" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="490" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="49" >
     </E>
@@ -86,7 +86,7 @@
     </E>
     <E key="thunder_blast | $damage_curse" value="1" >
     </E>
-    <E key="wizard_dark | $damage_projectile" value="2" >
+    <E key="wizard_dark | $damage_projectile" value="3" >
     </E>
     <E key="wizard_swapper | $damage_electricity" value="1" >
     </E>
