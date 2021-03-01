@@ -1,10 +1,10 @@
-<Stats deaths="80" kills="34" player_kills="1" player_projectile_count="0" >
+<Stats deaths="88" kills="36" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
-    <E key="NULL | $damage_electricity" value="5" >
+    <E key="NULL | $damage_electricity" value="6" >
     </E>
-    <E key="NULL | $damage_explosion" value="1" >
+    <E key="NULL | $damage_explosion" value="2" >
     </E>
     <E key="NULL | $damage_fire" value="2" >
     </E>
@@ -24,17 +24,19 @@
     </E>
     <E key="phantom_b | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="6" >
+    <E key="player | $damage_electricity" value="7" >
     </E>
     <E key="player | $damage_explosion" value="20" >
     </E>
-    <E key="player | $damage_projectile" value="20" >
+    <E key="player | $damage_projectile" value="24" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
     </E>
     <E key="tentacler | $damage_melee" value="3" >
+    </E>
+    <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
     <E key="worm | worm bite" value="2" >
     </E>
@@ -45,6 +47,10 @@
     <E key="acidshot" value="17" >
     </E>
     <E key="arrowtrap_left" value="1" >
+    </E>
+    <E key="bigzombie" value="1" >
+    </E>
+    <E key="bigzombietorso" value="1" >
     </E>
     <E key="failed_alchemist" value="1" >
     </E>

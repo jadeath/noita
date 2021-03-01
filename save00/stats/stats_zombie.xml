@@ -1,4 +1,4 @@
-<Stats deaths="490" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="491" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="49" >
     </E>
@@ -48,7 +48,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="145" >
+    <E key="player | $damage_projectile" value="146" >
     </E>
     <E key="player | $damage_slice" value="20" >
     </E>

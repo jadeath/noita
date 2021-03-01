@@ -1,18 +1,18 @@
-<Stats deaths="798" kills="324" player_kills="7" player_projectile_count="0" >
+<Stats deaths="808" kills="326" player_kills="7" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="28" >
     </E>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="56" >
+    <E key="NULL | $damage_explosion" value="57" >
     </E>
-    <E key="NULL | $damage_fire" value="77" >
+    <E key="NULL | $damage_fire" value="78" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="65" >
+    <E key="NULL | $damage_physicshit" value="66" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
@@ -26,7 +26,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="7" >
+    <E key="NULL | damage from material: freezing vapour" value="8" >
     </E>
     <E key="NULL | damage from material: lava" value="21" >
     </E>
@@ -54,7 +54,7 @@
     </E>
     <E key="firebug | $damage_fire" value="5" >
     </E>
-    <E key="firebug | $damage_melee" value="1" >
+    <E key="firebug | $damage_melee" value="2" >
     </E>
     <E key="goblin_bomb | $damage_explosion" value="1" >
     </E>
@@ -68,11 +68,11 @@
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="20" >
+    <E key="player | $damage_explosion" value="22" >
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="206" >
+    <E key="player | $damage_projectile" value="208" >
     </E>
     <E key="player | $damage_slice" value="71" >
     </E>
@@ -116,7 +116,7 @@
     </E>
     <E key="bigfirebug" value="1" >
     </E>
-    <E key="firebug" value="7" >
+    <E key="firebug" value="9" >
     </E>
     <E key="frog" value="3" >
     </E>

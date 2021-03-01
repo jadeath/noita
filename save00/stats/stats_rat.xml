@@ -1,4 +1,4 @@
-<Stats deaths="2255" kills="57" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2258" kills="57" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="28" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="fly | $damage_melee" value="3" >
     </E>
-    <E key="frog | $damage_melee" value="11" >
+    <E key="frog | $damage_melee" value="12" >
     </E>
     <E key="frog_big | $damage_melee" value="6" >
     </E>
@@ -98,7 +98,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="170" >
+    <E key="player | $damage_projectile" value="172" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
