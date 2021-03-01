@@ -1,10 +1,10 @@
-<Stats deaths="471" kills="25" player_kills="0" player_projectile_count="0" >
+<Stats deaths="489" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="49" >
     </E>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
-    <E key="NULL | $damage_explosion" value="81" >
+    <E key="NULL | $damage_explosion" value="85" >
     </E>
     <E key="NULL | $damage_fire" value="12" >
     </E>
@@ -14,11 +14,11 @@
     </E>
     <E key="NULL | damage from material: Poison" value="5" >
     </E>
-    <E key="NULL | damage from material: acid" value="6" >
+    <E key="NULL | damage from material: acid" value="7" >
     </E>
     <E key="NULL | damage from material: lava" value="2" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="5" >
+    <E key="NULL | damage from material: toxic rock" value="7" >
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
@@ -48,11 +48,11 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="139" >
+    <E key="player | $damage_projectile" value="145" >
     </E>
-    <E key="player | $damage_slice" value="19" >
+    <E key="player | $damage_slice" value="20" >
     </E>
-    <E key="rat | $damage_melee" value="2" >
+    <E key="rat | $damage_melee" value="4" >
     </E>
     <E key="roboguard | $damage_explosion" value="1" >
     </E>
@@ -88,6 +88,10 @@
     </E>
     <E key="wizard_dark | $damage_projectile" value="2" >
     </E>
+    <E key="wizard_swapper | $damage_electricity" value="1" >
+    </E>
+    <E key="wizard_swapper | $damage_projectile" value="1" >
+    </E>
     <E key="worm | worm bite" value="1" >
     </E>
     <E key="worm_tiny | worm bite" value="1" >
@@ -100,7 +104,7 @@
     </E>
     <E key="miniblob" value="2" >
     </E>
-    <E key="rat" value="19" >
+    <E key="rat" value="21" >
     </E>
   </kill_map>
 </Stats>

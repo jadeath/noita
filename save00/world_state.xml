@@ -18,13 +18,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="37.1732" 
-    clouds_02_target="44.0108" 
+    clouds_01_target="62.201" 
+    clouds_02_target="100.175" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="34" 
-    fog="0.842817" 
-    fog_target="0.84781" 
+    day_count="37" 
+    fog="0.00499396" 
+    fog_target="0" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -49,17 +49,17 @@
     player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.84282" 
-    rain_target="0.84781" 
+    rain="0.00499396" 
+    rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.160476" 
+    time="0.407239" 
     time_dt="1" 
-    time_total="33.5534" 
+    time_total="37.0227" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.117891" 
-    wind_speed="-7.07349" 
+    wind="0.0400719" 
+    wind_speed="2.40448" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -88,6 +88,14 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-36199_4891" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-36199_6427" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_ACTIVE_2233_13078" 
         value="1" >
       </E>
@@ -97,6 +105,22 @@
       </E>
       <E 
         key="TEMPLE_COLLAPSED_0_9" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_2" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_9" 
         value="1" >
       </E>
       <E 
@@ -125,7 +149,7 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="25" >
+        value="41" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -140,16 +164,20 @@
         value="268" >
       </E>
       <E 
+        key="TEMPLE_SHOP_ITEM_COUNT" 
+        value="6" >
+      </E>
+      <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
         value="1" >
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_coalmine,$biome_winter,_EMPTY_,$biome_orbroom,$biome_wandcave,$biome_snow" >
+        value="$biome_rainforest,$biome_holymountain,$biome_snowcastle,$biome_snowcave,$biome_e" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="122" >
+        value="142" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -182,6 +210,12 @@
       </primitive>
       <primitive>
         5
+      </primitive>
+      <primitive>
+        129
+      </primitive>
+      <primitive>
+        128
       </primitive>
     </orbs_found_thisrun>
     <flags>
@@ -505,6 +539,63 @@
       </string>
       <string>
         statue_hands_destroyed_3
+      </string>
+      <string>
+        PERK_PICKED_EDIT_WANDS_EVERYWHERE
+      </string>
+      <string>
+        musicmachine1_done
+      </string>
+      <string>
+        PERK_ABILITY_ACTIONS_MATERIALIZED
+      </string>
+      <string>
+        PERK_REPELLING_CAPE
+      </string>
+      <string>
+        PERK_RESPAWN
+      </string>
+      <string>
+        PERK_WAND_RADAR
+      </string>
+      <string>
+        PERK_PICKED_WAND_RADAR
+      </string>
+      <string>
+        new_action_hitfx_explosion_alcohol_giga
+      </string>
+      <string>
+        PERK_GLASS_CANNON
+      </string>
+      <string>
+        PERK_FASTER_WANDS
+      </string>
+      <string>
+        PERK_EXTRA_SHOP_ITEM
+      </string>
+      <string>
+        PERK_EXTRA_MONEY_TRICK_KILL
+      </string>
+      <string>
+        PERK_REVENGE_EXPLOSION
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_SHOP_ITEM
+      </string>
+      <string>
+        new_action_big_magic_shield
+      </string>
+      <string>
+        new_kill_egg_slime
+      </string>
+      <string>
+        PERK_ALWAYS_CAST
+      </string>
+      <string>
+        PERK_ELECTRICITY
+      </string>
+      <string>
+        PERK_PICKED_ELECTRICITY
       </string>
     </flags>
   </WorldStateComponent>

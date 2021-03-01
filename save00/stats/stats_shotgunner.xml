@@ -1,26 +1,28 @@
-<Stats deaths="762" kills="318" player_kills="7" player_projectile_count="0" >
+<Stats deaths="798" kills="324" player_kills="7" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="25" >
+    <E key="NULL | $damage_drowning" value="28" >
     </E>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="52" >
+    <E key="NULL | $damage_explosion" value="56" >
     </E>
     <E key="NULL | $damage_fire" value="77" >
     </E>
+    <E key="NULL | $damage_ice" value="1" >
+    </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="61" >
+    <E key="NULL | $damage_physicshit" value="65" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | $damage_radioactive" value="72" >
+    <E key="NULL | $damage_radioactive" value="76" >
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
@@ -66,13 +68,13 @@
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="16" >
+    <E key="player | $damage_explosion" value="20" >
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="194" >
+    <E key="player | $damage_projectile" value="206" >
     </E>
-    <E key="player | $damage_slice" value="69" >
+    <E key="player | $damage_slice" value="71" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="5" >
     </E>
@@ -124,11 +126,11 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="239" >
+    <E key="rat" value="244" >
     </E>
     <E key="shotgunner" value="3" >
     </E>
-    <E key="slimeshooter" value="15" >
+    <E key="slimeshooter" value="16" >
     </E>
     <E key="tentacler_small" value="1" >
     </E>

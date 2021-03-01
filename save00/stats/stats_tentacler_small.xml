@@ -1,10 +1,10 @@
-<Stats deaths="173" kills="42" player_kills="0" player_projectile_count="0" >
+<Stats deaths="179" kills="43" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="22" >
+    <E key="NULL | $damage_explosion" value="23" >
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
@@ -40,7 +40,7 @@
     </E>
     <E key="player | $damage_explosion" value="12" >
     </E>
-    <E key="player | $damage_projectile" value="70" >
+    <E key="player | $damage_projectile" value="74" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -58,7 +58,7 @@
     </E>
     <E key="sniper | $damage_projectile" value="3" >
     </E>
-    <E key="tentacler | $damage_melee" value="6" >
+    <E key="tentacler | $damage_melee" value="7" >
     </E>
     <E key="wizard_dark | $damage_projectile" value="1" >
     </E>
@@ -76,7 +76,7 @@
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="rat" value="20" >
+    <E key="rat" value="21" >
     </E>
     <E key="scorpion" value="13" >
     </E>

@@ -1,16 +1,18 @@
-<Stats deaths="570" kills="187" player_kills="5" player_projectile_count="0" >
+<Stats deaths="605" kills="188" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="11" >
     </E>
-    <E key="NULL | $damage_electricity" value="1" >
+    <E key="NULL | $damage_electricity" value="2" >
     </E>
-    <E key="NULL | $damage_explosion" value="65" >
+    <E key="NULL | $damage_explosion" value="67" >
     </E>
-    <E key="NULL | $damage_fire" value="15" >
+    <E key="NULL | $damage_fire" value="16" >
     </E>
     <E key="NULL | $damage_ice" value="2" >
     </E>
-    <E key="NULL | $damage_physicshit" value="34" >
+    <E key="NULL | $damage_physicshit" value="36" >
+    </E>
+    <E key="NULL | $damage_projectile" value="1" >
     </E>
     <E key="NULL | $damage_radioactive" value="7" >
     </E>
@@ -18,7 +20,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="4" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="28" >
+    <E key="NULL | damage from material: freezing vapour" value="30" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -32,13 +34,13 @@
     </E>
     <E key="iceskull | $damage_explosion" value="3" >
     </E>
-    <E key="iceskull | $damage_ice" value="12" >
+    <E key="iceskull | $damage_ice" value="13" >
     </E>
     <E key="player | $damage_electricity" value="8" >
     </E>
-    <E key="player | $damage_explosion" value="22" >
+    <E key="player | $damage_explosion" value="28" >
     </E>
-    <E key="player | $damage_projectile" value="228" >
+    <E key="player | $damage_projectile" value="244" >
     </E>
     <E key="player | $damage_slice" value="33" >
     </E>
@@ -56,7 +58,9 @@
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="6" >
+    <E key="sniper | $damage_projectile" value="7" >
+    </E>
+    <E key="tentacle_portal | $damage_melee" value="2" >
     </E>
     <E key="thundermage | $damage_electricity" value="2" >
     </E>
@@ -80,7 +84,7 @@
     </E>
     <E key="player" value="5" >
     </E>
-    <E key="rat" value="172" >
+    <E key="rat" value="173" >
     </E>
     <E key="scavenger_smg" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="2140" kills="71" player_kills="1" player_projectile_count="0" >
+<Stats deaths="2158" kills="71" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="56" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="58" >
     </E>
-    <E key="NULL | $damage_fire" value="196" >
+    <E key="NULL | $damage_fire" value="198" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="NULL | damage from material: toxic gas" value="1" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="24" >
+    <E key="NULL | damage from material: toxic rock" value="25" >
     </E>
     <E key="acidshooter_weak | $damage_melee" value="2" >
     </E>
@@ -42,9 +42,9 @@
     </E>
     <E key="giantshooter_weak | $damage_melee" value="1" >
     </E>
-    <E key="longleg | $damage_melee" value="36" >
+    <E key="longleg | $damage_melee" value="37" >
     </E>
-    <E key="miner_weak | $damage_explosion" value="257" >
+    <E key="miner_weak | $damage_explosion" value="258" >
     </E>
     <E key="miner_weak | $damage_fire" value="1" >
     </E>
@@ -56,7 +56,7 @@
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="539" >
+    <E key="player | $damage_projectile" value="548" >
     </E>
     <E key="player | $damage_slice" value="178" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="shotgunner_weak | $damage_melee" value="42" >
     </E>
-    <E key="shotgunner_weak | $damage_projectile" value="324" >
+    <E key="shotgunner_weak | $damage_projectile" value="327" >
     </E>
     <E key="shotgunner_weak | $damage_slice" value="1" >
     </E>
@@ -84,7 +84,7 @@
     </E>
     <E key="thundermage | $damage_electricity" value="1" >
     </E>
-    <E key="worm | worm bite" value="31" >
+    <E key="worm | worm bite" value="32" >
     </E>
     <E key="worm_big | worm bite" value="1" >
     </E>

@@ -1,10 +1,10 @@
-<Stats deaths="614" kills="55" player_kills="1" player_projectile_count="0" >
+<Stats deaths="639" kills="56" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="79" >
+    <E key="NULL | $damage_explosion" value="81" >
     </E>
     <E key="NULL | $damage_physicshit" value="54" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | $damage_water" value="7" >
     </E>
-    <E key="NULL | damage from material: Water" value="71" >
+    <E key="NULL | damage from material: Water" value="75" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
@@ -30,13 +30,13 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="7" >
+    <E key="player | $damage_explosion" value="12" >
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="192" >
+    <E key="player | $damage_projectile" value="204" >
     </E>
     <E key="player | $damage_slice" value="79" >
     </E>
@@ -62,7 +62,7 @@
     </E>
     <E key="thunderskull | $damage_electricity" value="1" >
     </E>
-    <E key="worm | worm bite" value="4" >
+    <E key="worm | worm bite" value="6" >
     </E>
   </death_map>
   <kill_map>
@@ -82,7 +82,7 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="26" >
+    <E key="rat" value="27" >
     </E>
     <E key="shotgunner" value="6" >
     </E>

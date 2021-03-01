@@ -1,10 +1,10 @@
-<Stats deaths="262" kills="278" player_kills="2" player_projectile_count="0" >
+<Stats deaths="269" kills="286" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="34" >
+    <E key="NULL | $damage_explosion" value="35" >
     </E>
     <E key="NULL | $damage_fire" value="12" >
     </E>
@@ -12,9 +12,9 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="24" >
+    <E key="NULL | $damage_physicshit" value="25" >
     </E>
-    <E key="NULL | $damage_radioactive" value="16" >
+    <E key="NULL | $damage_radioactive" value="17" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="player | $damage_explosion" value="9" >
     </E>
-    <E key="player | $damage_projectile" value="80" >
+    <E key="player | $damage_projectile" value="84" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
@@ -94,7 +94,7 @@
     </E>
     <E key="giant" value="1" >
     </E>
-    <E key="iceskull" value="24" >
+    <E key="iceskull" value="25" >
     </E>
     <E key="miner" value="2" >
     </E>
@@ -106,11 +106,11 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="134" >
+    <E key="rat" value="139" >
     </E>
-    <E key="scavenger_grenade" value="7" >
+    <E key="scavenger_grenade" value="8" >
     </E>
-    <E key="scavenger_smg" value="6" >
+    <E key="scavenger_smg" value="7" >
     </E>
     <E key="shotgunner" value="13" >
     </E>

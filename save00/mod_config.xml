@@ -11,4 +11,12 @@
   </Mod>
   <Mod enabled="0" name="translation_fi" settings_fold_open="0" workshop_item_id="0" >
   </Mod>
+  <Mod enabled="1" name="minimap" settings_fold_open="0" workshop_item_id="2297655530" >
+  </Mod>
+  <Mod enabled="1" name="cheatgui" settings_fold_open="0" workshop_item_id="1984977713" >
+  </Mod>
+  <Mod enabled="0" name="config_lib" settings_fold_open="0" workshop_item_id="2287710542" >
+  </Mod>
+  <Mod enabled="0" name="QFModifiers" settings_fold_open="0" workshop_item_id="2169115289" >
+  </Mod>
 </Mods>

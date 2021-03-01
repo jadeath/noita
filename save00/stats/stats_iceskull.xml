@@ -1,24 +1,24 @@
-<Stats deaths="229" kills="227" player_kills="0" player_projectile_count="0" >
+<Stats deaths="240" kills="234" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="4" >
     </E>
     <E key="NULL | $damage_explosion" value="23" >
     </E>
-    <E key="NULL | $damage_physicshit" value="22" >
+    <E key="NULL | $damage_physicshit" value="23" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
     <E key="giant | $damage_melee" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="23" >
+    <E key="iceskull | $damage_explosion" value="25" >
     </E>
-    <E key="player | $damage_electricity" value="2" >
+    <E key="player | $damage_electricity" value="3" >
     </E>
-    <E key="player | $damage_explosion" value="3" >
+    <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="46" >
+    <E key="player | $damage_projectile" value="48" >
     </E>
     <E key="player | $damage_slice" value="27" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="sniper | $damage_explosion" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="23" >
+    <E key="sniper | $damage_projectile" value="24" >
     </E>
     <E key="tank | $damage_explosion" value="2" >
     </E>
@@ -64,7 +64,7 @@
   <kill_map>
     <E key="bat" value="2" >
     </E>
-    <E key="iceskull" value="23" >
+    <E key="iceskull" value="25" >
     </E>
     <E key="pebble_physics" value="1" >
     </E>
@@ -72,11 +72,11 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="121" >
+    <E key="rat" value="124" >
     </E>
-    <E key="scavenger_grenade" value="14" >
+    <E key="scavenger_grenade" value="15" >
     </E>
-    <E key="scavenger_smg" value="15" >
+    <E key="scavenger_smg" value="16" >
     </E>
     <E key="sheep" value="1" >
     </E>

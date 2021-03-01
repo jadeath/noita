@@ -1,4 +1,4 @@
-<Stats deaths="424" kills="444" player_kills="5" player_projectile_count="0" >
+<Stats deaths="430" kills="447" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="16" >
     </E>
@@ -6,9 +6,9 @@
     </E>
     <E key="NULL | $damage_explosion" value="15" >
     </E>
-    <E key="NULL | $damage_fire" value="72" >
+    <E key="NULL | $damage_fire" value="73" >
     </E>
-    <E key="NULL | $damage_melee" value="1" >
+    <E key="NULL | $damage_melee" value="2" >
     </E>
     <E key="NULL | $damage_physicshit" value="30" >
     </E>
@@ -22,6 +22,8 @@
     </E>
     <E key="NULL | damage from material: toxic rock" value="3" >
     </E>
+    <E key="black_hole_big | " value="1" >
+    </E>
     <E key="blob | $damage_melee" value="1" >
     </E>
     <E key="firemage_weak | $damage_explosion" value="4" >
@@ -34,7 +36,7 @@
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="2" >
+    <E key="player | $damage_explosion" value="4" >
     </E>
     <E key="player | $damage_projectile" value="160" >
     </E>
@@ -54,7 +56,7 @@
     </E>
     <E key="thunderskull | $damage_melee" value="1" >
     </E>
-    <E key="worm | worm bite" value="13" >
+    <E key="worm | worm bite" value="14" >
     </E>
     <E key="worm_tiny | worm bite" value="3" >
     </E>
@@ -82,7 +84,7 @@
     </E>
     <E key="tnt" value="2" >
     </E>
-    <E key="zombie_weak" value="368" >
+    <E key="zombie_weak" value="371" >
     </E>
   </kill_map>
 </Stats>
