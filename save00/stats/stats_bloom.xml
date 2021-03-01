@@ -1,26 +1,28 @@
-<Stats deaths="72" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="87" kills="11" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="1" >
+    <E key="NULL | $damage_drowning" value="2" >
     </E>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
     <E key="NULL | $damage_explosion" value="5" >
     </E>
-    <E key="NULL | $damage_fire" value="28" >
+    <E key="NULL | $damage_fire" value="32" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
+    <E key="NULL | damage from material: Poison" value="2" >
+    </E>
     <E key="player | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="21" >
+    <E key="player | $damage_projectile" value="27" >
     </E>
-    <E key="player | $damage_slice" value="3" >
+    <E key="player | $damage_slice" value="4" >
     </E>
-    <E key="worm | worm bite" value="8" >
+    <E key="worm | worm bite" value="9" >
     </E>
   </death_map>
   <kill_map>
-    <E key="fly" value="3" >
+    <E key="fly" value="4" >
     </E>
     <E key="fungus" value="1" >
     </E>

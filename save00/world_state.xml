@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="62.201" 
-    clouds_02_target="100.175" 
+    clouds_01_target="66.4845" 
+    clouds_02_target="109.788" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="37" 
+    day_count="38" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.407239" 
+    time="0.25603" 
     time_dt="1" 
-    time_total="37.0227" 
+    time_total="37.9298" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.0400719" 
-    wind_speed="2.40448" 
+    wind="0.171946" 
+    wind_speed="10.3169" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -112,6 +112,10 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_-1_16" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_-1_2" 
         value="1" >
       </E>
@@ -149,7 +153,7 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="41" >
+        value="45" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -173,11 +177,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_rainforest,$biome_holymountain,$biome_snowcastle,$biome_snowcave,$biome_e" >
+        value="$biome_vault,$biome_rainforest,$biome_holymountain,$biome_fungicave,$biome_drago" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="142" >
+        value="147" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -596,6 +600,18 @@
       </string>
       <string>
         PERK_PICKED_ELECTRICITY
+      </string>
+      <string>
+        new_action_knockback
+      </string>
+      <string>
+        PERK_ATTACK_FOOT
+      </string>
+      <string>
+        PERK_GENOME_MORE_LOVE
+      </string>
+      <string>
+        PERK_PICKED_MOVEMENT_FASTER
       </string>
     </flags>
   </WorldStateComponent>

@@ -1,16 +1,20 @@
-<Stats deaths="176" kills="14" player_kills="1" player_projectile_count="0" >
+<Stats deaths="208" kills="15" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="14" >
+    <E key="NULL | $damage_electricity" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="2" >
+    <E key="NULL | $damage_explosion" value="17" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="NULL | damage from material: acid" value="5" >
     </E>
     <E key="bloom | $damage_explosion" value="1" >
     </E>
-    <E key="bloom | $damage_projectile" value="2" >
+    <E key="bloom | $damage_projectile" value="3" >
+    </E>
+    <E key="cloud_thunder | $damage_explosion" value="1" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="2" >
     </E>
@@ -20,15 +24,19 @@
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="13" >
+    <E key="player | $damage_explosion" value="14" >
     </E>
-    <E key="player | $damage_projectile" value="98" >
+    <E key="player | $damage_projectile" value="117" >
     </E>
     <E key="player | $damage_slice" value="16" >
+    </E>
+    <E key="scavenger_clusterbomb | $damage_melee" value="1" >
     </E>
     <E key="scavenger_clusterbomb | $damage_projectile" value="2" >
     </E>
     <E key="scavenger_leader | $damage_projectile" value="1" >
+    </E>
+    <E key="scavenger_poison | $damage_melee" value="1" >
     </E>
     <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
@@ -36,13 +44,15 @@
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
     </E>
+    <E key="wizard_hearty | $damage_projectile" value="1" >
+    </E>
     <E key="worm | worm bite" value="4" >
     </E>
   </death_map>
   <kill_map>
     <E key="bat" value="2" >
     </E>
-    <E key="lukki_longleg" value="4" >
+    <E key="lukki_longleg" value="5" >
     </E>
     <E key="player" value="1" >
     </E>

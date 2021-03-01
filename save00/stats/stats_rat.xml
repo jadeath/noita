@@ -1,10 +1,10 @@
-<Stats deaths="2242" kills="57" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2251" kills="57" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="26" >
+    <E key="NULL | $damage_drowning" value="28" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="133" >
+    <E key="NULL | $damage_explosion" value="135" >
     </E>
     <E key="NULL | $damage_fire" value="138" >
     </E>
@@ -60,7 +60,7 @@
     </E>
     <E key="giant | $damage_melee" value="24" >
     </E>
-    <E key="giantshooter | $damage_melee" value="1" >
+    <E key="giantshooter | $damage_melee" value="3" >
     </E>
     <E key="goblin_bomb | $damage_explosion" value="6" >
     </E>
@@ -98,7 +98,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="166" >
+    <E key="player | $damage_projectile" value="169" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
