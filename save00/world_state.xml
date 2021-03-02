@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="41.879" 
-    clouds_02_target="54.5709" 
+    clouds_01_target="52.689" 
+    clouds_02_target="78.8296" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="39" 
+    day_count="42" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.528682" 
+    time="0.771655" 
     time_dt="1" 
-    time_total="39.2896" 
+    time_total="42.7552" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.184388" 
-    wind_speed="11.0633" 
+    wind="0.259362" 
+    wind_speed="15.5619" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -100,6 +100,30 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-72039_10523" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_1307" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_2843" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_4891" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_6427" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_8475" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_ACTIVE_2233_13078" 
         value="1" >
       </E>
@@ -132,6 +156,26 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_-2_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_2" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_20" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_9" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_12" 
         value="1" >
       </E>
@@ -157,7 +201,7 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="45" >
+        value="69" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -165,11 +209,11 @@
       </E>
       <E 
         key="TEMPLE_PERK_REROLL_COUNT" 
-        value="8" >
+        value="9" >
       </E>
       <E 
         key="TEMPLE_REROLL_PERK_INDEX" 
-        value="268" >
+        value="264" >
       </E>
       <E 
         key="TEMPLE_SHOP_ITEM_COUNT" 
@@ -181,11 +225,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_excavationsite,$biome_snowcave,$biome_snowcastle,$biome_holymountain,$bio" >
+        value="$biome_crypt,$biome_holymountain,$biome_vault,$biome_dragoncave,$biome_rainfores" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="157" >
+        value="182" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -619,6 +663,102 @@
       </string>
       <string>
         new_kill_thundertrap_left
+      </string>
+      <string>
+        new_action_necromancy
+      </string>
+      <string>
+        new_action_mu
+      </string>
+      <string>
+        new_kill_dripping_water_heavy
+      </string>
+      <string>
+        new_action_random_static_projectile
+      </string>
+      <string>
+        new_kill_swarm_fly
+      </string>
+      <string>
+        new_kill_friend_fly
+      </string>
+      <string>
+        new_kill_swarm_wasp
+      </string>
+      <string>
+        new_kill_worm_big_worm_rain
+      </string>
+      <string>
+        new_action_divide_4
+      </string>
+      <string>
+        new_kill_swarm_firebug
+      </string>
+      <string>
+        PERK_ANGRY_GHOST
+      </string>
+      <string>
+        PERK_PROTECTION_EXPLOSION
+      </string>
+      <string>
+        PERK_LOW_RECOIL
+      </string>
+      <string>
+        PERK_HEARTS_MORE_EXTRA_HP
+      </string>
+      <string>
+        PERK_PICKED_HEARTS_MORE_EXTRA_HP
+      </string>
+      <string>
+        PERK_WORM_ATTRACTOR
+      </string>
+      <string>
+        PERK_EXTRA_MANA
+      </string>
+      <string>
+        PERK_PICKED_CRITICAL_HIT
+      </string>
+      <string>
+        new_action_burst_8
+      </string>
+      <string>
+        new_action_burst_x
+      </string>
+      <string>
+        PERK_BREATH_UNDERWATER
+      </string>
+      <string>
+        new_perk_picked_breath_underwater
+      </string>
+      <string>
+        PERK_PICKED_BREATH_UNDERWATER
+      </string>
+      <string>
+        PERK_EXTRA_KNOCKBACK
+      </string>
+      <string>
+        PERK_RADAR_ENEMY
+      </string>
+      <string>
+        PERK_LASER_AIM
+      </string>
+      <string>
+        PERK_EXTRA_MONEY
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_MONEY
+      </string>
+      <string>
+        PERK_LEVITATION_TRAIL
+      </string>
+      <string>
+        PERK_HOMUNCULUS
+      </string>
+      <string>
+        PERK_TELEPORTITIS_DODGE
+      </string>
+      <string>
+        PERK_TELEPORTITIS
       </string>
     </flags>
   </WorldStateComponent>

@@ -1,12 +1,12 @@
-<Stats deaths="39" kills="16" player_kills="0" player_projectile_count="0" >
+<Stats deaths="49" kills="18" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="10" >
+    <E key="NULL | $damage_explosion" value="14" >
     </E>
-    <E key="NULL | $damage_physicshit" value="1" >
+    <E key="NULL | $damage_physicshit" value="3" >
     </E>
-    <E key="assassin | $damage_melee" value="1" >
+    <E key="assassin | $damage_melee" value="2" >
     </E>
     <E key="flamer | $damage_explosion" value="3" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="player | $damage_explosion" value="4" >
     </E>
-    <E key="player | $damage_projectile" value="8" >
+    <E key="player | $damage_projectile" value="10" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -26,6 +26,8 @@
     </E>
     <E key="sniper | $damage_projectile" value="2" >
     </E>
+    <E key="tentacler | $damage_melee" value="1" >
+    </E>
     <E key="worm_big | worm bite" value="1" >
     </E>
   </death_map>
@@ -36,7 +38,7 @@
     </E>
     <E key="firebug" value="1" >
     </E>
-    <E key="miniblob" value="4" >
+    <E key="miniblob" value="6" >
     </E>
     <E key="rat" value="4" >
     </E>

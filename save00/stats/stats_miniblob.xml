@@ -1,18 +1,18 @@
-<Stats deaths="1114" kills="53" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1170" kills="53" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="11" >
+    <E key="NULL | $damage_drowning" value="16" >
     </E>
-    <E key="NULL | $damage_electricity" value="159" >
+    <E key="NULL | $damage_electricity" value="181" >
     </E>
-    <E key="NULL | $damage_explosion" value="112" >
+    <E key="NULL | $damage_explosion" value="116" >
     </E>
     <E key="NULL | $damage_fire" value="1" >
     </E>
     <E key="NULL | $damage_melee" value="17" >
     </E>
-    <E key="NULL | $damage_physicshit" value="55" >
+    <E key="NULL | $damage_physicshit" value="65" >
     </E>
-    <E key="NULL | $damage_plasmabeam" value="8" >
+    <E key="NULL | $damage_plasmabeam" value="9" >
     </E>
     <E key="ant | $damage_melee" value="8" >
     </E>
@@ -44,6 +44,10 @@
     </E>
     <E key="miniblob | $damage_melee" value="5" >
     </E>
+    <E key="missilecrab | $damage_explosion" value="3" >
+    </E>
+    <E key="missilecrab | $damage_projectile" value="1" >
+    </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="2" >
@@ -52,7 +56,7 @@
     </E>
     <E key="player | $damage_explosion" value="60" >
     </E>
-    <E key="player | $damage_projectile" value="505" >
+    <E key="player | $damage_projectile" value="510" >
     </E>
     <E key="player | $damage_slice" value="21" >
     </E>
@@ -100,13 +104,17 @@
     </E>
     <E key="tentacler_small | $damage_melee" value="1" >
     </E>
-    <E key="thundermage | $damage_electricity" value="1" >
+    <E key="thundermage | $damage_electricity" value="2" >
     </E>
-    <E key="thundermage | $damage_explosion" value="3" >
+    <E key="thundermage | $damage_explosion" value="4" >
+    </E>
+    <E key="thundermage | $damage_melee" value="1" >
+    </E>
+    <E key="thunderskull | $damage_electricity" value="1" >
     </E>
     <E key="thunderskull | $damage_explosion" value="1" >
     </E>
-    <E key="thunderskull | $damage_melee" value="3" >
+    <E key="thunderskull | $damage_melee" value="4" >
     </E>
     <E key="turret_right | $damage_projectile" value="2" >
     </E>

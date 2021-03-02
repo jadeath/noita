@@ -1,10 +1,10 @@
-<Stats deaths="808" kills="326" player_kills="7" player_projectile_count="0" >
+<Stats deaths="821" kills="328" player_kills="7" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="28" >
+    <E key="NULL | $damage_drowning" value="30" >
     </E>
-    <E key="NULL | $damage_electricity" value="11" >
+    <E key="NULL | $damage_electricity" value="12" >
     </E>
-    <E key="NULL | $damage_explosion" value="57" >
+    <E key="NULL | $damage_explosion" value="59" >
     </E>
     <E key="NULL | $damage_fire" value="78" >
     </E>
@@ -68,11 +68,11 @@
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="22" >
+    <E key="player | $damage_explosion" value="23" >
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="208" >
+    <E key="player | $damage_projectile" value="214" >
     </E>
     <E key="player | $damage_slice" value="71" >
     </E>
@@ -80,7 +80,7 @@
     </E>
     <E key="player_rng_items | $damage_slice" value="6" >
     </E>
-    <E key="rat | $damage_melee" value="8" >
+    <E key="rat | $damage_melee" value="9" >
     </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
@@ -126,7 +126,7 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="244" >
+    <E key="rat" value="246" >
     </E>
     <E key="shotgunner" value="3" >
     </E>

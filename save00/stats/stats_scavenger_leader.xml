@@ -1,10 +1,10 @@
-<Stats deaths="90" kills="29" player_kills="1" player_projectile_count="0" >
+<Stats deaths="100" kills="32" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="11" >
+    <E key="NULL | $damage_explosion" value="12" >
     </E>
-    <E key="NULL | $damage_physicshit" value="4" >
+    <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
@@ -16,9 +16,9 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="14" >
+    <E key="player | $damage_explosion" value="16" >
     </E>
-    <E key="player | $damage_projectile" value="35" >
+    <E key="player | $damage_projectile" value="40" >
     </E>
     <E key="player | $damage_slice" value="9" >
     </E>
@@ -34,7 +34,9 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="bigzombie" value="1" >
+    <E key="bigzombie" value="2" >
+    </E>
+    <E key="dripping_water" value="1" >
     </E>
     <E key="fly" value="1" >
     </E>
@@ -58,7 +60,7 @@
     </E>
     <E key="scavenger_smg" value="3" >
     </E>
-    <E key="zombie" value="4" >
+    <E key="zombie" value="5" >
     </E>
   </kill_map>
 </Stats>

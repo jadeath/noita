@@ -1,16 +1,16 @@
-<Stats deaths="491" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="509" kills="29" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="49" >
+    <E key="NULL | $damage_drowning" value="51" >
     </E>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="85" >
+    <E key="NULL | $damage_explosion" value="86" >
     </E>
     <E key="NULL | $damage_fire" value="12" >
     </E>
     <E key="NULL | $damage_melee" value="5" >
     </E>
-    <E key="NULL | $damage_physicshit" value="11" >
+    <E key="NULL | $damage_physicshit" value="12" >
     </E>
     <E key="NULL | damage from material: Poison" value="5" >
     </E>
@@ -30,11 +30,11 @@
     </E>
     <E key="frog_big | $damage_melee" value="2" >
     </E>
-    <E key="miner | $damage_explosion" value="10" >
+    <E key="miner | $damage_explosion" value="16" >
     </E>
-    <E key="miner | $damage_melee" value="7" >
+    <E key="miner | $damage_melee" value="8" >
     </E>
-    <E key="miner_weak | $damage_explosion" value="14" >
+    <E key="miner_weak | $damage_explosion" value="15" >
     </E>
     <E key="miner_weak | $damage_melee" value="14" >
     </E>
@@ -48,7 +48,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="146" >
+    <E key="player | $damage_projectile" value="150" >
     </E>
     <E key="player | $damage_slice" value="20" >
     </E>
@@ -64,7 +64,7 @@
     </E>
     <E key="scavenger_leader | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_leader | $damage_projectile" value="2" >
+    <E key="scavenger_leader | $damage_projectile" value="3" >
     </E>
     <E key="shotgunner | $damage_melee" value="3" >
     </E>
@@ -104,7 +104,7 @@
     </E>
     <E key="miniblob" value="2" >
     </E>
-    <E key="rat" value="21" >
+    <E key="rat" value="23" >
     </E>
   </kill_map>
 </Stats>

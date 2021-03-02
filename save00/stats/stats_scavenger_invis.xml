@@ -1,6 +1,6 @@
-<Stats deaths="54" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="63" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="1" >
+    <E key="NULL | $damage_electricity" value="2" >
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
@@ -10,11 +10,13 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="1" >
+    <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="NULL | damage from material: toxic ice" value="1" >
+    <E key="NULL | damage from material: toxic ice" value="2" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
     </E>
@@ -22,15 +24,17 @@
     </E>
     <E key="frog_big | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="2" >
+    <E key="player | $damage_electricity" value="4" >
     </E>
     <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="22" >
+    <E key="player | $damage_projectile" value="23" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="scavenger_invis | $damage_explosion" value="1" >
+    </E>
+    <E key="thundermage | $damage_electricity" value="1" >
     </E>
     <E key="wizard_swapper | $damage_projectile" value="1" >
     </E>

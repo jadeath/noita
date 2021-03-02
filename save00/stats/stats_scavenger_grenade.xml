@@ -1,30 +1,32 @@
-<Stats deaths="1208" kills="201" player_kills="5" player_projectile_count="0" >
+<Stats deaths="1302" kills="206" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="16" >
     </E>
-    <E key="NULL | $damage_electricity" value="33" >
+    <E key="NULL | $damage_electricity" value="42" >
     </E>
-    <E key="NULL | $damage_explosion" value="96" >
+    <E key="NULL | $damage_explosion" value="100" >
     </E>
-    <E key="NULL | $damage_fire" value="32" >
+    <E key="NULL | $damage_fire" value="33" >
     </E>
     <E key="NULL | $damage_ice" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="69" >
+    <E key="NULL | $damage_physicshit" value="76" >
     </E>
-    <E key="NULL | $damage_plasmabeam" value="6" >
+    <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
     <E key="NULL | $damage_radioactive" value="15" >
     </E>
     <E key="NULL | damage from material: Poison" value="3" >
     </E>
-    <E key="NULL | damage from material: acid" value="20" >
+    <E key="NULL | damage from material: acid" value="21" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="46" >
+    <E key="NULL | damage from material: freezing vapour" value="52" >
     </E>
     <E key="NULL | damage from material: lava" value="9" >
+    </E>
+    <E key="NULL | damage from material: toxic ice" value="5" >
     </E>
     <E key="bigzombie | $damage_explosion" value="5" >
     </E>
@@ -38,7 +40,9 @@
     </E>
     <E key="drone_lasership | $damage_projectile" value="12" >
     </E>
-    <E key="iceskull | $damage_explosion" value="6" >
+    <E key="icer | $damage_explosion" value="2" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="7" >
     </E>
     <E key="iceskull | $damage_ice" value="7" >
     </E>
@@ -48,13 +52,13 @@
     </E>
     <E key="player | $damage_electricity" value="22" >
     </E>
-    <E key="player | $damage_explosion" value="99" >
+    <E key="player | $damage_explosion" value="116" >
     </E>
     <E key="player | $damage_fire" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="464" >
+    <E key="player | $damage_projectile" value="501" >
     </E>
-    <E key="player | $damage_slice" value="90" >
+    <E key="player | $damage_slice" value="93" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="43" >
     </E>
@@ -90,6 +94,10 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="bigzombie" value="1" >
+    </E>
+    <E key="bigzombiehead" value="1" >
+    </E>
     <E key="firebug" value="3" >
     </E>
     <E key="fish_large" value="2" >
@@ -102,7 +110,7 @@
     </E>
     <E key="player" value="5" >
     </E>
-    <E key="rat" value="162" >
+    <E key="rat" value="165" >
     </E>
     <E key="scavenger_grenade" value="1" >
     </E>

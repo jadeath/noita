@@ -1,8 +1,8 @@
-<Stats deaths="687" kills="85" player_kills="1" player_projectile_count="0" >
+<Stats deaths="693" kills="86" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="20" >
     </E>
@@ -21,6 +21,8 @@
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
     <E key="bigfirebug | $damage_fire" value="5" >
+    </E>
+    <E key="cloud_thunder | $damage_explosion" value="1" >
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
@@ -46,7 +48,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="228" >
+    <E key="player | $damage_projectile" value="231" >
     </E>
     <E key="player | $damage_slice" value="102" >
     </E>
@@ -70,6 +72,8 @@
     </E>
     <E key="tentacler_small | $damage_melee" value="1" >
     </E>
+    <E key="thunder_blast | $damage_curse" value="1" >
+    </E>
     <E key="wizard_tele | $damage_projectile" value="1" >
     </E>
     <E key="worm | worm bite" value="6" >
@@ -88,7 +92,7 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="60" >
+    <E key="rat" value="61" >
     </E>
     <E key="sheep" value="1" >
     </E>

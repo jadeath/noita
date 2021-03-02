@@ -1,8 +1,8 @@
-<Stats deaths="129" kills="41" player_kills="0" player_projectile_count="0" >
+<Stats deaths="130" kills="46" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="14" >
+    <E key="NULL | $damage_explosion" value="15" >
     </E>
     <E key="NULL | $damage_physicshit" value="11" >
     </E>
@@ -28,7 +28,9 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshot" value="8" >
+    <E key="acidshot" value="11" >
+    </E>
+    <E key="dripping_radioactive" value="1" >
     </E>
     <E key="drone_lasership" value="2" >
     </E>
@@ -38,7 +40,7 @@
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="8" >
+    <E key="scavenger_smg" value="9" >
     </E>
     <E key="shotgunner" value="5" >
     </E>
