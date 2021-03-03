@@ -1,4 +1,4 @@
-<Stats deaths="661" kills="192" player_kills="5" player_projectile_count="0" >
+<Stats deaths="666" kills="195" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="12" >
     </E>
@@ -18,11 +18,11 @@
     </E>
     <E key="NULL | $damage_radioactive" value="7" >
     </E>
-    <E key="NULL | damage from material: acid" value="5" >
+    <E key="NULL | damage from material: acid" value="6" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="4" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="32" >
+    <E key="NULL | damage from material: freezing vapour" value="33" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -38,7 +38,7 @@
     </E>
     <E key="icer | $damage_explosion" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="3" >
+    <E key="iceskull | $damage_explosion" value="4" >
     </E>
     <E key="iceskull | $damage_ice" value="13" >
     </E>
@@ -64,6 +64,10 @@
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
+    <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
+    </E>
+    <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
+    </E>
     <E key="sniper | $damage_projectile" value="7" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="3" >
@@ -84,13 +88,13 @@
     </E>
     <E key="fish_large" value="1" >
     </E>
-    <E key="iceskull" value="4" >
+    <E key="iceskull" value="5" >
     </E>
     <E key="pebble_physics" value="2" >
     </E>
     <E key="player" value="5" >
     </E>
-    <E key="rat" value="177" >
+    <E key="rat" value="179" >
     </E>
     <E key="scavenger_smg" value="1" >
     </E>

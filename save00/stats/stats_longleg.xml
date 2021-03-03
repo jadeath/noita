@@ -1,6 +1,6 @@
-<Stats deaths="1616" kills="64" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1623" kills="64" player_kills="4" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="22" >
+    <E key="NULL | $damage_drowning" value="23" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="13" >
+    <E key="NULL | damage from material: lava" value="14" >
     </E>
     <E key="NULL | damage from material: toxic gas" value="1" >
     </E>
@@ -76,13 +76,17 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="728" >
+    <E key="player | $damage_projectile" value="730" >
     </E>
     <E key="player | $damage_slice" value="69" >
     </E>
     <E key="player_rng_items | $damage_slice" value="5" >
     </E>
+    <E key="scavenger_grenade | $damage_projectile" value="1" >
+    </E>
     <E key="shaman | $damage_projectile" value="1" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="2" >
     </E>
     <E key="shotgunner_weak | $damage_explosion" value="2" >
     </E>

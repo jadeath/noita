@@ -1,4 +1,4 @@
-<Stats deaths="63" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="64" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
@@ -18,7 +18,7 @@
     </E>
     <E key="NULL | damage from material: toxic ice" value="2" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="1" >
+    <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
     <E key="blob | $damage_melee" value="1" >
     </E>

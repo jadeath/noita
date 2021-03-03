@@ -1,12 +1,16 @@
-<Stats deaths="11" kills="7" player_kills="0" player_projectile_count="0" >
+<Stats deaths="13" kills="7" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | damage from material: Cursed rock" value="1" >
+    </E>
+    <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="NULL | physics body damaged" value="4" >
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
     <E key="player | $damage_explosion" value="5" >
+    </E>
+    <E key="player | $damage_slice" value="1" >
     </E>
   </death_map>
   <kill_map>

@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="52.689" 
-    clouds_02_target="78.8296" 
+    clouds_01_target="37.6977" 
+    clouds_02_target="45.1877" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="42" 
+    day_count="44" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -45,7 +45,7 @@
     player_did_damage_over_1milj="0" 
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
-    player_polymorph_count="9" 
+    player_polymorph_count="10" 
     player_polymorph_random_count="3" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
@@ -53,13 +53,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.771655" 
+    time="0.46316" 
     time_dt="1" 
-    time_total="42.7552" 
+    time_total="44.5626" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.259362" 
-    wind_speed="15.5619" 
+    wind="0.225516" 
+    wind_speed="13.5304" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -160,6 +160,10 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_-2_16" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_-2_2" 
         value="1" >
       </E>
@@ -225,11 +229,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_crypt,$biome_holymountain,$biome_vault,$biome_dragoncave,$biome_rainfores" >
+        value="$biome_pyramid,_EMPTY_,$biome_lake,$biome_winter,$biome_desert,_EMPTY_,$biome_co" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="182" >
+        value="196" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -759,6 +763,12 @@
       </string>
       <string>
         PERK_TELEPORTITIS
+      </string>
+      <string>
+        new_kill_ghost_crystal
+      </string>
+      <string>
+        new_kill_fungus_projectile
       </string>
     </flags>
   </WorldStateComponent>

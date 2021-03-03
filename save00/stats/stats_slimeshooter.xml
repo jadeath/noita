@@ -1,4 +1,4 @@
-<Stats deaths="465" kills="161" player_kills="2" player_projectile_count="0" >
+<Stats deaths="467" kills="165" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="6" >
+    <E key="NULL | damage from material: freezing vapour" value="7" >
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
@@ -44,7 +44,7 @@
     </E>
     <E key="player | $damage_explosion" value="10" >
     </E>
-    <E key="player | $damage_projectile" value="116" >
+    <E key="player | $damage_projectile" value="117" >
     </E>
     <E key="player | $damage_slice" value="43" >
     </E>
@@ -118,7 +118,7 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="86" >
+    <E key="rat" value="90" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>

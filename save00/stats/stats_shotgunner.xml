@@ -1,10 +1,10 @@
-<Stats deaths="821" kills="328" player_kills="7" player_projectile_count="0" >
+<Stats deaths="825" kills="335" player_kills="7" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="30" >
     </E>
     <E key="NULL | $damage_electricity" value="12" >
     </E>
-    <E key="NULL | $damage_explosion" value="59" >
+    <E key="NULL | $damage_explosion" value="60" >
     </E>
     <E key="NULL | $damage_fire" value="78" >
     </E>
@@ -12,13 +12,13 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="66" >
+    <E key="NULL | $damage_physicshit" value="67" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | $damage_radioactive" value="76" >
+    <E key="NULL | $damage_radioactive" value="77" >
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
@@ -90,7 +90,7 @@
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
-    <E key="slimeshooter_nontoxic | $damage_explosion" value="3" >
+    <E key="slimeshooter_nontoxic | $damage_explosion" value="4" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_melee" value="1" >
     </E>
@@ -122,11 +122,15 @@
     </E>
     <E key="iceskull" value="10" >
     </E>
+    <E key="longleg" value="2" >
+    </E>
     <E key="player" value="7" >
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="246" >
+    <E key="rat" value="249" >
+    </E>
+    <E key="sheep" value="2" >
     </E>
     <E key="shotgunner" value="3" >
     </E>

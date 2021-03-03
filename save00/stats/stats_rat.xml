@@ -1,4 +1,4 @@
-<Stats deaths="2291" kills="58" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2320" kills="58" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="28" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="137" >
     </E>
-    <E key="NULL | $damage_fire" value="139" >
+    <E key="NULL | $damage_fire" value="140" >
     </E>
     <E key="NULL | $damage_ice" value="2" >
     </E>
@@ -50,7 +50,7 @@
     </E>
     <E key="fireskull | $damage_melee" value="10" >
     </E>
-    <E key="fly | $damage_melee" value="3" >
+    <E key="fly | $damage_melee" value="4" >
     </E>
     <E key="frog | $damage_melee" value="12" >
     </E>
@@ -68,13 +68,13 @@
     </E>
     <E key="homunculus | $damage_projectile" value="2" >
     </E>
-    <E key="iceskull | $damage_explosion" value="11" >
+    <E key="iceskull | $damage_explosion" value="12" >
     </E>
-    <E key="iceskull | $damage_ice" value="90" >
+    <E key="iceskull | $damage_ice" value="91" >
     </E>
-    <E key="iceskull | $damage_melee" value="33" >
+    <E key="iceskull | $damage_melee" value="37" >
     </E>
-    <E key="lukki | hit" value="3" >
+    <E key="lukki | hit" value="4" >
     </E>
     <E key="miner | $damage_explosion" value="31" >
     </E>
@@ -118,9 +118,9 @@
     </E>
     <E key="scavenger_clusterbomb | $damage_explosion" value="1" >
     </E>
-    <E key="scavenger_grenade | $damage_melee" value="73" >
+    <E key="scavenger_grenade | $damage_melee" value="74" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="92" >
+    <E key="scavenger_grenade | $damage_projectile" value="96" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="6" >
     </E>
@@ -132,33 +132,33 @@
     </E>
     <E key="scavenger_smg | $damage_melee" value="41" >
     </E>
-    <E key="scavenger_smg | $damage_projectile" value="86" >
+    <E key="scavenger_smg | $damage_projectile" value="88" >
     </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
     <E key="shotgunner | $damage_explosion" value="2" >
     </E>
-    <E key="shotgunner | $damage_melee" value="56" >
+    <E key="shotgunner | $damage_melee" value="57" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="188" >
+    <E key="shotgunner | $damage_projectile" value="190" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="29" >
+    <E key="slimeshooter | $damage_explosion" value="30" >
     </E>
     <E key="slimeshooter | $damage_melee" value="3" >
     </E>
-    <E key="slimeshooter | $damage_projectile" value="54" >
+    <E key="slimeshooter | $damage_projectile" value="57" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
     <E key="sniper | $damage_explosion" value="19" >
     </E>
-    <E key="sniper | $damage_melee" value="22" >
+    <E key="sniper | $damage_melee" value="24" >
     </E>
-    <E key="sniper | $damage_projectile" value="100" >
+    <E key="sniper | $damage_projectile" value="102" >
     </E>
     <E key="tank | $damage_explosion" value="8" >
     </E>
-    <E key="tank | $damage_projectile" value="33" >
+    <E key="tank | $damage_projectile" value="35" >
     </E>
     <E key="tank_rocket | $damage_explosion" value="8" >
     </E>

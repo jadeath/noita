@@ -1,4 +1,4 @@
-<Stats deaths="97" kills="12" player_kills="0" player_projectile_count="0" >
+<Stats deaths="101" kills="14" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -6,13 +6,15 @@
     </E>
     <E key="NULL | $damage_explosion" value="6" >
     </E>
-    <E key="NULL | $damage_fire" value="34" >
+    <E key="NULL | $damage_fire" value="36" >
     </E>
     <E key="NULL | $damage_physicshit" value="3" >
     </E>
     <E key="NULL | damage from material: Poison" value="2" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="1" >
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
@@ -21,6 +23,8 @@
     <E key="player | $damage_projectile" value="30" >
     </E>
     <E key="player | $damage_slice" value="4" >
+    </E>
+    <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
     <E key="worm | worm bite" value="9" >
     </E>
@@ -32,7 +36,9 @@
     </E>
     <E key="lukki_longleg" value="1" >
     </E>
-    <E key="physics_torch_stand" value="5" >
+    <E key="physics_torch_stand" value="6" >
+    </E>
+    <E key="root_grower" value="1" >
     </E>
     <E key="scavenger_grenade" value="1" >
     </E>

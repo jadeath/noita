@@ -1,4 +1,4 @@
-<Stats deaths="1085" kills="667" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1087" kills="668" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="48" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="NULL | damage from material: toxic ice" value="1" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="14" >
+    <E key="NULL | damage from material: toxic rock" value="15" >
     </E>
     <E key="acidshooter | $damage_projectile" value="1" >
     </E>
@@ -60,7 +60,7 @@
     </E>
     <E key="player | $damage_projectile" value="433" >
     </E>
-    <E key="player | $damage_slice" value="72" >
+    <E key="player | $damage_slice" value="73" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="1" >
     </E>
@@ -118,7 +118,7 @@
     </E>
     <E key="zombie" value="29" >
     </E>
-    <E key="zombie_weak" value="447" >
+    <E key="zombie_weak" value="448" >
     </E>
   </kill_map>
 </Stats>

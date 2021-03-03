@@ -1,8 +1,8 @@
-<Stats deaths="158" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="169" kills="28" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="14" >
+    <E key="NULL | $damage_explosion" value="15" >
     </E>
     <E key="NULL | $damage_fire" value="9" >
     </E>
@@ -13,6 +13,8 @@
     <E key="NULL | $damage_projectile" value="2" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
+    </E>
+    <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
@@ -30,13 +32,13 @@
     </E>
     <E key="phantom_b | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="4" >
+    <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="33" >
+    <E key="player | $damage_explosion" value="34" >
     </E>
-    <E key="player | $damage_projectile" value="49" >
+    <E key="player | $damage_projectile" value="55" >
     </E>
-    <E key="player | $damage_slice" value="3" >
+    <E key="player | $damage_slice" value="4" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
@@ -66,7 +68,7 @@
     </E>
     <E key="rat" value="5" >
     </E>
-    <E key="scorpion" value="15" >
+    <E key="scorpion" value="16" >
     </E>
     <E key="sheep" value="1" >
     </E>
