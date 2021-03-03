@@ -1,10 +1,10 @@
-<Stats deaths="158" kills="68" player_kills="0" player_projectile_count="0" >
+<Stats deaths="162" kills="70" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="20" >
+    <E key="NULL | $damage_explosion" value="22" >
     </E>
     <E key="NULL | $damage_fire" value="1" >
     </E>
@@ -30,7 +30,7 @@
     </E>
     <E key="player | $damage_explosion" value="29" >
     </E>
-    <E key="player | $damage_projectile" value="60" >
+    <E key="player | $damage_projectile" value="62" >
     </E>
     <E key="player | $damage_slice" value="6" >
     </E>
@@ -54,7 +54,9 @@
     </E>
     <E key="fungus" value="1" >
     </E>
-    <E key="miniblob" value="2" >
+    <E key="miniblob" value="3" >
+    </E>
+    <E key="necromancer" value="1" >
     </E>
     <E key="physics_torch_stand" value="1" >
     </E>

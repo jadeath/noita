@@ -1,18 +1,18 @@
-<Stats deaths="1182" kills="53" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1229" kills="53" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="16" >
+    <E key="NULL | $damage_drowning" value="20" >
     </E>
-    <E key="NULL | $damage_electricity" value="181" >
+    <E key="NULL | $damage_electricity" value="194" >
     </E>
-    <E key="NULL | $damage_explosion" value="116" >
+    <E key="NULL | $damage_explosion" value="119" >
     </E>
     <E key="NULL | $damage_fire" value="1" >
     </E>
     <E key="NULL | $damage_melee" value="17" >
     </E>
-    <E key="NULL | $damage_physicshit" value="72" >
+    <E key="NULL | $damage_physicshit" value="73" >
     </E>
-    <E key="NULL | $damage_plasmabeam" value="9" >
+    <E key="NULL | $damage_plasmabeam" value="10" >
     </E>
     <E key="ant | $damage_melee" value="8" >
     </E>
@@ -31,6 +31,8 @@
     <E key="blob | $damage_melee" value="24" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="3" >
+    </E>
+    <E key="drone_physics | $damage_projectile" value="2" >
     </E>
     <E key="firemage_weak | $damage_explosion" value="1" >
     </E>
@@ -56,7 +58,7 @@
     </E>
     <E key="player | $damage_explosion" value="60" >
     </E>
-    <E key="player | $damage_projectile" value="514" >
+    <E key="player | $damage_projectile" value="528" >
     </E>
     <E key="player | $damage_slice" value="22" >
     </E>
@@ -86,11 +88,11 @@
     </E>
     <E key="slimeshooter_weak | $damage_explosion" value="1" >
     </E>
-    <E key="sniper | $damage_explosion" value="4" >
+    <E key="sniper | $damage_explosion" value="7" >
     </E>
-    <E key="sniper | $damage_melee" value="6" >
+    <E key="sniper | $damage_melee" value="10" >
     </E>
-    <E key="sniper | $damage_projectile" value="13" >
+    <E key="sniper | $damage_projectile" value="14" >
     </E>
     <E key="tank | $damage_explosion" value="1" >
     </E>
@@ -100,7 +102,7 @@
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
-    <E key="tentacler | $damage_melee" value="2" >
+    <E key="tentacler | $damage_melee" value="3" >
     </E>
     <E key="tentacler_small | $damage_melee" value="1" >
     </E>

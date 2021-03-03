@@ -1,12 +1,12 @@
-<Stats deaths="1623" kills="64" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1629" kills="65" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="23" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="48" >
+    <E key="NULL | $damage_explosion" value="50" >
     </E>
-    <E key="NULL | $damage_fire" value="284" >
+    <E key="NULL | $damage_fire" value="286" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
@@ -26,7 +26,7 @@
     </E>
     <E key="NULL | damage from material: toxic gas" value="1" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="4" >
+    <E key="NULL | damage from material: toxic rock" value="5" >
     </E>
     <E key="acidshooter | $damage_melee" value="1" >
     </E>
@@ -76,7 +76,7 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="730" >
+    <E key="player | $damage_projectile" value="731" >
     </E>
     <E key="player | $damage_slice" value="69" >
     </E>
@@ -136,7 +136,7 @@
     </E>
     <E key="slimeshooter_weak" value="4" >
     </E>
-    <E key="zombie_weak" value="37" >
+    <E key="zombie_weak" value="38" >
     </E>
   </kill_map>
 </Stats>

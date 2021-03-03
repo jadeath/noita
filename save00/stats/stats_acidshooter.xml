@@ -1,18 +1,18 @@
-<Stats deaths="169" kills="28" player_kills="0" player_projectile_count="0" >
+<Stats deaths="176" kills="28" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="15" >
+    <E key="NULL | $damage_explosion" value="16" >
     </E>
     <E key="NULL | $damage_fire" value="9" >
     </E>
-    <E key="NULL | $damage_physicshit" value="13" >
+    <E key="NULL | $damage_physicshit" value="15" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
     <E key="NULL | $damage_projectile" value="2" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="2" >
+    <E key="NULL | damage from material: freezing vapour" value="3" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="player | $damage_explosion" value="34" >
     </E>
-    <E key="player | $damage_projectile" value="55" >
+    <E key="player | $damage_projectile" value="58" >
     </E>
     <E key="player | $damage_slice" value="4" >
     </E>

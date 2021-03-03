@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="37.6977" 
-    clouds_02_target="45.1877" 
+    clouds_01_target="36.1005" 
+    clouds_02_target="41.6034" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="44" 
+    day_count="46" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -53,16 +53,28 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.46316" 
+    time="0.388505" 
     time_dt="1" 
-    time_total="44.5626" 
+    time_total="46.6201" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.225516" 
-    wind_speed="13.5304" 
+    wind="0.281559" 
+    wind_speed="16.8936" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
+      <E 
+        key="TEMPLE_ACTIVE_-143719_10523" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-143719_4891" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-143719_6427" 
+        value="1" >
+      </E>
       <E 
         key="TEMPLE_ACTIVE_-359_10523" 
         value="1" >
@@ -180,6 +192,22 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_-4_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-4_20" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-4_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-4_9" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_12" 
         value="1" >
       </E>
@@ -205,7 +233,7 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="69" >
+        value="93" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -229,11 +257,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_pyramid,_EMPTY_,$biome_lake,$biome_winter,$biome_desert,_EMPTY_,$biome_co" >
+        value="$biome_crypt,$biome_fungicave,$biome_vault,$biome_holymountain,$biome_dragoncave" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="196" >
+        value="222" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -769,6 +797,51 @@
       </string>
       <string>
         new_kill_fungus_projectile
+      </string>
+      <string>
+        PERK_TRICK_BLOOD_MONEY
+      </string>
+      <string>
+        PERK_GENOME_MORE_HATRED
+      </string>
+      <string>
+        PERK_PROJECTILE_REPULSION_SECTOR
+      </string>
+      <string>
+        PERK_PICKED_PROJECTILE_REPULSION_SECTOR
+      </string>
+      <string>
+        PERK_SHIELD
+      </string>
+      <string>
+        PERK_PERSONAL_LASER
+      </string>
+      <string>
+        PERK_PICKED_SHIELD
+      </string>
+      <string>
+        PERK_PROJECTILE_REPULSION
+      </string>
+      <string>
+        PERK_PROTECTION_MELEE
+      </string>
+      <string>
+        PERK_PICKED_PROTECTION_MELEE
+      </string>
+      <string>
+        PERK_LOW_GRAVITY
+      </string>
+      <string>
+        new_action_omega
+      </string>
+      <string>
+        PERK_PICKED_FAST_PROJECTILES
+      </string>
+      <string>
+        PERK_PICKED_FASTER_WANDS
+      </string>
+      <string>
+        new_kill_worm_skull
       </string>
     </flags>
   </WorldStateComponent>

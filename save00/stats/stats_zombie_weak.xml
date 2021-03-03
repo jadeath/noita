@@ -1,4 +1,4 @@
-<Stats deaths="2168" kills="72" player_kills="1" player_projectile_count="0" >
+<Stats deaths="2175" kills="72" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="56" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="58" >
     </E>
-    <E key="NULL | $damage_fire" value="200" >
+    <E key="NULL | $damage_fire" value="202" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
@@ -42,7 +42,7 @@
     </E>
     <E key="giantshooter_weak | $damage_melee" value="1" >
     </E>
-    <E key="longleg | $damage_melee" value="37" >
+    <E key="longleg | $damage_melee" value="38" >
     </E>
     <E key="miner_weak | $damage_explosion" value="259" >
     </E>
@@ -56,7 +56,7 @@
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="550" >
+    <E key="player | $damage_projectile" value="553" >
     </E>
     <E key="player | $damage_slice" value="180" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="shotgunner_weak | $damage_melee" value="42" >
     </E>
-    <E key="shotgunner_weak | $damage_projectile" value="328" >
+    <E key="shotgunner_weak | $damage_projectile" value="329" >
     </E>
     <E key="shotgunner_weak | $damage_slice" value="1" >
     </E>

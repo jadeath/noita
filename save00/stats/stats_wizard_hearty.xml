@@ -1,4 +1,4 @@
-<Stats deaths="15" kills="9" player_kills="0" player_projectile_count="0" >
+<Stats deaths="15" kills="10" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_fire" value="1" >
     </E>
@@ -15,6 +15,8 @@
     <E key="firetrap_right" value="1" >
     </E>
     <E key="fly" value="1" >
+    </E>
+    <E key="lukki" value="1" >
     </E>
     <E key="miniblob" value="1" >
     </E>

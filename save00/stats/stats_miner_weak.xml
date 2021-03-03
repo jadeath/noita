@@ -1,8 +1,8 @@
-<Stats deaths="1087" kills="668" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1096" kills="669" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="48" >
     </E>
-    <E key="NULL | $damage_electricity" value="5" >
+    <E key="NULL | $damage_electricity" value="6" >
     </E>
     <E key="NULL | $damage_explosion" value="60" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
-    <E key="NULL | damage from material: acid" value="6" >
+    <E key="NULL | damage from material: acid" value="8" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
@@ -58,9 +58,9 @@
     </E>
     <E key="player | $damage_plasmabeam" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="433" >
+    <E key="player | $damage_projectile" value="438" >
     </E>
-    <E key="player | $damage_slice" value="73" >
+    <E key="player | $damage_slice" value="74" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="1" >
     </E>
@@ -116,7 +116,7 @@
     </E>
     <E key="tnt" value="1" >
     </E>
-    <E key="zombie" value="29" >
+    <E key="zombie" value="30" >
     </E>
     <E key="zombie_weak" value="448" >
     </E>

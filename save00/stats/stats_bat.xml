@@ -1,4 +1,4 @@
-<Stats deaths="693" kills="86" player_kills="1" player_projectile_count="0" >
+<Stats deaths="695" kills="89" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="20" >
     </E>
-    <E key="NULL | $damage_fire" value="129" >
+    <E key="NULL | $damage_fire" value="130" >
     </E>
     <E key="NULL | $damage_physicshit" value="71" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="25" >
+    <E key="NULL | damage from material: lava" value="26" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
@@ -92,7 +92,7 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="61" >
+    <E key="rat" value="64" >
     </E>
     <E key="sheep" value="1" >
     </E>
