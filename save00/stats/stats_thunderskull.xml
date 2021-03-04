@@ -1,4 +1,4 @@
-<Stats deaths="51" kills="18" player_kills="0" player_projectile_count="0" >
+<Stats deaths="51" kills="19" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
@@ -43,6 +43,8 @@
     <E key="miniblob" value="6" >
     </E>
     <E key="rat" value="4" >
+    </E>
+    <E key="scorpion" value="1" >
     </E>
     <E key="shotgunner" value="2" >
     </E>

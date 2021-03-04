@@ -1,4 +1,4 @@
-<Stats deaths="830" kills="338" player_kills="7" player_projectile_count="0" >
+<Stats deaths="832" kills="340" player_kills="7" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="30" >
     </E>
@@ -72,9 +72,9 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="215" >
+    <E key="player | $damage_projectile" value="216" >
     </E>
-    <E key="player | $damage_slice" value="71" >
+    <E key="player | $damage_slice" value="72" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="5" >
     </E>
@@ -128,7 +128,7 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="252" >
+    <E key="rat" value="253" >
     </E>
     <E key="sheep" value="2" >
     </E>
@@ -142,7 +142,7 @@
     </E>
     <E key="worm_tiny" value="1" >
     </E>
-    <E key="zombie" value="21" >
+    <E key="zombie" value="22" >
     </E>
     <E key="zombie_weak" value="3" >
     </E>

@@ -1,10 +1,10 @@
-<Stats deaths="2362" kills="58" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2375" kills="58" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="29" >
+    <E key="NULL | $damage_drowning" value="30" >
     </E>
     <E key="NULL | $damage_electricity" value="6" >
     </E>
-    <E key="NULL | $damage_explosion" value="140" >
+    <E key="NULL | $damage_explosion" value="141" >
     </E>
     <E key="NULL | $damage_fire" value="145" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | $damage_projectile" value="2" >
     </E>
-    <E key="NULL | damage from material: acid" value="14" >
+    <E key="NULL | damage from material: acid" value="15" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="5" >
     </E>
@@ -28,9 +28,9 @@
     </E>
     <E key="acidshooter | $damage_projectile" value="4" >
     </E>
-    <E key="ant | $damage_melee" value="5" >
+    <E key="ant | $damage_melee" value="8" >
     </E>
-    <E key="bat | $damage_melee" value="64" >
+    <E key="bat | $damage_melee" value="66" >
     </E>
     <E key="bigbat | $damage_melee" value="7" >
     </E>
@@ -43,6 +43,8 @@
     <E key="chest_mimic | $damage_melee" value="1" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="2" >
+    </E>
+    <E key="drone_physics | $damage_projectile" value="2" >
     </E>
     <E key="firebug | $damage_fire" value="17" >
     </E>
@@ -98,7 +100,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="180" >
+    <E key="player | $damage_projectile" value="181" >
     </E>
     <E key="player | $damage_slice" value="25" >
     </E>
@@ -140,7 +142,7 @@
     </E>
     <E key="shotgunner | $damage_melee" value="58" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="192" >
+    <E key="shotgunner | $damage_projectile" value="193" >
     </E>
     <E key="slimeshooter | $damage_explosion" value="30" >
     </E>
@@ -198,7 +200,7 @@
     </E>
     <E key="worm_tiny | worm bite" value="24" >
     </E>
-    <E key="zombie | $damage_melee" value="24" >
+    <E key="zombie | $damage_melee" value="25" >
     </E>
   </death_map>
   <kill_map>
