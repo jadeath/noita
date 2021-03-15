@@ -1,10 +1,10 @@
-<Stats deaths="477" kills="167" player_kills="2" player_projectile_count="0" >
+<Stats deaths="504" kills="178" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
-    <E key="NULL | $damage_electricity" value="6" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="117" >
+    <E key="NULL | $damage_explosion" value="122" >
     </E>
     <E key="NULL | $damage_fire" value="19" >
     </E>
@@ -14,9 +14,9 @@
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | damage from material: freezing liquid" value="1" >
+    <E key="NULL | damage from material: freezing liquid" value="2" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="7" >
+    <E key="NULL | damage from material: freezing vapour" value="8" >
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
@@ -42,11 +42,11 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="10" >
+    <E key="player | $damage_explosion" value="11" >
     </E>
-    <E key="player | $damage_projectile" value="119" >
+    <E key="player | $damage_projectile" value="134" >
     </E>
-    <E key="player | $damage_slice" value="43" >
+    <E key="player | $damage_slice" value="44" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="1" >
     </E>
@@ -72,6 +72,8 @@
     </E>
     <E key="tank | $damage_projectile" value="3" >
     </E>
+    <E key="tentacle_portal | $damage_melee" value="1" >
+    </E>
     <E key="tentacler | $damage_melee" value="1" >
     </E>
     <E key="thundermage | $damage_electricity" value="1" >
@@ -92,7 +94,7 @@
   <kill_map>
     <E key="ant" value="1" >
     </E>
-    <E key="bat" value="5" >
+    <E key="bat" value="6" >
     </E>
     <E key="bigfirebug" value="4" >
     </E>
@@ -108,6 +110,8 @@
     </E>
     <E key="glitter_bomb" value="1" >
     </E>
+    <E key="goblin_bomb" value="1" >
+    </E>
     <E key="iceskull" value="2" >
     </E>
     <E key="longleg" value="1" >
@@ -122,7 +126,9 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="91" >
+    <E key="potion_aggressive" value="1" >
+    </E>
+    <E key="rat" value="99" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>

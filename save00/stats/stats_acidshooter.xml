@@ -1,10 +1,10 @@
-<Stats deaths="178" kills="28" player_kills="0" player_projectile_count="0" >
+<Stats deaths="190" kills="30" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="4" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_explosion" value="16" >
     </E>
-    <E key="NULL | $damage_fire" value="9" >
+    <E key="NULL | $damage_fire" value="10" >
     </E>
     <E key="NULL | $damage_physicshit" value="15" >
     </E>
@@ -36,9 +36,9 @@
     </E>
     <E key="player | $damage_explosion" value="34" >
     </E>
-    <E key="player | $damage_projectile" value="60" >
+    <E key="player | $damage_projectile" value="66" >
     </E>
-    <E key="player | $damage_slice" value="4" >
+    <E key="player | $damage_slice" value="5" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
@@ -68,7 +68,7 @@
     </E>
     <E key="rat" value="5" >
     </E>
-    <E key="scorpion" value="16" >
+    <E key="scorpion" value="18" >
     </E>
     <E key="sheep" value="1" >
     </E>

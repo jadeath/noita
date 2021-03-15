@@ -1,12 +1,12 @@
-<Stats deaths="303" kills="310" player_kills="2" player_projectile_count="0" >
+<Stats deaths="335" kills="326" player_kills="2" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="5" >
+    <E key="NULL | $damage_drowning" value="6" >
     </E>
-    <E key="NULL | $damage_electricity" value="6" >
+    <E key="NULL | $damage_electricity" value="9" >
     </E>
     <E key="NULL | $damage_explosion" value="43" >
     </E>
-    <E key="NULL | $damage_fire" value="13" >
+    <E key="NULL | $damage_fire" value="18" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -14,15 +14,15 @@
     </E>
     <E key="NULL | $damage_physicshit" value="27" >
     </E>
-    <E key="NULL | $damage_radioactive" value="19" >
+    <E key="NULL | $damage_radioactive" value="24" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="7" >
+    <E key="NULL | damage from material: acid" value="8" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="6" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="3" >
+    <E key="NULL | damage from material: freezing vapour" value="4" >
     </E>
     <E key="bigfirebug | $damage_projectile" value="1" >
     </E>
@@ -50,9 +50,9 @@
     </E>
     <E key="player | $damage_explosion" value="14" >
     </E>
-    <E key="player | $damage_projectile" value="89" >
+    <E key="player | $damage_projectile" value="102" >
     </E>
-    <E key="player | $damage_slice" value="25" >
+    <E key="player | $damage_slice" value="28" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="4" >
     </E>
@@ -96,21 +96,23 @@
     </E>
     <E key="firebug" value="1" >
     </E>
+    <E key="fish" value="3" >
+    </E>
     <E key="giant" value="1" >
     </E>
     <E key="iceskull" value="26" >
     </E>
     <E key="miner" value="2" >
     </E>
-    <E key="miniblob" value="31" >
+    <E key="miniblob" value="38" >
     </E>
-    <E key="pebble_physics" value="7" >
+    <E key="pebble_physics" value="8" >
     </E>
     <E key="pebble_player_physics" value="3" >
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="150" >
+    <E key="rat" value="155" >
     </E>
     <E key="scavenger_grenade" value="8" >
     </E>

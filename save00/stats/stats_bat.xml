@@ -1,20 +1,22 @@
-<Stats deaths="695" kills="91" player_kills="1" player_projectile_count="0" >
+<Stats deaths="740" kills="92" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="20" >
+    <E key="NULL | $damage_explosion" value="23" >
     </E>
-    <E key="NULL | $damage_fire" value="130" >
+    <E key="NULL | $damage_fire" value="134" >
     </E>
-    <E key="NULL | $damage_physicshit" value="71" >
+    <E key="NULL | $damage_physicshit" value="74" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="2" >
+    </E>
+    <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
     <E key="NULL | damage from material: lava" value="26" >
     </E>
@@ -44,17 +46,19 @@
     </E>
     <E key="pebble_player_physics | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="21" >
+    <E key="player | $damage_explosion" value="23" >
     </E>
     <E key="player | $damage_plasmabeam" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="231" >
+    <E key="player | $damage_projectile" value="256" >
     </E>
     <E key="player | $damage_slice" value="102" >
     </E>
     <E key="player_rng_items | $damage_slice" value="8" >
     </E>
-    <E key="rat | $damage_melee" value="11" >
+    <E key="rat | $damage_melee" value="15" >
+    </E>
+    <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
@@ -62,7 +66,7 @@
     </E>
     <E key="shotgunner | $damage_projectile" value="1" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="2" >
+    <E key="slimeshooter | $damage_explosion" value="3" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="3" >
     </E>
@@ -92,7 +96,7 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="66" >
+    <E key="rat" value="67" >
     </E>
     <E key="sheep" value="1" >
     </E>

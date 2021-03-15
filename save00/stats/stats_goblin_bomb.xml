@@ -1,12 +1,12 @@
-<Stats deaths="186" kills="33" player_kills="0" player_projectile_count="0" >
+<Stats deaths="197" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="5" >
     </E>
     <E key="NULL | $damage_explosion" value="25" >
     </E>
-    <E key="NULL | $damage_physicshit" value="26" >
+    <E key="NULL | $damage_physicshit" value="28" >
     </E>
-    <E key="NULL | $damage_radioactive" value="33" >
+    <E key="NULL | $damage_radioactive" value="36" >
     </E>
     <E key="NULL | damage from material: lava" value="12" >
     </E>
@@ -30,13 +30,15 @@
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="40" >
+    <E key="player | $damage_projectile" value="43" >
     </E>
-    <E key="player | $damage_slice" value="19" >
+    <E key="player | $damage_slice" value="21" >
     </E>
     <E key="player_rng_items | $damage_slice" value="2" >
     </E>
     <E key="rat | $damage_melee" value="2" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>

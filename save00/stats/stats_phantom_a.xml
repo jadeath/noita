@@ -1,10 +1,12 @@
-<Stats deaths="58" kills="50" player_kills="0" player_projectile_count="0" >
+<Stats deaths="63" kills="63" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
     <E key="NULL | $damage_explosion" value="1" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="1" >
     </E>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
@@ -14,11 +16,11 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_electricity" value="7" >
+    <E key="player | $damage_electricity" value="8" >
     </E>
     <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="28" >
+    <E key="player | $damage_projectile" value="31" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -28,21 +30,25 @@
   <kill_map>
     <E key="acidshooter" value="1" >
     </E>
+    <E key="acidshot" value="3" >
+    </E>
     <E key="barfer" value="1" >
     </E>
     <E key="duck" value="1" >
     </E>
     <E key="firetrap_left" value="1" >
     </E>
-    <E key="longleg" value="1" >
+    <E key="longleg" value="3" >
     </E>
     <E key="pebble_player_physics" value="1" >
     </E>
     <E key="physics_torch_stand" value="2" >
     </E>
+    <E key="potion" value="1" >
+    </E>
     <E key="rat" value="1" >
     </E>
-    <E key="scorpion" value="16" >
+    <E key="scorpion" value="23" >
     </E>
     <E key="skullfly" value="4" >
     </E>

@@ -1,18 +1,20 @@
-<Stats deaths="104" kills="14" player_kills="0" player_projectile_count="0" >
+<Stats deaths="124" kills="14" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="6" >
     </E>
-    <E key="NULL | $damage_fire" value="36" >
+    <E key="NULL | $damage_fire" value="43" >
     </E>
-    <E key="NULL | $damage_physicshit" value="3" >
+    <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="NULL | damage from material: Poison" value="2" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="cloud_thunder | $damage_explosion" value="1" >
     </E>
     <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="1" >
     </E>
@@ -20,9 +22,9 @@
     </E>
     <E key="player | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="32" >
+    <E key="player | $damage_projectile" value="37" >
     </E>
-    <E key="player | $damage_slice" value="5" >
+    <E key="player | $damage_slice" value="9" >
     </E>
     <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>

@@ -1,6 +1,6 @@
-<Stats deaths="15" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="16" kills="12" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_fire" value="1" >
+    <E key="NULL | $damage_fire" value="2" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -21,6 +21,8 @@
     <E key="miniblob" value="1" >
     </E>
     <E key="scorpion" value="4" >
+    </E>
+    <E key="shooterflower" value="2" >
     </E>
     <E key="skullfly" value="1" >
     </E>

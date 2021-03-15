@@ -18,11 +18,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="11.9569" 
-    clouds_02_target="-12.5771" 
+    clouds_01_target="12.7832" 
+    clouds_02_target="-10.7228" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="48" 
+    day_count="59" 
     fog="0.00499396" 
     fog_target="0" 
     global_genome_relations_modifier="0" 
@@ -45,21 +45,21 @@
     player_did_damage_over_1milj="0" 
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
-    player_polymorph_count="10" 
-    player_polymorph_random_count="4" 
+    player_polymorph_count="12" 
+    player_polymorph_random_count="8" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
     rain="0.00499396" 
     rain_target="0" 
     session_stat_file="??STA/sessions/20210221-210647" 
     sky_sunset_alpha_target="1" 
-    time="0.145072" 
+    time="0.446048" 
     time_dt="1" 
-    time_total="48.4973" 
+    time_total="60.5734" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.342071" 
-    wind_speed="20.5244" 
+    wind="0.326035" 
+    wind_speed="19.5622" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -97,7 +97,7 @@
       </E>
       <E 
         key="TEMPLE_ACTIVE_-359_2843" 
-        value="0" >
+        value="1" >
       </E>
       <E 
         key="TEMPLE_ACTIVE_-359_4891" 
@@ -105,7 +105,7 @@
       </E>
       <E 
         key="TEMPLE_ACTIVE_-359_6427" 
-        value="1" >
+        value="0" >
       </E>
       <E 
         key="TEMPLE_ACTIVE_-359_8475" 
@@ -153,6 +153,34 @@
       </E>
       <E 
         key="TEMPLE_ACTIVE_32409_1307" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_32409_2843" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_65177_1307" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_65177_6427" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_97945_2843" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_97945_6427" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_COLLAPSED_0_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_COLLAPSED_0_2" 
         value="1" >
       </E>
       <E 
@@ -252,8 +280,20 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_1_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_2_2" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_3_20" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="97" >
+        value="149" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -261,11 +301,11 @@
       </E>
       <E 
         key="TEMPLE_PERK_REROLL_COUNT" 
-        value="10" >
+        value="11" >
       </E>
       <E 
         key="TEMPLE_REROLL_PERK_INDEX" 
-        value="260" >
+        value="256" >
       </E>
       <E 
         key="TEMPLE_SHOP_ITEM_COUNT" 
@@ -277,11 +317,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_fungicave,$biome_excavationsite,$biome_holymountain,$biome_coalmine_alt,_" >
+        value="_EMPTY_,$biome_desert,$biome_excavationsite,$biome_sandcave,$biome_snowcave,$bio" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="246" >
+        value="348" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -305,6 +345,9 @@
       </primitive>
       <primitive>
         257
+      </primitive>
+      <primitive>
+        8
       </primitive>
     </orbs_found_thisrun>
     <flags>
@@ -853,6 +896,60 @@
       </string>
       <string>
         new_kill_orb_homing
+      </string>
+      <string>
+        PERK_PROTECTION_ELECTRICITY
+      </string>
+      <string>
+        PERK_PICKED_ATTRACT_ITEMS
+      </string>
+      <string>
+        new_action_gunpowder_trail
+      </string>
+      <string>
+        new_action_homing_rotate
+      </string>
+      <string>
+        new_action_divide_3
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_HP
+      </string>
+      <string>
+        new_perk_picked_critical_hit
+      </string>
+      <string>
+        new_perk_picked_movement_faster
+      </string>
+      <string>
+        new_perk_picked_laser_aim
+      </string>
+      <string>
+        PERK_PICKED_LASER_AIM
+      </string>
+      <string>
+        new_perk_picked_extra_money_trick_kill
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_MONEY_TRICK_KILL
+      </string>
+      <string>
+        new_perk_picked_protection_fire
+      </string>
+      <string>
+        PERK_PICKED_PROTECTION_FIRE
+      </string>
+      <string>
+        new_kill_ghoul
+      </string>
+      <string>
+        new_kill_wizard_wither
+      </string>
+      <string>
+        new_action_quantum_split
+      </string>
+      <string>
+        new_action_phi
       </string>
     </flags>
   </WorldStateComponent>

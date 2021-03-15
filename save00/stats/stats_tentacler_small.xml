@@ -1,4 +1,4 @@
-<Stats deaths="231" kills="49" player_kills="0" player_projectile_count="0" >
+<Stats deaths="244" kills="55" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -12,13 +12,15 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
+    <E key="NULL | damage from material: Cursed rock" value="1" >
+    </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="5" >
+    <E key="NULL | damage from material: acid" value="6" >
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="5" >
+    <E key="NULL | damage from material: toxic rock" value="7" >
     </E>
     <E key="acidshooter | $damage_projectile" value="1" >
     </E>
@@ -42,13 +44,15 @@
     </E>
     <E key="player | $damage_electricity" value="8" >
     </E>
-    <E key="player | $damage_explosion" value="15" >
+    <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="87" >
+    <E key="player | $damage_projectile" value="92" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
     <E key="rat | $damage_melee" value="2" >
+    </E>
+    <E key="scavenger_grenade | $damage_ice" value="1" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
@@ -61,6 +65,8 @@
     <E key="skullrat | $damage_melee" value="12" >
     </E>
     <E key="sniper | $damage_projectile" value="3" >
+    </E>
+    <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
     <E key="tentacler | $damage_melee" value="10" >
     </E>
@@ -84,17 +90,23 @@
     </E>
     <E key="bigzombie" value="1" >
     </E>
+    <E key="crystal_physics" value="1" >
+    </E>
+    <E key="failed_alchemist" value="1" >
+    </E>
+    <E key="fly" value="1" >
+    </E>
     <E key="ghost_crystal" value="1" >
     </E>
     <E key="mimic_physics" value="1" >
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="rat" value="21" >
+    <E key="rat" value="23" >
     </E>
     <E key="scorpion" value="18" >
     </E>
-    <E key="skullrat" value="2" >
+    <E key="skullrat" value="3" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>

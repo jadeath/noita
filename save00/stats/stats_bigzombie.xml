@@ -1,4 +1,4 @@
-<Stats deaths="103" kills="21" player_kills="0" player_projectile_count="0" >
+<Stats deaths="113" kills="22" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -6,11 +6,11 @@
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
-    <E key="NULL | $damage_fire" value="15" >
+    <E key="NULL | $damage_fire" value="22" >
     </E>
     <E key="NULL | $damage_physicshit" value="9" >
     </E>
-    <E key="NULL | damage from material: acid" value="10" >
+    <E key="NULL | damage from material: acid" value="12" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -30,6 +30,8 @@
     </E>
     <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
+    <E key="scavenger_poison | $damage_projectile" value="1" >
+    </E>
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
     <E key="tank_rocket | $damage_explosion" value="2" >
@@ -40,6 +42,8 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="acidshot" value="1" >
+    </E>
     <E key="blob" value="2" >
     </E>
     <E key="dripping_radioactive" value="1" >

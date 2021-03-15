@@ -1,4 +1,4 @@
-<Stats deaths="24" kills="37" player_kills="0" player_projectile_count="0" >
+<Stats deaths="31" kills="38" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -8,7 +8,7 @@
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="1" >
+    <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
     <E key="NULL | damage from material: lava" value="2" >
     </E>
@@ -16,19 +16,25 @@
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
-    <E key="miniblob | $damage_melee" value="1" >
+    <E key="miniblob | $damage_melee" value="2" >
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="scavenger_clusterbomb | $damage_projectile" value="1" >
     </E>
+    <E key="scavenger_grenade | $damage_melee" value="2" >
+    </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
+    <E key="scavenger_smg | $damage_explosion" value="1" >
+    </E>
     <E key="skullrat | $damage_melee" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
+    </E>
+    <E key="tank | $damage_projectile" value="2" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
@@ -52,7 +58,7 @@
     </E>
     <E key="miner_weak" value="3" >
     </E>
-    <E key="miniblob" value="1" >
+    <E key="miniblob" value="2" >
     </E>
     <E key="pebble_physics" value="2" >
     </E>

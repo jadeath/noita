@@ -1,4 +1,4 @@
-<Stats deaths="48" kills="48" player_kills="0" player_projectile_count="0" >
+<Stats deaths="48" kills="50" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="7" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="miniblob" value="22" >
     </E>
-    <E key="rat" value="13" >
+    <E key="rat" value="15" >
     </E>
     <E key="slimeshooter" value="2" >
     </E>
