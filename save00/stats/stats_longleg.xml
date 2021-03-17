@@ -1,12 +1,12 @@
-<Stats deaths="1649" kills="65" player_kills="4" player_projectile_count="0" >
+<Stats deaths="1670" kills="65" player_kills="4" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="23" >
+    <E key="NULL | $damage_drowning" value="26" >
     </E>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
     <E key="NULL | $damage_explosion" value="50" >
     </E>
-    <E key="NULL | $damage_fire" value="287" >
+    <E key="NULL | $damage_fire" value="288" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
@@ -18,11 +18,13 @@
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
+    <E key="NULL | damage from material: Cursed rock" value="1" >
+    </E>
     <E key="NULL | damage from material: acid" value="23" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="26" >
+    <E key="NULL | damage from material: lava" value="29" >
     </E>
     <E key="NULL | damage from material: toxic gas" value="1" >
     </E>
@@ -46,6 +48,8 @@
     </E>
     <E key="boss_pit | $damage_projectile" value="2" >
     </E>
+    <E key="drone_lasership | $damage_projectile" value="3" >
+    </E>
     <E key="firemage_weak | $damage_explosion" value="3" >
     </E>
     <E key="firemage_weak | $damage_fire" value="4" >
@@ -57,6 +61,8 @@
     <E key="longleg | $damage_melee" value="1" >
     </E>
     <E key="maggot | $damage_explosion" value="9" >
+    </E>
+    <E key="miner | $damage_melee" value="1" >
     </E>
     <E key="miner_weak | $damage_explosion" value="65" >
     </E>
@@ -76,13 +82,17 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="731" >
+    <E key="player | $damage_projectile" value="733" >
     </E>
     <E key="player | $damage_slice" value="69" >
     </E>
     <E key="player_rng_items | $damage_slice" value="5" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="1" >
+    <E key="scavenger_grenade | $damage_projectile" value="2" >
+    </E>
+    <E key="scavenger_leader | $damage_melee" value="1" >
+    </E>
+    <E key="scavenger_smg | $damage_projectile" value="2" >
     </E>
     <E key="shaman | $damage_projectile" value="1" >
     </E>
@@ -109,6 +119,8 @@
     <E key="slimeshooter_weak | $damage_melee" value="2" >
     </E>
     <E key="slimeshooter_weak | $damage_projectile" value="18" >
+    </E>
+    <E key="thunder_blast | $damage_curse" value="2" >
     </E>
     <E key="wizard_tele | $damage_projectile" value="2" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="331" kills="51" player_kills="0" player_projectile_count="0" >
+<Stats deaths="337" kills="53" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="14" >
+    <E key="NULL | damage from material: lava" value="16" >
     </E>
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="player | $damage_explosion" value="55" >
     </E>
-    <E key="player | $damage_projectile" value="145" >
+    <E key="player | $damage_projectile" value="149" >
     </E>
     <E key="player | $damage_slice" value="19" >
     </E>
@@ -66,7 +66,7 @@
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="scorpion" value="18" >
+    <E key="scorpion" value="19" >
     </E>
     <E key="skullfly" value="1" >
     </E>
@@ -76,7 +76,7 @@
     </E>
     <E key="tentacler_small" value="12" >
     </E>
-    <E key="wizard_swapper" value="2" >
+    <E key="wizard_swapper" value="3" >
     </E>
     <E key="wraith_glowing" value="1" >
     </E>

@@ -1,12 +1,12 @@
-<Stats deaths="1128" kills="674" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1167" kills="675" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="48" >
     </E>
-    <E key="NULL | $damage_electricity" value="6" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_explosion" value="60" >
     </E>
-    <E key="NULL | $damage_fire" value="204" >
+    <E key="NULL | $damage_fire" value="207" >
     </E>
     <E key="NULL | $damage_melee" value="2" >
     </E>
@@ -34,9 +34,9 @@
     </E>
     <E key="firebug | $damage_fire" value="1" >
     </E>
-    <E key="firemage_weak | $damage_explosion" value="7" >
+    <E key="firemage_weak | $damage_explosion" value="8" >
     </E>
-    <E key="firemage_weak | $damage_fire" value="2" >
+    <E key="firemage_weak | $damage_fire" value="3" >
     </E>
     <E key="firemage_weak | $damage_melee" value="2" >
     </E>
@@ -58,7 +58,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="454" >
+    <E key="player | $damage_projectile" value="486" >
     </E>
     <E key="player | $damage_slice" value="76" >
     </E>
@@ -98,7 +98,7 @@
     </E>
     <E key="fireskull" value="1" >
     </E>
-    <E key="frog" value="7" >
+    <E key="frog" value="8" >
     </E>
     <E key="frog_big" value="1" >
     </E>

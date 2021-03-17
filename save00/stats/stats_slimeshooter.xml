@@ -1,14 +1,14 @@
-<Stats deaths="504" kills="178" player_kills="2" player_projectile_count="0" >
+<Stats deaths="539" kills="197" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="122" >
+    <E key="NULL | $damage_explosion" value="129" >
     </E>
-    <E key="NULL | $damage_fire" value="19" >
+    <E key="NULL | $damage_fire" value="20" >
     </E>
-    <E key="NULL | $damage_physicshit" value="22" >
+    <E key="NULL | $damage_physicshit" value="23" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -42,9 +42,9 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="11" >
+    <E key="player | $damage_explosion" value="12" >
     </E>
-    <E key="player | $damage_projectile" value="134" >
+    <E key="player | $damage_projectile" value="158" >
     </E>
     <E key="player | $damage_slice" value="44" >
     </E>
@@ -82,7 +82,7 @@
     </E>
     <E key="wizard_dark | $damage_projectile" value="2" >
     </E>
-    <E key="worm | worm bite" value="2" >
+    <E key="worm | worm bite" value="3" >
     </E>
     <E key="worm_big | worm bite" value="5" >
     </E>
@@ -120,7 +120,7 @@
     </E>
     <E key="miner_weak" value="3" >
     </E>
-    <E key="miniblob" value="1" >
+    <E key="miniblob" value="3" >
     </E>
     <E key="pebble_physics" value="4" >
     </E>
@@ -128,7 +128,7 @@
     </E>
     <E key="potion_aggressive" value="1" >
     </E>
-    <E key="rat" value="99" >
+    <E key="rat" value="111" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
@@ -142,7 +142,9 @@
     </E>
     <E key="sniper" value="1" >
     </E>
-    <E key="zombie" value="5" >
+    <E key="tnt" value="3" >
+    </E>
+    <E key="zombie" value="7" >
     </E>
     <E key="zombie_weak" value="1" >
     </E>

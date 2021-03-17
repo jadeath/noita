@@ -1,24 +1,24 @@
-<Stats deaths="929" kills="351" player_kills="7" player_projectile_count="0" >
+<Stats deaths="1002" kills="362" player_kills="7" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="30" >
+    <E key="NULL | $damage_drowning" value="31" >
     </E>
-    <E key="NULL | $damage_electricity" value="18" >
+    <E key="NULL | $damage_electricity" value="19" >
     </E>
     <E key="NULL | $damage_explosion" value="73" >
     </E>
-    <E key="NULL | $damage_fire" value="86" >
+    <E key="NULL | $damage_fire" value="92" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="75" >
+    <E key="NULL | $damage_physicshit" value="77" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | $damage_radioactive" value="91" >
+    <E key="NULL | $damage_radioactive" value="97" >
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="drone_lasership | $damage_projectile" value="2" >
     </E>
-    <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="1" >
+    <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="2" >
     </E>
     <E key="firebug | $damage_fire" value="5" >
     </E>
@@ -74,7 +74,7 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="252" >
+    <E key="player | $damage_projectile" value="308" >
     </E>
     <E key="player | $damage_slice" value="75" >
     </E>
@@ -130,7 +130,7 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="261" >
+    <E key="rat" value="269" >
     </E>
     <E key="sheep" value="2" >
     </E>
@@ -144,7 +144,7 @@
     </E>
     <E key="worm_tiny" value="1" >
     </E>
-    <E key="zombie" value="23" >
+    <E key="zombie" value="26" >
     </E>
     <E key="zombie_weak" value="3" >
     </E>

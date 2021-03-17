@@ -1,4 +1,4 @@
-<Stats deaths="335" kills="326" player_kills="2" player_projectile_count="0" >
+<Stats deaths="350" kills="330" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="43" >
     </E>
-    <E key="NULL | $damage_fire" value="18" >
+    <E key="NULL | $damage_fire" value="20" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -14,11 +14,11 @@
     </E>
     <E key="NULL | $damage_physicshit" value="27" >
     </E>
-    <E key="NULL | $damage_radioactive" value="24" >
+    <E key="NULL | $damage_radioactive" value="25" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="8" >
+    <E key="NULL | damage from material: acid" value="9" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="6" >
     </E>
@@ -50,7 +50,7 @@
     </E>
     <E key="player | $damage_explosion" value="14" >
     </E>
-    <E key="player | $damage_projectile" value="102" >
+    <E key="player | $damage_projectile" value="113" >
     </E>
     <E key="player | $damage_slice" value="28" >
     </E>
@@ -104,7 +104,7 @@
     </E>
     <E key="miner" value="2" >
     </E>
-    <E key="miniblob" value="38" >
+    <E key="miniblob" value="40" >
     </E>
     <E key="pebble_physics" value="8" >
     </E>
@@ -112,7 +112,7 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="155" >
+    <E key="rat" value="157" >
     </E>
     <E key="scavenger_grenade" value="8" >
     </E>

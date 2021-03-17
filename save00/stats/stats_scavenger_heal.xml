@@ -1,4 +1,4 @@
-<Stats deaths="121" kills="0" player_kills="0" player_projectile_count="0" >
+<Stats deaths="129" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="5" >
     </E>
@@ -8,7 +8,7 @@
     </E>
     <E key="NULL | $damage_fire" value="7" >
     </E>
-    <E key="NULL | $damage_physicshit" value="5" >
+    <E key="NULL | $damage_physicshit" value="6" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
@@ -24,9 +24,9 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="11" >
+    <E key="player | $damage_explosion" value="12" >
     </E>
-    <E key="player | $damage_projectile" value="46" >
+    <E key="player | $damage_projectile" value="51" >
     </E>
     <E key="player | $damage_slice" value="8" >
     </E>
@@ -40,11 +40,15 @@
     </E>
     <E key="tank | $damage_explosion" value="1" >
     </E>
+    <E key="tank | $damage_projectile" value="1" >
+    </E>
     <E key="tentacle_portal | $damage_melee" value="2" >
     </E>
     <E key="wizard_neutral | $damage_projectile" value="1" >
     </E>
   </death_map>
   <kill_map>
+    <E key="scavenger_grenade" value="1" >
+    </E>
   </kill_map>
 </Stats>

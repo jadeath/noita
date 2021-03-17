@@ -1,4 +1,4 @@
-<Stats deaths="697" kills="61" player_kills="1" player_projectile_count="0" >
+<Stats deaths="781" kills="64" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
@@ -6,17 +6,19 @@
     </E>
     <E key="NULL | $damage_explosion" value="83" >
     </E>
-    <E key="NULL | $damage_physicshit" value="59" >
+    <E key="NULL | $damage_physicshit" value="61" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="13" >
     </E>
-    <E key="NULL | $damage_water" value="7" >
+    <E key="NULL | $damage_water" value="17" >
     </E>
-    <E key="NULL | damage from material: Water" value="86" >
+    <E key="NULL | damage from material: Water" value="98" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="5" >
+    </E>
+    <E key="NULL | damage from material: swamp" value="1" >
     </E>
     <E key="bat | $damage_melee" value="13" >
     </E>
@@ -28,9 +30,13 @@
     </E>
     <E key="firebug | $damage_melee" value="3" >
     </E>
-    <E key="miner | $damage_explosion" value="6" >
+    <E key="lukki_longleg | hit" value="3" >
+    </E>
+    <E key="miner | $damage_explosion" value="8" >
     </E>
     <E key="miner | $damage_melee" value="2" >
+    </E>
+    <E key="miniblob | $damage_melee" value="2" >
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
@@ -40,7 +46,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="221" >
+    <E key="player | $damage_projectile" value="273" >
     </E>
     <E key="player | $damage_slice" value="79" >
     </E>
@@ -94,7 +100,9 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="30" >
+    <E key="rat" value="31" >
+    </E>
+    <E key="sheep" value="2" >
     </E>
     <E key="shotgunner" value="7" >
     </E>

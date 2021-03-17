@@ -1,14 +1,14 @@
-<Stats deaths="740" kills="92" player_kills="1" player_projectile_count="0" >
+<Stats deaths="818" kills="98" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="7" >
+    <E key="NULL | $damage_drowning" value="8" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="23" >
+    <E key="NULL | $damage_explosion" value="24" >
     </E>
-    <E key="NULL | $damage_fire" value="134" >
+    <E key="NULL | $damage_fire" value="135" >
     </E>
-    <E key="NULL | $damage_physicshit" value="74" >
+    <E key="NULL | $damage_physicshit" value="77" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
@@ -50,13 +50,13 @@
     </E>
     <E key="player | $damage_plasmabeam" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="256" >
+    <E key="player | $damage_projectile" value="324" >
     </E>
     <E key="player | $damage_slice" value="102" >
     </E>
     <E key="player_rng_items | $damage_slice" value="8" >
     </E>
-    <E key="rat | $damage_melee" value="15" >
+    <E key="rat | $damage_melee" value="19" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
@@ -96,7 +96,7 @@
     </E>
     <E key="player" value="1" >
     </E>
-    <E key="rat" value="67" >
+    <E key="rat" value="73" >
     </E>
     <E key="sheep" value="1" >
     </E>

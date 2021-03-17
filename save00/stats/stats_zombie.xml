@@ -1,42 +1,42 @@
-<Stats deaths="561" kills="31" player_kills="0" player_projectile_count="0" >
+<Stats deaths="630" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="53" >
     </E>
-    <E key="NULL | $damage_electricity" value="5" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="98" >
+    <E key="NULL | $damage_explosion" value="105" >
     </E>
-    <E key="NULL | $damage_fire" value="19" >
+    <E key="NULL | $damage_fire" value="22" >
     </E>
     <E key="NULL | $damage_melee" value="5" >
     </E>
-    <E key="NULL | $damage_physicshit" value="13" >
+    <E key="NULL | $damage_physicshit" value="14" >
     </E>
     <E key="NULL | damage from material: Poison" value="5" >
     </E>
     <E key="NULL | damage from material: acid" value="8" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="1" >
+    <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
     <E key="NULL | damage from material: lava" value="2" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="11" >
+    <E key="NULL | damage from material: toxic rock" value="14" >
     </E>
-    <E key="ant | $damage_melee" value="1" >
+    <E key="ant | $damage_melee" value="3" >
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
-    <E key="blob | $damage_melee" value="7" >
+    <E key="blob | $damage_melee" value="8" >
     </E>
     <E key="fly | $damage_melee" value="2" >
     </E>
     <E key="frog | $damage_melee" value="1" >
     </E>
-    <E key="frog_big | $damage_melee" value="3" >
+    <E key="frog_big | $damage_melee" value="4" >
     </E>
     <E key="miner | $damage_explosion" value="18" >
     </E>
-    <E key="miner | $damage_melee" value="8" >
+    <E key="miner | $damage_melee" value="9" >
     </E>
     <E key="miner_weak | $damage_explosion" value="16" >
     </E>
@@ -52,11 +52,11 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="162" >
+    <E key="player | $damage_projectile" value="201" >
     </E>
     <E key="player | $damage_slice" value="20" >
     </E>
-    <E key="rat | $damage_melee" value="4" >
+    <E key="rat | $damage_melee" value="5" >
     </E>
     <E key="roboguard | $damage_explosion" value="1" >
     </E>
@@ -72,11 +72,15 @@
     </E>
     <E key="scavenger_leader | $damage_projectile" value="3" >
     </E>
-    <E key="shotgunner | $damage_melee" value="3" >
+    <E key="scavenger_smg | $damage_explosion" value="1" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="20" >
+    <E key="shotgunner | $damage_melee" value="5" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="5" >
+    <E key="shotgunner | $damage_projectile" value="21" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="6" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
@@ -110,9 +114,9 @@
     </E>
     <E key="miner_weak" value="3" >
     </E>
-    <E key="miniblob" value="2" >
+    <E key="miniblob" value="3" >
     </E>
-    <E key="rat" value="25" >
+    <E key="rat" value="26" >
     </E>
   </kill_map>
 </Stats>

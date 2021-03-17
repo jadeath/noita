@@ -1,6 +1,6 @@
-<Stats deaths="147" kills="54" player_kills="0" player_projectile_count="0" >
+<Stats deaths="155" kills="59" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
     <E key="NULL | $damage_explosion" value="19" >
     </E>
@@ -14,9 +14,9 @@
     </E>
     <E key="player | $damage_electricity" value="15" >
     </E>
-    <E key="player | $damage_explosion" value="26" >
+    <E key="player | $damage_explosion" value="27" >
     </E>
-    <E key="player | $damage_projectile" value="55" >
+    <E key="player | $damage_projectile" value="61" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="4" >
     </E>
@@ -36,19 +36,21 @@
     </E>
     <E key="fly" value="1" >
     </E>
+    <E key="longleg" value="3" >
+    </E>
     <E key="miner" value="3" >
     </E>
     <E key="miniblob" value="1" >
     </E>
     <E key="rat" value="2" >
     </E>
-    <E key="scavenger_grenade" value="15" >
+    <E key="scavenger_grenade" value="16" >
     </E>
     <E key="scavenger_heal" value="1" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="9" >
+    <E key="scavenger_smg" value="10" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>

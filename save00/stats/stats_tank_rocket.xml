@@ -1,4 +1,4 @@
-<Stats deaths="31" kills="37" player_kills="0" player_projectile_count="0" >
+<Stats deaths="31" kills="38" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="1" >
     </E>
@@ -14,6 +14,8 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="acidshot" value="1" >
+    </E>
     <E key="bigzombie" value="2" >
     </E>
     <E key="bigzombietorso" value="2" >
