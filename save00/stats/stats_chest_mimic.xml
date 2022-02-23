@@ -1,22 +1,26 @@
-<Stats deaths="27" kills="6" player_kills="0" player_projectile_count="0" >
+<Stats deaths="32" kills="6" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="6" >
+    <E key="NULL | $damage_drowning" value="7" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="2" >
+    <E key="NULL | $damage_explosion" value="3" >
     </E>
-    <E key="NULL | $damage_fire" value="2" >
+    <E key="NULL | $damage_fire" value="3" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
+    </E>
+    <E key="lukki_dark | $damage_curse" value="1" >
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
     <E key="player | $damage_projectile" value="8" >
+    </E>
+    <E key="player | $damage_slice" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="1" >
     </E>

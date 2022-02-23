@@ -1,18 +1,22 @@
-<Stats deaths="285" kills="82" player_kills="0" player_projectile_count="0" >
+<Stats deaths="321" kills="85" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="1" >
+    <E key="NULL | $damage_drowning" value="4" >
     </E>
-    <E key="NULL | $damage_electricity" value="49" >
+    <E key="NULL | $damage_electricity" value="52" >
     </E>
-    <E key="NULL | $damage_explosion" value="45" >
+    <E key="NULL | $damage_explosion" value="46" >
     </E>
     <E key="NULL | $damage_physicshit" value="11" >
     </E>
     <E key="ant | $damage_melee" value="6" >
     </E>
-    <E key="bigzombie | $damage_melee" value="2" >
+    <E key="assassin | $damage_melee" value="1" >
+    </E>
+    <E key="bigzombie | $damage_melee" value="3" >
     </E>
     <E key="blob | $damage_melee" value="1" >
+    </E>
+    <E key="bloom | $damage_explosion" value="1" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
@@ -26,7 +30,7 @@
     </E>
     <E key="player | $damage_explosion" value="12" >
     </E>
-    <E key="player | $damage_projectile" value="121" >
+    <E key="player | $damage_projectile" value="143" >
     </E>
     <E key="player | $damage_slice" value="14" >
     </E>
@@ -36,9 +40,11 @@
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
-    <E key="sniper | $damage_explosion" value="2" >
+    <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="5" >
+    <E key="sniper | $damage_explosion" value="3" >
+    </E>
+    <E key="sniper | $damage_projectile" value="7" >
     </E>
     <E key="tentacler | $damage_melee" value="1" >
     </E>
@@ -62,7 +68,7 @@
     </E>
     <E key="miniblob" value="27" >
     </E>
-    <E key="rat" value="21" >
+    <E key="rat" value="24" >
     </E>
     <E key="scavenger_invis" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="22" kills="8" player_kills="0" player_projectile_count="0" >
+<Stats deaths="23" kills="9" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="3" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="iceskull | $damage_explosion" value="1" >
     </E>
-    <E key="pebble_player_physics | $damage_explosion" value="7" >
+    <E key="pebble_player_physics | $damage_explosion" value="8" >
     </E>
     <E key="phantom_a | $damage_projectile" value="1" >
     </E>
@@ -20,7 +20,7 @@
   <kill_map>
     <E key="bat" value="1" >
     </E>
-    <E key="pebble_player_physics" value="7" >
+    <E key="pebble_player_physics" value="8" >
     </E>
   </kill_map>
 </Stats>

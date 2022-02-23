@@ -1,10 +1,10 @@
-<Stats deaths="203" kills="32" player_kills="0" player_projectile_count="0" >
+<Stats deaths="216" kills="34" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="16" >
+    <E key="NULL | $damage_explosion" value="17" >
     </E>
-    <E key="NULL | $damage_fire" value="14" >
+    <E key="NULL | $damage_fire" value="15" >
     </E>
     <E key="NULL | $damage_physicshit" value="15" >
     </E>
@@ -34,13 +34,15 @@
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="34" >
+    <E key="player | $damage_explosion" value="36" >
     </E>
-    <E key="player | $damage_projectile" value="74" >
+    <E key="player | $damage_projectile" value="81" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
+    </E>
+    <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
     <E key="skullfly | $damage_projectile" value="3" >
     </E>
@@ -49,6 +51,8 @@
     <E key="sniper | $damage_explosion" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="2" >
+    </E>
+    <E key="spearbot | $damage_projectile" value="1" >
     </E>
     <E key="tank | $damage_projectile" value="1" >
     </E>
@@ -66,7 +70,7 @@
     </E>
     <E key="miner_weak" value="1" >
     </E>
-    <E key="rat" value="5" >
+    <E key="rat" value="7" >
     </E>
     <E key="scorpion" value="20" >
     </E>

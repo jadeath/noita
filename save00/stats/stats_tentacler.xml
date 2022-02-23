@@ -1,18 +1,18 @@
-<Stats deaths="185" kills="83" player_kills="0" player_projectile_count="0" >
+<Stats deaths="198" kills="86" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="1" >
+    <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="8" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="22" >
+    <E key="NULL | $damage_explosion" value="26" >
     </E>
-    <E key="NULL | $damage_fire" value="2" >
+    <E key="NULL | $damage_fire" value="3" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="3" >
     </E>
-    <E key="NULL | damage from material: acid" value="7" >
+    <E key="NULL | damage from material: acid" value="8" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -30,9 +30,9 @@
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="32" >
+    <E key="player | $damage_explosion" value="33" >
     </E>
-    <E key="player | $damage_projectile" value="80" >
+    <E key="player | $damage_projectile" value="83" >
     </E>
     <E key="player | $damage_slice" value="6" >
     </E>
@@ -56,11 +56,13 @@
     </E>
     <E key="fungus" value="1" >
     </E>
-    <E key="miniblob" value="3" >
+    <E key="miniblob" value="4" >
     </E>
     <E key="necromancer" value="1" >
     </E>
     <E key="physics_torch_stand" value="1" >
+    </E>
+    <E key="player" value="1" >
     </E>
     <E key="rat" value="17" >
     </E>
@@ -88,7 +90,7 @@
     </E>
     <E key="wizard_swapper" value="1" >
     </E>
-    <E key="zombie" value="3" >
+    <E key="zombie" value="4" >
     </E>
   </kill_map>
 </Stats>

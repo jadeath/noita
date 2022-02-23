@@ -1,44 +1,44 @@
-<Stats deaths="624" kills="143" player_kills="2" player_projectile_count="0" >
+<Stats deaths="755" kills="173" player_kills="2" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="22" >
+    <E key="NULL | $damage_drowning" value="25" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="14" >
+    <E key="NULL | $damage_explosion" value="20" >
     </E>
-    <E key="NULL | $damage_fire" value="82" >
+    <E key="NULL | $damage_fire" value="99" >
     </E>
-    <E key="NULL | $damage_physicshit" value="73" >
+    <E key="NULL | $damage_physicshit" value="82" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="5" >
     </E>
-    <E key="NULL | $damage_radioactive" value="74" >
+    <E key="NULL | $damage_radioactive" value="87" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="4" >
+    <E key="NULL | damage from material: freezing vapour" value="6" >
     </E>
-    <E key="NULL | damage from material: lava" value="25" >
+    <E key="NULL | damage from material: lava" value="27" >
     </E>
     <E key="NULL | damage from material: toxic gas" value="2" >
     </E>
-    <E key="NULL | damage from material: toxic rock" value="1" >
+    <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
-    <E key="bat | $damage_melee" value="1" >
+    <E key="bat | $damage_melee" value="2" >
     </E>
     <E key="bigfirebug | $damage_projectile" value="1" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
-    <E key="drone_lasership | $damage_projectile" value="3" >
+    <E key="drone_lasership | $damage_projectile" value="7" >
     </E>
-    <E key="firebug | $damage_fire" value="3" >
+    <E key="firebug | $damage_fire" value="4" >
     </E>
     <E key="firebug | $damage_melee" value="1" >
     </E>
     <E key="homunculus | $damage_projectile" value="1" >
     </E>
-    <E key="miner | $damage_explosion" value="6" >
+    <E key="miner | $damage_explosion" value="7" >
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
@@ -46,19 +46,23 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="215" >
+    <E key="player | $damage_projectile" value="267" >
     </E>
-    <E key="player | $damage_slice" value="44" >
+    <E key="player | $damage_slice" value="57" >
+    </E>
+    <E key="player | bzzt!" value="2" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="4" >
     </E>
     <E key="player_rng_items | $damage_slice" value="2" >
     </E>
-    <E key="rat | $damage_melee" value="6" >
+    <E key="rat | $damage_melee" value="8" >
+    </E>
+    <E key="roboguard | $damage_projectile" value="1" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="2" >
+    <E key="sniper | $damage_projectile" value="3" >
     </E>
     <E key="worm | worm bite" value="4" >
     </E>
@@ -66,13 +70,13 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="bat" value="5" >
+    <E key="bat" value="6" >
     </E>
     <E key="bigfirebug" value="2" >
     </E>
     <E key="blob" value="1" >
     </E>
-    <E key="firebug" value="10" >
+    <E key="firebug" value="13" >
     </E>
     <E key="fireskull" value="5" >
     </E>
@@ -84,21 +88,21 @@
     </E>
     <E key="longleg" value="1" >
     </E>
-    <E key="miner" value="6" >
+    <E key="miner" value="7" >
     </E>
     <E key="miniblob" value="3" >
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="67" >
+    <E key="rat" value="90" >
     </E>
     <E key="scavenger_grenade" value="4" >
     </E>
     <E key="shotgunner" value="2" >
     </E>
-    <E key="slimeshooter" value="4" >
+    <E key="slimeshooter" value="5" >
     </E>
-    <E key="zombie" value="27" >
+    <E key="zombie" value="28" >
     </E>
   </kill_map>
 </Stats>

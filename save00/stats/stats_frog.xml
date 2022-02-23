@@ -1,18 +1,18 @@
-<Stats deaths="243" kills="21" player_kills="3" player_projectile_count="0" >
+<Stats deaths="288" kills="23" player_kills="3" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="10" >
+    <E key="NULL | $damage_drowning" value="14" >
     </E>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="23" >
+    <E key="NULL | $damage_explosion" value="29" >
     </E>
-    <E key="NULL | $damage_fire" value="23" >
+    <E key="NULL | $damage_fire" value="28" >
     </E>
-    <E key="NULL | $damage_physicshit" value="17" >
+    <E key="NULL | $damage_physicshit" value="26" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
-    <E key="NULL | damage from material: lava" value="1" >
+    <E key="NULL | damage from material: lava" value="2" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="7" >
     </E>
@@ -32,13 +32,19 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="4" >
+    <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="83" >
+    <E key="player | $damage_projectile" value="94" >
     </E>
-    <E key="player | $damage_slice" value="27" >
+    <E key="player | $damage_slice" value="29" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="3" >
+    <E key="rat | $damage_melee" value="1" >
+    </E>
+    <E key="scavenger_clusterbomb | $damage_melee" value="1" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="4" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="3" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="2" >
     </E>
@@ -52,9 +58,11 @@
     </E>
     <E key="player" value="3" >
     </E>
-    <E key="rat" value="12" >
+    <E key="rat" value="13" >
     </E>
     <E key="wizard_swapper" value="1" >
+    </E>
+    <E key="wizard_twitchy" value="1" >
     </E>
     <E key="zombie" value="1" >
     </E>

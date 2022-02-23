@@ -1,10 +1,10 @@
-<Stats deaths="155" kills="59" player_kills="0" player_projectile_count="0" >
+<Stats deaths="201" kills="84" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="19" >
+    <E key="NULL | $damage_explosion" value="20" >
     </E>
-    <E key="NULL | $damage_physicshit" value="11" >
+    <E key="NULL | $damage_physicshit" value="12" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
@@ -16,15 +16,23 @@
     </E>
     <E key="player | $damage_explosion" value="27" >
     </E>
-    <E key="player | $damage_projectile" value="61" >
+    <E key="player | $damage_projectile" value="98" >
+    </E>
+    <E key="player | $damage_slice" value="2" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="4" >
     </E>
     <E key="scavenger_smg | $damage_projectile" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="1" >
+    <E key="sniper | $damage_projectile" value="3" >
     </E>
     <E key="tank | $damage_projectile" value="1" >
+    </E>
+    <E key="tank_super | $damage_projectile" value="1" >
+    </E>
+    <E key="thundermage | $damage_explosion" value="1" >
+    </E>
+    <E key="thunderskull | $damage_electricity" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -38,25 +46,29 @@
     </E>
     <E key="longleg" value="3" >
     </E>
-    <E key="miner" value="3" >
+    <E key="miner" value="7" >
     </E>
     <E key="miniblob" value="1" >
     </E>
     <E key="rat" value="2" >
     </E>
-    <E key="scavenger_grenade" value="16" >
+    <E key="scavenger_grenade" value="22" >
     </E>
     <E key="scavenger_heal" value="1" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="10" >
+    <E key="scavenger_smg" value="19" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
-    <E key="shotgunner" value="5" >
+    <E key="shotgunner" value="7" >
     </E>
-    <E key="sniper" value="1" >
+    <E key="sniper" value="3" >
+    </E>
+    <E key="turret_left" value="1" >
+    </E>
+    <E key="turret_right" value="1" >
     </E>
   </kill_map>
 </Stats>

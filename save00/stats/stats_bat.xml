@@ -1,14 +1,14 @@
-<Stats deaths="818" kills="98" player_kills="1" player_projectile_count="0" >
+<Stats deaths="965" kills="112" player_kills="2" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="8" >
+    <E key="NULL | $damage_drowning" value="13" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="24" >
+    <E key="NULL | $damage_explosion" value="35" >
     </E>
-    <E key="NULL | $damage_fire" value="135" >
+    <E key="NULL | $damage_fire" value="158" >
     </E>
-    <E key="NULL | $damage_physicshit" value="77" >
+    <E key="NULL | $damage_physicshit" value="86" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
@@ -34,39 +34,43 @@
     </E>
     <E key="fly | $damage_melee" value="2" >
     </E>
+    <E key="goblin_bomb | $damage_explosion" value="1" >
+    </E>
     <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="iceskull | $damage_explosion" value="1" >
     </E>
     <E key="iceskull | $damage_ice" value="1" >
     </E>
-    <E key="miner | $damage_explosion" value="3" >
+    <E key="miner | $damage_explosion" value="4" >
     </E>
     <E key="miner | $damage_melee" value="2" >
     </E>
     <E key="pebble_player_physics | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="23" >
+    <E key="player | $damage_explosion" value="36" >
     </E>
     <E key="player | $damage_plasmabeam" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="324" >
+    <E key="player | $damage_projectile" value="366" >
     </E>
-    <E key="player | $damage_slice" value="102" >
+    <E key="player | $damage_slice" value="126" >
+    </E>
+    <E key="player | bzzt!" value="9" >
     </E>
     <E key="player_rng_items | $damage_slice" value="8" >
     </E>
-    <E key="rat | $damage_melee" value="19" >
+    <E key="rat | $damage_melee" value="24" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
-    <E key="shotgunner | $damage_melee" value="3" >
+    <E key="shotgunner | $damage_melee" value="5" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="1" >
+    <E key="shotgunner | $damage_projectile" value="2" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="3" >
+    <E key="slimeshooter | $damage_explosion" value="4" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="3" >
     </E>
@@ -88,15 +92,15 @@
   <kill_map>
     <E key="crystal_physics" value="1" >
     </E>
-    <E key="firebug" value="13" >
+    <E key="firebug" value="15" >
     </E>
-    <E key="goblin_bomb" value="4" >
+    <E key="goblin_bomb" value="5" >
     </E>
-    <E key="miner" value="1" >
+    <E key="miner" value="2" >
     </E>
-    <E key="player" value="1" >
+    <E key="player" value="2" >
     </E>
-    <E key="rat" value="73" >
+    <E key="rat" value="82" >
     </E>
     <E key="sheep" value="1" >
     </E>

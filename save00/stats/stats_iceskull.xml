@@ -1,44 +1,48 @@
-<Stats deaths="273" kills="288" player_kills="0" player_projectile_count="0" >
+<Stats deaths="343" kills="345" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="6" >
+    <E key="NULL | $damage_electricity" value="7" >
     </E>
-    <E key="NULL | $damage_explosion" value="23" >
+    <E key="NULL | $damage_explosion" value="28" >
     </E>
-    <E key="NULL | $damage_physicshit" value="27" >
+    <E key="NULL | $damage_physicshit" value="31" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
     <E key="giant | $damage_melee" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="28" >
+    <E key="iceskull | $damage_explosion" value="42" >
+    </E>
+    <E key="iceskull | $damage_melee" value="1" >
+    </E>
+    <E key="monk | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="63" >
+    <E key="player | $damage_projectile" value="79" >
     </E>
-    <E key="player | $damage_slice" value="29" >
+    <E key="player | $damage_slice" value="39" >
     </E>
     <E key="rat | $damage_melee" value="1" >
     </E>
     <E key="scavenger_grenade | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="12" >
+    <E key="scavenger_grenade | $damage_projectile" value="17" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="2" >
     </E>
-    <E key="scavenger_leader | $damage_projectile" value="1" >
+    <E key="scavenger_leader | $damage_projectile" value="2" >
     </E>
-    <E key="scavenger_smg | $damage_explosion" value="1" >
+    <E key="scavenger_smg | $damage_explosion" value="2" >
     </E>
     <E key="scavenger_smg | $damage_projectile" value="4" >
     </E>
     <E key="shotgunner | $damage_melee" value="1" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="9" >
+    <E key="shotgunner | $damage_projectile" value="10" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="2" >
     </E>
@@ -46,51 +50,53 @@
     </E>
     <E key="sniper | $damage_explosion" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="25" >
+    <E key="sniper | $damage_projectile" value="29" >
     </E>
     <E key="tank | $damage_explosion" value="2" >
     </E>
-    <E key="tank | $damage_projectile" value="6" >
+    <E key="tank | $damage_projectile" value="7" >
     </E>
-    <E key="tank_rocket | $damage_explosion" value="6" >
+    <E key="tank_rocket | $damage_explosion" value="7" >
     </E>
-    <E key="tank_rocket | $damage_projectile" value="2" >
+    <E key="tank_rocket | $damage_projectile" value="3" >
     </E>
     <E key="thundermage | $damage_electricity" value="1" >
     </E>
-    <E key="worm_big | worm bite" value="4" >
+    <E key="worm | worm bite" value="1" >
+    </E>
+    <E key="worm_big | worm bite" value="6" >
     </E>
   </death_map>
   <kill_map>
     <E key="bat" value="2" >
     </E>
-    <E key="iceskull" value="28" >
+    <E key="iceskull" value="43" >
     </E>
     <E key="pebble_physics" value="1" >
     </E>
     <E key="pebble_player_physics" value="1" >
     </E>
-    <E key="potion" value="2" >
+    <E key="potion" value="3" >
     </E>
-    <E key="rat" value="163" >
+    <E key="rat" value="185" >
     </E>
-    <E key="scavenger_grenade" value="21" >
+    <E key="scavenger_grenade" value="26" >
     </E>
-    <E key="scavenger_smg" value="20" >
+    <E key="scavenger_smg" value="24" >
     </E>
     <E key="sheep" value="1" >
     </E>
-    <E key="shotgunner" value="24" >
+    <E key="shotgunner" value="30" >
     </E>
-    <E key="slimeshooter" value="8" >
+    <E key="slimeshooter" value="10" >
     </E>
-    <E key="sniper" value="5" >
+    <E key="sniper" value="6" >
     </E>
     <E key="worm" value="2" >
     </E>
     <E key="worm_big" value="3" >
     </E>
-    <E key="worm_tiny" value="7" >
+    <E key="worm_tiny" value="8" >
     </E>
   </kill_map>
 </Stats>
