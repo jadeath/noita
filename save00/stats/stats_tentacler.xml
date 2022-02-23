@@ -1,4 +1,4 @@
-<Stats deaths="207" kills="86" player_kills="1" player_projectile_count="0" >
+<Stats deaths="214" kills="90" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -30,9 +30,9 @@
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="33" >
+    <E key="player | $damage_explosion" value="34" >
     </E>
-    <E key="player | $damage_projectile" value="89" >
+    <E key="player | $damage_projectile" value="93" >
     </E>
     <E key="player | $damage_slice" value="6" >
     </E>
@@ -44,7 +44,7 @@
     </E>
     <E key="worm | worm bite" value="1" >
     </E>
-    <E key="worm_skull | worm bite" value="4" >
+    <E key="worm_skull | worm bite" value="6" >
     </E>
   </death_map>
   <kill_map>
@@ -68,13 +68,13 @@
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
-    <E key="scorpion" value="19" >
+    <E key="scorpion" value="21" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
     <E key="skullfly" value="3" >
     </E>
-    <E key="skullrat" value="6" >
+    <E key="skullrat" value="7" >
     </E>
     <E key="slimeshooter" value="1" >
     </E>
@@ -84,7 +84,7 @@
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="tentacler_small" value="10" >
+    <E key="tentacler_small" value="11" >
     </E>
     <E key="thunderskull" value="1" >
     </E>

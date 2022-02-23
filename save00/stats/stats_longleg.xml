@@ -1,12 +1,12 @@
-<Stats deaths="2063" kills="85" player_kills="4" player_projectile_count="0" >
+<Stats deaths="2075" kills="85" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="33" >
     </E>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="56" >
+    <E key="NULL | $damage_explosion" value="59" >
     </E>
-    <E key="NULL | $damage_fire" value="351" >
+    <E key="NULL | $damage_fire" value="352" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
@@ -78,7 +78,7 @@
     </E>
     <E key="phantom_a | $damage_projectile" value="3" >
     </E>
-    <E key="player | $damage_explosion" value="36" >
+    <E key="player | $damage_explosion" value="40" >
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
@@ -104,7 +104,7 @@
     </E>
     <E key="shotgunner_weak | $damage_projectile" value="24" >
     </E>
-    <E key="skullfly | $damage_projectile" value="1" >
+    <E key="skullfly | $damage_projectile" value="4" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="6" >
     </E>
@@ -126,7 +126,7 @@
     </E>
     <E key="wizard_tele | $damage_projectile" value="2" >
     </E>
-    <E key="worm | worm bite" value="55" >
+    <E key="worm | worm bite" value="56" >
     </E>
     <E key="worm_big | worm bite" value="2" >
     </E>
