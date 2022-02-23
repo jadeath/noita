@@ -1,4 +1,4 @@
-<Stats deaths="348" kills="21" player_kills="1" player_projectile_count="0" >
+<Stats deaths="352" kills="21" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
@@ -23,6 +23,8 @@
     <E key="drone_lasership | $damage_projectile" value="1" >
     </E>
     <E key="firebug | $damage_melee" value="1" >
+    </E>
+    <E key="lukki_dark | $damage_curse" value="4" >
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>

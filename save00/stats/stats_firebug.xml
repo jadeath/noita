@@ -1,4 +1,4 @@
-<Stats deaths="902" kills="70" player_kills="1" player_projectile_count="0" >
+<Stats deaths="915" kills="70" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="lukki_longleg | hit" value="3" >
     </E>
-    <E key="miner | $damage_explosion" value="10" >
+    <E key="miner | $damage_explosion" value="12" >
     </E>
     <E key="miner | $damage_melee" value="3" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="309" >
+    <E key="player | $damage_projectile" value="320" >
     </E>
     <E key="player | $damage_slice" value="87" >
     </E>

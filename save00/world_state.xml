@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="25.6981" 
-    clouds_02_target="18.2596" 
+    clouds_01_target="44.17" 
+    clouds_02_target="59.7121" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="21" 
-    fog="0.00498761" 
-    fog_target="0" 
+    day_count="22" 
+    fog="0.761521" 
+    fog_target="0.766509" 
     global_genome_relations_modifier="0" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -51,17 +51,17 @@
     player_polymorph_random_count="1" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00498765" 
-    rain_target="0" 
+    rain="0.761521" 
+    rain_target="0.766509" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.443761" 
+    time="0.87128" 
     time_dt="1" 
-    time_total="20.7274" 
+    time_total="22.1441" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.419628" 
-    wind_speed="-25.1779" 
+    wind="-0.228737" 
+    wind_speed="-13.7239" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -174,6 +174,10 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_0_5" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
         value="23" >
       </E>
@@ -199,11 +203,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_rainforest_dark,$biome_rainforest,$biome_fungicave,$biome_holymou" >
+        value="_EMPTY_,$biome_coalmine,$biome_holymountain,$biome_excavationsite,$biome_snowcav" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="38" >
+        value="45" >
       </E>
     </lua_globals>
     <pending_portals>
