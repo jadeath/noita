@@ -1,12 +1,12 @@
-<Stats deaths="629" kills="237" player_kills="2" player_projectile_count="0" >
+<Stats deaths="634" kills="244" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="147" >
+    <E key="NULL | $damage_explosion" value="148" >
     </E>
-    <E key="NULL | $damage_fire" value="22" >
+    <E key="NULL | $damage_fire" value="23" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -50,7 +50,7 @@
     </E>
     <E key="player | $damage_explosion" value="15" >
     </E>
-    <E key="player | $damage_projectile" value="185" >
+    <E key="player | $damage_projectile" value="187" >
     </E>
     <E key="player | $damage_slice" value="54" >
     </E>
@@ -78,7 +78,7 @@
     </E>
     <E key="sniper | $damage_explosion" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="37" >
+    <E key="sniper | $damage_projectile" value="38" >
     </E>
     <E key="tank | $damage_projectile" value="3" >
     </E>
@@ -118,6 +118,8 @@
     </E>
     <E key="fireskull" value="1" >
     </E>
+    <E key="fly" value="2" >
+    </E>
     <E key="frog" value="3" >
     </E>
     <E key="fungus" value="1" >
@@ -142,6 +144,8 @@
     </E>
     <E key="potion_aggressive" value="1" >
     </E>
+    <E key="radioactive_blob_trail" value="4" >
+    </E>
     <E key="rat" value="135" >
     </E>
     <E key="scavenger_grenade" value="2" >
@@ -155,6 +159,8 @@
     <E key="shotgunner_weak" value="1" >
     </E>
     <E key="slimeshooter" value="14" >
+    </E>
+    <E key="slimeshooter_nontoxic" value="1" >
     </E>
     <E key="sniper" value="1" >
     </E>

@@ -1,6 +1,6 @@
-<Stats deaths="440" kills="76" player_kills="0" player_projectile_count="0" >
+<Stats deaths="489" kills="89" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="12" >
+    <E key="NULL | $damage_drowning" value="15" >
     </E>
     <E key="NULL | $damage_electricity" value="12" >
     </E>
@@ -12,9 +12,11 @@
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="16" >
+    <E key="NULL | damage from material: lava" value="20" >
     </E>
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
+    </E>
+    <E key="failed_alchemist | $damage_melee" value="1" >
     </E>
     <E key="firebug | $damage_melee" value="2" >
     </E>
@@ -22,7 +24,7 @@
     </E>
     <E key="maggot | $damage_melee" value="1" >
     </E>
-    <E key="necromancer | $damage_melee" value="1" >
+    <E key="necromancer | $damage_melee" value="3" >
     </E>
     <E key="orb_green | $damage_projectile" value="1" >
     </E>
@@ -30,7 +32,7 @@
     </E>
     <E key="phantom_a | $damage_projectile" value="4" >
     </E>
-    <E key="phantom_b | $damage_melee" value="2" >
+    <E key="phantom_b | $damage_melee" value="3" >
     </E>
     <E key="phantom_b | $damage_projectile" value="1" >
     </E>
@@ -38,11 +40,13 @@
     </E>
     <E key="player | $damage_explosion" value="55" >
     </E>
-    <E key="player | $damage_projectile" value="246" >
+    <E key="player | $damage_projectile" value="271" >
     </E>
     <E key="player | $damage_slice" value="19" >
     </E>
-    <E key="skullrat | $damage_melee" value="10" >
+    <E key="skullfly | $damage_projectile" value="1" >
+    </E>
+    <E key="skullrat | $damage_melee" value="18" >
     </E>
     <E key="slimeshooter_boss_limbs | $damage_projectile" value="1" >
     </E>
@@ -50,13 +54,17 @@
     </E>
     <E key="tentacler | $damage_melee" value="7" >
     </E>
-    <E key="tentacler_small | $damage_melee" value="4" >
+    <E key="tentacler_small | $damage_melee" value="5" >
     </E>
     <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
     <E key="wizard_returner | $damage_explosion" value="2" >
     </E>
+    <E key="wizard_returner | $damage_projectile" value="2" >
+    </E>
     <E key="worm | worm bite" value="4" >
+    </E>
+    <E key="wraith_glowing | $damage_projectile" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -72,15 +80,23 @@
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="scorpion" value="23" >
+    <E key="necromancer" value="1" >
+    </E>
+    <E key="phantom_a" value="1" >
+    </E>
+    <E key="scorpion" value="24" >
     </E>
     <E key="skullfly" value="1" >
     </E>
-    <E key="skullrat" value="10" >
+    <E key="skullrat" value="18" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>
     <E key="tentacler_small" value="14" >
+    </E>
+    <E key="wizard_dark" value="1" >
+    </E>
+    <E key="wizard_neutral" value="1" >
     </E>
     <E key="wizard_swapper" value="3" >
     </E>

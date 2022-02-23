@@ -1,4 +1,4 @@
-<Stats deaths="219" kills="91" player_kills="1" player_projectile_count="0" >
+<Stats deaths="227" kills="97" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -8,9 +8,11 @@
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="5" >
+    <E key="NULL | $damage_physicshit" value="6" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="3" >
+    </E>
+    <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="8" >
     </E>
@@ -30,13 +32,15 @@
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="34" >
+    <E key="player | $damage_explosion" value="35" >
     </E>
-    <E key="player | $damage_projectile" value="98" >
+    <E key="player | $damage_projectile" value="102" >
     </E>
     <E key="player | $damage_slice" value="6" >
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
+    </E>
+    <E key="scavenger_mine | $damage_melee" value="1" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
@@ -68,9 +72,9 @@
     </E>
     <E key="rat" value="17" >
     </E>
-    <E key="scavenger_grenade" value="2" >
+    <E key="scavenger_grenade" value="3" >
     </E>
-    <E key="scorpion" value="21" >
+    <E key="scorpion" value="24" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
@@ -86,7 +90,7 @@
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="tentacler_small" value="11" >
+    <E key="tentacler_small" value="13" >
     </E>
     <E key="thunderskull" value="1" >
     </E>

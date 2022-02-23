@@ -1,4 +1,4 @@
-<Stats deaths="143" kills="26" player_kills="0" player_projectile_count="0" >
+<Stats deaths="150" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
@@ -6,11 +6,11 @@
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
-    <E key="NULL | $damage_fire" value="26" >
+    <E key="NULL | $damage_fire" value="27" >
     </E>
     <E key="NULL | $damage_physicshit" value="11" >
     </E>
-    <E key="NULL | damage from material: acid" value="13" >
+    <E key="NULL | damage from material: acid" value="14" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="30" >
+    <E key="player | $damage_projectile" value="34" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
@@ -40,6 +40,8 @@
     </E>
     <E key="tentacler_small | $damage_melee" value="1" >
     </E>
+    <E key="wand_ghost_charmed | $damage_slice" value="1" >
+    </E>
     <E key="worm | worm bite" value="1" >
     </E>
   </death_map>
@@ -50,7 +52,7 @@
     </E>
     <E key="dripping_radioactive" value="1" >
     </E>
-    <E key="miniblob" value="6" >
+    <E key="miniblob" value="7" >
     </E>
     <E key="scavenger_grenade" value="5" >
     </E>

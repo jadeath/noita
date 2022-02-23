@@ -1,12 +1,12 @@
-<Stats deaths="240" kills="38" player_kills="0" player_projectile_count="0" >
+<Stats deaths="255" kills="41" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="17" >
+    <E key="NULL | $damage_explosion" value="18" >
     </E>
-    <E key="NULL | $damage_fire" value="15" >
+    <E key="NULL | $damage_fire" value="16" >
     </E>
-    <E key="NULL | $damage_physicshit" value="15" >
+    <E key="NULL | $damage_physicshit" value="16" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="NULL | damage from material: lava" value="2" >
     </E>
-    <E key="crystal_physics | $damage_projectile" value="2" >
+    <E key="crystal_physics | $damage_projectile" value="3" >
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
@@ -26,17 +26,17 @@
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
-    <E key="orb_green | $damage_projectile" value="1" >
+    <E key="orb_green | $damage_projectile" value="2" >
     </E>
     <E key="phantom_a | $damage_projectile" value="1" >
     </E>
-    <E key="phantom_b | $damage_melee" value="2" >
+    <E key="phantom_b | $damage_melee" value="3" >
     </E>
     <E key="player | $damage_electricity" value="5" >
     </E>
     <E key="player | $damage_explosion" value="36" >
     </E>
-    <E key="player | $damage_projectile" value="100" >
+    <E key="player | $damage_projectile" value="106" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -62,7 +62,13 @@
     </E>
     <E key="thunderskull | $damage_melee" value="2" >
     </E>
+    <E key="wand_ghost_charmed | $damage_projectile" value="1" >
+    </E>
+    <E key="wand_ghost_charmed | $damage_slice" value="1" >
+    </E>
     <E key="worm | worm bite" value="1" >
+    </E>
+    <E key="worm_skull | worm bite" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -70,13 +76,15 @@
     </E>
     <E key="dripping_oil" value="1" >
     </E>
+    <E key="dripping_water" value="1" >
+    </E>
     <E key="longleg" value="2" >
     </E>
     <E key="miner_weak" value="1" >
     </E>
     <E key="rat" value="7" >
     </E>
-    <E key="scorpion" value="23" >
+    <E key="scorpion" value="25" >
     </E>
     <E key="sheep" value="1" >
     </E>

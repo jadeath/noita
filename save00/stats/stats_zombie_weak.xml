@@ -1,16 +1,16 @@
-<Stats deaths="2714" kills="97" player_kills="2" player_projectile_count="0" >
+<Stats deaths="2730" kills="98" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="62" >
     </E>
     <E key="NULL | $damage_electricity" value="7" >
     </E>
-    <E key="NULL | $damage_explosion" value="71" >
+    <E key="NULL | $damage_explosion" value="72" >
     </E>
-    <E key="NULL | $damage_fire" value="269" >
+    <E key="NULL | $damage_fire" value="270" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="103" >
+    <E key="NULL | $damage_physicshit" value="106" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="11" >
     </E>
@@ -44,19 +44,19 @@
     </E>
     <E key="longleg | $damage_melee" value="53" >
     </E>
-    <E key="miner_weak | $damage_explosion" value="329" >
+    <E key="miner_weak | $damage_explosion" value="331" >
     </E>
     <E key="miner_weak | $damage_fire" value="1" >
     </E>
-    <E key="miner_weak | $damage_melee" value="222" >
+    <E key="miner_weak | $damage_melee" value="223" >
     </E>
-    <E key="miner_weak | $damage_projectile" value="1" >
+    <E key="miner_weak | $damage_projectile" value="2" >
     </E>
     <E key="miner_weak | $damage_slice" value="4" >
     </E>
     <E key="player | $damage_explosion" value="9" >
     </E>
-    <E key="player | $damage_projectile" value="708" >
+    <E key="player | $damage_projectile" value="710" >
     </E>
     <E key="player | $damage_slice" value="188" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="shotgunner_weak | $damage_melee" value="52" >
     </E>
-    <E key="shotgunner_weak | $damage_projectile" value="415" >
+    <E key="shotgunner_weak | $damage_projectile" value="419" >
     </E>
     <E key="shotgunner_weak | $damage_slice" value="1" >
     </E>
@@ -92,6 +92,8 @@
     </E>
     <E key="worm_tiny | worm bite" value="15" >
     </E>
+    <E key="zombie_weak | $damage_melee" value="1" >
+    </E>
   </death_map>
   <kill_map>
     <E key="acidshooter_weak" value="2" >
@@ -105,6 +107,8 @@
     <E key="shotgunner_weak" value="4" >
     </E>
     <E key="slimeshooter_weak" value="11" >
+    </E>
+    <E key="zombie_weak" value="1" >
     </E>
   </kill_map>
 </Stats>

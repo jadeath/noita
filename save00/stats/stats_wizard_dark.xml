@@ -1,4 +1,4 @@
-<Stats deaths="90" kills="45" player_kills="0" player_projectile_count="0" >
+<Stats deaths="92" kills="46" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="3" >
+    <E key="NULL | damage from material: lava" value="4" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
     </E>
@@ -27,6 +27,8 @@
     <E key="player | $damage_projectile" value="44" >
     </E>
     <E key="player | $damage_slice" value="3" >
+    </E>
+    <E key="skullrat | $damage_melee" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
@@ -46,7 +48,7 @@
     </E>
     <E key="miniblob" value="8" >
     </E>
-    <E key="rat" value="16" >
+    <E key="rat" value="17" >
     </E>
     <E key="scorpion" value="6" >
     </E>

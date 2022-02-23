@@ -1,10 +1,10 @@
-<Stats deaths="686" kills="36" player_kills="0" player_projectile_count="0" >
+<Stats deaths="696" kills="38" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="58" >
+    <E key="NULL | $damage_drowning" value="61" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="113" >
+    <E key="NULL | $damage_explosion" value="115" >
     </E>
     <E key="NULL | $damage_fire" value="23" >
     </E>
@@ -34,7 +34,7 @@
     </E>
     <E key="frog_big | $damage_melee" value="4" >
     </E>
-    <E key="miner | $damage_explosion" value="19" >
+    <E key="miner | $damage_explosion" value="21" >
     </E>
     <E key="miner | $damage_melee" value="9" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="223" >
+    <E key="player | $damage_projectile" value="224" >
     </E>
     <E key="player | $damage_slice" value="21" >
     </E>
@@ -68,11 +68,11 @@
     </E>
     <E key="scavenger_grenade | $damage_ice" value="1" >
     </E>
-    <E key="scavenger_leader | $damage_explosion" value="1" >
+    <E key="scavenger_leader | $damage_explosion" value="2" >
     </E>
     <E key="scavenger_leader | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_leader | $damage_projectile" value="3" >
+    <E key="scavenger_leader | $damage_projectile" value="4" >
     </E>
     <E key="scavenger_smg | $damage_explosion" value="1" >
     </E>
@@ -118,7 +118,7 @@
     </E>
     <E key="miniblob" value="3" >
     </E>
-    <E key="rat" value="29" >
+    <E key="rat" value="31" >
     </E>
   </kill_map>
 </Stats>

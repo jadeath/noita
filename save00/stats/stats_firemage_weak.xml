@@ -1,4 +1,4 @@
-<Stats deaths="138" kills="84" player_kills="6" player_projectile_count="0" >
+<Stats deaths="142" kills="84" player_kills="6" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -10,9 +10,9 @@
     </E>
     <E key="NULL | $damage_water" value="54" >
     </E>
-    <E key="NULL | damage from material: Water" value="29" >
+    <E key="NULL | damage from material: Water" value="30" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: brine" value="1" >
     </E>
@@ -20,7 +20,7 @@
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="23" >
+    <E key="player | $damage_projectile" value="25" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>

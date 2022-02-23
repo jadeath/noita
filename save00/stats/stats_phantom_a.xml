@@ -1,4 +1,4 @@
-<Stats deaths="82" kills="68" player_kills="0" player_projectile_count="0" >
+<Stats deaths="89" kills="73" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -18,15 +18,19 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
+    <E key="phantom_b | $damage_melee" value="1" >
+    </E>
     <E key="player | $damage_electricity" value="8" >
     </E>
-    <E key="player | $damage_explosion" value="5" >
+    <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="48" >
+    <E key="player | $damage_projectile" value="52" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
     <E key="skullfly | $damage_projectile" value="1" >
+    </E>
+    <E key="skullrat | $damage_melee" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -50,7 +54,9 @@
     </E>
     <E key="rat" value="1" >
     </E>
-    <E key="scorpion" value="25" >
+    <E key="scavenger_smg" value="1" >
+    </E>
+    <E key="scorpion" value="27" >
     </E>
     <E key="skullfly" value="4" >
     </E>
@@ -60,7 +66,7 @@
     </E>
     <E key="tentacler" value="3" >
     </E>
-    <E key="tentacler_small" value="4" >
+    <E key="tentacler_small" value="6" >
     </E>
     <E key="wand_ghost" value="1" >
     </E>

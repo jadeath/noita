@@ -1,22 +1,22 @@
-<Stats deaths="209" kills="84" player_kills="0" player_projectile_count="0" >
+<Stats deaths="227" kills="98" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="21" >
+    <E key="NULL | $damage_explosion" value="22" >
     </E>
-    <E key="NULL | $damage_physicshit" value="12" >
+    <E key="NULL | $damage_physicshit" value="14" >
     </E>
-    <E key="NULL | damage from material: acid" value="2" >
+    <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="drone_lasership | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="15" >
+    <E key="player | $damage_electricity" value="16" >
     </E>
     <E key="player | $damage_explosion" value="27" >
     </E>
-    <E key="player | $damage_projectile" value="105" >
+    <E key="player | $damage_projectile" value="118" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -36,7 +36,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshot" value="11" >
+    <E key="acidshot" value="14" >
     </E>
     <E key="dripping_radioactive" value="1" >
     </E>
@@ -46,27 +46,29 @@
     </E>
     <E key="longleg" value="3" >
     </E>
-    <E key="miner" value="7" >
+    <E key="miner" value="8" >
     </E>
     <E key="miniblob" value="1" >
     </E>
     <E key="rat" value="2" >
     </E>
-    <E key="scavenger_grenade" value="22" >
+    <E key="scavenger_grenade" value="23" >
     </E>
     <E key="scavenger_heal" value="1" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="19" >
+    <E key="scavenger_smg" value="23" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
-    <E key="shotgunner" value="7" >
+    <E key="shotgunner" value="9" >
     </E>
-    <E key="sniper" value="3" >
+    <E key="sniper" value="4" >
     </E>
-    <E key="turret_left" value="1" >
+    <E key="tank" value="1" >
+    </E>
+    <E key="turret_left" value="2" >
     </E>
     <E key="turret_right" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="967" kills="112" player_kills="2" player_projectile_count="0" >
+<Stats deaths="981" kills="114" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="13" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="35" >
     </E>
-    <E key="NULL | $damage_fire" value="158" >
+    <E key="NULL | $damage_fire" value="163" >
     </E>
     <E key="NULL | $damage_physicshit" value="86" >
     </E>
@@ -20,6 +20,8 @@
     </E>
     <E key="NULL | damage from material: lava" value="26" >
     </E>
+    <E key="NULL | damage from material: toxic gas" value="1" >
+    </E>
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
     <E key="bigfirebug | $damage_fire" value="5" >
@@ -30,7 +32,7 @@
     </E>
     <E key="disc_bullet_big | bzzt!" value="9" >
     </E>
-    <E key="firebug | $damage_fire" value="3" >
+    <E key="firebug | $damage_fire" value="4" >
     </E>
     <E key="fly | $damage_melee" value="2" >
     </E>
@@ -52,7 +54,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="368" >
+    <E key="player | $damage_projectile" value="375" >
     </E>
     <E key="player | $damage_slice" value="126" >
     </E>
@@ -100,7 +102,7 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="82" >
+    <E key="rat" value="84" >
     </E>
     <E key="sheep" value="1" >
     </E>

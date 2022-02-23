@@ -1,4 +1,4 @@
-<Stats deaths="41" kills="46" player_kills="0" player_projectile_count="0" >
+<Stats deaths="42" kills="46" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -35,6 +35,8 @@
     <E key="scavenger_smg | $damage_explosion" value="1" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="1" >
     </E>

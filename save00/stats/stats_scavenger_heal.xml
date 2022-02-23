@@ -1,14 +1,14 @@
-<Stats deaths="163" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="166" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="16" >
+    <E key="NULL | $damage_explosion" value="17" >
     </E>
     <E key="NULL | $damage_fire" value="8" >
     </E>
-    <E key="NULL | $damage_physicshit" value="8" >
+    <E key="NULL | $damage_physicshit" value="9" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="tank | $damage_explosion" value="1" >
     </E>
-    <E key="tank | $damage_projectile" value="1" >
+    <E key="tank | $damage_projectile" value="2" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="2" >
     </E>

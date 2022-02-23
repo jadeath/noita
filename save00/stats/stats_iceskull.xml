@@ -1,6 +1,6 @@
-<Stats deaths="343" kills="345" player_kills="0" player_projectile_count="0" >
+<Stats deaths="349" kills="348" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="2" >
+    <E key="NULL | $damage_drowning" value="3" >
     </E>
     <E key="NULL | $damage_electricity" value="7" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="79" >
+    <E key="player | $damage_projectile" value="82" >
     </E>
     <E key="player | $damage_slice" value="39" >
     </E>
@@ -30,7 +30,7 @@
     </E>
     <E key="scavenger_grenade | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="17" >
+    <E key="scavenger_grenade | $damage_projectile" value="18" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="2" >
     </E>
@@ -64,7 +64,7 @@
     </E>
     <E key="worm | worm bite" value="1" >
     </E>
-    <E key="worm_big | worm bite" value="6" >
+    <E key="worm_big | worm bite" value="7" >
     </E>
   </death_map>
   <kill_map>
@@ -78,7 +78,7 @@
     </E>
     <E key="potion" value="3" >
     </E>
-    <E key="rat" value="185" >
+    <E key="rat" value="188" >
     </E>
     <E key="scavenger_grenade" value="26" >
     </E>

@@ -19,14 +19,14 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="40.1969" 
-    clouds_02_target="50.7961" 
+    clouds_01_target="37.3995" 
+    clouds_02_target="44.5186" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="24" 
-    fog="0.761521" 
-    fog_target="0.766509" 
-    global_genome_relations_modifier="0" 
+    day_count="29" 
+    fog="0.0249241" 
+    fog_target="0.0270855" 
+    global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
     intro_weather="0" 
@@ -48,26 +48,30 @@
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
     player_polymorph_count="1" 
-    player_polymorph_random_count="1" 
+    player_polymorph_random_count="2" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.761521" 
-    rain_target="0.766509" 
+    rain="0.00498764" 
+    rain_target="0" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.0978846" 
+    time="0.938897" 
     time_dt="1" 
-    time_total="23.3613" 
+    time_total="29.1572" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.252507" 
-    wind_speed="-15.1505" 
+    wind="0.101282" 
+    wind_speed="6.07695" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
       <E 
         key="GHOST_PERK_TOTAL_COUNT" 
         value="1" >
+      </E>
+      <E 
+        key="HEARTS_MORE_EXTRA_HP_MULTIPLIER" 
+        value="2" >
       </E>
       <E 
         key="HOLY_MOUNTAIN_DEPTH" 
@@ -82,6 +86,22 @@
         value="8,1 1,-3 -9,7 -8,19 -18,28 -20,5 -1,31 20,31 19,5 6,3 19,-3" >
       </E>
       <E 
+        key="PERK_PICKED_BLEED_OIL_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_BREATH_UNDERWATER_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_EDIT_WANDS_EVERYWHERE_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_EXTRA_HP_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_EXTRA_MONEY_PICKUP_COUNT" 
         value="1" >
       </E>
@@ -90,7 +110,23 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_GAMBLE_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_GENOME_MORE_HATRED_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_HEARTS_MORE_EXTRA_HP_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_HUNGRY_GHOST_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_INVISIBILITY_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -102,6 +138,18 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_PROJECTILE_EATER_SECTOR_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_PROJECTILE_REPULSION_SECTOR_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_PROTECTION_FIRE_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_PROTECTION_MELEE_PICKUP_COUNT" 
         value="1" >
       </E>
@@ -110,12 +158,28 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_SAVING_GRACE_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_SHIELD_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_UNLIMITED_SPELLS_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_SHIELD_COUNT" 
         value="1" >
       </E>
       <E 
         key="PLAYER_GHOSTNESS_LEVEL" 
         value="1" >
+      </E>
+      <E 
+        key="PLAYER_HALO_LEVEL" 
+        value="0" >
       </E>
       <E 
         key="STEVARI_DEATHS" 
@@ -146,6 +210,26 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-36199_10523" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-36199_1307" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-36199_2843" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-36199_4891" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-36199_6427" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_ACTIVE_2233_13078" 
         value="1" >
       </E>
@@ -159,6 +243,30 @@
       </E>
       <E 
         key="TEMPLE_COLLAPSED_0_9" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_16" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_2" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_20" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-1_9" 
         value="1" >
       </E>
       <E 
@@ -179,7 +287,7 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="23" >
+        value="49" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
@@ -191,11 +299,11 @@
       </E>
       <E 
         key="TEMPLE_PERK_REROLL_COUNT" 
-        value="5" >
+        value="8" >
       </E>
       <E 
         key="TEMPLE_REROLL_PERK_INDEX" 
-        value="94" >
+        value="82" >
       </E>
       <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
@@ -203,11 +311,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_liquidcave,$biome_coalmine_alt,$biome_desert,_EMPTY_,$biome_coalm" >
+        value="$biome_lake,$biome_winter,_EMPTY_,$biome_coalmine,$biome_excavationsite,$biome_s" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="49" >
+        value="83" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -386,6 +494,204 @@
       </string>
       <string>
         new_kill_fungus_tiny
+      </string>
+      <string>
+        new_kill_essence_eater
+      </string>
+      <string>
+        musicmachine3
+      </string>
+      <string>
+        new_action_black_hole_death_trigger
+      </string>
+      <string>
+        musicmachine1
+      </string>
+      <string>
+        musicmachine4
+      </string>
+      <string>
+        PERK_VOMIT_RATS
+      </string>
+      <string>
+        PERK_EXTRA_MANA
+      </string>
+      <string>
+        PERK_PROJECTILE_EATER_SECTOR
+      </string>
+      <string>
+        PERK_ATTRACT_ITEMS
+      </string>
+      <string>
+        new_kill_necromancer_super
+      </string>
+      <string>
+        new_action_gamma
+      </string>
+      <string>
+        PERK_PICKED_PROJECTILE_EATER_SECTOR
+      </string>
+      <string>
+        PERK_SHIELD
+      </string>
+      <string>
+        PERK_LASER_AIM
+      </string>
+      <string>
+        PERK_FASTER_LEVITATION
+      </string>
+      <string>
+        PERK_EXPLODING_CORPSES
+      </string>
+      <string>
+        PERK_PICKED_SHIELD
+      </string>
+      <string>
+        PERK_PROTECTION_FIRE
+      </string>
+      <string>
+        PERK_GAMBLE
+      </string>
+      <string>
+        PERK_ANGRY_GHOST
+      </string>
+      <string>
+        PERK_PROJECTILE_REPULSION_SECTOR
+      </string>
+      <string>
+        PERK_PICKED_PROTECTION_FIRE
+      </string>
+      <string>
+        new_perk_picked_gamble
+      </string>
+      <string>
+        PERK_PICKED_GAMBLE
+      </string>
+      <string>
+        PERK_SAVING_GRACE
+      </string>
+      <string>
+        new_perk_picked_saving_grace
+      </string>
+      <string>
+        PERK_PICKED_SAVING_GRACE
+      </string>
+      <string>
+        PERK_HEARTS_MORE_EXTRA_HP
+      </string>
+      <string>
+        PERK_PICKED_HEARTS_MORE_EXTRA_HP
+      </string>
+      <string>
+        new_perk_picked_projectile_repulsion_sector
+      </string>
+      <string>
+        PERK_PICKED_PROJECTILE_REPULSION_SECTOR
+      </string>
+      <string>
+        PERK_FAST_PROJECTILES
+      </string>
+      <string>
+        PERK_BOUNCE
+      </string>
+      <string>
+        PERK_PROTECTION_RADIOACTIVITY
+      </string>
+      <string>
+        PERK_EDIT_WANDS_EVERYWHERE
+      </string>
+      <string>
+        PERK_VAMPIRISM
+      </string>
+      <string>
+        PERK_PROJECTILE_HOMING_SHOOTER
+      </string>
+      <string>
+        PERK_REVENGE_RATS
+      </string>
+      <string>
+        PERK_PICKED_EDIT_WANDS_EVERYWHERE
+      </string>
+      <string>
+        PERK_GENOME_MORE_LOVE
+      </string>
+      <string>
+        PERK_ADVENTURER
+      </string>
+      <string>
+        PERK_LOWER_SPREAD
+      </string>
+      <string>
+        PERK_MEGA_BEAM_STONE
+      </string>
+      <string>
+        PERK_LOW_RECOIL
+      </string>
+      <string>
+        PERK_BREATH_UNDERWATER
+      </string>
+      <string>
+        PERK_BLEED_OIL
+      </string>
+      <string>
+        PERK_EXTRA_HP
+      </string>
+      <string>
+        PERK_PICKED_BREATH_UNDERWATER
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_HP
+      </string>
+      <string>
+        new_perk_picked_bleed_oil
+      </string>
+      <string>
+        PERK_PICKED_BLEED_OIL
+      </string>
+      <string>
+        PERK_GLOBAL_GORE
+      </string>
+      <string>
+        PERK_NO_WAND_EDITING
+      </string>
+      <string>
+        PERK_WORM_SMALLER_HOLES
+      </string>
+      <string>
+        PERK_REVENGE_EXPLOSION
+      </string>
+      <string>
+        PERK_GENOME_MORE_HATRED
+      </string>
+      <string>
+        PERK_INVISIBILITY
+      </string>
+      <string>
+        PERK_IRON_STOMACH
+      </string>
+      <string>
+        PERK_WAND_EXPERIMENTER
+      </string>
+      <string>
+        PERK_PICKED_INVISIBILITY
+      </string>
+      <string>
+        PERK_PICKED_GENOME_MORE_HATRED
+      </string>
+      <string>
+        new_kill_ghost
+      </string>
+      <string>
+        new_action_sigma
+      </string>
+      <string>
+        new_action_orbit_discs
+      </string>
+      <string>
+        new_action_summon_portal
+      </string>
+      <string>
+        musicmachine2
       </string>
     </flags>
     <changed_materials>

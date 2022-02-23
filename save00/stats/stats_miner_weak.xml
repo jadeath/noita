@@ -1,4 +1,4 @@
-<Stats deaths="1468" kills="825" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1479" kills="831" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="62" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="70" >
     </E>
-    <E key="NULL | $damage_fire" value="254" >
+    <E key="NULL | $damage_fire" value="258" >
     </E>
     <E key="NULL | $damage_melee" value="2" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
-    <E key="NULL | $damage_radioactive" value="37" >
+    <E key="NULL | $damage_radioactive" value="38" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
@@ -58,11 +58,11 @@
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="5" >
+    <E key="player | $damage_explosion" value="6" >
     </E>
     <E key="player | $damage_plasmabeam" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="594" >
+    <E key="player | $damage_projectile" value="597" >
     </E>
     <E key="player | $damage_slice" value="84" >
     </E>
@@ -70,7 +70,7 @@
     </E>
     <E key="player_rng_items | $damage_slice" value="1" >
     </E>
-    <E key="shaman | $damage_projectile" value="1" >
+    <E key="shaman | $damage_projectile" value="3" >
     </E>
     <E key="shotgunner_weak | $damage_slice" value="1" >
     </E>
@@ -102,7 +102,7 @@
     </E>
     <E key="fireskull" value="1" >
     </E>
-    <E key="frog" value="8" >
+    <E key="frog" value="10" >
     </E>
     <E key="frog_big" value="1" >
     </E>
@@ -126,7 +126,7 @@
     </E>
     <E key="zombie" value="35" >
     </E>
-    <E key="zombie_weak" value="557" >
+    <E key="zombie_weak" value="561" >
     </E>
   </kill_map>
 </Stats>

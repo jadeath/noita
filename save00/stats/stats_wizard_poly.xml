@@ -1,4 +1,4 @@
-<Stats deaths="24" kills="6" player_kills="0" player_projectile_count="0" >
+<Stats deaths="24" kills="7" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
@@ -24,7 +24,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="sheep" value="5" >
+    <E key="sheep" value="6" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="96" kills="3" player_kills="0" player_projectile_count="0" >
+<Stats deaths="105" kills="6" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -6,13 +6,13 @@
     </E>
     <E key="NULL | $damage_explosion" value="4" >
     </E>
-    <E key="NULL | $damage_fire" value="26" >
+    <E key="NULL | $damage_fire" value="27" >
     </E>
     <E key="NULL | $damage_physicshit" value="6" >
     </E>
-    <E key="NULL | $damage_radioactive" value="2" >
+    <E key="NULL | $damage_radioactive" value="5" >
     </E>
-    <E key="NULL | damage from material: acid" value="3" >
+    <E key="NULL | damage from material: acid" value="5" >
     </E>
     <E key="bigzombietorso | $damage_melee" value="1" >
     </E>
@@ -26,7 +26,7 @@
     </E>
     <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="31" >
+    <E key="player | $damage_projectile" value="34" >
     </E>
     <E key="player | $damage_slice" value="3" >
     </E>
@@ -36,9 +36,15 @@
   <kill_map>
     <E key="bigzombietorso" value="1" >
     </E>
+    <E key="mine_scavenger" value="1" >
+    </E>
     <E key="miniblob" value="1" >
     </E>
+    <E key="rat" value="1" >
+    </E>
     <E key="scorpion" value="1" >
+    </E>
+    <E key="tentacler" value="1" >
     </E>
   </kill_map>
 </Stats>
