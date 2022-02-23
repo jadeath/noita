@@ -1,4 +1,4 @@
-<Stats deaths="27" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="28" kills="11" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="10" >
+    <E key="player | $damage_projectile" value="11" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
@@ -23,6 +23,8 @@
     <E key="acidshot" value="2" >
     </E>
     <E key="bat" value="1" >
+    </E>
+    <E key="longleg" value="1" >
     </E>
     <E key="phantom_a" value="1" >
     </E>

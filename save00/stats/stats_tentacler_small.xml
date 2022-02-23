@@ -1,4 +1,4 @@
-<Stats deaths="289" kills="69" player_kills="0" player_projectile_count="0" >
+<Stats deaths="296" kills="70" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
-    <E key="NULL | damage from material: Cursed rock" value="1" >
+    <E key="NULL | damage from material: Cursed rock" value="2" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="113" >
+    <E key="player | $damage_projectile" value="119" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -114,7 +114,7 @@
     </E>
     <E key="skullfly" value="1" >
     </E>
-    <E key="skullrat" value="3" >
+    <E key="skullrat" value="4" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>

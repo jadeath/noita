@@ -1,4 +1,4 @@
-<Stats deaths="2075" kills="85" player_kills="4" player_projectile_count="0" >
+<Stats deaths="2079" kills="85" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="33" >
     </E>
@@ -48,6 +48,8 @@
     </E>
     <E key="boss_pit | $damage_projectile" value="2" >
     </E>
+    <E key="crystal_physics | $damage_projectile" value="1" >
+    </E>
     <E key="drone_lasership | $damage_projectile" value="3" >
     </E>
     <E key="firemage_weak | $damage_explosion" value="5" >
@@ -82,7 +84,7 @@
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="893" >
+    <E key="player | $damage_projectile" value="894" >
     </E>
     <E key="player | $damage_slice" value="74" >
     </E>
@@ -106,6 +108,8 @@
     </E>
     <E key="skullfly | $damage_projectile" value="4" >
     </E>
+    <E key="skullrat | $damage_melee" value="1" >
+    </E>
     <E key="slimeshooter | $damage_projectile" value="6" >
     </E>
     <E key="slimeshooter_boss_limbs | $damage_projectile" value="1" >
@@ -121,6 +125,8 @@
     <E key="slimeshooter_weak | $damage_melee" value="2" >
     </E>
     <E key="slimeshooter_weak | $damage_projectile" value="22" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
     </E>
     <E key="thunder_blast | $damage_curse" value="2" >
     </E>
