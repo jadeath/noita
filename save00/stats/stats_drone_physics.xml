@@ -1,20 +1,20 @@
-<Stats deaths="126" kills="21" player_kills="0" player_projectile_count="0" >
+<Stats deaths="131" kills="21" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="16" >
     </E>
-    <E key="NULL | $damage_explosion" value="39" >
+    <E key="NULL | $damage_explosion" value="40" >
     </E>
     <E key="NULL | $damage_physicshit" value="8" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
-    <E key="NULL | physics body damaged" value="38" >
+    <E key="NULL | physics body damaged" value="39" >
     </E>
     <E key="player | $damage_electricity" value="4" >
     </E>
     <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="16" >
+    <E key="player | $damage_projectile" value="19" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>

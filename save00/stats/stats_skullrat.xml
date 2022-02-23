@@ -1,6 +1,6 @@
-<Stats deaths="337" kills="53" player_kills="0" player_projectile_count="0" >
+<Stats deaths="374" kills="56" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="9" >
+    <E key="NULL | $damage_drowning" value="12" >
     </E>
     <E key="NULL | $damage_electricity" value="12" >
     </E>
@@ -17,6 +17,8 @@
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
     <E key="firebug | $damage_melee" value="2" >
+    </E>
+    <E key="maggot | $damage_explosion" value="1" >
     </E>
     <E key="maggot | $damage_melee" value="1" >
     </E>
@@ -36,7 +38,7 @@
     </E>
     <E key="player | $damage_explosion" value="55" >
     </E>
-    <E key="player | $damage_projectile" value="149" >
+    <E key="player | $damage_projectile" value="182" >
     </E>
     <E key="player | $damage_slice" value="19" >
     </E>
@@ -62,11 +64,11 @@
     </E>
     <E key="firebug" value="2" >
     </E>
-    <E key="maggot" value="1" >
+    <E key="maggot" value="2" >
     </E>
     <E key="miniblob" value="1" >
     </E>
-    <E key="scorpion" value="19" >
+    <E key="scorpion" value="21" >
     </E>
     <E key="skullfly" value="1" >
     </E>

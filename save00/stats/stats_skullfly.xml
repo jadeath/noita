@@ -1,4 +1,4 @@
-<Stats deaths="109" kills="86" player_kills="1" player_projectile_count="0" >
+<Stats deaths="121" kills="86" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -14,7 +14,9 @@
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="3" >
+    <E key="NULL | damage from material: lava" value="5" >
+    </E>
+    <E key="maggot | $damage_explosion" value="1" >
     </E>
     <E key="orb_green | $damage_projectile" value="2" >
     </E>
@@ -28,7 +30,7 @@
     </E>
     <E key="player | $damage_explosion" value="22" >
     </E>
-    <E key="player | $damage_projectile" value="35" >
+    <E key="player | $damage_projectile" value="42" >
     </E>
     <E key="player | $damage_slice" value="4" >
     </E>
@@ -36,9 +38,11 @@
     </E>
     <E key="tentacler | $damage_melee" value="3" >
     </E>
+    <E key="tentacler_small | $damage_melee" value="1" >
+    </E>
     <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
-    <E key="worm | worm bite" value="2" >
+    <E key="worm | worm bite" value="3" >
     </E>
   </death_map>
   <kill_map>

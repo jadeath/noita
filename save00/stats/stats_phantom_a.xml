@@ -1,4 +1,4 @@
-<Stats deaths="67" kills="65" player_kills="0" player_projectile_count="0" >
+<Stats deaths="73" kills="67" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="1" >
+    <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
@@ -20,7 +20,7 @@
     </E>
     <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="35" >
+    <E key="player | $damage_projectile" value="40" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -30,7 +30,7 @@
   <kill_map>
     <E key="acidshooter" value="1" >
     </E>
-    <E key="acidshot" value="3" >
+    <E key="acidshot" value="4" >
     </E>
     <E key="barfer" value="1" >
     </E>
@@ -42,7 +42,7 @@
     </E>
     <E key="pebble_player_physics" value="1" >
     </E>
-    <E key="physics_torch_stand" value="2" >
+    <E key="physics_torch_stand" value="3" >
     </E>
     <E key="potion" value="1" >
     </E>

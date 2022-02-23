@@ -1,4 +1,4 @@
-<Stats deaths="160" kills="52" player_kills="2" player_projectile_count="0" >
+<Stats deaths="163" kills="54" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="player | $damage_explosion" value="19" >
     </E>
-    <E key="player | $damage_projectile" value="80" >
+    <E key="player | $damage_projectile" value="83" >
     </E>
     <E key="player | $damage_slice" value="12" >
     </E>
@@ -44,7 +44,7 @@
     </E>
     <E key="acidshot" value="1" >
     </E>
-    <E key="bigzombie" value="2" >
+    <E key="bigzombie" value="3" >
     </E>
     <E key="bigzombietorso" value="2" >
     </E>
@@ -72,7 +72,7 @@
     </E>
     <E key="scavenger_grenade" value="6" >
     </E>
-    <E key="scavenger_heal" value="1" >
+    <E key="scavenger_heal" value="2" >
     </E>
     <E key="scavenger_leader" value="1" >
     </E>

@@ -1,6 +1,6 @@
-<Stats deaths="326" kills="20" player_kills="1" player_projectile_count="0" >
+<Stats deaths="346" kills="21" player_kills="1" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="5" >
+    <E key="NULL | $damage_drowning" value="7" >
     </E>
     <E key="NULL | $damage_electricity" value="1" >
     </E>
@@ -30,7 +30,7 @@
     </E>
     <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="193" >
+    <E key="player | $damage_projectile" value="206" >
     </E>
     <E key="player | $damage_slice" value="27" >
     </E>
@@ -44,7 +44,7 @@
     </E>
     <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
-    <E key="shooterflower | $damage_projectile" value="10" >
+    <E key="shooterflower | $damage_projectile" value="12" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_explosion" value="2" >
     </E>
@@ -54,7 +54,7 @@
     </E>
     <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
-    <E key="worm | worm bite" value="6" >
+    <E key="worm | worm bite" value="9" >
     </E>
   </death_map>
   <kill_map>
@@ -62,7 +62,7 @@
     </E>
     <E key="bloom" value="1" >
     </E>
-    <E key="lukki_longleg" value="5" >
+    <E key="lukki_longleg" value="6" >
     </E>
     <E key="player" value="1" >
     </E>

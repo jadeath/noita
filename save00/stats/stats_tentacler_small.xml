@@ -1,12 +1,12 @@
-<Stats deaths="270" kills="63" player_kills="0" player_projectile_count="0" >
+<Stats deaths="277" kills="66" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="32" >
+    <E key="NULL | $damage_explosion" value="33" >
     </E>
-    <E key="NULL | $damage_fire" value="8" >
+    <E key="NULL | $damage_fire" value="9" >
     </E>
     <E key="NULL | $damage_physicshit" value="8" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="6" >
+    <E key="NULL | damage from material: acid" value="7" >
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
@@ -34,7 +34,7 @@
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
-    <E key="orb_green | $damage_projectile" value="3" >
+    <E key="orb_green | $damage_projectile" value="4" >
     </E>
     <E key="phantom_a | $damage_melee" value="2" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="104" >
+    <E key="player | $damage_projectile" value="107" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -110,7 +110,9 @@
     </E>
     <E key="rat" value="28" >
     </E>
-    <E key="scorpion" value="19" >
+    <E key="scorpion" value="21" >
+    </E>
+    <E key="skullfly" value="1" >
     </E>
     <E key="skullrat" value="3" >
     </E>
