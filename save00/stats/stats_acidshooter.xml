@@ -1,10 +1,10 @@
-<Stats deaths="292" kills="50" player_kills="0" player_projectile_count="0" >
+<Stats deaths="298" kills="51" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="20" >
+    <E key="NULL | $damage_explosion" value="21" >
     </E>
-    <E key="NULL | $damage_fire" value="20" >
+    <E key="NULL | $damage_fire" value="21" >
     </E>
     <E key="NULL | $damage_physicshit" value="19" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="3" >
     </E>
-    <E key="death_ghost | $damage_curse" value="2" >
+    <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="drone_physics | $damage_explosion" value="1" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="3" >
+    <E key="homunculus | $damage_projectile" value="5" >
     </E>
     <E key="longleg | $damage_melee" value="1" >
     </E>
@@ -102,7 +102,7 @@
   <kill_map>
     <E key="acidshooter" value="1" >
     </E>
-    <E key="acidshot" value="4" >
+    <E key="acidshot" value="5" >
     </E>
     <E key="barfer" value="1" >
     </E>

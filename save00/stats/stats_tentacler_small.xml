@@ -1,10 +1,10 @@
-<Stats deaths="349" kills="86" player_kills="0" player_projectile_count="0" >
+<Stats deaths="351" kills="86" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="38" >
+    <E key="NULL | $damage_explosion" value="39" >
     </E>
     <E key="NULL | $damage_fire" value="13" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="3" >
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>

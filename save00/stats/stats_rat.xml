@@ -1,10 +1,10 @@
-<Stats deaths="3451" kills="121" player_kills="0" player_projectile_count="0" >
+<Stats deaths="3464" kills="122" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="39" >
     </E>
-    <E key="NULL | $damage_electricity" value="29" >
+    <E key="NULL | $damage_electricity" value="30" >
     </E>
-    <E key="NULL | $damage_explosion" value="219" >
+    <E key="NULL | $damage_explosion" value="223" >
     </E>
     <E key="NULL | $damage_fire" value="184" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="chest_mimic | $damage_melee" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="10" >
+    <E key="death_ghost | $damage_curse" value="13" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="2" >
     </E>
@@ -64,7 +64,7 @@
     </E>
     <E key="fly | $damage_melee" value="5" >
     </E>
-    <E key="frog | $damage_melee" value="13" >
+    <E key="frog | $damage_melee" value="15" >
     </E>
     <E key="frog_big | $damage_melee" value="8" >
     </E>
@@ -78,7 +78,7 @@
     </E>
     <E key="goblin_bomb | $damage_melee" value="28" >
     </E>
-    <E key="homunculus | $damage_projectile" value="9" >
+    <E key="homunculus | $damage_projectile" value="11" >
     </E>
     <E key="icemage | $damage_explosion" value="3" >
     </E>
@@ -230,7 +230,7 @@
     </E>
     <E key="worm_tiny | worm bite" value="33" >
     </E>
-    <E key="zombie | $damage_melee" value="37" >
+    <E key="zombie | $damage_melee" value="38" >
     </E>
   </death_map>
   <kill_map>
@@ -270,7 +270,7 @@
     </E>
     <E key="tentacler_small" value="2" >
     </E>
-    <E key="zombie" value="7" >
+    <E key="zombie" value="8" >
     </E>
   </kill_map>
 </Stats>

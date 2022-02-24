@@ -1,4 +1,4 @@
-<Stats deaths="168" kills="103" player_kills="0" player_projectile_count="0" >
+<Stats deaths="169" kills="103" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="18" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="drone_lasership | $damage_projectile" value="2" >
     </E>
-    <E key="homunculus | $damage_projectile" value="3" >
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="player | $damage_electricity" value="6" >
     </E>

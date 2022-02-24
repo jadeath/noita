@@ -1,8 +1,8 @@
-<Stats deaths="141" kills="2" player_kills="0" player_projectile_count="0" >
+<Stats deaths="143" kills="2" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="22" >
+    <E key="NULL | $damage_electricity" value="23" >
     </E>
     <E key="NULL | $damage_explosion" value="8" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
-    <E key="NULL | damage from material: acid" value="13" >
+    <E key="NULL | damage from material: acid" value="14" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="3" >
     </E>

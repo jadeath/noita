@@ -1,14 +1,14 @@
-<Stats deaths="2377" kills="125" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2562" kills="130" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="53" >
+    <E key="NULL | $damage_drowning" value="54" >
     </E>
-    <E key="NULL | $damage_electricity" value="377" >
+    <E key="NULL | $damage_electricity" value="399" >
     </E>
-    <E key="NULL | $damage_explosion" value="201" >
+    <E key="NULL | $damage_explosion" value="204" >
     </E>
     <E key="NULL | $damage_fire" value="2" >
     </E>
-    <E key="NULL | $damage_melee" value="18" >
+    <E key="NULL | $damage_melee" value="19" >
     </E>
     <E key="NULL | $damage_physicshit" value="102" >
     </E>
@@ -32,11 +32,11 @@
     </E>
     <E key="black_hole_big | " value="2" >
     </E>
-    <E key="blob | $damage_melee" value="205" >
+    <E key="blob | $damage_melee" value="255" >
     </E>
     <E key="bloom | $damage_explosion" value="2" >
     </E>
-    <E key="death_ghost | $damage_curse" value="53" >
+    <E key="death_ghost | $damage_curse" value="124" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="3" >
     </E>
@@ -62,7 +62,7 @@
     </E>
     <E key="frog_big | $damage_melee" value="6" >
     </E>
-    <E key="homunculus | $damage_projectile" value="13" >
+    <E key="homunculus | $damage_projectile" value="24" >
     </E>
     <E key="longleg | $damage_melee" value="3" >
     </E>
@@ -72,23 +72,25 @@
     </E>
     <E key="miner_weak | $damage_melee" value="2" >
     </E>
-    <E key="miniblob | $damage_melee" value="49" >
+    <E key="miniblob | $damage_melee" value="53" >
     </E>
     <E key="missilecrab | $damage_explosion" value="4" >
     </E>
     <E key="missilecrab | $damage_projectile" value="1" >
     </E>
+    <E key="necrobot | $damage_projectile" value="2" >
+    </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="2" >
     </E>
-    <E key="physics_ragdoll_part_exploding | $damage_explosion" value="6" >
+    <E key="physics_ragdoll_part_exploding | $damage_explosion" value="12" >
     </E>
     <E key="player | $damage_electricity" value="4" >
     </E>
     <E key="player | $damage_explosion" value="80" >
     </E>
-    <E key="player | $damage_projectile" value="869" >
+    <E key="player | $damage_projectile" value="873" >
     </E>
     <E key="player | $damage_slice" value="27" >
     </E>
@@ -102,13 +104,19 @@
     </E>
     <E key="scavenger_clusterbomb | $damage_explosion" value="1" >
     </E>
-    <E key="scavenger_glue | $damage_melee" value="6" >
+    <E key="scavenger_glue | $damage_melee" value="8" >
+    </E>
+    <E key="scavenger_glue | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_grenade | $damage_melee" value="2" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
+    <E key="scavenger_leader | $damage_explosion" value="2" >
+    </E>
     <E key="scavenger_leader | $damage_melee" value="1" >
+    </E>
+    <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_mine | $damage_melee" value="8" >
     </E>
@@ -150,7 +158,7 @@
     </E>
     <E key="tank | $damage_projectile" value="1" >
     </E>
-    <E key="tank_rocket | $damage_explosion" value="3" >
+    <E key="tank_rocket | $damage_explosion" value="5" >
     </E>
     <E key="tank_rocket | $damage_projectile" value="3" >
     </E>
@@ -174,7 +182,7 @@
     </E>
     <E key="turret_left | $damage_projectile" value="2" >
     </E>
-    <E key="turret_right | $damage_projectile" value="2" >
+    <E key="turret_right | $damage_projectile" value="4" >
     </E>
     <E key="wizard_dark | $damage_explosion" value="3" >
     </E>
@@ -216,11 +224,11 @@
     </E>
     <E key="miner_weak" value="1" >
     </E>
-    <E key="miniblob" value="49" >
+    <E key="miniblob" value="53" >
     </E>
     <E key="rat" value="21" >
     </E>
-    <E key="scavenger_grenade" value="1" >
+    <E key="scavenger_grenade" value="2" >
     </E>
     <E key="scavenger_invis" value="1" >
     </E>

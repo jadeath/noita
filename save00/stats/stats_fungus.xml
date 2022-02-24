@@ -1,8 +1,8 @@
-<Stats deaths="232" kills="2" player_kills="0" player_projectile_count="0" >
+<Stats deaths="236" kills="2" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="116" >
+    <E key="NULL | $damage_explosion" value="118" >
     </E>
     <E key="NULL | $damage_fire" value="38" >
     </E>
@@ -16,7 +16,7 @@
     </E>
     <E key="bloom | $damage_projectile" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="lukki_dark | $damage_curse" value="1" >
     </E>

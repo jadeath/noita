@@ -1,4 +1,4 @@
-<Stats deaths="825" kills="216" player_kills="2" player_projectile_count="0" >
+<Stats deaths="826" kills="219" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="28" >
     </E>
@@ -28,7 +28,7 @@
     </E>
     <E key="bigfirebug | $damage_projectile" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="2" >
+    <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
@@ -82,7 +82,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="bat" value="10" >
+    <E key="bat" value="11" >
     </E>
     <E key="bigfirebug" value="2" >
     </E>
@@ -120,7 +120,7 @@
     </E>
     <E key="sniper" value="4" >
     </E>
-    <E key="zombie" value="36" >
+    <E key="zombie" value="38" >
     </E>
   </kill_map>
 </Stats>

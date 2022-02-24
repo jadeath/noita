@@ -1,4 +1,4 @@
-<Stats deaths="86" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="98" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
@@ -6,25 +6,27 @@
     </E>
     <E key="NULL | $damage_fire" value="2" >
     </E>
-    <E key="NULL | $damage_physicshit" value="4" >
+    <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="2" >
+    <E key="NULL | damage from material: freezing vapour" value="3" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="NULL | damage from material: toxic ice" value="2" >
+    <E key="NULL | damage from material: toxic ice" value="3" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="3" >
     </E>
-    <E key="blob | $damage_melee" value="1" >
+    <E key="blob | $damage_melee" value="2" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="2" >
     </E>
     <E key="frog_big | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="1" >
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>
@@ -32,7 +34,7 @@
     </E>
     <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="35" >
+    <E key="player | $damage_projectile" value="36" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
@@ -40,7 +42,11 @@
     </E>
     <E key="scavenger_invis | $damage_explosion" value="1" >
     </E>
+    <E key="tank_rocket | $damage_explosion" value="1" >
+    </E>
     <E key="thundermage | $damage_electricity" value="1" >
+    </E>
+    <E key="thundermage | $damage_explosion" value="1" >
     </E>
     <E key="wizard_swapper | $damage_projectile" value="1" >
     </E>

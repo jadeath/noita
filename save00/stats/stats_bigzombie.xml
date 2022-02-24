@@ -1,8 +1,8 @@
-<Stats deaths="168" kills="33" player_kills="0" player_projectile_count="0" >
+<Stats deaths="170" kills="42" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="17" >
+    <E key="NULL | $damage_electricity" value="18" >
     </E>
     <E key="NULL | $damage_explosion" value="14" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | $damage_physicshit" value="12" >
     </E>
-    <E key="NULL | damage from material: acid" value="16" >
+    <E key="NULL | damage from material: acid" value="17" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -57,6 +57,8 @@
     <E key="blob" value="5" >
     </E>
     <E key="dripping_radioactive" value="1" >
+    </E>
+    <E key="glue" value="9" >
     </E>
     <E key="miniblob" value="9" >
     </E>

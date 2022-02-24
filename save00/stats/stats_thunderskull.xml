@@ -1,8 +1,8 @@
-<Stats deaths="152" kills="34" player_kills="0" player_projectile_count="0" >
+<Stats deaths="156" kills="34" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="33" >
+    <E key="NULL | $damage_explosion" value="35" >
     </E>
     <E key="NULL | $damage_physicshit" value="5" >
     </E>
@@ -20,7 +20,9 @@
     </E>
     <E key="gazer | $damage_projectile" value="2" >
     </E>
-    <E key="homunculus | $damage_projectile" value="6" >
+    <E key="homunculus | $damage_projectile" value="7" >
+    </E>
+    <E key="missilecrab | $damage_explosion" value="1" >
     </E>
     <E key="missilecrab | $damage_projectile" value="1" >
     </E>

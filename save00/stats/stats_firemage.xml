@@ -1,14 +1,14 @@
-<Stats deaths="51" kills="14" player_kills="0" player_projectile_count="0" >
+<Stats deaths="53" kills="16" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="1" >
+    <E key="NULL | $damage_explosion" value="2" >
     </E>
     <E key="NULL | $damage_physicshit" value="4" >
     </E>
-    <E key="NULL | $damage_water" value="7" >
+    <E key="NULL | $damage_water" value="8" >
     </E>
     <E key="NULL | damage from material: Water" value="1" >
     </E>
@@ -38,7 +38,11 @@
     </E>
     <E key="firemage" value="4" >
     </E>
+    <E key="icer" value="1" >
+    </E>
     <E key="miniblob" value="2" >
+    </E>
+    <E key="scavenger_shield" value="1" >
     </E>
     <E key="scorpion" value="4" >
     </E>

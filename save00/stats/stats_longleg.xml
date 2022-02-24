@@ -1,4 +1,4 @@
-<Stats deaths="2239" kills="159" player_kills="4" player_projectile_count="0" >
+<Stats deaths="2246" kills="162" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="36" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="3" >
+    <E key="death_ghost | $damage_curse" value="7" >
     </E>
     <E key="drone_lasership | $damage_projectile" value="3" >
     </E>
@@ -66,7 +66,7 @@
     </E>
     <E key="homunculus | $damage_projectile" value="1" >
     </E>
-    <E key="longleg | $damage_melee" value="61" >
+    <E key="longleg | $damage_melee" value="64" >
     </E>
     <E key="maggot | $damage_explosion" value="9" >
     </E>
@@ -162,7 +162,7 @@
     </E>
     <E key="acidshooter_weak" value="2" >
     </E>
-    <E key="longleg" value="61" >
+    <E key="longleg" value="64" >
     </E>
     <E key="miner_weak" value="12" >
     </E>

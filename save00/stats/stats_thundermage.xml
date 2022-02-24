@@ -1,4 +1,4 @@
-<Stats deaths="79" kills="111" player_kills="3" player_projectile_count="0" >
+<Stats deaths="81" kills="114" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="6" >
     </E>
@@ -8,7 +8,7 @@
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="4" >
+    <E key="homunculus | $damage_projectile" value="5" >
     </E>
     <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
-    <E key="thundermage | $damage_explosion" value="1" >
+    <E key="thundermage | $damage_explosion" value="2" >
     </E>
     <E key="worm_big | worm bite" value="1" >
     </E>
@@ -44,7 +44,7 @@
     </E>
     <E key="dripping_oil" value="1" >
     </E>
-    <E key="dripping_water" value="1" >
+    <E key="dripping_water" value="2" >
     </E>
     <E key="drone_lasership" value="2" >
     </E>
@@ -66,7 +66,7 @@
     </E>
     <E key="scavenger_grenade" value="6" >
     </E>
-    <E key="scavenger_invis" value="1" >
+    <E key="scavenger_invis" value="2" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
@@ -86,7 +86,7 @@
     </E>
     <E key="tentacler_small" value="1" >
     </E>
-    <E key="thundermage" value="1" >
+    <E key="thundermage" value="2" >
     </E>
     <E key="thunderskull" value="2" >
     </E>

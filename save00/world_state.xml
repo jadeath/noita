@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="27.2195" 
-    clouds_02_target="21.6738" 
+    clouds_01_target="43.0147" 
+    clouds_02_target="57.1196" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="47" 
-    fog="0.0515008" 
-    fog_target="0.0564851" 
+    day_count="49" 
+    fog="0.00499468" 
+    fog_target="0" 
     global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -51,17 +51,17 @@
     player_polymorph_random_count="5" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.0995805" 
-    rain_target="0.0778842" 
+    rain="0.139318" 
+    rain_target="0.144305" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.874975" 
+    time="0.397875" 
     time_dt="1" 
-    time_total="48.1051" 
+    time_total="49.7323" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.1047" 
-    wind_speed="-6.28127" 
+    wind="-0.152189" 
+    wind_speed="-9.13137" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -699,11 +699,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="_EMPTY_,$biome_coalmine,???,$biome_clouds,$biome_desert,_EMPTY_,$biome_lake,$bio" >
+        value="$biome_orbroom,$biome_vault_frozen,$biome_winter_caves,_EMPTY_,$biome_fungicave," >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="255" >
+        value="264" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -716,6 +716,21 @@
     <npc_parties>
     </npc_parties>
     <orbs_found_thisrun>
+      <primitive>
+        0
+      </primitive>
+      <primitive>
+        1
+      </primitive>
+      <primitive>
+        7
+      </primitive>
+      <primitive>
+        3
+      </primitive>
+      <primitive>
+        2
+      </primitive>
     </orbs_found_thisrun>
     <flags>
       <string>

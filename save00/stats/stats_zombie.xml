@@ -1,10 +1,10 @@
-<Stats deaths="748" kills="59" player_kills="0" player_projectile_count="0" >
+<Stats deaths="761" kills="65" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="68" >
     </E>
-    <E key="NULL | $damage_electricity" value="8" >
+    <E key="NULL | $damage_electricity" value="9" >
     </E>
-    <E key="NULL | $damage_explosion" value="122" >
+    <E key="NULL | $damage_explosion" value="124" >
     </E>
     <E key="NULL | $damage_fire" value="23" >
     </E>
@@ -28,7 +28,7 @@
     </E>
     <E key="blob | $damage_melee" value="11" >
     </E>
-    <E key="death_ghost | $damage_curse" value="3" >
+    <E key="death_ghost | $damage_curse" value="4" >
     </E>
     <E key="fly | $damage_melee" value="2" >
     </E>
@@ -38,7 +38,7 @@
     </E>
     <E key="homunculus | $damage_projectile" value="2" >
     </E>
-    <E key="miner | $damage_explosion" value="25" >
+    <E key="miner | $damage_explosion" value="27" >
     </E>
     <E key="miner | $damage_melee" value="11" >
     </E>
@@ -62,7 +62,7 @@
     </E>
     <E key="player | $damage_slice" value="21" >
     </E>
-    <E key="rat | $damage_melee" value="7" >
+    <E key="rat | $damage_melee" value="8" >
     </E>
     <E key="roboguard | $damage_explosion" value="1" >
     </E>
@@ -90,7 +90,7 @@
     </E>
     <E key="shotgunner | $damage_projectile" value="23" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="7" >
+    <E key="slimeshooter | $damage_explosion" value="8" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
@@ -122,7 +122,7 @@
     </E>
     <E key="worm_tiny | worm bite" value="1" >
     </E>
-    <E key="zombie | $damage_melee" value="14" >
+    <E key="zombie | $damage_melee" value="19" >
     </E>
   </death_map>
   <kill_map>
@@ -132,11 +132,11 @@
     </E>
     <E key="miniblob" value="3" >
     </E>
-    <E key="rat" value="37" >
+    <E key="rat" value="38" >
     </E>
     <E key="scorpion" value="1" >
     </E>
-    <E key="zombie" value="14" >
+    <E key="zombie" value="19" >
     </E>
   </kill_map>
 </Stats>
