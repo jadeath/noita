@@ -1,16 +1,18 @@
-<Stats deaths="82" kills="389" player_kills="0" player_projectile_count="0" >
+<Stats deaths="90" kills="418" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="35" >
+    <E key="NULL | $damage_electricity" value="38" >
     </E>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
-    <E key="NULL | damage from material: Cursed rock" value="1" >
+    <E key="NULL | damage from material: Cursed rock" value="2" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="5" >
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+    <E key="NULL | damage from material: lava" value="7" >
     </E>
     <E key="basebot_soldier | $damage_projectile" value="1" >
     </E>
@@ -18,7 +20,7 @@
     </E>
     <E key="player | $damage_projectile" value="10" >
     </E>
-    <E key="rock_curse | $damage_rock_curse" value="1" >
+    <E key="rock_curse | $damage_rock_curse" value="2" >
     </E>
     <E key="wraith_glowing | $damage_projectile" value="1" >
     </E>
@@ -40,13 +42,13 @@
     </E>
     <E key="coward" value="1" >
     </E>
-    <E key="drone_lasership" value="1" >
+    <E key="drone_lasership" value="2" >
     </E>
     <E key="eel" value="2" >
     </E>
     <E key="firebug" value="3" >
     </E>
-    <E key="firemage" value="4" >
+    <E key="firemage" value="6" >
     </E>
     <E key="firemage_weak" value="3" >
     </E>
@@ -56,7 +58,7 @@
     </E>
     <E key="frog_big" value="1" >
     </E>
-    <E key="fungus" value="3" >
+    <E key="fungus" value="4" >
     </E>
     <E key="fungus_big" value="1" >
     </E>
@@ -80,7 +82,13 @@
     </E>
     <E key="lavashot" value="4" >
     </E>
-    <E key="longleg" value="7" >
+    <E key="longleg" value="9" >
+    </E>
+    <E key="lukki_eggs" value="1" >
+    </E>
+    <E key="lukki_tiny" value="1" >
+    </E>
+    <E key="lurker" value="2" >
     </E>
     <E key="miner" value="4" >
     </E>
@@ -90,11 +98,13 @@
     </E>
     <E key="missilecrab" value="1" >
     </E>
+    <E key="monk" value="1" >
+    </E>
     <E key="pebble_physics" value="4" >
     </E>
-    <E key="phantom_a" value="1" >
+    <E key="phantom_a" value="2" >
     </E>
-    <E key="phantom_b" value="5" >
+    <E key="phantom_b" value="8" >
     </E>
     <E key="rat" value="11" >
     </E>
@@ -142,27 +152,29 @@
     </E>
     <E key="tentacler_small" value="5" >
     </E>
-    <E key="thundermage" value="11" >
+    <E key="thundermage" value="14" >
     </E>
     <E key="thunderskull" value="8" >
     </E>
     <E key="turret_left" value="1" >
     </E>
-    <E key="wand_ghost" value="5" >
+    <E key="wand_ghost" value="6" >
     </E>
-    <E key="wizard_dark" value="3" >
+    <E key="wizard_dark" value="8" >
     </E>
     <E key="wizard_hearty" value="3" >
     </E>
-    <E key="wizard_homing" value="2" >
+    <E key="wizard_homing" value="3" >
     </E>
     <E key="wizard_neutral" value="3" >
     </E>
-    <E key="wizard_poly" value="1" >
+    <E key="wizard_poly" value="2" >
+    </E>
+    <E key="wizard_returner" value="2" >
     </E>
     <E key="wizard_swapper" value="10" >
     </E>
-    <E key="wizard_tele" value="12" >
+    <E key="wizard_tele" value="13" >
     </E>
     <E key="wizard_weaken" value="5" >
     </E>

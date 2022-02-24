@@ -1,4 +1,4 @@
-<Stats deaths="112" kills="13" player_kills="0" player_projectile_count="0" >
+<Stats deaths="115" kills="13" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="13" >
     </E>
-    <E key="NULL | $damage_fire" value="31" >
+    <E key="NULL | $damage_fire" value="32" >
     </E>
     <E key="NULL | $damage_physicshit" value="5" >
     </E>
@@ -22,11 +22,13 @@
     </E>
     <E key="blob | $damage_melee" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="2" >
+    <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="frog | $damage_melee" value="1" >
     </E>
     <E key="iceskull | $damage_melee" value="1" >
+    </E>
+    <E key="lukki | hit" value="1" >
     </E>
     <E key="lukki_dark | $damage_curse" value="5" >
     </E>

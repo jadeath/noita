@@ -1,4 +1,4 @@
-<Stats deaths="107" kills="9" player_kills="0" player_projectile_count="0" >
+<Stats deaths="110" kills="9" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="18" >
     </E>
-    <E key="NULL | $damage_fire" value="7" >
+    <E key="NULL | $damage_fire" value="8" >
     </E>
     <E key="NULL | $damage_physicshit" value="3" >
     </E>
@@ -40,7 +40,7 @@
     </E>
     <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="19" >
+    <E key="player | $damage_projectile" value="20" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
@@ -58,7 +58,7 @@
     </E>
     <E key="wizard_hearty | $damage_explosion" value="1" >
     </E>
-    <E key="wizard_hearty | $damage_projectile" value="1" >
+    <E key="wizard_hearty | $damage_projectile" value="2" >
     </E>
     <E key="wizard_swapper | $damage_explosion" value="1" >
     </E>

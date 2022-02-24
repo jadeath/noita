@@ -1,8 +1,8 @@
-<Stats deaths="2259" kills="163" player_kills="4" player_projectile_count="0" >
+<Stats deaths="2273" kills="163" player_kills="4" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="36" >
     </E>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="13" >
     </E>
     <E key="NULL | $damage_explosion" value="67" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="36" >
+    <E key="NULL | damage from material: lava" value="37" >
     </E>
     <E key="NULL | damage from material: toxic gas" value="1" >
     </E>
@@ -52,7 +52,7 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="7" >
+    <E key="death_ghost | $damage_curse" value="8" >
     </E>
     <E key="drone_lasership | $damage_projectile" value="3" >
     </E>
@@ -66,7 +66,7 @@
     </E>
     <E key="homunculus | $damage_explosion" value="5" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="longleg | $damage_melee" value="65" >
     </E>
@@ -88,15 +88,17 @@
     </E>
     <E key="phantom_a | $damage_projectile" value="3" >
     </E>
+    <E key="physics_ragdoll_part_exploding | $damage_explosion" value="3" >
+    </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
     <E key="player | $damage_explosion" value="45" >
     </E>
     <E key="player | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="914" >
+    <E key="player | $damage_projectile" value="915" >
     </E>
-    <E key="player | $damage_slice" value="74" >
+    <E key="player | $damage_slice" value="75" >
     </E>
     <E key="player_rng_items | $damage_slice" value="5" >
     </E>
@@ -144,13 +146,15 @@
     </E>
     <E key="wizard_hearty | $damage_explosion" value="2" >
     </E>
-    <E key="wizard_hearty | $damage_projectile" value="1" >
+    <E key="wizard_hearty | $damage_projectile" value="2" >
     </E>
     <E key="wizard_returner | $damage_explosion" value="3" >
     </E>
     <E key="wizard_returner | $damage_projectile" value="3" >
     </E>
     <E key="wizard_tele | $damage_projectile" value="2" >
+    </E>
+    <E key="wizard_weaken | $damage_projectile" value="1" >
     </E>
     <E key="worm | worm bite" value="56" >
     </E>

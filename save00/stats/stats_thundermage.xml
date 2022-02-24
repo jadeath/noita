@@ -1,12 +1,12 @@
-<Stats deaths="101" kills="139" player_kills="3" player_projectile_count="0" >
+<Stats deaths="108" kills="139" player_kills="3" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_explosion" value="8" >
+    <E key="NULL | $damage_explosion" value="9" >
     </E>
     <E key="NULL | $damage_physicshit" value="11" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="3" >
+    <E key="NULL | damage from material: lava" value="4" >
     </E>
     <E key="NULL | damage from material: toxic ice" value="1" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="death_ghost | $damage_curse" value="3" >
     </E>
-    <E key="homunculus | $damage_projectile" value="11" >
+    <E key="homunculus | $damage_projectile" value="14" >
     </E>
     <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="player | $damage_ice" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="30" >
+    <E key="player | $damage_projectile" value="32" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>

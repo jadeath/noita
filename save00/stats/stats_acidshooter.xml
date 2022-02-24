@@ -1,4 +1,4 @@
-<Stats deaths="308" kills="52" player_kills="0" player_projectile_count="0" >
+<Stats deaths="310" kills="53" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -26,7 +26,7 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="3" >
     </E>
-    <E key="death_ghost | $damage_curse" value="4" >
+    <E key="death_ghost | $damage_curse" value="6" >
     </E>
     <E key="drone_physics | $damage_explosion" value="1" >
     </E>
@@ -115,6 +115,8 @@
     <E key="dripping_oil" value="1" >
     </E>
     <E key="dripping_water" value="1" >
+    </E>
+    <E key="drone_lasership" value="1" >
     </E>
     <E key="longleg" value="2" >
     </E>

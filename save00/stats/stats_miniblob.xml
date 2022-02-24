@@ -1,4 +1,4 @@
-<Stats deaths="2689" kills="138" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2691" kills="138" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="60" >
     </E>
@@ -96,9 +96,9 @@
     </E>
     <E key="rat | $damage_melee" value="4" >
     </E>
-    <E key="roboguard | $damage_explosion" value="4" >
+    <E key="roboguard | $damage_explosion" value="5" >
     </E>
-    <E key="roboguard | $damage_melee" value="24" >
+    <E key="roboguard | $damage_melee" value="25" >
     </E>
     <E key="roboguard | $damage_projectile" value="6" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="260" kills="116" player_kills="0" player_projectile_count="0" >
+<Stats deaths="262" kills="116" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="13" >
     </E>
@@ -10,13 +10,15 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
+    <E key="acidshooter | $damage_projectile" value="1" >
+    </E>
     <E key="bigzombietorso | $damage_explosion" value="1" >
     </E>
     <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="drone_lasership | $damage_explosion" value="2" >
     </E>
-    <E key="homunculus | $damage_projectile" value="1" >
+    <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_electricity" value="16" >
     </E>

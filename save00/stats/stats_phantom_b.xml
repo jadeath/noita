@@ -1,4 +1,4 @@
-<Stats deaths="138" kills="45" player_kills="0" player_projectile_count="0" >
+<Stats deaths="143" kills="45" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="8" >
+    <E key="NULL | damage from material: lava" value="9" >
     </E>
     <E key="black_hole_big | " value="1" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="failed_alchemist | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="5" >
+    <E key="homunculus | $damage_projectile" value="8" >
     </E>
     <E key="orb_green | $damage_projectile" value="1" >
     </E>
@@ -33,6 +33,8 @@
     <E key="player | $damage_projectile" value="65" >
     </E>
     <E key="player | $damage_slice" value="4" >
+    </E>
+    <E key="rock_curse | $damage_rock_curse" value="1" >
     </E>
     <E key="wizard_neutral | $damage_projectile" value="2" >
     </E>
