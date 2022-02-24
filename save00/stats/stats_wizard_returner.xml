@@ -1,4 +1,4 @@
-<Stats deaths="49" kills="21" player_kills="0" player_projectile_count="0" >
+<Stats deaths="52" kills="23" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -10,13 +10,15 @@
     </E>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
     <E key="player | $damage_ice" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="29" >
+    <E key="player | $damage_projectile" value="31" >
     </E>
     <E key="statue | $damage_melee" value="1" >
     </E>
@@ -26,6 +28,8 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="acidshot" value="2" >
+    </E>
     <E key="arrowtrap_left" value="1" >
     </E>
     <E key="failed_alchemist" value="1" >

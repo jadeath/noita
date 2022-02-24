@@ -1,16 +1,16 @@
-<Stats deaths="126" kills="5" player_kills="0" player_projectile_count="0" >
+<Stats deaths="138" kills="9" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
-    <E key="NULL | $damage_electricity" value="12" >
+    <E key="NULL | $damage_electricity" value="14" >
     </E>
-    <E key="NULL | $damage_explosion" value="23" >
+    <E key="NULL | $damage_explosion" value="25" >
     </E>
     <E key="NULL | $damage_fire" value="11" >
     </E>
-    <E key="NULL | $damage_physicshit" value="3" >
+    <E key="NULL | $damage_physicshit" value="4" >
     </E>
-    <E key="NULL | damage from material: acid" value="9" >
+    <E key="NULL | damage from material: acid" value="11" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
@@ -24,13 +24,15 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="13" >
+    <E key="player | $damage_explosion" value="14" >
     </E>
-    <E key="player | $damage_projectile" value="34" >
+    <E key="player | $damage_projectile" value="35" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
+    </E>
+    <E key="scavenger_leader | $damage_explosion" value="1" >
     </E>
     <E key="scavenger_leader | $damage_projectile" value="2" >
     </E>
@@ -46,13 +48,21 @@
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
+    <E key="tentacler_small | $damage_melee" value="1" >
+    </E>
+    <E key="thundermage | $damage_electricity" value="1" >
+    </E>
     <E key="worm | worm bite" value="1" >
     </E>
   </death_map>
   <kill_map>
+    <E key="acidshooter" value="1" >
+    </E>
+    <E key="drone_lasership" value="1" >
+    </E>
     <E key="miniblob" value="3" >
     </E>
-    <E key="scavenger_grenade" value="1" >
+    <E key="scavenger_grenade" value="3" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>

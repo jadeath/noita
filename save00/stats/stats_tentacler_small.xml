@@ -1,18 +1,18 @@
-<Stats deaths="326" kills="81" player_kills="0" player_projectile_count="0" >
+<Stats deaths="349" kills="86" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="3" >
+    <E key="NULL | $damage_drowning" value="4" >
     </E>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="37" >
+    <E key="NULL | $damage_explosion" value="38" >
     </E>
-    <E key="NULL | $damage_fire" value="10" >
+    <E key="NULL | $damage_fire" value="13" >
     </E>
-    <E key="NULL | $damage_physicshit" value="8" >
+    <E key="NULL | $damage_physicshit" value="9" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
-    <E key="NULL | damage from material: Cursed rock" value="3" >
+    <E key="NULL | damage from material: Cursed rock" value="4" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
@@ -26,27 +26,33 @@
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
-    <E key="blob | $damage_melee" value="1" >
+    <E key="blob | $damage_melee" value="2" >
     </E>
     <E key="crystal_physics | $damage_projectile" value="3" >
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="3" >
+    </E>
+    <E key="miniblob | $damage_melee" value="1" >
+    </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="orb_green | $damage_projectile" value="6" >
     </E>
-    <E key="phantom_a | $damage_melee" value="4" >
+    <E key="phantom_a | $damage_melee" value="5" >
     </E>
     <E key="phantom_a | $damage_projectile" value="3" >
+    </E>
+    <E key="phantom_b | $damage_melee" value="2" >
     </E>
     <E key="phantom_b | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_electricity" value="9" >
     </E>
-    <E key="player | $damage_explosion" value="17" >
+    <E key="player | $damage_explosion" value="18" >
     </E>
-    <E key="player | $damage_projectile" value="127" >
+    <E key="player | $damage_projectile" value="130" >
     </E>
     <E key="player | $damage_slice" value="2" >
     </E>
@@ -66,13 +72,13 @@
     </E>
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
-    <E key="skullrat | $damage_melee" value="15" >
+    <E key="skullrat | $damage_melee" value="17" >
     </E>
     <E key="sniper | $damage_projectile" value="4" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
-    <E key="tentacler | $damage_melee" value="15" >
+    <E key="tentacler | $damage_melee" value="16" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
     </E>
@@ -96,6 +102,10 @@
     </E>
     <E key="bigzombie" value="1" >
     </E>
+    <E key="bigzombietorso" value="1" >
+    </E>
+    <E key="blob" value="1" >
+    </E>
     <E key="crystal_physics" value="1" >
     </E>
     <E key="failed_alchemist" value="1" >
@@ -108,11 +118,11 @@
     </E>
     <E key="mimic_physics" value="1" >
     </E>
-    <E key="miniblob" value="2" >
+    <E key="miniblob" value="4" >
     </E>
     <E key="rat" value="29" >
     </E>
-    <E key="scorpion" value="30" >
+    <E key="scorpion" value="31" >
     </E>
     <E key="sheep" value="1" >
     </E>

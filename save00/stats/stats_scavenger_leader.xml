@@ -1,14 +1,16 @@
-<Stats deaths="167" kills="61" player_kills="2" player_projectile_count="0" >
+<Stats deaths="175" kills="68" player_kills="2" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="13" >
+    <E key="NULL | $damage_explosion" value="14" >
     </E>
-    <E key="NULL | $damage_physicshit" value="12" >
+    <E key="NULL | $damage_physicshit" value="13" >
     </E>
     <E key="NULL | $damage_radioactive" value="3" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
@@ -18,11 +20,15 @@
     </E>
     <E key="black_hole_big | " value="1" >
     </E>
+    <E key="death_ghost | $damage_curse" value="2" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="1" >
+    </E>
     <E key="lukki_dark | $damage_curse" value="1" >
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="19" >
+    <E key="player | $damage_explosion" value="20" >
     </E>
     <E key="player | $damage_projectile" value="87" >
     </E>
@@ -46,7 +52,7 @@
     </E>
     <E key="bigzombie" value="3" >
     </E>
-    <E key="bigzombietorso" value="2" >
+    <E key="bigzombietorso" value="3" >
     </E>
     <E key="bloom" value="1" >
     </E>
@@ -56,11 +62,13 @@
     </E>
     <E key="glue" value="1" >
     </E>
-    <E key="iceskull" value="4" >
+    <E key="iceskull" value="5" >
     </E>
     <E key="lasershooter" value="1" >
     </E>
     <E key="longleg" value="1" >
+    </E>
+    <E key="miniblob" value="1" >
     </E>
     <E key="pebble_player_physics" value="1" >
     </E>
@@ -72,11 +80,13 @@
     </E>
     <E key="scavenger_grenade" value="7" >
     </E>
-    <E key="scavenger_heal" value="2" >
+    <E key="scavenger_heal" value="4" >
     </E>
     <E key="scavenger_leader" value="1" >
     </E>
-    <E key="scavenger_smg" value="7" >
+    <E key="scavenger_poison" value="1" >
+    </E>
+    <E key="scavenger_smg" value="8" >
     </E>
     <E key="scorpion" value="1" >
     </E>

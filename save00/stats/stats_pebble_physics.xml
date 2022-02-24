@@ -1,20 +1,24 @@
-<Stats deaths="278" kills="128" player_kills="0" player_projectile_count="0" >
+<Stats deaths="302" kills="140" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_explosion" value="6" >
+    <E key="NULL | $damage_explosion" value="8" >
     </E>
     <E key="NULL | $damage_physicshit" value="8" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="52" >
+    <E key="NULL | damage from material: freezing vapour" value="56" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="iceskull | $damage_explosion" value="1" >
     </E>
     <E key="monk | $damage_projectile" value="1" >
     </E>
-    <E key="pebble_physics | $damage_explosion" value="127" >
+    <E key="pebble_physics | $damage_explosion" value="139" >
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
@@ -25,6 +29,8 @@
     <E key="player | bzzt!" value="3" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="5" >
+    </E>
+    <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_smg | $damage_projectile" value="2" >
     </E>
@@ -40,7 +46,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="pebble_physics" value="127" >
+    <E key="pebble_physics" value="139" >
     </E>
     <E key="shotgunner" value="1" >
     </E>

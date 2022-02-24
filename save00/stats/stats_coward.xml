@@ -1,10 +1,10 @@
-<Stats deaths="99" kills="0" player_kills="0" player_projectile_count="0" >
+<Stats deaths="106" kills="0" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="3" >
+    <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_electricity" value="2" >
     </E>
-    <E key="NULL | $damage_explosion" value="6" >
+    <E key="NULL | $damage_explosion" value="7" >
     </E>
     <E key="NULL | $damage_fire" value="10" >
     </E>
@@ -16,15 +16,23 @@
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
     <E key="firebug | $damage_melee" value="1" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="49" >
+    <E key="player | $damage_projectile" value="50" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="2" >
+    </E>
+    <E key="sniper | $damage_projectile" value="1" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
     </E>
     <E key="thundermage | $damage_electricity" value="1" >
     </E>

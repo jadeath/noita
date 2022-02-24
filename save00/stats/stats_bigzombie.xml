@@ -1,20 +1,24 @@
-<Stats deaths="154" kills="29" player_kills="0" player_projectile_count="0" >
+<Stats deaths="168" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="14" >
+    <E key="NULL | $damage_electricity" value="17" >
     </E>
     <E key="NULL | $damage_explosion" value="14" >
     </E>
-    <E key="NULL | $damage_fire" value="27" >
+    <E key="NULL | $damage_fire" value="29" >
     </E>
-    <E key="NULL | $damage_physicshit" value="11" >
+    <E key="NULL | $damage_physicshit" value="12" >
     </E>
-    <E key="NULL | damage from material: acid" value="14" >
+    <E key="NULL | damage from material: acid" value="16" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="2" >
+    </E>
+    <E key="blob | $damage_melee" value="1" >
+    </E>
+    <E key="drone_lasership | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
@@ -22,9 +26,9 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="34" >
+    <E key="player | $damage_projectile" value="37" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="1" >
+    <E key="scavenger_grenade | $damage_projectile" value="2" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="2" >
     </E>
@@ -50,11 +54,11 @@
   <kill_map>
     <E key="acidshot" value="2" >
     </E>
-    <E key="blob" value="3" >
+    <E key="blob" value="5" >
     </E>
     <E key="dripping_radioactive" value="1" >
     </E>
-    <E key="miniblob" value="7" >
+    <E key="miniblob" value="9" >
     </E>
     <E key="scavenger_grenade" value="5" >
     </E>

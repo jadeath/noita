@@ -1,12 +1,12 @@
-<Stats deaths="644" kills="251" player_kills="2" player_projectile_count="0" >
+<Stats deaths="666" kills="270" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="12" >
     </E>
-    <E key="NULL | $damage_explosion" value="151" >
+    <E key="NULL | $damage_explosion" value="157" >
     </E>
-    <E key="NULL | $damage_fire" value="23" >
+    <E key="NULL | $damage_fire" value="24" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -20,7 +20,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="4" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="8" >
+    <E key="NULL | damage from material: freezing vapour" value="9" >
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
@@ -30,9 +30,11 @@
     </E>
     <E key="disc_bullet_big | bzzt!" value="3" >
     </E>
-    <E key="firebug | $damage_fire" value="2" >
+    <E key="firebug | $damage_fire" value="3" >
     </E>
-    <E key="firebug | $damage_melee" value="3" >
+    <E key="firebug | $damage_melee" value="4" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="icemage | $damage_explosion" value="1" >
     </E>
@@ -50,7 +52,7 @@
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="15" >
+    <E key="player | $damage_explosion" value="16" >
     </E>
     <E key="player | $damage_projectile" value="189" >
     </E>
@@ -66,33 +68,37 @@
     </E>
     <E key="roboguard | $damage_projectile" value="2" >
     </E>
+    <E key="scavenger_glue | $damage_projectile" value="1" >
+    </E>
     <E key="scavenger_grenade | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="3" >
+    <E key="scavenger_grenade | $damage_projectile" value="4" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="1" >
     </E>
     <E key="scavenger_poison | $damage_melee" value="1" >
     </E>
+    <E key="scavenger_smg | $damage_explosion" value="1" >
+    </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
-    <E key="shotgunner | $damage_projectile" value="18" >
+    <E key="shotgunner | $damage_projectile" value="19" >
     </E>
     <E key="shotgunner_weak | $damage_projectile" value="1" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="14" >
+    <E key="slimeshooter | $damage_explosion" value="15" >
     </E>
     <E key="sniper | $damage_explosion" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="38" >
     </E>
-    <E key="tank | $damage_projectile" value="3" >
+    <E key="tank | $damage_projectile" value="4" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="1" >
     </E>
     <E key="tentacler | $damage_melee" value="1" >
     </E>
-    <E key="thundermage | $damage_electricity" value="3" >
+    <E key="thundermage | $damage_electricity" value="4" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
     </E>
@@ -110,7 +116,7 @@
   <kill_map>
     <E key="ant" value="1" >
     </E>
-    <E key="bat" value="7" >
+    <E key="bat" value="10" >
     </E>
     <E key="bigfirebug" value="4" >
     </E>
@@ -132,9 +138,11 @@
     </E>
     <E key="glitter_bomb" value="1" >
     </E>
+    <E key="glue" value="2" >
+    </E>
     <E key="goblin_bomb" value="1" >
     </E>
-    <E key="iceskull" value="2" >
+    <E key="iceskull" value="4" >
     </E>
     <E key="longleg" value="6" >
     </E>
@@ -142,7 +150,7 @@
     </E>
     <E key="miner_weak" value="3" >
     </E>
-    <E key="miniblob" value="3" >
+    <E key="miniblob" value="6" >
     </E>
     <E key="pebble_physics" value="4" >
     </E>
@@ -152,19 +160,21 @@
     </E>
     <E key="radioactive_blob_trail" value="4" >
     </E>
-    <E key="rat" value="139" >
+    <E key="rat" value="144" >
+    </E>
+    <E key="scavenger_glue" value="1" >
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
-    <E key="scavenger_smg" value="2" >
+    <E key="scavenger_smg" value="3" >
     </E>
     <E key="sheep" value="2" >
     </E>
-    <E key="shotgunner" value="12" >
+    <E key="shotgunner" value="13" >
     </E>
     <E key="shotgunner_weak" value="1" >
     </E>
-    <E key="slimeshooter" value="14" >
+    <E key="slimeshooter" value="15" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>

@@ -1,10 +1,10 @@
-<Stats deaths="708" kills="45" player_kills="0" player_projectile_count="0" >
+<Stats deaths="730" kills="48" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="65" >
+    <E key="NULL | $damage_drowning" value="68" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="116" >
+    <E key="NULL | $damage_explosion" value="122" >
     </E>
     <E key="NULL | $damage_fire" value="23" >
     </E>
@@ -26,7 +26,9 @@
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
-    <E key="blob | $damage_melee" value="8" >
+    <E key="blob | $damage_melee" value="11" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="1" >
     </E>
     <E key="fly | $damage_melee" value="2" >
     </E>
@@ -34,9 +36,11 @@
     </E>
     <E key="frog_big | $damage_melee" value="4" >
     </E>
-    <E key="miner | $damage_explosion" value="22" >
+    <E key="homunculus | $damage_projectile" value="1" >
     </E>
-    <E key="miner | $damage_melee" value="9" >
+    <E key="miner | $damage_explosion" value="23" >
+    </E>
+    <E key="miner | $damage_melee" value="11" >
     </E>
     <E key="miner_weak | $damage_explosion" value="19" >
     </E>
@@ -54,7 +58,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="224" >
+    <E key="player | $damage_projectile" value="225" >
     </E>
     <E key="player | $damage_slice" value="21" >
     </E>
@@ -78,7 +82,7 @@
     </E>
     <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
-    <E key="scavenger_smg | $damage_explosion" value="1" >
+    <E key="scavenger_smg | $damage_explosion" value="2" >
     </E>
     <E key="shotgunner | $damage_melee" value="6" >
     </E>
@@ -110,11 +114,13 @@
     </E>
     <E key="wizard_swapper | $damage_projectile" value="1" >
     </E>
+    <E key="wizard_twitchy | $damage_projectile" value="1" >
+    </E>
     <E key="worm | worm bite" value="3" >
     </E>
     <E key="worm_tiny | worm bite" value="1" >
     </E>
-    <E key="zombie | $damage_melee" value="2" >
+    <E key="zombie | $damage_melee" value="4" >
     </E>
   </death_map>
   <kill_map>
@@ -124,9 +130,9 @@
     </E>
     <E key="miniblob" value="3" >
     </E>
-    <E key="rat" value="36" >
+    <E key="rat" value="37" >
     </E>
-    <E key="zombie" value="2" >
+    <E key="zombie" value="4" >
     </E>
   </kill_map>
 </Stats>

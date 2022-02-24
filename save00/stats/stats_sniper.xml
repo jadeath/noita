@@ -1,24 +1,24 @@
-<Stats deaths="472" kills="436" player_kills="2" player_projectile_count="0" >
+<Stats deaths="515" kills="480" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="12" >
     </E>
-    <E key="NULL | $damage_explosion" value="56" >
+    <E key="NULL | $damage_explosion" value="66" >
     </E>
-    <E key="NULL | $damage_fire" value="28" >
+    <E key="NULL | $damage_fire" value="30" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="35" >
+    <E key="NULL | $damage_physicshit" value="40" >
     </E>
-    <E key="NULL | $damage_radioactive" value="32" >
+    <E key="NULL | $damage_radioactive" value="34" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="13" >
+    <E key="NULL | damage from material: acid" value="14" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="8" >
     </E>
@@ -38,25 +38,29 @@
     </E>
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
-    <E key="flamer | $damage_explosion" value="2" >
+    <E key="flamer | $damage_explosion" value="4" >
     </E>
     <E key="flamer | $damage_fire" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="2" >
+    <E key="homunculus | $damage_projectile" value="3" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="3" >
     </E>
     <E key="iceskull | $damage_ice" value="3" >
     </E>
     <E key="iceskull | $damage_melee" value="1" >
     </E>
-    <E key="miner | $damage_explosion" value="1" >
+    <E key="miner | $damage_explosion" value="3" >
+    </E>
+    <E key="miner | $damage_melee" value="1" >
     </E>
     <E key="necromancer_shop | $damage_explosion" value="1" >
     </E>
     <E key="player | $damage_electricity" value="4" >
     </E>
-    <E key="player | $damage_explosion" value="14" >
+    <E key="player | $damage_explosion" value="17" >
     </E>
-    <E key="player | $damage_projectile" value="160" >
+    <E key="player | $damage_projectile" value="162" >
     </E>
     <E key="player | $damage_slice" value="38" >
     </E>
@@ -68,19 +72,25 @@
     </E>
     <E key="roboguard | $damage_melee" value="1" >
     </E>
+    <E key="scavenger_clusterbomb | $damage_projectile" value="1" >
+    </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
     <E key="sniper | $damage_explosion" value="2" >
     </E>
-    <E key="sniper | $damage_projectile" value="2" >
+    <E key="sniper | $damage_melee" value="1" >
+    </E>
+    <E key="sniper | $damage_projectile" value="4" >
+    </E>
+    <E key="tank | $damage_explosion" value="1" >
     </E>
     <E key="tank | $damage_projectile" value="1" >
     </E>
     <E key="tank_rocket | $damage_projectile" value="2" >
     </E>
-    <E key="tentacler | $damage_melee" value="1" >
+    <E key="tentacler | $damage_melee" value="3" >
     </E>
     <E key="thundermage | $damage_explosion" value="2" >
     </E>
@@ -102,7 +112,9 @@
     </E>
     <E key="chest_mimic" value="1" >
     </E>
-    <E key="drone_lasership" value="3" >
+    <E key="coward" value="1" >
+    </E>
+    <E key="drone_lasership" value="4" >
     </E>
     <E key="firebug" value="1" >
     </E>
@@ -110,11 +122,13 @@
     </E>
     <E key="giant" value="1" >
     </E>
+    <E key="glue" value="1" >
+    </E>
     <E key="iceskull" value="30" >
     </E>
     <E key="lasershooter" value="1" >
     </E>
-    <E key="miner" value="4" >
+    <E key="miner" value="10" >
     </E>
     <E key="miniblob" value="69" >
     </E>
@@ -124,23 +138,25 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="200" >
+    <E key="rat" value="206" >
     </E>
-    <E key="scavenger_grenade" value="12" >
+    <E key="scavenger_grenade" value="22" >
     </E>
-    <E key="scavenger_heal" value="1" >
+    <E key="scavenger_heal" value="2" >
     </E>
-    <E key="scavenger_smg" value="10" >
+    <E key="scavenger_smg" value="16" >
     </E>
-    <E key="shotgunner" value="15" >
+    <E key="shotgunner" value="23" >
     </E>
     <E key="slimeshooter" value="39" >
     </E>
-    <E key="sniper" value="4" >
+    <E key="sniper" value="7" >
     </E>
     <E key="tentacler_small" value="4" >
     </E>
     <E key="thunderskull" value="2" >
+    </E>
+    <E key="turret_right" value="1" >
     </E>
     <E key="wizard_dark" value="1" >
     </E>

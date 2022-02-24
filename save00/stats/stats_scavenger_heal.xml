@@ -1,36 +1,44 @@
-<Stats deaths="171" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="194" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
-    <E key="NULL | $damage_explosion" value="17" >
+    <E key="NULL | $damage_explosion" value="19" >
     </E>
     <E key="NULL | $damage_fire" value="8" >
     </E>
-    <E key="NULL | $damage_physicshit" value="9" >
+    <E key="NULL | $damage_physicshit" value="11" >
+    </E>
+    <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="4" >
+    <E key="NULL | damage from material: freezing vapour" value="6" >
     </E>
     <E key="NULL | damage from material: toxic ice" value="1" >
     </E>
     <E key="bigzombie | $damage_explosion" value="1" >
     </E>
-    <E key="drone_lasership | $damage_projectile" value="1" >
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
+    <E key="drone_lasership | $damage_projectile" value="2" >
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="2" >
+    </E>
     <E key="lukki_longleg | hit" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="2" >
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
     <E key="player | $damage_explosion" value="12" >
     </E>
-    <E key="player | $damage_projectile" value="72" >
+    <E key="player | $damage_projectile" value="73" >
     </E>
     <E key="player | $damage_slice" value="8" >
     </E>
@@ -38,19 +46,25 @@
     </E>
     <E key="player_rng_items | $damage_slice" value="1" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="3" >
+    <E key="scavenger_glue | $damage_melee" value="1" >
     </E>
-    <E key="scavenger_leader | $damage_explosion" value="1" >
+    <E key="scavenger_grenade | $damage_projectile" value="4" >
     </E>
-    <E key="scavenger_leader | $damage_projectile" value="1" >
+    <E key="scavenger_leader | $damage_explosion" value="2" >
+    </E>
+    <E key="scavenger_leader | $damage_projectile" value="2" >
     </E>
     <E key="scavenger_smg | $damage_projectile" value="1" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="2" >
+    </E>
+    <E key="sniper | $damage_melee" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="1" >
     </E>
     <E key="tank | $damage_explosion" value="1" >
     </E>
-    <E key="tank | $damage_projectile" value="4" >
+    <E key="tank | $damage_projectile" value="6" >
     </E>
     <E key="tentacle_portal | $damage_melee" value="2" >
     </E>

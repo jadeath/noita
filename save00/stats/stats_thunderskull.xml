@@ -1,24 +1,32 @@
-<Stats deaths="96" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="117" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="7" >
+    <E key="NULL | $damage_drowning" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="22" >
+    <E key="NULL | $damage_explosion" value="23" >
     </E>
     <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="2" >
+    <E key="NULL | damage from material: acid" value="1" >
+    </E>
+    <E key="NULL | damage from material: lava" value="3" >
     </E>
     <E key="assassin | $damage_melee" value="3" >
     </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
     <E key="flamer | $damage_explosion" value="4" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="1" >
+    </E>
+    <E key="missilecrab | $damage_projectile" value="1" >
     </E>
     <E key="monk | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="4" >
+    <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="28" >
+    <E key="player | $damage_projectile" value="33" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -28,9 +36,15 @@
     </E>
     <E key="scavenger_smg | $damage_projectile" value="4" >
     </E>
+    <E key="skycrystal_physics | $damage_projectile" value="2" >
+    </E>
+    <E key="skygazer | $damage_projectile" value="1" >
+    </E>
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="2" >
+    </E>
+    <E key="spearbot | $damage_projectile" value="2" >
     </E>
     <E key="tentacler | $damage_melee" value="1" >
     </E>
@@ -50,15 +64,19 @@
     </E>
     <E key="miniblob" value="8" >
     </E>
-    <E key="rat" value="6" >
+    <E key="polyshot" value="1" >
+    </E>
+    <E key="rat" value="9" >
     </E>
     <E key="scavenger_smg" value="1" >
     </E>
-    <E key="scorpion" value="1" >
+    <E key="scorpion" value="2" >
     </E>
     <E key="shotgunner" value="4" >
     </E>
     <E key="shotgunner_weak" value="1" >
+    </E>
+    <E key="tentacler" value="1" >
     </E>
   </kill_map>
 </Stats>

@@ -1,34 +1,46 @@
-<Stats deaths="232" kills="101" player_kills="0" player_projectile_count="0" >
+<Stats deaths="260" kills="116" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="13" >
     </E>
-    <E key="NULL | $damage_explosion" value="24" >
+    <E key="NULL | $damage_explosion" value="27" >
     </E>
-    <E key="NULL | $damage_physicshit" value="15" >
+    <E key="NULL | $damage_physicshit" value="17" >
     </E>
-    <E key="NULL | damage from material: acid" value="3" >
+    <E key="NULL | damage from material: acid" value="4" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
+    <E key="bigzombietorso | $damage_explosion" value="1" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="3" >
+    </E>
     <E key="drone_lasership | $damage_explosion" value="2" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_electricity" value="16" >
     </E>
-    <E key="player | $damage_explosion" value="27" >
+    <E key="player | $damage_explosion" value="30" >
     </E>
-    <E key="player | $damage_projectile" value="120" >
+    <E key="player | $damage_projectile" value="126" >
     </E>
-    <E key="player | $damage_slice" value="2" >
+    <E key="player | $damage_slice" value="3" >
     </E>
     <E key="player_rng_items | $damage_projectile" value="4" >
     </E>
+    <E key="scavenger_mine | $damage_melee" value="1" >
+    </E>
     <E key="scavenger_smg | $damage_projectile" value="1" >
     </E>
-    <E key="sniper | $damage_projectile" value="3" >
+    <E key="sniper | $damage_projectile" value="4" >
     </E>
     <E key="tank | $damage_projectile" value="1" >
     </E>
     <E key="tank_super | $damage_projectile" value="1" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
+    </E>
+    <E key="thundermage | $damage_electricity" value="1" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
     </E>
@@ -37,6 +49,10 @@
   </death_map>
   <kill_map>
     <E key="acidshot" value="14" >
+    </E>
+    <E key="bigzombie" value="1" >
+    </E>
+    <E key="blob" value="2" >
     </E>
     <E key="dripping_radioactive" value="1" >
     </E>
@@ -48,21 +64,21 @@
     </E>
     <E key="miner" value="8" >
     </E>
-    <E key="miniblob" value="1" >
+    <E key="miniblob" value="3" >
     </E>
     <E key="rat" value="2" >
     </E>
-    <E key="scavenger_grenade" value="23" >
+    <E key="scavenger_grenade" value="27" >
     </E>
-    <E key="scavenger_heal" value="1" >
+    <E key="scavenger_heal" value="2" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="24" >
+    <E key="scavenger_smg" value="27" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
-    <E key="shotgunner" value="10" >
+    <E key="shotgunner" value="12" >
     </E>
     <E key="sniper" value="4" >
     </E>

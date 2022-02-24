@@ -1,4 +1,4 @@
-<Stats deaths="28" kills="4" player_kills="0" player_projectile_count="0" >
+<Stats deaths="34" kills="12" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
@@ -6,15 +6,19 @@
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="player | $damage_explosion" value="5" >
+    <E key="death_ghost | $damage_curse" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="14" >
+    <E key="player | $damage_explosion" value="8" >
+    </E>
+    <E key="player | $damage_projectile" value="16" >
     </E>
     <E key="thunder_blast | $damage_curse" value="1" >
     </E>
   </death_map>
   <kill_map>
     <E key="blob" value="1" >
+    </E>
+    <E key="fish" value="8" >
     </E>
     <E key="thunderskull" value="3" >
     </E>

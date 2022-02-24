@@ -1,4 +1,4 @@
-<Stats deaths="95" kills="78" player_kills="0" player_projectile_count="0" >
+<Stats deaths="100" kills="83" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -18,13 +18,15 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
+    <E key="maggot | $damage_melee" value="1" >
+    </E>
     <E key="phantom_b | $damage_melee" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="9" >
+    <E key="player | $damage_electricity" value="11" >
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="54" >
+    <E key="player | $damage_projectile" value="56" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -46,11 +48,13 @@
     </E>
     <E key="longleg" value="3" >
     </E>
+    <E key="maggot" value="1" >
+    </E>
     <E key="pebble_player_physics" value="1" >
     </E>
     <E key="physics_torch_stand" value="3" >
     </E>
-    <E key="polyorb" value="1" >
+    <E key="polyorb" value="2" >
     </E>
     <E key="potion" value="1" >
     </E>
@@ -58,7 +62,7 @@
     </E>
     <E key="scavenger_smg" value="1" >
     </E>
-    <E key="scorpion" value="27" >
+    <E key="scorpion" value="28" >
     </E>
     <E key="skullfly" value="4" >
     </E>
@@ -70,11 +74,13 @@
     </E>
     <E key="tentacler" value="3" >
     </E>
-    <E key="tentacler_small" value="7" >
+    <E key="tentacler_small" value="8" >
     </E>
     <E key="wand_ghost" value="1" >
     </E>
     <E key="wizard_neutral" value="1" >
+    </E>
+    <E key="wizard_swapper" value="1" >
     </E>
     <E key="zombie" value="2" >
     </E>

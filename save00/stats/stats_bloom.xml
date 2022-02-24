@@ -1,16 +1,16 @@
-<Stats deaths="182" kills="19" player_kills="0" player_projectile_count="0" >
+<Stats deaths="207" kills="25" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="8" >
+    <E key="NULL | $damage_explosion" value="12" >
     </E>
-    <E key="NULL | $damage_fire" value="56" >
+    <E key="NULL | $damage_fire" value="66" >
     </E>
-    <E key="NULL | $damage_physicshit" value="7" >
+    <E key="NULL | $damage_physicshit" value="8" >
     </E>
-    <E key="NULL | damage from material: Poison" value="2" >
+    <E key="NULL | damage from material: Poison" value="3" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
@@ -20,11 +20,15 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="2" >
+    </E>
+    <E key="lukki | hit" value="3" >
+    </E>
     <E key="necromancer_shop | $damage_explosion" value="2" >
     </E>
     <E key="player | $damage_explosion" value="2" >
     </E>
-    <E key="player | $damage_projectile" value="74" >
+    <E key="player | $damage_projectile" value="77" >
     </E>
     <E key="player | $damage_slice" value="9" >
     </E>
@@ -38,7 +42,7 @@
   <kill_map>
     <E key="blob" value="1" >
     </E>
-    <E key="fly" value="4" >
+    <E key="fly" value="7" >
     </E>
     <E key="fungus" value="1" >
     </E>
@@ -46,7 +50,7 @@
     </E>
     <E key="miniblob" value="2" >
     </E>
-    <E key="physics_torch_stand" value="7" >
+    <E key="physics_torch_stand" value="10" >
     </E>
     <E key="root_grower" value="1" >
     </E>

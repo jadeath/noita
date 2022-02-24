@@ -1,10 +1,12 @@
-<Stats deaths="75" kills="16" player_kills="0" player_projectile_count="0" >
+<Stats deaths="78" kills="17" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
-    <E key="NULL | $damage_physicshit" value="2" >
+    <E key="NULL | $damage_physicshit" value="3" >
+    </E>
+    <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
@@ -14,7 +16,7 @@
     </E>
     <E key="phantom_a | $damage_melee" value="1" >
     </E>
-    <E key="phantom_b | $damage_melee" value="1" >
+    <E key="phantom_b | $damage_melee" value="2" >
     </E>
     <E key="player | $damage_explosion" value="25" >
     </E>
@@ -38,7 +40,7 @@
     </E>
     <E key="scavenger_heal" value="2" >
     </E>
-    <E key="scorpion" value="5" >
+    <E key="scorpion" value="6" >
     </E>
     <E key="tentacler_small" value="1" >
     </E>

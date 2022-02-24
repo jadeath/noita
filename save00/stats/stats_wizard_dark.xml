@@ -1,4 +1,4 @@
-<Stats deaths="95" kills="48" player_kills="0" player_projectile_count="0" >
+<Stats deaths="98" kills="49" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -16,6 +16,8 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="1" >
+    </E>
     <E key="lukki_dark | $damage_curse" value="1" >
     </E>
     <E key="miniblob | $damage_melee" value="1" >
@@ -24,7 +26,7 @@
     </E>
     <E key="player | $damage_explosion" value="5" >
     </E>
-    <E key="player | $damage_projectile" value="45" >
+    <E key="player | $damage_projectile" value="46" >
     </E>
     <E key="player | $damage_slice" value="3" >
     </E>
@@ -33,6 +35,8 @@
     <E key="slimeshooter_nontoxic | $damage_projectile" value="1" >
     </E>
     <E key="sniper | $damage_melee" value="1" >
+    </E>
+    <E key="tentacler | $damage_melee" value="1" >
     </E>
     <E key="wizard_dark | $damage_explosion" value="1" >
     </E>
@@ -46,7 +50,7 @@
     </E>
     <E key="miner_weak" value="1" >
     </E>
-    <E key="miniblob" value="8" >
+    <E key="miniblob" value="9" >
     </E>
     <E key="rat" value="17" >
     </E>
