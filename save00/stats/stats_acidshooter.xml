@@ -1,12 +1,14 @@
-<Stats deaths="298" kills="51" player_kills="0" player_projectile_count="0" >
+<Stats deaths="306" kills="51" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="11" >
+    <E key="NULL | $damage_drowning" value="1" >
+    </E>
+    <E key="NULL | $damage_electricity" value="12" >
     </E>
     <E key="NULL | $damage_explosion" value="21" >
     </E>
-    <E key="NULL | $damage_fire" value="21" >
+    <E key="NULL | $damage_fire" value="22" >
     </E>
-    <E key="NULL | $damage_physicshit" value="19" >
+    <E key="NULL | $damage_physicshit" value="20" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
@@ -24,7 +26,7 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="3" >
     </E>
-    <E key="death_ghost | $damage_curse" value="3" >
+    <E key="death_ghost | $damage_curse" value="4" >
     </E>
     <E key="drone_physics | $damage_explosion" value="1" >
     </E>
@@ -42,11 +44,11 @@
     </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
-    <E key="orb_green | $damage_projectile" value="2" >
+    <E key="orb_green | $damage_projectile" value="3" >
     </E>
     <E key="phantom_a | $damage_melee" value="1" >
     </E>
-    <E key="phantom_a | $damage_projectile" value="1" >
+    <E key="phantom_a | $damage_projectile" value="2" >
     </E>
     <E key="phantom_b | $damage_melee" value="3" >
     </E>
@@ -85,6 +87,8 @@
     <E key="tank_rocket | $damage_projectile" value="1" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
+    </E>
+    <E key="thundermage_big | $damage_explosion" value="1" >
     </E>
     <E key="thunderskull | $damage_electricity" value="1" >
     </E>

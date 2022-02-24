@@ -1,4 +1,4 @@
-<Stats deaths="599" kills="114" player_kills="0" player_projectile_count="0" >
+<Stats deaths="600" kills="114" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="15" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="firebug | $damage_melee" value="2" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="maggot | $damage_explosion" value="1" >
     </E>

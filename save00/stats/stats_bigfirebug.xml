@@ -1,4 +1,4 @@
-<Stats deaths="179" kills="42" player_kills="3" player_projectile_count="0" >
+<Stats deaths="180" kills="42" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="12" >
     </E>
@@ -11,6 +11,8 @@
     <E key="NULL | damage from material: Water" value="24" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="NULL | damage from material: freezing liquid" value="1" >
     </E>
     <E key="bigbat | $damage_melee" value="1" >
     </E>

@@ -1,22 +1,24 @@
-<Stats deaths="170" kills="42" player_kills="0" player_projectile_count="0" >
+<Stats deaths="183" kills="47" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="18" >
+    <E key="NULL | $damage_electricity" value="19" >
     </E>
-    <E key="NULL | $damage_explosion" value="14" >
+    <E key="NULL | $damage_explosion" value="16" >
     </E>
     <E key="NULL | $damage_fire" value="29" >
     </E>
-    <E key="NULL | $damage_physicshit" value="12" >
+    <E key="NULL | $damage_physicshit" value="14" >
     </E>
-    <E key="NULL | damage from material: acid" value="17" >
+    <E key="NULL | damage from material: acid" value="19" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
     <E key="blob | $damage_melee" value="1" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="drone_lasership | $damage_projectile" value="1" >
     </E>
@@ -27,6 +29,12 @@
     <E key="player | $damage_fire" value="1" >
     </E>
     <E key="player | $damage_projectile" value="37" >
+    </E>
+    <E key="player | $damage_slice" value="1" >
+    </E>
+    <E key="roboguard | $damage_melee" value="1" >
+    </E>
+    <E key="scavenger_grenade | $damage_melee" value="1" >
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="2" >
     </E>
@@ -54,7 +62,7 @@
   <kill_map>
     <E key="acidshot" value="2" >
     </E>
-    <E key="blob" value="5" >
+    <E key="blob" value="6" >
     </E>
     <E key="dripping_radioactive" value="1" >
     </E>
@@ -62,13 +70,13 @@
     </E>
     <E key="miniblob" value="9" >
     </E>
-    <E key="scavenger_grenade" value="5" >
+    <E key="scavenger_grenade" value="7" >
     </E>
     <E key="scavenger_heal" value="1" >
     </E>
     <E key="scavenger_mine" value="2" >
     </E>
-    <E key="scavenger_smg" value="6" >
+    <E key="scavenger_smg" value="8" >
     </E>
     <E key="sniper" value="2" >
     </E>

@@ -1,10 +1,10 @@
-<Stats deaths="102" kills="9" player_kills="0" player_projectile_count="0" >
+<Stats deaths="105" kills="9" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_electricity" value="5" >
     </E>
-    <E key="NULL | $damage_explosion" value="16" >
+    <E key="NULL | $damage_explosion" value="17" >
     </E>
     <E key="NULL | $damage_fire" value="7" >
     </E>
@@ -19,6 +19,10 @@
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
     <E key="blob | $damage_melee" value="2" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
+    <E key="firemage | $damage_explosion" value="1" >
     </E>
     <E key="frog | $damage_melee" value="1" >
     </E>

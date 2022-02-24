@@ -1,8 +1,8 @@
-<Stats deaths="16" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="20" kills="15" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="3" >
+    <E key="NULL | $damage_electricity" value="6" >
     </E>
-    <E key="NULL | $damage_physicshit" value="1" >
+    <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
@@ -20,9 +20,9 @@
   <kill_map>
     <E key="acidshot" value="2" >
     </E>
-    <E key="blob" value="1" >
+    <E key="blob" value="2" >
     </E>
-    <E key="miniblob" value="5" >
+    <E key="miniblob" value="9" >
     </E>
     <E key="thunderskull" value="2" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="36" kills="1" player_kills="0" player_projectile_count="0" >
+<Stats deaths="37" kills="1" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_physicshit" value="3" >
     </E>
-    <E key="NULL | damage from material: acid" value="6" >
+    <E key="NULL | damage from material: acid" value="7" >
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
     </E>

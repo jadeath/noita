@@ -1,4 +1,4 @@
-<Stats deaths="30" kills="6" player_kills="0" player_projectile_count="0" >
+<Stats deaths="32" kills="6" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
@@ -6,11 +6,13 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="4" >
+    <E key="homunculus | $damage_projectile" value="5" >
     </E>
     <E key="orb_green | $damage_projectile" value="1" >
     </E>
     <E key="orb_laseremitter | $damage_plasmabeam" value="1" >
+    </E>
+    <E key="orb_laseremitter_cutter | $damage_plasmabeam" value="1" >
     </E>
     <E key="phantom_a | $damage_projectile" value="1" >
     </E>

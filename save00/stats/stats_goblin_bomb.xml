@@ -1,4 +1,4 @@
-<Stats deaths="273" kills="48" player_kills="0" player_projectile_count="0" >
+<Stats deaths="274" kills="48" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="6" >
     </E>
@@ -31,6 +31,8 @@
     <E key="goblin_bomb | $damage_explosion" value="6" >
     </E>
     <E key="homunculus | $damage_projectile" value="2" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="1" >
     </E>
     <E key="miner | $damage_explosion" value="1" >
     </E>

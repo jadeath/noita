@@ -1,14 +1,18 @@
-<Stats deaths="81" kills="114" player_kills="3" player_projectile_count="0" >
+<Stats deaths="99" kills="139" player_kills="3" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_explosion" value="6" >
+    <E key="NULL | $damage_explosion" value="8" >
     </E>
     <E key="NULL | $damage_physicshit" value="11" >
     </E>
+    <E key="NULL | damage from material: freezing vapour" value="2" >
+    </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
-    <E key="death_ghost | $damage_curse" value="1" >
+    <E key="NULL | damage from material: toxic ice" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="5" >
+    <E key="death_ghost | $damage_curse" value="3" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="11" >
     </E>
     <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
     </E>
@@ -24,7 +28,7 @@
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="1" >
     </E>
-    <E key="thundermage | $damage_explosion" value="2" >
+    <E key="thundermage | $damage_explosion" value="7" >
     </E>
     <E key="worm_big | worm bite" value="1" >
     </E>
@@ -40,9 +44,9 @@
     </E>
     <E key="bigzombietorso" value="1" >
     </E>
-    <E key="coward" value="1" >
+    <E key="coward" value="2" >
     </E>
-    <E key="dripping_oil" value="1" >
+    <E key="dripping_oil" value="2" >
     </E>
     <E key="dripping_water" value="2" >
     </E>
@@ -50,11 +54,17 @@
     </E>
     <E key="failed_alchemist" value="1" >
     </E>
+    <E key="glue" value="4" >
+    </E>
     <E key="healerdrone_physics" value="1" >
+    </E>
+    <E key="icer" value="1" >
     </E>
     <E key="iceskull" value="1" >
     </E>
-    <E key="miniblob" value="12" >
+    <E key="longleg" value="1" >
+    </E>
+    <E key="miniblob" value="14" >
     </E>
     <E key="missilecrab" value="1" >
     </E>
@@ -62,9 +72,9 @@
     </E>
     <E key="player" value="3" >
     </E>
-    <E key="rat" value="39" >
+    <E key="rat" value="40" >
     </E>
-    <E key="scavenger_grenade" value="6" >
+    <E key="scavenger_grenade" value="8" >
     </E>
     <E key="scavenger_invis" value="2" >
     </E>
@@ -72,7 +82,7 @@
     </E>
     <E key="scavenger_smg" value="7" >
     </E>
-    <E key="scorpion" value="3" >
+    <E key="scorpion" value="6" >
     </E>
     <E key="shotgunner" value="5" >
     </E>
@@ -86,17 +96,21 @@
     </E>
     <E key="tentacler_small" value="1" >
     </E>
-    <E key="thundermage" value="2" >
+    <E key="thundermage" value="7" >
     </E>
     <E key="thunderskull" value="2" >
+    </E>
+    <E key="wizard_homing" value="2" >
     </E>
     <E key="wizard_poly" value="1" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>
-    <E key="wizard_twitchy" value="1" >
+    <E key="wizard_twitchy" value="2" >
     </E>
     <E key="worm_tiny" value="1" >
+    </E>
+    <E key="zombie" value="1" >
     </E>
     <E key="zombie_weak" value="1" >
     </E>

@@ -1,5 +1,7 @@
-<Stats deaths="32" kills="6" player_kills="0" player_projectile_count="0" >
+<Stats deaths="33" kills="7" player_kills="0" player_projectile_count="0" >
   <death_map>
+    <E key="NULL | $damage_electricity" value="1" >
+    </E>
     <E key="NULL | $damage_physicshit" value="1" >
     </E>
     <E key="player | $damage_electricity" value="3" >
@@ -13,6 +15,8 @@
     <E key="acidshot" value="1" >
     </E>
     <E key="miniblob" value="1" >
+    </E>
+    <E key="scavenger_invis" value="1" >
     </E>
     <E key="thunderskull" value="2" >
     </E>

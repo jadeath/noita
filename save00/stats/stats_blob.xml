@@ -1,12 +1,12 @@
-<Stats deaths="469" kills="353" player_kills="0" player_projectile_count="0" >
+<Stats deaths="490" kills="380" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
-    <E key="NULL | $damage_electricity" value="72" >
+    <E key="NULL | $damage_electricity" value="75" >
     </E>
-    <E key="NULL | $damage_explosion" value="68" >
+    <E key="NULL | $damage_explosion" value="73" >
     </E>
-    <E key="NULL | $damage_physicshit" value="11" >
+    <E key="NULL | $damage_physicshit" value="12" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -16,13 +16,13 @@
     </E>
     <E key="assassin | $damage_melee" value="1" >
     </E>
-    <E key="bigzombie | $damage_melee" value="5" >
+    <E key="bigzombie | $damage_melee" value="6" >
     </E>
-    <E key="blob | $damage_melee" value="30" >
+    <E key="blob | $damage_melee" value="31" >
     </E>
     <E key="bloom | $damage_explosion" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="9" >
+    <E key="death_ghost | $damage_curse" value="13" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
@@ -44,13 +44,15 @@
     </E>
     <E key="missilecrab | $damage_explosion" value="1" >
     </E>
+    <E key="missilecrab | $damage_projectile" value="1" >
+    </E>
     <E key="necrobot | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
     <E key="player | $damage_explosion" value="15" >
     </E>
-    <E key="player | $damage_projectile" value="168" >
+    <E key="player | $damage_projectile" value="171" >
     </E>
     <E key="player | $damage_slice" value="14" >
     </E>
@@ -63,6 +65,10 @@
     <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_mine | $damage_melee" value="2" >
+    </E>
+    <E key="scavenger_smg | $damage_melee" value="1" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="1" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
@@ -92,7 +98,9 @@
     </E>
     <E key="bigzombie" value="1" >
     </E>
-    <E key="blob" value="30" >
+    <E key="bigzombietorso" value="1" >
+    </E>
+    <E key="blob" value="31" >
     </E>
     <E key="fungus" value="1" >
     </E>
@@ -100,7 +108,7 @@
     </E>
     <E key="miner_weak" value="5" >
     </E>
-    <E key="miniblob" value="255" >
+    <E key="miniblob" value="280" >
     </E>
     <E key="rat" value="25" >
     </E>

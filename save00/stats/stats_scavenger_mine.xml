@@ -1,18 +1,20 @@
-<Stats deaths="127" kills="19" player_kills="0" player_projectile_count="0" >
+<Stats deaths="135" kills="21" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="8" >
+    <E key="NULL | $damage_explosion" value="10" >
     </E>
-    <E key="NULL | $damage_fire" value="28" >
+    <E key="NULL | $damage_fire" value="29" >
     </E>
-    <E key="NULL | $damage_physicshit" value="7" >
+    <E key="NULL | $damage_physicshit" value="9" >
     </E>
     <E key="NULL | $damage_radioactive" value="7" >
     </E>
     <E key="NULL | damage from material: acid" value="5" >
+    </E>
+    <E key="NULL | damage from material: lava" value="1" >
     </E>
     <E key="bigzombie | $damage_melee" value="2" >
     </E>
@@ -54,7 +56,7 @@
     </E>
     <E key="mine_scavenger" value="1" >
     </E>
-    <E key="miniblob" value="9" >
+    <E key="miniblob" value="11" >
     </E>
     <E key="rat" value="1" >
     </E>

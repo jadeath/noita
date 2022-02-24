@@ -1,4 +1,4 @@
-<Stats deaths="61" kills="27" player_kills="0" player_projectile_count="0" >
+<Stats deaths="63" kills="28" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | damage from material: lava" value="5" >
     </E>
-    <E key="death_ghost | $damage_curse" value="1" >
+    <E key="death_ghost | $damage_curse" value="3" >
     </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="scorpion" value="4" >
+    <E key="scorpion" value="5" >
     </E>
     <E key="skullrat" value="4" >
     </E>

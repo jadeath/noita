@@ -1,6 +1,6 @@
-<Stats deaths="61" kills="330" player_kills="0" player_projectile_count="0" >
+<Stats deaths="71" kills="381" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="23" >
+    <E key="NULL | $damage_electricity" value="30" >
     </E>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
@@ -10,11 +10,11 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="1" >
+    <E key="NULL | damage from material: lava" value="3" >
     </E>
     <E key="basebot_soldier | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="19" >
+    <E key="player | $damage_explosion" value="20" >
     </E>
     <E key="player | $damage_projectile" value="9" >
     </E>
@@ -30,7 +30,7 @@
     </E>
     <E key="barfer" value="1" >
     </E>
-    <E key="bat" value="5" >
+    <E key="bat" value="6" >
     </E>
     <E key="bigfirebug" value="1" >
     </E>
@@ -42,13 +42,15 @@
     </E>
     <E key="drone_lasership" value="1" >
     </E>
+    <E key="eel" value="2" >
+    </E>
     <E key="firebug" value="3" >
     </E>
-    <E key="firemage" value="2" >
+    <E key="firemage" value="4" >
     </E>
     <E key="firemage_weak" value="2" >
     </E>
-    <E key="fish" value="23" >
+    <E key="fish" value="24" >
     </E>
     <E key="fly" value="3" >
     </E>
@@ -70,15 +72,15 @@
     </E>
     <E key="hpcrystal" value="1" >
     </E>
-    <E key="icemage" value="1" >
+    <E key="icemage" value="2" >
     </E>
-    <E key="iceskull" value="8" >
+    <E key="iceskull" value="9" >
     </E>
     <E key="lasershooter" value="1" >
     </E>
     <E key="lavashot" value="4" >
     </E>
-    <E key="longleg" value="1" >
+    <E key="longleg" value="7" >
     </E>
     <E key="miner" value="4" >
     </E>
@@ -92,17 +94,17 @@
     </E>
     <E key="phantom_a" value="1" >
     </E>
-    <E key="phantom_b" value="2" >
+    <E key="phantom_b" value="5" >
     </E>
     <E key="rat" value="11" >
     </E>
-    <E key="scavenger_clusterbomb" value="4" >
+    <E key="scavenger_clusterbomb" value="6" >
     </E>
     <E key="scavenger_glue" value="12" >
     </E>
-    <E key="scavenger_grenade" value="47" >
+    <E key="scavenger_grenade" value="50" >
     </E>
-    <E key="scavenger_heal" value="3" >
+    <E key="scavenger_heal" value="4" >
     </E>
     <E key="scavenger_invis" value="4" >
     </E>
@@ -110,19 +112,19 @@
     </E>
     <E key="scavenger_mine" value="2" >
     </E>
-    <E key="scavenger_poison" value="1" >
+    <E key="scavenger_poison" value="3" >
     </E>
-    <E key="scavenger_shield" value="1" >
+    <E key="scavenger_shield" value="2" >
     </E>
-    <E key="scavenger_smg" value="26" >
+    <E key="scavenger_smg" value="30" >
     </E>
-    <E key="scorpion" value="1" >
+    <E key="scorpion" value="2" >
     </E>
-    <E key="shotgunner" value="5" >
+    <E key="shotgunner" value="7" >
     </E>
     <E key="shotgunner_weak" value="2" >
     </E>
-    <E key="skullrat" value="2" >
+    <E key="skullrat" value="3" >
     </E>
     <E key="slimeshooter" value="2" >
     </E>
@@ -140,17 +142,19 @@
     </E>
     <E key="tentacler_small" value="4" >
     </E>
-    <E key="thundermage" value="5" >
+    <E key="thundermage" value="11" >
     </E>
-    <E key="thunderskull" value="7" >
+    <E key="thunderskull" value="8" >
     </E>
     <E key="turret_left" value="1" >
     </E>
-    <E key="wand_ghost" value="4" >
+    <E key="wand_ghost" value="5" >
     </E>
     <E key="wizard_dark" value="3" >
     </E>
-    <E key="wizard_hearty" value="2" >
+    <E key="wizard_hearty" value="3" >
+    </E>
+    <E key="wizard_homing" value="1" >
     </E>
     <E key="wizard_neutral" value="3" >
     </E>
@@ -158,15 +162,15 @@
     </E>
     <E key="wizard_swapper" value="10" >
     </E>
-    <E key="wizard_tele" value="8" >
+    <E key="wizard_tele" value="11" >
     </E>
-    <E key="wizard_weaken" value="4" >
+    <E key="wizard_weaken" value="5" >
     </E>
-    <E key="worm" value="2" >
+    <E key="worm" value="3" >
     </E>
     <E key="worm_tiny" value="1" >
     </E>
-    <E key="zombie" value="2" >
+    <E key="zombie" value="4" >
     </E>
     <E key="zombie_weak" value="2" >
     </E>

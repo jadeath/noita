@@ -19,11 +19,11 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="43.0147" 
-    clouds_02_target="57.1196" 
+    clouds_01_target="38.7275" 
+    clouds_02_target="47.4987" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="49" 
+    day_count="52" 
     fog="0.00499468" 
     fog_target="0" 
     global_genome_relations_modifier="-25" 
@@ -51,17 +51,17 @@
     player_polymorph_random_count="5" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.139318" 
-    rain_target="0.144305" 
+    rain="0.516355" 
+    rain_target="0.521342" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.397875" 
+    time="0.581356" 
     time_dt="1" 
-    time_total="49.7323" 
+    time_total="53.1342" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.152189" 
-    wind_speed="-9.13137" 
+    wind="-0.14405" 
+    wind_speed="-8.64303" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -143,10 +143,6 @@
       </E>
       <E 
         key="PERK_PICKED_EDIT_WANDS_EVERYWHERE_PICKUP_COUNT" 
-        value="1" >
-      </E>
-      <E 
-        key="PERK_PICKED_ELECTRICITY_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -699,11 +695,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_orbroom,$biome_vault_frozen,$biome_winter_caves,_EMPTY_,$biome_fungicave," >
+        value="$biome_mestari_secret,$biome_wizardcave,$biome_wandcave,$biome_tower,???,_EMPTY_" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="264" >
+        value="298" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -730,6 +726,9 @@
       </primitive>
       <primitive>
         2
+      </primitive>
+      <primitive>
+        4
       </primitive>
     </orbs_found_thisrun>
     <flags>
@@ -849,9 +848,6 @@
       </string>
       <string>
         PERK_PICKED_REVENGE_BULLET
-      </string>
-      <string>
-        PERK_ELECTRICITY
       </string>
       <string>
         PERK_CONTACT_DAMAGE
@@ -1322,9 +1318,6 @@
         PERK_PICKED_GOLD_IS_FOREVER
       </string>
       <string>
-        PERK_PICKED_ELECTRICITY
-      </string>
-      <string>
         PERK_PICKED_PROTECTION_ELECTRICITY
       </string>
       <string>
@@ -1470,6 +1463,9 @@
       </string>
       <string>
         musicmachine3_done
+      </string>
+      <string>
+        new_kill_wizard_orb_death
       </string>
     </flags>
     <changed_materials>

@@ -1,6 +1,6 @@
-<Stats deaths="29" kills="5" player_kills="0" player_projectile_count="0" >
+<Stats deaths="30" kills="15" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="2" >
+    <E key="NULL | $damage_electricity" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="3" >
     </E>
@@ -20,7 +20,11 @@
   <kill_map>
     <E key="glue" value="1" >
     </E>
-    <E key="miniblob" value="4" >
+    <E key="miniblob" value="5" >
+    </E>
+    <E key="scavenger_grenade" value="8" >
+    </E>
+    <E key="scavenger_smg" value="1" >
     </E>
   </kill_map>
 </Stats>
