@@ -1,4 +1,4 @@
-<Stats deaths="152" kills="93" player_kills="1" player_projectile_count="0" >
+<Stats deaths="160" kills="102" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -14,9 +14,11 @@
     </E>
     <E key="NULL | damage from material: acid" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="5" >
+    <E key="NULL | damage from material: lava" value="6" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
+    </E>
+    <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
     <E key="maggot | $damage_explosion" value="1" >
     </E>
@@ -32,7 +34,9 @@
     </E>
     <E key="player | $damage_explosion" value="22" >
     </E>
-    <E key="player | $damage_projectile" value="70" >
+    <E key="player | $damage_ice" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="73" >
     </E>
     <E key="player | $damage_slice" value="4" >
     </E>
@@ -44,13 +48,13 @@
     </E>
     <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
-    <E key="worm | worm bite" value="3" >
+    <E key="worm | worm bite" value="5" >
     </E>
   </death_map>
   <kill_map>
     <E key="acidshooter" value="3" >
     </E>
-    <E key="acidshot" value="69" >
+    <E key="acidshot" value="71" >
     </E>
     <E key="arrowtrap_left" value="1" >
     </E>
@@ -60,7 +64,7 @@
     </E>
     <E key="failed_alchemist" value="1" >
     </E>
-    <E key="longleg" value="4" >
+    <E key="longleg" value="7" >
     </E>
     <E key="miniblob" value="4" >
     </E>
@@ -72,11 +76,15 @@
     </E>
     <E key="polyorb" value="1" >
     </E>
-    <E key="scorpion" value="1" >
+    <E key="scorpion" value="3" >
+    </E>
+    <E key="shotgunner" value="1" >
     </E>
     <E key="skullrat" value="1" >
     </E>
     <E key="tentacler_small" value="2" >
+    </E>
+    <E key="wizard_swapper" value="1" >
     </E>
   </kill_map>
 </Stats>

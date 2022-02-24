@@ -1,4 +1,4 @@
-<Stats deaths="464" kills="427" player_kills="2" player_projectile_count="0" >
+<Stats deaths="472" kills="436" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="7" >
     </E>
@@ -12,13 +12,13 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="33" >
+    <E key="NULL | $damage_physicshit" value="35" >
     </E>
-    <E key="NULL | $damage_radioactive" value="30" >
+    <E key="NULL | $damage_radioactive" value="32" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="12" >
+    <E key="NULL | damage from material: acid" value="13" >
     </E>
     <E key="NULL | damage from material: freezing liquid" value="8" >
     </E>
@@ -38,13 +38,17 @@
     </E>
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
-    <E key="flamer | $damage_explosion" value="1" >
+    <E key="flamer | $damage_explosion" value="2" >
+    </E>
+    <E key="flamer | $damage_fire" value="1" >
     </E>
     <E key="iceskull | $damage_explosion" value="2" >
     </E>
     <E key="iceskull | $damage_ice" value="3" >
     </E>
     <E key="iceskull | $damage_melee" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="1" >
     </E>
     <E key="necromancer_shop | $damage_explosion" value="1" >
     </E>
@@ -94,7 +98,7 @@
     </E>
     <E key="ant" value="1" >
     </E>
-    <E key="blob" value="10" >
+    <E key="blob" value="11" >
     </E>
     <E key="chest_mimic" value="1" >
     </E>
@@ -112,7 +116,7 @@
     </E>
     <E key="miner" value="4" >
     </E>
-    <E key="miniblob" value="63" >
+    <E key="miniblob" value="69" >
     </E>
     <E key="pebble_physics" value="8" >
     </E>
@@ -120,9 +124,9 @@
     </E>
     <E key="player" value="2" >
     </E>
-    <E key="rat" value="199" >
+    <E key="rat" value="200" >
     </E>
-    <E key="scavenger_grenade" value="11" >
+    <E key="scavenger_grenade" value="12" >
     </E>
     <E key="scavenger_heal" value="1" >
     </E>

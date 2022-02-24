@@ -1,4 +1,4 @@
-<Stats deaths="142" kills="93" player_kills="0" player_projectile_count="0" >
+<Stats deaths="144" kills="97" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="11" >
     </E>
@@ -10,7 +10,7 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="drone_lasership | $damage_projectile" value="1" >
+    <E key="drone_lasership | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_electricity" value="6" >
     </E>
@@ -21,6 +21,8 @@
     <E key="player_rng_items | $damage_projectile" value="6" >
     </E>
     <E key="tank | $damage_explosion" value="2" >
+    </E>
+    <E key="tank_rocket | $damage_projectile" value="1" >
     </E>
     <E key="thundermage | $damage_explosion" value="1" >
     </E>
@@ -48,9 +50,9 @@
     </E>
     <E key="pollen" value="2" >
     </E>
-    <E key="rat" value="57" >
+    <E key="rat" value="59" >
     </E>
-    <E key="scavenger_heal" value="3" >
+    <E key="scavenger_heal" value="5" >
     </E>
     <E key="shotgunner" value="1" >
     </E>

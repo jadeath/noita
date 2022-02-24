@@ -1,10 +1,14 @@
-<Stats deaths="100" kills="13" player_kills="0" player_projectile_count="0" >
+<Stats deaths="102" kills="19" player_kills="0" player_projectile_count="0" >
   <death_map>
+    <E key="NULL | $damage_drowning" value="1" >
+    </E>
     <E key="NULL | $damage_physicshit" value="4" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
     <E key="NULL | $damage_radioactive" value="1" >
+    </E>
+    <E key="lukki_longleg | hit" value="1" >
     </E>
     <E key="player | $damage_electricity" value="2" >
     </E>
@@ -28,15 +32,21 @@
     </E>
     <E key="bigzombietorso" value="1" >
     </E>
-    <E key="fly" value="3" >
+    <E key="fly" value="5" >
     </E>
-    <E key="rat" value="2" >
+    <E key="frog" value="1" >
+    </E>
+    <E key="physics_torch_stand" value="1" >
+    </E>
+    <E key="rat" value="3" >
     </E>
     <E key="scavenger_grenade" value="1" >
     </E>
     <E key="slimeshooter" value="1" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
+    </E>
+    <E key="zombie" value="1" >
     </E>
   </kill_map>
 </Stats>

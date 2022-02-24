@@ -1,4 +1,4 @@
-<Stats deaths="37" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="38" kills="10" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -8,7 +8,7 @@
     </E>
     <E key="NULL | $damage_fire" value="4" >
     </E>
-    <E key="NULL | $damage_physicshit" value="4" >
+    <E key="NULL | $damage_physicshit" value="5" >
     </E>
     <E key="miner_weak | $damage_explosion" value="1" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="927" kills="73" player_kills="1" player_projectile_count="0" >
+<Stats deaths="931" kills="74" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="9" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | $damage_water" value="34" >
     </E>
-    <E key="NULL | damage from material: Water" value="124" >
+    <E key="NULL | damage from material: Water" value="126" >
     </E>
     <E key="NULL | damage from material: acid" value="3" >
     </E>
@@ -20,7 +20,7 @@
     </E>
     <E key="NULL | damage from material: swamp" value="1" >
     </E>
-    <E key="bat | $damage_melee" value="15" >
+    <E key="bat | $damage_melee" value="16" >
     </E>
     <E key="bigbat | $damage_melee" value="2" >
     </E>
@@ -48,7 +48,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="324" >
+    <E key="player | $damage_projectile" value="325" >
     </E>
     <E key="player | $damage_slice" value="87" >
     </E>
@@ -114,7 +114,7 @@
     </E>
     <E key="skullrat" value="2" >
     </E>
-    <E key="slimeshooter" value="4" >
+    <E key="slimeshooter" value="5" >
     </E>
   </kill_map>
 </Stats>

@@ -1,6 +1,6 @@
-<Stats deaths="63" kills="15" player_kills="0" player_projectile_count="0" >
+<Stats deaths="75" kills="16" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="2" >
+    <E key="NULL | $damage_drowning" value="4" >
     </E>
     <E key="NULL | $damage_fire" value="3" >
     </E>
@@ -10,13 +10,19 @@
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
+    <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="1" >
+    </E>
     <E key="phantom_a | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="21" >
+    <E key="phantom_b | $damage_melee" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="28" >
+    <E key="player | $damage_explosion" value="25" >
+    </E>
+    <E key="player | $damage_projectile" value="31" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
+    </E>
+    <E key="statue | $damage_melee" value="1" >
     </E>
     <E key="wizard_returner | $damage_explosion" value="1" >
     </E>
@@ -30,7 +36,7 @@
     </E>
     <E key="scavenger_grenade" value="1" >
     </E>
-    <E key="scavenger_heal" value="1" >
+    <E key="scavenger_heal" value="2" >
     </E>
     <E key="scorpion" value="5" >
     </E>

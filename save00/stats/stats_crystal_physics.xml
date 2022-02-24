@@ -1,16 +1,16 @@
-<Stats deaths="32" kills="17" player_kills="0" player_projectile_count="0" >
+<Stats deaths="36" kills="20" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
-    <E key="NULL | physics body damaged" value="7" >
+    <E key="NULL | physics body damaged" value="8" >
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="14" >
+    <E key="player | $damage_projectile" value="17" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
@@ -34,7 +34,11 @@
     </E>
     <E key="scorpion" value="1" >
     </E>
-    <E key="tentacler_small" value="2" >
+    <E key="skullfly" value="1" >
+    </E>
+    <E key="tentacler" value="1" >
+    </E>
+    <E key="tentacler_small" value="3" >
     </E>
     <E key="wizard_dark" value="1" >
     </E>

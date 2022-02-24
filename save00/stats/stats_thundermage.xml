@@ -1,10 +1,10 @@
-<Stats deaths="40" kills="82" player_kills="3" player_projectile_count="0" >
+<Stats deaths="41" kills="84" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="4" >
     </E>
     <E key="NULL | $damage_physicshit" value="4" >
     </E>
-    <E key="player | $damage_explosion" value="3" >
+    <E key="player | $damage_explosion" value="4" >
     </E>
     <E key="player | $damage_projectile" value="20" >
     </E>
@@ -23,6 +23,8 @@
     <E key="acidshot" value="2" >
     </E>
     <E key="coward" value="1" >
+    </E>
+    <E key="dripping_water" value="1" >
     </E>
     <E key="drone_lasership" value="1" >
     </E>
@@ -51,6 +53,8 @@
     <E key="sniper" value="2" >
     </E>
     <E key="tank" value="1" >
+    </E>
+    <E key="tentacler_small" value="1" >
     </E>
     <E key="worm_tiny" value="1" >
     </E>

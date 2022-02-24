@@ -1,12 +1,12 @@
-<Stats deaths="255" kills="41" player_kills="0" player_projectile_count="0" >
+<Stats deaths="264" kills="45" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
     <E key="NULL | $damage_explosion" value="18" >
     </E>
-    <E key="NULL | $damage_fire" value="16" >
+    <E key="NULL | $damage_fire" value="17" >
     </E>
-    <E key="NULL | $damage_physicshit" value="16" >
+    <E key="NULL | $damage_physicshit" value="17" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="2" >
     </E>
@@ -24,19 +24,23 @@
     </E>
     <E key="miner_weak | $damage_explosion" value="3" >
     </E>
+    <E key="miniblob | $damage_melee" value="1" >
+    </E>
     <E key="necromancer | $damage_melee" value="1" >
     </E>
     <E key="orb_green | $damage_projectile" value="2" >
+    </E>
+    <E key="phantom_a | $damage_melee" value="1" >
     </E>
     <E key="phantom_a | $damage_projectile" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="3" >
     </E>
-    <E key="player | $damage_electricity" value="5" >
+    <E key="player | $damage_electricity" value="6" >
     </E>
     <E key="player | $damage_explosion" value="36" >
     </E>
-    <E key="player | $damage_projectile" value="106" >
+    <E key="player | $damage_projectile" value="108" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -46,9 +50,11 @@
     </E>
     <E key="scavenger_leader | $damage_projectile" value="1" >
     </E>
+    <E key="shotgunner | $damage_projectile" value="1" >
+    </E>
     <E key="skullfly | $damage_projectile" value="3" >
     </E>
-    <E key="skullrat | $damage_melee" value="3" >
+    <E key="skullrat | $damage_melee" value="4" >
     </E>
     <E key="sniper | $damage_explosion" value="1" >
     </E>
@@ -74,6 +80,8 @@
   <kill_map>
     <E key="barfer" value="1" >
     </E>
+    <E key="blob" value="1" >
+    </E>
     <E key="dripping_oil" value="1" >
     </E>
     <E key="dripping_water" value="1" >
@@ -82,9 +90,11 @@
     </E>
     <E key="miner_weak" value="1" >
     </E>
+    <E key="miniblob" value="1" >
+    </E>
     <E key="rat" value="7" >
     </E>
-    <E key="scorpion" value="25" >
+    <E key="scorpion" value="27" >
     </E>
     <E key="sheep" value="1" >
     </E>

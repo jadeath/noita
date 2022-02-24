@@ -1,18 +1,18 @@
-<Stats deaths="773" kills="182" player_kills="2" player_projectile_count="0" >
+<Stats deaths="785" kills="187" player_kills="2" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="26" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="22" >
+    <E key="NULL | $damage_explosion" value="23" >
     </E>
-    <E key="NULL | $damage_fire" value="101" >
+    <E key="NULL | $damage_fire" value="103" >
     </E>
-    <E key="NULL | $damage_physicshit" value="82" >
+    <E key="NULL | $damage_physicshit" value="83" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="5" >
     </E>
-    <E key="NULL | $damage_radioactive" value="88" >
+    <E key="NULL | $damage_radioactive" value="89" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="NULL | damage from material: toxic rock" value="2" >
     </E>
-    <E key="bat | $damage_melee" value="2" >
+    <E key="bat | $damage_melee" value="3" >
     </E>
     <E key="bigfirebug | $damage_projectile" value="1" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="275" >
+    <E key="player | $damage_projectile" value="279" >
     </E>
     <E key="player | $damage_slice" value="57" >
     </E>
@@ -60,6 +60,10 @@
     </E>
     <E key="roboguard | $damage_projectile" value="1" >
     </E>
+    <E key="scavenger_grenade | $damage_projectile" value="1" >
+    </E>
+    <E key="shooterflower | $damage_projectile" value="1" >
+    </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
     <E key="sniper | $damage_projectile" value="4" >
@@ -70,7 +74,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="bat" value="6" >
+    <E key="bat" value="7" >
     </E>
     <E key="bigfirebug" value="2" >
     </E>
@@ -98,11 +102,13 @@
     </E>
     <E key="scavenger_grenade" value="4" >
     </E>
-    <E key="shotgunner" value="2" >
+    <E key="shotgunner" value="4" >
     </E>
     <E key="slimeshooter" value="5" >
     </E>
-    <E key="zombie" value="30" >
+    <E key="sniper" value="1" >
+    </E>
+    <E key="zombie" value="31" >
     </E>
   </kill_map>
 </Stats>

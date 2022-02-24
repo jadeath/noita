@@ -1,8 +1,8 @@
-<Stats deaths="87" kills="24" player_kills="0" player_projectile_count="0" >
+<Stats deaths="96" kills="27" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="4" >
+    <E key="NULL | $damage_drowning" value="7" >
     </E>
-    <E key="NULL | $damage_explosion" value="20" >
+    <E key="NULL | $damage_explosion" value="22" >
     </E>
     <E key="NULL | $damage_physicshit" value="5" >
     </E>
@@ -12,19 +12,19 @@
     </E>
     <E key="assassin | $damage_melee" value="3" >
     </E>
-    <E key="flamer | $damage_explosion" value="3" >
+    <E key="flamer | $damage_explosion" value="4" >
     </E>
     <E key="monk | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_explosion" value="4" >
     </E>
-    <E key="player | $damage_projectile" value="27" >
+    <E key="player | $damage_projectile" value="28" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
-    <E key="roboguard | $damage_projectile" value="1" >
+    <E key="roboguard | $damage_projectile" value="2" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="1" >
+    <E key="scavenger_grenade | $damage_projectile" value="2" >
     </E>
     <E key="scavenger_smg | $damage_projectile" value="4" >
     </E>
@@ -50,11 +50,13 @@
     </E>
     <E key="miniblob" value="8" >
     </E>
-    <E key="rat" value="5" >
+    <E key="rat" value="6" >
+    </E>
+    <E key="scavenger_smg" value="1" >
     </E>
     <E key="scorpion" value="1" >
     </E>
-    <E key="shotgunner" value="3" >
+    <E key="shotgunner" value="4" >
     </E>
     <E key="shotgunner_weak" value="1" >
     </E>

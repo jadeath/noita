@@ -1,4 +1,4 @@
-<Stats deaths="85" kills="0" player_kills="0" player_projectile_count="0" >
+<Stats deaths="87" kills="0" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
@@ -13,6 +13,8 @@
     <E key="NULL | $damage_radioactive" value="18" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
+    </E>
+    <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="2" >
     </E>
     <E key="player | $damage_projectile" value="36" >
     </E>

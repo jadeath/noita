@@ -1,4 +1,4 @@
-<Stats deaths="30" kills="9" player_kills="0" player_projectile_count="0" >
+<Stats deaths="34" kills="16" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="3" >
     </E>
@@ -10,21 +10,27 @@
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="20" >
+    <E key="player | $damage_projectile" value="24" >
     </E>
   </death_map>
   <kill_map>
     <E key="acidshooter" value="1" >
     </E>
-    <E key="miniblob" value="1" >
+    <E key="glue" value="1" >
+    </E>
+    <E key="miniblob" value="2" >
+    </E>
+    <E key="scavenger_grenade" value="1" >
+    </E>
+    <E key="scavenger_heal" value="1" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>
-    <E key="sniper" value="1" >
+    <E key="sniper" value="3" >
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="thunderskull" value="3" >
+    <E key="thunderskull" value="4" >
     </E>
   </kill_map>
 </Stats>

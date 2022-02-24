@@ -1,12 +1,12 @@
-<Stats deaths="227" kills="97" player_kills="1" player_projectile_count="0" >
+<Stats deaths="242" kills="104" player_kills="1" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="2" >
     </E>
-    <E key="NULL | $damage_electricity" value="10" >
+    <E key="NULL | $damage_electricity" value="11" >
     </E>
-    <E key="NULL | $damage_explosion" value="26" >
+    <E key="NULL | $damage_explosion" value="27" >
     </E>
-    <E key="NULL | $damage_fire" value="3" >
+    <E key="NULL | $damage_fire" value="4" >
     </E>
     <E key="NULL | $damage_physicshit" value="6" >
     </E>
@@ -16,9 +16,11 @@
     </E>
     <E key="NULL | damage from material: acid" value="8" >
     </E>
-    <E key="NULL | damage from material: lava" value="1" >
+    <E key="NULL | damage from material: lava" value="2" >
     </E>
     <E key="NULL | damage from material: toxic rock" value="1" >
+    </E>
+    <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
@@ -30,11 +32,13 @@
     </E>
     <E key="phantom_a | $damage_projectile" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="5" >
+    <E key="player | $damage_electricity" value="7" >
     </E>
-    <E key="player | $damage_explosion" value="35" >
+    <E key="player | $damage_explosion" value="38" >
     </E>
-    <E key="player | $damage_projectile" value="102" >
+    <E key="player | $damage_ice" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="105" >
     </E>
     <E key="player | $damage_slice" value="6" >
     </E>
@@ -46,7 +50,7 @@
     </E>
     <E key="tentacler | $damage_melee" value="2" >
     </E>
-    <E key="worm | worm bite" value="1" >
+    <E key="worm | worm bite" value="2" >
     </E>
     <E key="worm_skull | worm bite" value="6" >
     </E>
@@ -56,13 +60,15 @@
     </E>
     <E key="bat" value="1" >
     </E>
+    <E key="bigzombie" value="1" >
+    </E>
     <E key="blob" value="1" >
     </E>
     <E key="fungus" value="1" >
     </E>
     <E key="longleg" value="1" >
     </E>
-    <E key="miniblob" value="4" >
+    <E key="miniblob" value="7" >
     </E>
     <E key="necromancer" value="1" >
     </E>
@@ -74,7 +80,7 @@
     </E>
     <E key="scavenger_grenade" value="3" >
     </E>
-    <E key="scorpion" value="24" >
+    <E key="scorpion" value="25" >
     </E>
     <E key="sheep_bat" value="1" >
     </E>
@@ -90,7 +96,7 @@
     </E>
     <E key="tentacler" value="2" >
     </E>
-    <E key="tentacler_small" value="13" >
+    <E key="tentacler_small" value="15" >
     </E>
     <E key="thunderskull" value="1" >
     </E>

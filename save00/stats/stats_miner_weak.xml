@@ -1,4 +1,4 @@
-<Stats deaths="1479" kills="831" player_kills="0" player_projectile_count="0" >
+<Stats deaths="1488" kills="840" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="62" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_explosion" value="70" >
     </E>
-    <E key="NULL | $damage_fire" value="258" >
+    <E key="NULL | $damage_fire" value="261" >
     </E>
     <E key="NULL | $damage_melee" value="2" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | $damage_plasmabeam" value="7" >
     </E>
-    <E key="NULL | $damage_radioactive" value="38" >
+    <E key="NULL | $damage_radioactive" value="40" >
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
@@ -48,9 +48,9 @@
     </E>
     <E key="longleg | $damage_melee" value="12" >
     </E>
-    <E key="miner_weak | $damage_explosion" value="63" >
+    <E key="miner_weak | $damage_explosion" value="64" >
     </E>
-    <E key="miner_weak | $damage_melee" value="5" >
+    <E key="miner_weak | $damage_melee" value="8" >
     </E>
     <E key="miner_weak | $damage_projectile" value="1" >
     </E>
@@ -102,15 +102,15 @@
     </E>
     <E key="fireskull" value="1" >
     </E>
-    <E key="frog" value="10" >
+    <E key="frog" value="11" >
     </E>
     <E key="frog_big" value="1" >
     </E>
     <E key="giantshooter_weak" value="1" >
     </E>
-    <E key="longleg" value="92" >
+    <E key="longleg" value="93" >
     </E>
-    <E key="miner_weak" value="71" >
+    <E key="miner_weak" value="75" >
     </E>
     <E key="miniblob" value="2" >
     </E>
@@ -126,7 +126,7 @@
     </E>
     <E key="zombie" value="35" >
     </E>
-    <E key="zombie_weak" value="561" >
+    <E key="zombie_weak" value="564" >
     </E>
   </kill_map>
 </Stats>

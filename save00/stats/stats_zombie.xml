@@ -1,10 +1,10 @@
-<Stats deaths="696" kills="38" player_kills="0" player_projectile_count="0" >
+<Stats deaths="708" kills="45" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="61" >
+    <E key="NULL | $damage_drowning" value="65" >
     </E>
     <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="115" >
+    <E key="NULL | $damage_explosion" value="116" >
     </E>
     <E key="NULL | $damage_fire" value="23" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="NULL | damage from material: Poison" value="5" >
     </E>
-    <E key="NULL | damage from material: acid" value="8" >
+    <E key="NULL | damage from material: acid" value="9" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
@@ -22,7 +22,7 @@
     </E>
     <E key="NULL | damage from material: toxic rock" value="14" >
     </E>
-    <E key="ant | $damage_melee" value="3" >
+    <E key="ant | $damage_melee" value="4" >
     </E>
     <E key="bat | $damage_melee" value="1" >
     </E>
@@ -34,7 +34,7 @@
     </E>
     <E key="frog_big | $damage_melee" value="4" >
     </E>
-    <E key="miner | $damage_explosion" value="21" >
+    <E key="miner | $damage_explosion" value="22" >
     </E>
     <E key="miner | $damage_melee" value="9" >
     </E>
@@ -43,6 +43,8 @@
     <E key="miner_weak | $damage_melee" value="16" >
     </E>
     <E key="miniblob | $damage_melee" value="10" >
+    </E>
+    <E key="necromancer_super | $damage_explosion" value="1" >
     </E>
     <E key="phantom_a | $damage_melee" value="1" >
     </E>
@@ -73,6 +75,8 @@
     <E key="scavenger_leader | $damage_melee" value="1" >
     </E>
     <E key="scavenger_leader | $damage_projectile" value="4" >
+    </E>
+    <E key="scavenger_poison | $damage_projectile" value="1" >
     </E>
     <E key="scavenger_smg | $damage_explosion" value="1" >
     </E>
@@ -110,6 +114,8 @@
     </E>
     <E key="worm_tiny | worm bite" value="1" >
     </E>
+    <E key="zombie | $damage_melee" value="2" >
+    </E>
   </death_map>
   <kill_map>
     <E key="frog" value="1" >
@@ -118,7 +124,9 @@
     </E>
     <E key="miniblob" value="3" >
     </E>
-    <E key="rat" value="31" >
+    <E key="rat" value="36" >
+    </E>
+    <E key="zombie" value="2" >
     </E>
   </kill_map>
 </Stats>

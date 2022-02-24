@@ -1,4 +1,4 @@
-<Stats deaths="89" kills="73" player_kills="0" player_projectile_count="0" >
+<Stats deaths="95" kills="78" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -10,21 +10,21 @@
     </E>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
-    <E key="NULL | damage from material: acid" value="1" >
+    <E key="NULL | damage from material: acid" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="3" >
+    <E key="NULL | damage from material: lava" value="4" >
     </E>
     <E key="black_hole_big | " value="1" >
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
-    <E key="phantom_b | $damage_melee" value="1" >
+    <E key="phantom_b | $damage_melee" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="8" >
+    <E key="player | $damage_electricity" value="9" >
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="52" >
+    <E key="player | $damage_projectile" value="54" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -34,9 +34,9 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshooter" value="1" >
+    <E key="acidshooter" value="2" >
     </E>
-    <E key="acidshot" value="4" >
+    <E key="acidshot" value="5" >
     </E>
     <E key="barfer" value="1" >
     </E>
@@ -50,6 +50,8 @@
     </E>
     <E key="physics_torch_stand" value="3" >
     </E>
+    <E key="polyorb" value="1" >
+    </E>
     <E key="potion" value="1" >
     </E>
     <E key="rat" value="1" >
@@ -62,11 +64,13 @@
     </E>
     <E key="skullrat" value="10" >
     </E>
+    <E key="spitmonster" value="1" >
+    </E>
     <E key="statue_physics" value="1" >
     </E>
     <E key="tentacler" value="3" >
     </E>
-    <E key="tentacler_small" value="6" >
+    <E key="tentacler_small" value="7" >
     </E>
     <E key="wand_ghost" value="1" >
     </E>

@@ -1,8 +1,8 @@
-<Stats deaths="65" kills="67" player_kills="0" player_projectile_count="0" >
+<Stats deaths="69" kills="69" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="9" >
+    <E key="NULL | $damage_electricity" value="10" >
     </E>
-    <E key="NULL | $damage_explosion" value="12" >
+    <E key="NULL | $damage_explosion" value="13" >
     </E>
     <E key="NULL | $damage_physicshit" value="3" >
     </E>
@@ -10,11 +10,11 @@
     </E>
     <E key="NULL | damage from material: concentrated mana" value="2" >
     </E>
-    <E key="player | $damage_electricity" value="4" >
+    <E key="player | $damage_electricity" value="5" >
     </E>
     <E key="player | $damage_explosion" value="8" >
     </E>
-    <E key="player | $damage_projectile" value="22" >
+    <E key="player | $damage_projectile" value="23" >
     </E>
     <E key="wizard_swapper | $damage_explosion" value="1" >
     </E>
@@ -38,6 +38,8 @@
     </E>
     <E key="rat" value="17" >
     </E>
+    <E key="scavenger_glue" value="1" >
+    </E>
     <E key="shotgunner" value="1" >
     </E>
     <E key="slimeshooter" value="2" >
@@ -48,7 +50,7 @@
     </E>
     <E key="tentacler_small" value="1" >
     </E>
-    <E key="thunderskull" value="1" >
+    <E key="thunderskull" value="2" >
     </E>
     <E key="wizard_tele" value="1" >
     </E>

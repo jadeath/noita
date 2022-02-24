@@ -1,4 +1,4 @@
-<Stats deaths="42" kills="14" player_kills="0" player_projectile_count="0" >
+<Stats deaths="49" kills="21" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -12,11 +12,15 @@
     </E>
     <E key="NULL | damage from material: lava" value="3" >
     </E>
-    <E key="player | $damage_electricity" value="2" >
+    <E key="player | $damage_electricity" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="25" >
+    <E key="player | $damage_ice" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="29" >
     </E>
     <E key="statue | $damage_melee" value="1" >
+    </E>
+    <E key="wizard_returner | $damage_projectile" value="1" >
     </E>
     <E key="worm_skull | worm bite" value="1" >
     </E>
@@ -24,17 +28,21 @@
   <kill_map>
     <E key="arrowtrap_left" value="1" >
     </E>
+    <E key="failed_alchemist" value="1" >
+    </E>
     <E key="firemage_weak" value="1" >
     </E>
-    <E key="longleg" value="3" >
+    <E key="longleg" value="6" >
     </E>
-    <E key="scorpion" value="2" >
+    <E key="scorpion" value="4" >
     </E>
     <E key="skullrat" value="4" >
     </E>
     <E key="tentacler_small" value="2" >
     </E>
     <E key="wizard_neutral" value="1" >
+    </E>
+    <E key="wizard_returner" value="1" >
     </E>
   </kill_map>
 </Stats>

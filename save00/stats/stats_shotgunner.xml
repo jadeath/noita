@@ -1,12 +1,12 @@
-<Stats deaths="1232" kills="440" player_kills="8" player_projectile_count="0" >
+<Stats deaths="1254" kills="450" player_kills="8" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="40" >
     </E>
     <E key="NULL | $damage_electricity" value="19" >
     </E>
-    <E key="NULL | $damage_explosion" value="88" >
+    <E key="NULL | $damage_explosion" value="91" >
     </E>
-    <E key="NULL | $damage_fire" value="106" >
+    <E key="NULL | $damage_fire" value="108" >
     </E>
     <E key="NULL | $damage_ice" value="1" >
     </E>
@@ -18,13 +18,13 @@
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
-    <E key="NULL | $damage_radioactive" value="111" >
+    <E key="NULL | $damage_radioactive" value="112" >
     </E>
     <E key="NULL | $damage_slice" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="4" >
     </E>
-    <E key="NULL | damage from material: freezing liquid" value="7" >
+    <E key="NULL | damage from material: freezing liquid" value="8" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="9" >
     </E>
@@ -50,7 +50,7 @@
     </E>
     <E key="drone_lasership | $damage_explosion" value="4" >
     </E>
-    <E key="drone_lasership | $damage_projectile" value="5" >
+    <E key="drone_lasership | $damage_projectile" value="6" >
     </E>
     <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="2" >
     </E>
@@ -62,11 +62,13 @@
     </E>
     <E key="goblin_bomb | $damage_explosion" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="23" >
+    <E key="iceskull | $damage_explosion" value="24" >
     </E>
     <E key="iceskull | $damage_ice" value="7" >
     </E>
-    <E key="miner | $damage_explosion" value="2" >
+    <E key="miner | $damage_explosion" value="3" >
+    </E>
+    <E key="miner | $damage_melee" value="1" >
     </E>
     <E key="pebble_physics | $damage_explosion" value="1" >
     </E>
@@ -76,7 +78,7 @@
     </E>
     <E key="player | $damage_fire" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="401" >
+    <E key="player | $damage_projectile" value="404" >
     </E>
     <E key="player | $damage_slice" value="98" >
     </E>
@@ -92,13 +94,21 @@
     </E>
     <E key="scavenger_leader | $damage_melee" value="1" >
     </E>
+    <E key="scavenger_smg | $damage_explosion" value="1" >
+    </E>
     <E key="shaman | $damage_projectile" value="1" >
     </E>
     <E key="shooterflower | $damage_projectile" value="1" >
     </E>
     <E key="shotgunner | $damage_explosion" value="3" >
     </E>
-    <E key="slimeshooter | $damage_explosion" value="9" >
+    <E key="shotgunner | $damage_melee" value="2" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="1" >
+    </E>
+    <E key="skullfly | $damage_fire" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="11" >
     </E>
     <E key="slimeshooter | $damage_projectile" value="1" >
     </E>
@@ -118,7 +128,7 @@
     </E>
     <E key="thunderskull | $damage_electricity" value="1" >
     </E>
-    <E key="thunderskull | $damage_explosion" value="2" >
+    <E key="thunderskull | $damage_explosion" value="3" >
     </E>
     <E key="worm | worm bite" value="8" >
     </E>
@@ -128,13 +138,15 @@
     </E>
   </death_map>
   <kill_map>
+    <E key="acidshooter" value="1" >
+    </E>
     <E key="bat" value="7" >
     </E>
     <E key="bigfirebug" value="2" >
     </E>
     <E key="firebug" value="12" >
     </E>
-    <E key="frog" value="4" >
+    <E key="frog" value="6" >
     </E>
     <E key="iceskull" value="11" >
     </E>
@@ -146,11 +158,13 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="326" >
+    <E key="rat" value="329" >
+    </E>
+    <E key="scorpion" value="1" >
     </E>
     <E key="sheep" value="2" >
     </E>
-    <E key="shotgunner" value="3" >
+    <E key="shotgunner" value="6" >
     </E>
     <E key="slimeshooter" value="18" >
     </E>

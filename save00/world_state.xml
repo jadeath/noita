@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="37.3995" 
-    clouds_02_target="44.5186" 
+    clouds_01_target="31.5009" 
+    clouds_02_target="31.2815" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="29" 
-    fog="0.0249241" 
-    fog_target="0.0270855" 
+    day_count="35" 
+    fog="0.00499852" 
+    fog_target="0" 
     global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -55,13 +55,13 @@
     rain_target="0" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.938897" 
+    time="0.680858" 
     time_dt="1" 
-    time_total="29.1572" 
+    time_total="35.0743" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.101282" 
-    wind_speed="6.07695" 
+    wind="0.0364044" 
+    wind_speed="2.18427" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -94,6 +94,18 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_CRITICAL_HIT_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_DISSOLVE_POWDERS_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_DUPLICATE_PROJECTILE_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_EDIT_WANDS_EVERYWHERE_PICKUP_COUNT" 
         value="1" >
       </E>
@@ -106,7 +118,19 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_EXTRA_MONEY_TRICK_KILL_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_EXTRA_PERK_PICKUP_COUNT" 
+        value="2" >
+      </E>
+      <E 
+        key="PERK_PICKED_EXTRA_SHOP_ITEM_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_FASTER_WANDS_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -122,11 +146,23 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_HOVER_BOOST_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_HUNGRY_GHOST_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
         key="PERK_PICKED_INVISIBILITY_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_ITEM_RADAR_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_LEVITATION_TRAIL_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -139,6 +175,10 @@
       </E>
       <E 
         key="PERK_PICKED_PROJECTILE_EATER_SECTOR_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_PROJECTILE_REPULSION_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -166,7 +206,19 @@
         value="1" >
       </E>
       <E 
+        key="PERK_PICKED_STAINLESS_ARMOUR_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_STRONG_KICK_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
         key="PERK_PICKED_UNLIMITED_SPELLS_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_WORM_ATTRACTOR_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -230,6 +282,30 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_ACTIVE_-72039_10523" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_1307" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_2843" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_4891" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_6427" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_ACTIVE_-72039_8475" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_ACTIVE_2233_13078" 
         value="1" >
       </E>
@@ -270,6 +346,30 @@
         value="1" >
       </E>
       <E 
+        key="TEMPLE_LEAKED_-2_12" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_16" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_2" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_20" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_5" 
+        value="1" >
+      </E>
+      <E 
+        key="TEMPLE_LEAKED_-2_9" 
+        value="1" >
+      </E>
+      <E 
         key="TEMPLE_LEAKED_0_16" 
         value="1" >
       </E>
@@ -287,11 +387,11 @@
       </E>
       <E 
         key="TEMPLE_NEXT_PERK_INDEX" 
-        value="49" >
+        value="78" >
       </E>
       <E 
         key="TEMPLE_PERK_COUNT" 
-        value="4" >
+        value="5" >
       </E>
       <E 
         key="TEMPLE_PERK_DESTROY_CHANCE" 
@@ -299,11 +399,15 @@
       </E>
       <E 
         key="TEMPLE_PERK_REROLL_COUNT" 
-        value="8" >
+        value="9" >
       </E>
       <E 
         key="TEMPLE_REROLL_PERK_INDEX" 
-        value="82" >
+        value="78" >
+      </E>
+      <E 
+        key="TEMPLE_SHOP_ITEM_COUNT" 
+        value="6" >
       </E>
       <E 
         key="TEMPLE_SPAWN_GUARDIAN" 
@@ -311,11 +415,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_lake,$biome_winter,_EMPTY_,$biome_coalmine,$biome_excavationsite,$biome_s" >
+        value="$biome_desert,$biome_lake,$biome_winter,_EMPTY_,$biome_coalmine,$biome_holymount" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="83" >
+        value="117" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -692,6 +796,153 @@
       </string>
       <string>
         musicmachine2
+      </string>
+      <string>
+        PERK_CRITICAL_HIT
+      </string>
+      <string>
+        PERK_MOLD
+      </string>
+      <string>
+        PERK_FASTER_WANDS
+      </string>
+      <string>
+        PERK_PICKED_CRITICAL_HIT
+      </string>
+      <string>
+        PERK_PICKED_FASTER_WANDS
+      </string>
+      <string>
+        PERK_WAND_RADAR
+      </string>
+      <string>
+        PERK_DISSOLVE_POWDERS
+      </string>
+      <string>
+        PERK_TELEPORTITIS
+      </string>
+      <string>
+        PERK_ANGRY_LEVITATION
+      </string>
+      <string>
+        PERK_STAINLESS_ARMOUR
+      </string>
+      <string>
+        PERK_PICKED_DISSOLVE_POWDERS
+      </string>
+      <string>
+        new_perk_picked_stainless_armour
+      </string>
+      <string>
+        PERK_PICKED_STAINLESS_ARMOUR
+      </string>
+      <string>
+        PERK_ABILITY_ACTIONS_MATERIALIZED
+      </string>
+      <string>
+        PERK_EXTRA_MONEY_TRICK_KILL
+      </string>
+      <string>
+        PERK_WORM_ATTRACTOR
+      </string>
+      <string>
+        PERK_EXPLODING_GOLD
+      </string>
+      <string>
+        PERK_PROJECTILE_REPULSION
+      </string>
+      <string>
+        PERK_PICKED_PROJECTILE_REPULSION
+      </string>
+      <string>
+        PERK_ITEM_RADAR
+      </string>
+      <string>
+        PERK_HOVER_BOOST
+      </string>
+      <string>
+        PERK_BLEED_GAS
+      </string>
+      <string>
+        PERK_STRONG_KICK
+      </string>
+      <string>
+        PERK_ATTACK_FOOT
+      </string>
+      <string>
+        PERK_PICKED_HOVER_BOOST
+      </string>
+      <string>
+        PERK_PICKED_ITEM_RADAR
+      </string>
+      <string>
+        new_perk_picked_strong_kick
+      </string>
+      <string>
+        PERK_PICKED_STRONG_KICK
+      </string>
+      <string>
+        PERK_PEACE_WITH_GODS
+      </string>
+      <string>
+        PERK_FREEZE_FIELD
+      </string>
+      <string>
+        PERK_TRICK_BLOOD_MONEY
+      </string>
+      <string>
+        PERK_FOOD_CLOCK
+      </string>
+      <string>
+        PERK_EXTRA_SHOP_ITEM
+      </string>
+      <string>
+        new_perk_picked_extra_shop_item
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_SHOP_ITEM
+      </string>
+      <string>
+        PERK_DUPLICATE_PROJECTILE
+      </string>
+      <string>
+        PERK_PERSONAL_LASER
+      </string>
+      <string>
+        PERK_TELEPORTITIS_DODGE
+      </string>
+      <string>
+        PERK_PICKED_DUPLICATE_PROJECTILE
+      </string>
+      <string>
+        PERK_CORDYCEPS
+      </string>
+      <string>
+        PERK_LOW_HP_DAMAGE_BOOST
+      </string>
+      <string>
+        PERK_FUNGAL_DISEASE
+      </string>
+      <string>
+        PERK_LEVITATION_TRAIL
+      </string>
+      <string>
+        new_perk_picked_levitation_trail
+      </string>
+      <string>
+        PERK_PICKED_LEVITATION_TRAIL
+      </string>
+      <string>
+        new_kill_fungus_giga
+      </string>
+      <string>
+        PERK_PICKED_EXTRA_MONEY_TRICK_KILL
+      </string>
+      <string>
+        PERK_PICKED_WORM_ATTRACTOR
+      </string>
+      <string>
+        new_action_tau
       </string>
     </flags>
     <changed_materials>
