@@ -1,18 +1,18 @@
-<Stats deaths="1253" kills="278" player_kills="5" player_projectile_count="0" >
+<Stats deaths="1285" kills="279" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="20" >
     </E>
-    <E key="NULL | $damage_electricity" value="27" >
+    <E key="NULL | $damage_electricity" value="29" >
     </E>
-    <E key="NULL | $damage_explosion" value="106" >
+    <E key="NULL | $damage_explosion" value="116" >
     </E>
     <E key="NULL | $damage_fire" value="45" >
     </E>
-    <E key="NULL | $damage_ice" value="2" >
+    <E key="NULL | $damage_ice" value="3" >
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="76" >
+    <E key="NULL | $damage_physicshit" value="79" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -24,7 +24,7 @@
     </E>
     <E key="NULL | damage from material: freezing liquid" value="9" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="71" >
+    <E key="NULL | damage from material: freezing vapour" value="72" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -44,11 +44,13 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="13" >
+    <E key="homunculus | $damage_projectile" value="21" >
+    </E>
+    <E key="icemage | $damage_explosion" value="1" >
     </E>
     <E key="icer | $damage_explosion" value="1" >
     </E>
-    <E key="iceskull | $damage_explosion" value="6" >
+    <E key="iceskull | $damage_explosion" value="7" >
     </E>
     <E key="iceskull | $damage_ice" value="18" >
     </E>
@@ -60,13 +62,13 @@
     </E>
     <E key="miner | $damage_melee" value="1" >
     </E>
-    <E key="phantom_a | $damage_projectile" value="1" >
+    <E key="phantom_a | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_electricity" value="15" >
     </E>
     <E key="player | $damage_explosion" value="55" >
     </E>
-    <E key="player | $damage_projectile" value="511" >
+    <E key="player | $damage_projectile" value="514" >
     </E>
     <E key="player | $damage_slice" value="61" >
     </E>
@@ -112,7 +114,7 @@
     </E>
     <E key="thundermage | $damage_electricity" value="4" >
     </E>
-    <E key="thundermage | $damage_explosion" value="2" >
+    <E key="thundermage | $damage_explosion" value="3" >
     </E>
     <E key="thunderskull | $damage_electricity" value="1" >
     </E>
@@ -162,7 +164,7 @@
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>
-    <E key="thunderskull" value="4" >
+    <E key="thunderskull" value="5" >
     </E>
     <E key="zombie" value="2" >
     </E>

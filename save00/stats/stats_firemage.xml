@@ -1,4 +1,4 @@
-<Stats deaths="47" kills="13" player_kills="0" player_projectile_count="0" >
+<Stats deaths="51" kills="14" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -14,11 +14,11 @@
     </E>
     <E key="NULL | damage from material: acid" value="5" >
     </E>
-    <E key="death_ghost | $damage_curse" value="2" >
+    <E key="death_ghost | $damage_curse" value="4" >
     </E>
-    <E key="firemage | $damage_explosion" value="3" >
+    <E key="firemage | $damage_explosion" value="4" >
     </E>
-    <E key="homunculus | $damage_projectile" value="1" >
+    <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="acidshot" value="2" >
     </E>
-    <E key="firemage" value="3" >
+    <E key="firemage" value="4" >
     </E>
     <E key="miniblob" value="2" >
     </E>

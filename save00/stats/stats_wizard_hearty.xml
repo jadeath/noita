@@ -1,12 +1,14 @@
-<Stats deaths="34" kills="28" player_kills="0" player_projectile_count="0" >
+<Stats deaths="37" kills="29" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_fire" value="4" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
-    <E key="NULL | damage from material: lava" value="1" >
+    <E key="NULL | damage from material: lava" value="2" >
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="lukki_dark | $damage_curse" value="1" >
     </E>
@@ -39,6 +41,8 @@
     <E key="scorpion" value="7" >
     </E>
     <E key="sheep" value="1" >
+    </E>
+    <E key="sheep_fly" value="1" >
     </E>
     <E key="shooterflower" value="2" >
     </E>

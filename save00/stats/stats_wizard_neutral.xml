@@ -1,4 +1,4 @@
-<Stats deaths="89" kills="17" player_kills="0" player_projectile_count="0" >
+<Stats deaths="92" kills="18" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -18,11 +18,13 @@
     </E>
     <E key="effect_curse_cloud_01_temporary | $damage_explosion" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="orb_green | $damage_projectile" value="1" >
     </E>
     <E key="phantom_a | $damage_melee" value="2" >
+    </E>
+    <E key="phantom_a | $damage_projectile" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="2" >
     </E>
@@ -30,7 +32,7 @@
     </E>
     <E key="player | $damage_ice" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="33" >
+    <E key="player | $damage_projectile" value="34" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
     </E>
@@ -44,7 +46,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="phantom_b" value="1" >
+    <E key="phantom_b" value="2" >
     </E>
     <E key="rat" value="6" >
     </E>

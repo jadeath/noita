@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="41.6839" 
-    clouds_02_target="54.1331" 
+    clouds_01_target="39.367" 
+    clouds_02_target="48.9338" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="43" 
-    fog="0.761521" 
-    fog_target="0.766509" 
+    day_count="46" 
+    fog="0.00498764" 
+    fog_target="0" 
     global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -51,17 +51,17 @@
     player_polymorph_random_count="5" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.761521" 
-    rain_target="0.766509" 
+    rain="0.00498764" 
+    rain_target="0" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.751963" 
+    time="0.468339" 
     time_dt="1" 
-    time_total="43.6992" 
+    time_total="46.6018" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.0159215" 
-    wind_speed="-0.955298" 
+    wind="-0.131102" 
+    wind_speed="-7.86616" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -91,11 +91,11 @@
       </E>
       <E 
         key="HOLY_MOUNTAIN_DEPTH" 
-        value="25" >
+        value="31" >
       </E>
       <E 
         key="HOLY_MOUNTAIN_VISITS" 
-        value="7" >
+        value="8" >
       </E>
       <E 
         key="ORB_MAP_STRING" 
@@ -699,11 +699,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_wizardcave,$biome_desert,$biome_robobase,$biome_fun,$biome_wizardcave,$bi" >
+        value="$biome_desert,???,$biome_clouds,$biome_lake,_EMPTY_,$biome_winter,$biome_boss_vi" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="210" >
+        value="244" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -1404,6 +1404,45 @@
       </string>
       <string>
         new_kill_basebot_hidden
+      </string>
+      <string>
+        new_kill_gazer
+      </string>
+      <string>
+        new_kill_spitmonster
+      </string>
+      <string>
+        new_kill_bloodcrystal_physics
+      </string>
+      <string>
+        new_kill_worm_end
+      </string>
+      <string>
+        new_kill_snowcrystal
+      </string>
+      <string>
+        new_action_ocarina_e
+      </string>
+      <string>
+        new_action_ocarina_a
+      </string>
+      <string>
+        new_action_ocarina_b
+      </string>
+      <string>
+        new_action_ocarina_c
+      </string>
+      <string>
+        new_action_ocarina_d
+      </string>
+      <string>
+        new_action_ocarina_f
+      </string>
+      <string>
+        new_action_ocarina_gsharp
+      </string>
+      <string>
+        new_action_ocarina_a2
       </string>
     </flags>
     <changed_materials>

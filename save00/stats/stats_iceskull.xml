@@ -1,32 +1,34 @@
-<Stats deaths="365" kills="382" player_kills="0" player_projectile_count="0" >
+<Stats deaths="385" kills="385" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
-    <E key="NULL | $damage_electricity" value="7" >
+    <E key="NULL | $damage_electricity" value="8" >
     </E>
-    <E key="NULL | $damage_explosion" value="30" >
+    <E key="NULL | $damage_explosion" value="34" >
     </E>
-    <E key="NULL | $damage_physicshit" value="31" >
+    <E key="NULL | $damage_physicshit" value="32" >
     </E>
-    <E key="death_ghost | $damage_curse" value="1" >
+    <E key="death_ghost | $damage_curse" value="2" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="1" >
     </E>
     <E key="giant | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="homunculus | $damage_projectile" value="7" >
     </E>
-    <E key="iceskull | $damage_explosion" value="45" >
+    <E key="iceskull | $damage_explosion" value="46" >
     </E>
     <E key="iceskull | $damage_melee" value="1" >
     </E>
     <E key="monk | $damage_projectile" value="1" >
     </E>
+    <E key="orb_green | $damage_projectile" value="1" >
+    </E>
     <E key="player | $damage_electricity" value="3" >
     </E>
-    <E key="player | $damage_explosion" value="8" >
+    <E key="player | $damage_explosion" value="9" >
     </E>
-    <E key="player | $damage_projectile" value="83" >
+    <E key="player | $damage_projectile" value="87" >
     </E>
     <E key="player | $damage_slice" value="40" >
     </E>
@@ -34,7 +36,7 @@
     </E>
     <E key="scavenger_grenade | $damage_melee" value="2" >
     </E>
-    <E key="scavenger_grenade | $damage_projectile" value="19" >
+    <E key="scavenger_grenade | $damage_projectile" value="20" >
     </E>
     <E key="scavenger_leader | $damage_explosion" value="2" >
     </E>
@@ -78,7 +80,7 @@
     </E>
     <E key="glue" value="7" >
     </E>
-    <E key="iceskull" value="46" >
+    <E key="iceskull" value="47" >
     </E>
     <E key="pebble_physics" value="1" >
     </E>
@@ -90,9 +92,9 @@
     </E>
     <E key="scavenger_glue" value="1" >
     </E>
-    <E key="scavenger_grenade" value="31" >
+    <E key="scavenger_grenade" value="32" >
     </E>
-    <E key="scavenger_smg" value="25" >
+    <E key="scavenger_smg" value="26" >
     </E>
     <E key="sheep" value="1" >
     </E>

@@ -1,6 +1,10 @@
-<Stats deaths="7" kills="4" player_kills="0" player_projectile_count="0" >
+<Stats deaths="14" kills="8" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="1" >
+    <E key="NULL | $damage_electricity" value="4" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="1" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="1" >
     </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
@@ -10,15 +14,23 @@
     </E>
     <E key="skullrat | $damage_melee" value="1" >
     </E>
+    <E key="wraith_glowing | $damage_projectile" value="2" >
+    </E>
   </death_map>
   <kill_map>
     <E key="acidshot" value="1" >
     </E>
+    <E key="homunculus" value="1" >
+    </E>
     <E key="skullrat" value="1" >
+    </E>
+    <E key="thundermage" value="1" >
     </E>
     <E key="wand_ghost" value="1" >
     </E>
     <E key="wraith" value="1" >
+    </E>
+    <E key="wraith_glowing" value="2" >
     </E>
   </kill_map>
 </Stats>

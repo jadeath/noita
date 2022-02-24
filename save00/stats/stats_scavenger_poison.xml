@@ -1,12 +1,18 @@
-<Stats deaths="107" kills="19" player_kills="0" player_projectile_count="0" >
+<Stats deaths="110" kills="19" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
+    </E>
+    <E key="NULL | $damage_fire" value="1" >
     </E>
     <E key="NULL | $damage_physicshit" value="4" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
     <E key="NULL | $damage_radioactive" value="1" >
+    </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="1" >
     </E>
     <E key="lukki_longleg | hit" value="1" >
     </E>

@@ -1,16 +1,18 @@
-<Stats deaths="104" kills="84" player_kills="0" player_projectile_count="0" >
+<Stats deaths="110" kills="89" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="1" >
+    <E key="NULL | $damage_explosion" value="2" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
     <E key="NULL | damage from material: Cursed rock" value="1" >
     </E>
     <E key="NULL | damage from material: acid" value="2" >
+    </E>
+    <E key="NULL | damage from material: freezing vapour" value="1" >
     </E>
     <E key="NULL | damage from material: lava" value="4" >
     </E>
@@ -20,6 +22,8 @@
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="1" >
+    </E>
     <E key="maggot | $damage_melee" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="2" >
@@ -28,7 +32,7 @@
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="58" >
+    <E key="player | $damage_projectile" value="61" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
@@ -48,6 +52,8 @@
     </E>
     <E key="duck" value="1" >
     </E>
+    <E key="failed_alchemist" value="1" >
+    </E>
     <E key="firetrap_left" value="1" >
     </E>
     <E key="longleg" value="3" >
@@ -64,7 +70,9 @@
     </E>
     <E key="rat" value="1" >
     </E>
-    <E key="scavenger_smg" value="1" >
+    <E key="scavenger_grenade" value="2" >
+    </E>
+    <E key="scavenger_smg" value="2" >
     </E>
     <E key="scorpion" value="28" >
     </E>
@@ -82,7 +90,7 @@
     </E>
     <E key="wand_ghost" value="1" >
     </E>
-    <E key="wizard_neutral" value="2" >
+    <E key="wizard_neutral" value="3" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>
