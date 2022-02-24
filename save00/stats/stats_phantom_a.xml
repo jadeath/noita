@@ -1,4 +1,4 @@
-<Stats deaths="100" kills="83" player_kills="0" player_projectile_count="0" >
+<Stats deaths="104" kills="84" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -18,6 +18,8 @@
     </E>
     <E key="crystal_physics | $damage_projectile" value="1" >
     </E>
+    <E key="death_ghost | $damage_curse" value="1" >
+    </E>
     <E key="maggot | $damage_melee" value="1" >
     </E>
     <E key="phantom_b | $damage_melee" value="2" >
@@ -26,13 +28,15 @@
     </E>
     <E key="player | $damage_explosion" value="6" >
     </E>
-    <E key="player | $damage_projectile" value="56" >
+    <E key="player | $damage_projectile" value="58" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
     <E key="skullrat | $damage_melee" value="1" >
+    </E>
+    <E key="wizard_returner | $damage_projectile" value="1" >
     </E>
   </death_map>
   <kill_map>
@@ -78,7 +82,7 @@
     </E>
     <E key="wand_ghost" value="1" >
     </E>
-    <E key="wizard_neutral" value="1" >
+    <E key="wizard_neutral" value="2" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>

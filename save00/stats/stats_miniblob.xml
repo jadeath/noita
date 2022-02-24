@@ -1,20 +1,20 @@
-<Stats deaths="2319" kills="120" player_kills="0" player_projectile_count="0" >
+<Stats deaths="2355" kills="125" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_drowning" value="52" >
+    <E key="NULL | $damage_drowning" value="53" >
     </E>
-    <E key="NULL | $damage_electricity" value="371" >
+    <E key="NULL | $damage_electricity" value="372" >
     </E>
-    <E key="NULL | $damage_explosion" value="180" >
+    <E key="NULL | $damage_explosion" value="201" >
     </E>
     <E key="NULL | $damage_fire" value="2" >
     </E>
     <E key="NULL | $damage_melee" value="18" >
     </E>
-    <E key="NULL | $damage_physicshit" value="101" >
+    <E key="NULL | $damage_physicshit" value="102" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="17" >
     </E>
-    <E key="NULL | $damage_projectile" value="1" >
+    <E key="NULL | $damage_projectile" value="2" >
     </E>
     <E key="acidshooter | $damage_melee" value="1" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="black_hole_big | " value="2" >
     </E>
-    <E key="blob | $damage_melee" value="196" >
+    <E key="blob | $damage_melee" value="199" >
     </E>
     <E key="bloom | $damage_explosion" value="2" >
     </E>
@@ -62,7 +62,7 @@
     </E>
     <E key="frog_big | $damage_melee" value="6" >
     </E>
-    <E key="homunculus | $damage_projectile" value="11" >
+    <E key="homunculus | $damage_projectile" value="12" >
     </E>
     <E key="longleg | $damage_melee" value="3" >
     </E>
@@ -72,7 +72,7 @@
     </E>
     <E key="miner_weak | $damage_melee" value="2" >
     </E>
-    <E key="miniblob | $damage_melee" value="45" >
+    <E key="miniblob | $damage_melee" value="49" >
     </E>
     <E key="missilecrab | $damage_explosion" value="4" >
     </E>
@@ -88,7 +88,7 @@
     </E>
     <E key="player | $damage_explosion" value="80" >
     </E>
-    <E key="player | $damage_projectile" value="864" >
+    <E key="player | $damage_projectile" value="867" >
     </E>
     <E key="player | $damage_slice" value="27" >
     </E>
@@ -208,13 +208,15 @@
     </E>
     <E key="frog_big" value="1" >
     </E>
+    <E key="fungus_tiny" value="1" >
+    </E>
     <E key="longleg" value="5" >
     </E>
     <E key="lukki_longleg" value="1" >
     </E>
     <E key="miner_weak" value="1" >
     </E>
-    <E key="miniblob" value="45" >
+    <E key="miniblob" value="49" >
     </E>
     <E key="rat" value="21" >
     </E>

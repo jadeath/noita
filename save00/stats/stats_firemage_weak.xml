@@ -1,4 +1,4 @@
-<Stats deaths="147" kills="92" player_kills="6" player_projectile_count="0" >
+<Stats deaths="151" kills="92" player_kills="6" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | damage from material: Water" value="32" >
     </E>
-    <E key="NULL | damage from material: acid" value="3" >
+    <E key="NULL | damage from material: acid" value="5" >
     </E>
     <E key="NULL | damage from material: brine" value="1" >
     </E>
@@ -20,9 +20,11 @@
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
     </E>
+    <E key="homunculus | $damage_projectile" value="1" >
+    </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="25" >
+    <E key="player | $damage_projectile" value="26" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>

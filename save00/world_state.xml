@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="51.6499" 
-    clouds_02_target="76.4978" 
+    clouds_01_target="41.6839" 
+    clouds_02_target="54.1331" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="42" 
-    fog="0.00499823" 
-    fog_target="0" 
+    day_count="43" 
+    fog="0.761521" 
+    fog_target="0.766509" 
     global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -48,26 +48,42 @@
     player_did_infinite_spell_count="0" 
     player_living_with_minus_hp="0" 
     player_polymorph_count="1" 
-    player_polymorph_random_count="4" 
+    player_polymorph_random_count="5" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00498764" 
-    rain_target="0" 
+    rain="0.761521" 
+    rain_target="0.766509" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.823623" 
+    time="0.751963" 
     time_dt="1" 
-    time_total="42.7072" 
+    time_total="43.6992" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="0.000199854" 
-    wind_speed="0.0119392" 
+    wind="-0.0159215" 
+    wind_speed="-0.955298" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
       <E 
+        key="BOSS_ARENA_BUILDUP_TRIGGERED" 
+        value="1" >
+      </E>
+      <E 
+        key="FINAL_BOSS_ACTIVE" 
+        value="0" >
+      </E>
+      <E 
+        key="FINAL_BOSS_ARENA_ENTERED" 
+        value="1" >
+      </E>
+      <E 
         key="GHOST_PERK_TOTAL_COUNT" 
         value="4" >
+      </E>
+      <E 
+        key="GLOBAL_BOSS_KILL_COUNT" 
+        value="1" >
       </E>
       <E 
         key="HEARTS_MORE_EXTRA_HP_MULTIPLIER" 
@@ -223,6 +239,10 @@
       </E>
       <E 
         key="PERK_PICKED_MANA_FROM_KILLS_PICKUP_COUNT" 
+        value="1" >
+      </E>
+      <E 
+        key="PERK_PICKED_MAP_PICKUP_COUNT" 
         value="1" >
       </E>
       <E 
@@ -491,7 +511,7 @@
       </E>
       <E 
         key="TEMPLE_ACTIVE_2233_13078" 
-        value="1" >
+        value="0" >
       </E>
       <E 
         key="TEMPLE_COLLAPSED_-5_2" 
@@ -679,11 +699,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_vault,$biome_holymountain,$biome_fungicave,$biome_rainforest,$biome_snowc" >
+        value="$biome_wizardcave,$biome_desert,$biome_robobase,$biome_fun,$biome_wizardcave,$bi" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="201" >
+        value="210" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -1354,6 +1374,36 @@
       </string>
       <string>
         PERK_PICKED_EXTRA_KNOCKBACK
+      </string>
+      <string>
+        new_kill_boss_centipede
+      </string>
+      <string>
+        new_kill_wizard_homing
+      </string>
+      <string>
+        new_kill_hpcrystal
+      </string>
+      <string>
+        new_kill_boss_robot
+      </string>
+      <string>
+        new_perk_picked_map
+      </string>
+      <string>
+        PERK_PICKED_MAP
+      </string>
+      <string>
+        new_kill_necrobot
+      </string>
+      <string>
+        new_kill_basebot_sentry
+      </string>
+      <string>
+        new_kill_basebot_neutralizer
+      </string>
+      <string>
+        new_kill_basebot_hidden
       </string>
     </flags>
     <changed_materials>

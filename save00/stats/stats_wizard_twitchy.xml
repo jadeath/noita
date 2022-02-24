@@ -1,10 +1,10 @@
-<Stats deaths="92" kills="10" player_kills="0" player_projectile_count="0" >
+<Stats deaths="101" kills="11" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="3" >
     </E>
     <E key="NULL | $damage_explosion" value="12" >
     </E>
-    <E key="NULL | $damage_fire" value="30" >
+    <E key="NULL | $damage_fire" value="31" >
     </E>
     <E key="NULL | $damage_physicshit" value="5" >
     </E>
@@ -22,13 +22,15 @@
     </E>
     <E key="lukki_dark | $damage_curse" value="5" >
     </E>
-    <E key="player | $damage_explosion" value="2" >
+    <E key="player | $damage_explosion" value="3" >
     </E>
-    <E key="player | $damage_projectile" value="24" >
+    <E key="player | $damage_projectile" value="30" >
     </E>
     <E key="player | $damage_slice" value="1" >
     </E>
     <E key="spearbot | $damage_projectile" value="1" >
+    </E>
+    <E key="thundermage | $damage_explosion" value="1" >
     </E>
     <E key="worm | worm bite" value="1" >
     </E>
@@ -41,6 +43,8 @@
     <E key="rat" value="1" >
     </E>
     <E key="root_grower" value="1" >
+    </E>
+    <E key="scorpion" value="1" >
     </E>
     <E key="zombie" value="1" >
     </E>
