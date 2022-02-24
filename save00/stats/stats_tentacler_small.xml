@@ -1,4 +1,4 @@
-<Stats deaths="351" kills="86" player_kills="0" player_projectile_count="0" >
+<Stats deaths="352" kills="87" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="4" >
+    <E key="homunculus | $damage_projectile" value="5" >
     </E>
     <E key="miniblob | $damage_melee" value="1" >
     </E>
@@ -128,7 +128,7 @@
     </E>
     <E key="skullfly" value="2" >
     </E>
-    <E key="skullrat" value="5" >
+    <E key="skullrat" value="6" >
     </E>
     <E key="wizard_swapper" value="1" >
     </E>

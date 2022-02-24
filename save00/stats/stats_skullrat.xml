@@ -1,4 +1,4 @@
-<Stats deaths="600" kills="114" player_kills="0" player_projectile_count="0" >
+<Stats deaths="608" kills="116" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="15" >
     </E>
@@ -6,7 +6,7 @@
     </E>
     <E key="NULL | $damage_fire" value="9" >
     </E>
-    <E key="NULL | $damage_physicshit" value="10" >
+    <E key="NULL | $damage_physicshit" value="11" >
     </E>
     <E key="NULL | $damage_projectile" value="1" >
     </E>
@@ -16,13 +16,15 @@
     </E>
     <E key="NULL | damage from material: lava" value="31" >
     </E>
+    <E key="acidshooter | $damage_melee" value="1" >
+    </E>
     <E key="enlightened_alchemist | $damage_explosion" value="1" >
     </E>
     <E key="failed_alchemist | $damage_melee" value="1" >
     </E>
     <E key="firebug | $damage_melee" value="2" >
     </E>
-    <E key="homunculus | $damage_projectile" value="3" >
+    <E key="homunculus | $damage_projectile" value="4" >
     </E>
     <E key="maggot | $damage_explosion" value="1" >
     </E>
@@ -46,13 +48,13 @@
     </E>
     <E key="player | $damage_ice" value="4" >
     </E>
-    <E key="player | $damage_projectile" value="296" >
+    <E key="player | $damage_projectile" value="299" >
     </E>
     <E key="player | $damage_slice" value="19" >
     </E>
     <E key="skullfly | $damage_projectile" value="1" >
     </E>
-    <E key="skullrat | $damage_melee" value="32" >
+    <E key="skullrat | $damage_melee" value="33" >
     </E>
     <E key="slimeshooter_boss_limbs | $damage_projectile" value="1" >
     </E>
@@ -60,7 +62,7 @@
     </E>
     <E key="tentacler | $damage_melee" value="13" >
     </E>
-    <E key="tentacler_small | $damage_melee" value="5" >
+    <E key="tentacler_small | $damage_melee" value="6" >
     </E>
     <E key="wizard_hearty | $damage_projectile" value="1" >
     </E>
@@ -92,11 +94,11 @@
     </E>
     <E key="polyorb" value="1" >
     </E>
-    <E key="scorpion" value="29" >
+    <E key="scorpion" value="30" >
     </E>
     <E key="skullfly" value="1" >
     </E>
-    <E key="skullrat" value="32" >
+    <E key="skullrat" value="33" >
     </E>
     <E key="slimeshooter_nontoxic" value="1" >
     </E>

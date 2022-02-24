@@ -1,6 +1,6 @@
-<Stats deaths="71" kills="381" player_kills="0" player_projectile_count="0" >
+<Stats deaths="82" kills="389" player_kills="0" player_projectile_count="0" >
   <death_map>
-    <E key="NULL | $damage_electricity" value="30" >
+    <E key="NULL | $damage_electricity" value="35" >
     </E>
     <E key="NULL | $damage_explosion" value="2" >
     </E>
@@ -10,13 +10,13 @@
     </E>
     <E key="NULL | damage from material: Poison" value="1" >
     </E>
-    <E key="NULL | damage from material: lava" value="3" >
+    <E key="NULL | damage from material: lava" value="5" >
     </E>
     <E key="basebot_soldier | $damage_projectile" value="1" >
     </E>
-    <E key="player | $damage_explosion" value="20" >
+    <E key="player | $damage_explosion" value="23" >
     </E>
-    <E key="player | $damage_projectile" value="9" >
+    <E key="player | $damage_projectile" value="10" >
     </E>
     <E key="rock_curse | $damage_rock_curse" value="1" >
     </E>
@@ -24,9 +24,9 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshooter" value="5" >
+    <E key="acidshooter" value="6" >
     </E>
-    <E key="acidshot" value="1" >
+    <E key="acidshot" value="2" >
     </E>
     <E key="barfer" value="1" >
     </E>
@@ -48,7 +48,7 @@
     </E>
     <E key="firemage" value="4" >
     </E>
-    <E key="firemage_weak" value="2" >
+    <E key="firemage_weak" value="3" >
     </E>
     <E key="fish" value="24" >
     </E>
@@ -118,13 +118,13 @@
     </E>
     <E key="scavenger_smg" value="30" >
     </E>
-    <E key="scorpion" value="2" >
+    <E key="scorpion" value="3" >
     </E>
     <E key="shotgunner" value="7" >
     </E>
     <E key="shotgunner_weak" value="2" >
     </E>
-    <E key="skullrat" value="3" >
+    <E key="skullrat" value="4" >
     </E>
     <E key="slimeshooter" value="2" >
     </E>
@@ -140,7 +140,7 @@
     </E>
     <E key="tentacler" value="3" >
     </E>
-    <E key="tentacler_small" value="4" >
+    <E key="tentacler_small" value="5" >
     </E>
     <E key="thundermage" value="11" >
     </E>
@@ -154,7 +154,7 @@
     </E>
     <E key="wizard_hearty" value="3" >
     </E>
-    <E key="wizard_homing" value="1" >
+    <E key="wizard_homing" value="2" >
     </E>
     <E key="wizard_neutral" value="3" >
     </E>
@@ -162,7 +162,7 @@
     </E>
     <E key="wizard_swapper" value="10" >
     </E>
-    <E key="wizard_tele" value="11" >
+    <E key="wizard_tele" value="12" >
     </E>
     <E key="wizard_weaken" value="5" >
     </E>

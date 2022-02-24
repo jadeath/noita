@@ -1,4 +1,4 @@
-<Stats deaths="152" kills="92" player_kills="6" player_projectile_count="0" >
+<Stats deaths="155" kills="94" player_kills="6" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -20,7 +20,9 @@
     </E>
     <E key="death_ghost | $damage_curse" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="2" >
+    <E key="firemage_weak | $damage_explosion" value="2" >
+    </E>
+    <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="player | $damage_explosion" value="1" >
     </E>
@@ -55,6 +57,8 @@
     <E key="blob" value="1" >
     </E>
     <E key="bomb" value="1" >
+    </E>
+    <E key="firemage_weak" value="2" >
     </E>
     <E key="fireskull" value="2" >
     </E>

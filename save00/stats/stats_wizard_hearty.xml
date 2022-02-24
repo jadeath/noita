@@ -1,4 +1,4 @@
-<Stats deaths="38" kills="33" player_kills="0" player_projectile_count="0" >
+<Stats deaths="39" kills="33" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_fire" value="4" >
     </E>
@@ -11,6 +11,8 @@
     <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="lukki_dark | $damage_curse" value="1" >
+    </E>
+    <E key="orb_green | $damage_projectile" value="1" >
     </E>
     <E key="player | $damage_projectile" value="21" >
     </E>
