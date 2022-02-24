@@ -19,13 +19,13 @@
     EVERYTHING_TO_GOLD="0" 
     INFINITE_GOLD_HAPPENING="0" 
     _enabled="1" 
-    clouds_01_target="39.367" 
-    clouds_02_target="48.9338" 
+    clouds_01_target="27.2195" 
+    clouds_02_target="21.6738" 
     consume_actions="1" 
     damage_flash_multiplier="1" 
-    day_count="46" 
-    fog="0.00498764" 
-    fog_target="0" 
+    day_count="47" 
+    fog="0.0515008" 
+    fog_target="0.0564851" 
     global_genome_relations_modifier="-25" 
     gore_multiplier="1" 
     gradient_sky_alpha_target="0" 
@@ -51,17 +51,17 @@
     player_polymorph_random_count="5" 
     player_spawn_location.x="0" 
     player_spawn_location.y="0" 
-    rain="0.00498764" 
-    rain_target="0" 
+    rain="0.0995805" 
+    rain_target="0.0778842" 
     session_stat_file="??STA/sessions/20220223-003838" 
     sky_sunset_alpha_target="1" 
-    time="0.468339" 
+    time="0.874975" 
     time_dt="1" 
-    time_total="46.6018" 
+    time_total="48.1051" 
     trick_kill_gold_multiplier="2" 
     twitch_has_been_active_during_this_run="0" 
-    wind="-0.131102" 
-    wind_speed="-7.86616" 
+    wind="-0.1047" 
+    wind_speed="-6.28127" 
     wind_speed_sin="3" 
     wind_speed_sin_t="10" >
     <lua_globals>
@@ -699,11 +699,11 @@
       </E>
       <E 
         key="visited_biomes" 
-        value="$biome_desert,???,$biome_clouds,$biome_lake,_EMPTY_,$biome_winter,$biome_boss_vi" >
+        value="_EMPTY_,$biome_coalmine,???,$biome_clouds,$biome_desert,_EMPTY_,$biome_lake,$bio" >
       </E>
       <E 
         key="visited_biomes_count" 
-        value="244" >
+        value="255" >
       </E>
     </lua_globals>
     <pending_portals>
@@ -1443,6 +1443,18 @@
       </string>
       <string>
         new_action_ocarina_a2
+      </string>
+      <string>
+        musicmachine1_done
+      </string>
+      <string>
+        musicmachine4_done
+      </string>
+      <string>
+        musicmachine2_done
+      </string>
+      <string>
+        musicmachine3_done
       </string>
     </flags>
     <changed_materials>

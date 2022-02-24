@@ -1,4 +1,4 @@
-<Stats deaths="290" kills="50" player_kills="0" player_projectile_count="0" >
+<Stats deaths="292" kills="50" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="10" >
     </E>
@@ -32,7 +32,7 @@
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="1" >
+    <E key="homunculus | $damage_projectile" value="3" >
     </E>
     <E key="longleg | $damage_melee" value="1" >
     </E>

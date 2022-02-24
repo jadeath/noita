@@ -1,4 +1,4 @@
-<Stats deaths="744" kills="55" player_kills="0" player_projectile_count="0" >
+<Stats deaths="748" kills="59" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="68" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="frog_big | $damage_melee" value="4" >
     </E>
-    <E key="homunculus | $damage_projectile" value="1" >
+    <E key="homunculus | $damage_projectile" value="2" >
     </E>
     <E key="miner | $damage_explosion" value="25" >
     </E>
@@ -122,7 +122,7 @@
     </E>
     <E key="worm_tiny | worm bite" value="1" >
     </E>
-    <E key="zombie | $damage_melee" value="11" >
+    <E key="zombie | $damage_melee" value="14" >
     </E>
   </death_map>
   <kill_map>
@@ -134,7 +134,9 @@
     </E>
     <E key="rat" value="37" >
     </E>
-    <E key="zombie" value="11" >
+    <E key="scorpion" value="1" >
+    </E>
+    <E key="zombie" value="14" >
     </E>
   </kill_map>
 </Stats>

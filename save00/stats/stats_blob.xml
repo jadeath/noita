@@ -1,4 +1,4 @@
-<Stats deaths="438" kills="287" player_kills="0" player_projectile_count="0" >
+<Stats deaths="438" kills="293" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="4" >
     </E>
@@ -94,7 +94,7 @@
     </E>
     <E key="miner_weak" value="5" >
     </E>
-    <E key="miniblob" value="199" >
+    <E key="miniblob" value="205" >
     </E>
     <E key="rat" value="25" >
     </E>

@@ -1,4 +1,4 @@
-<Stats deaths="46" kills="252" player_kills="0" player_projectile_count="0" >
+<Stats deaths="46" kills="261" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_electricity" value="16" >
     </E>
@@ -24,7 +24,7 @@
     </E>
   </death_map>
   <kill_map>
-    <E key="acidshooter" value="1" >
+    <E key="acidshooter" value="3" >
     </E>
     <E key="acidshot" value="1" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="firemage" value="2" >
     </E>
-    <E key="firemage_weak" value="1" >
+    <E key="firemage_weak" value="2" >
     </E>
     <E key="fish" value="23" >
     </E>
@@ -108,7 +108,7 @@
     </E>
     <E key="scorpion" value="1" >
     </E>
-    <E key="shotgunner" value="4" >
+    <E key="shotgunner" value="5" >
     </E>
     <E key="shotgunner_weak" value="2" >
     </E>
@@ -144,15 +144,17 @@
     </E>
     <E key="wizard_poly" value="1" >
     </E>
-    <E key="wizard_swapper" value="8" >
+    <E key="wizard_swapper" value="10" >
     </E>
-    <E key="wizard_tele" value="6" >
+    <E key="wizard_tele" value="7" >
     </E>
     <E key="wizard_weaken" value="4" >
     </E>
     <E key="worm" value="2" >
     </E>
-    <E key="zombie" value="1" >
+    <E key="worm_tiny" value="1" >
+    </E>
+    <E key="zombie" value="2" >
     </E>
     <E key="zombie_weak" value="2" >
     </E>
