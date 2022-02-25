@@ -1,10 +1,10 @@
-<Stats deaths="118" kills="91" player_kills="0" player_projectile_count="0" >
+<Stats deaths="120" kills="92" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
     <E key="NULL | $damage_electricity" value="4" >
     </E>
-    <E key="NULL | $damage_explosion" value="2" >
+    <E key="NULL | $damage_explosion" value="3" >
     </E>
     <E key="NULL | $damage_physicshit" value="2" >
     </E>
@@ -23,6 +23,8 @@
     <E key="death_ghost | $damage_curse" value="2" >
     </E>
     <E key="homunculus | $damage_projectile" value="2" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="1" >
     </E>
     <E key="maggot | $damage_melee" value="1" >
     </E>
@@ -72,7 +74,7 @@
     </E>
     <E key="scavenger_grenade" value="2" >
     </E>
-    <E key="scavenger_smg" value="2" >
+    <E key="scavenger_smg" value="3" >
     </E>
     <E key="scorpion" value="28" >
     </E>

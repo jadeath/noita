@@ -1,4 +1,4 @@
-<Stats deaths="310" kills="53" player_kills="0" player_projectile_count="0" >
+<Stats deaths="318" kills="53" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="1" >
     </E>
@@ -34,7 +34,7 @@
     </E>
     <E key="flamer | $damage_explosion" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="6" >
+    <E key="homunculus | $damage_projectile" value="7" >
     </E>
     <E key="longleg | $damage_melee" value="1" >
     </E>
@@ -52,11 +52,13 @@
     </E>
     <E key="phantom_b | $damage_melee" value="3" >
     </E>
+    <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
+    </E>
     <E key="player | $damage_electricity" value="6" >
     </E>
     <E key="player | $damage_explosion" value="37" >
     </E>
-    <E key="player | $damage_projectile" value="112" >
+    <E key="player | $damage_projectile" value="118" >
     </E>
     <E key="player | $damage_slice" value="5" >
     </E>

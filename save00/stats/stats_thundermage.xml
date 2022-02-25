@@ -1,8 +1,8 @@
-<Stats deaths="108" kills="139" player_kills="3" player_projectile_count="0" >
+<Stats deaths="110" kills="141" player_kills="3" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_explosion" value="9" >
     </E>
-    <E key="NULL | $damage_physicshit" value="11" >
+    <E key="NULL | $damage_physicshit" value="12" >
     </E>
     <E key="NULL | damage from material: freezing vapour" value="2" >
     </E>
@@ -14,7 +14,7 @@
     </E>
     <E key="death_ghost | $damage_curse" value="3" >
     </E>
-    <E key="homunculus | $damage_projectile" value="14" >
+    <E key="homunculus | $damage_projectile" value="15" >
     </E>
     <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
     </E>
@@ -76,13 +76,13 @@
     </E>
     <E key="rat" value="40" >
     </E>
-    <E key="scavenger_grenade" value="8" >
+    <E key="scavenger_grenade" value="9" >
     </E>
     <E key="scavenger_invis" value="2" >
     </E>
     <E key="scavenger_mine" value="1" >
     </E>
-    <E key="scavenger_smg" value="7" >
+    <E key="scavenger_smg" value="8" >
     </E>
     <E key="scorpion" value="6" >
     </E>

@@ -1,10 +1,10 @@
-<Stats deaths="1338" kills="285" player_kills="5" player_projectile_count="0" >
+<Stats deaths="1357" kills="286" player_kills="5" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="30" >
     </E>
-    <E key="NULL | $damage_electricity" value="32" >
+    <E key="NULL | $damage_electricity" value="34" >
     </E>
-    <E key="NULL | $damage_explosion" value="121" >
+    <E key="NULL | $damage_explosion" value="124" >
     </E>
     <E key="NULL | $damage_fire" value="46" >
     </E>
@@ -12,7 +12,7 @@
     </E>
     <E key="NULL | $damage_melee" value="1" >
     </E>
-    <E key="NULL | $damage_physicshit" value="80" >
+    <E key="NULL | $damage_physicshit" value="82" >
     </E>
     <E key="NULL | $damage_plasmabeam" value="1" >
     </E>
@@ -22,9 +22,9 @@
     </E>
     <E key="NULL | damage from material: acid" value="11" >
     </E>
-    <E key="NULL | damage from material: freezing liquid" value="9" >
+    <E key="NULL | damage from material: freezing liquid" value="10" >
     </E>
-    <E key="NULL | damage from material: freezing vapour" value="72" >
+    <E key="NULL | damage from material: freezing vapour" value="74" >
     </E>
     <E key="NULL | damage from material: lava" value="1" >
     </E>
@@ -36,7 +36,7 @@
     </E>
     <E key="curse_strong | $damage_hitfx_curse" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="12" >
+    <E key="death_ghost | $damage_curse" value="13" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="3" >
     </E>
@@ -46,11 +46,11 @@
     </E>
     <E key="fly | $damage_melee" value="1" >
     </E>
-    <E key="homunculus | $damage_projectile" value="30" >
+    <E key="homunculus | $damage_projectile" value="31" >
     </E>
     <E key="icemage | $damage_explosion" value="2" >
     </E>
-    <E key="icemage | $damage_ice" value="1" >
+    <E key="icemage | $damage_ice" value="2" >
     </E>
     <E key="icer | $damage_explosion" value="2" >
     </E>
@@ -58,7 +58,7 @@
     </E>
     <E key="iceskull | $damage_ice" value="19" >
     </E>
-    <E key="iceskull | $damage_melee" value="1" >
+    <E key="iceskull | $damage_melee" value="2" >
     </E>
     <E key="lasershooter | $damage_projectile" value="1" >
     </E>
@@ -68,15 +68,15 @@
     </E>
     <E key="miner | $damage_melee" value="1" >
     </E>
-    <E key="orb_green | $damage_projectile" value="1" >
+    <E key="orb_green | $damage_projectile" value="2" >
     </E>
-    <E key="phantom_a | $damage_projectile" value="2" >
+    <E key="phantom_a | $damage_projectile" value="3" >
     </E>
     <E key="player | $damage_electricity" value="15" >
     </E>
     <E key="player | $damage_explosion" value="55" >
     </E>
-    <E key="player | $damage_projectile" value="514" >
+    <E key="player | $damage_projectile" value="515" >
     </E>
     <E key="player | $damage_slice" value="61" >
     </E>
@@ -94,7 +94,7 @@
     </E>
     <E key="scavenger_grenade | $damage_projectile" value="8" >
     </E>
-    <E key="scavenger_leader | $damage_explosion" value="4" >
+    <E key="scavenger_leader | $damage_explosion" value="5" >
     </E>
     <E key="scavenger_leader | $damage_melee" value="1" >
     </E>
@@ -122,7 +122,7 @@
     </E>
     <E key="thundermage | $damage_electricity" value="4" >
     </E>
-    <E key="thundermage | $damage_explosion" value="3" >
+    <E key="thundermage | $damage_explosion" value="4" >
     </E>
     <E key="thunderskull | $damage_electricity" value="1" >
     </E>
@@ -162,7 +162,7 @@
     </E>
     <E key="potion" value="1" >
     </E>
-    <E key="rat" value="235" >
+    <E key="rat" value="236" >
     </E>
     <E key="scavenger_grenade" value="6" >
     </E>

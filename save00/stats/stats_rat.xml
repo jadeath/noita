@@ -1,4 +1,4 @@
-<Stats deaths="3470" kills="123" player_kills="0" player_projectile_count="0" >
+<Stats deaths="3475" kills="123" player_kills="0" player_projectile_count="0" >
   <death_map>
     <E key="NULL | $damage_drowning" value="39" >
     </E>
@@ -46,7 +46,7 @@
     </E>
     <E key="chest_mimic | $damage_melee" value="1" >
     </E>
-    <E key="death_ghost | $damage_curse" value="15" >
+    <E key="death_ghost | $damage_curse" value="16" >
     </E>
     <E key="disc_bullet_big | bzzt!" value="2" >
     </E>
@@ -108,6 +108,8 @@
     </E>
     <E key="phantom_b | $damage_projectile" value="1" >
     </E>
+    <E key="physics_ragdoll_part_exploding | $damage_explosion" value="1" >
+    </E>
     <E key="player | $damage_electricity" value="1" >
     </E>
     <E key="player | $damage_explosion" value="17" >
@@ -116,7 +118,7 @@
     </E>
     <E key="player | $damage_plasmabeam" value="1" >
     </E>
-    <E key="player | $damage_projectile" value="266" >
+    <E key="player | $damage_projectile" value="267" >
     </E>
     <E key="player | $damage_slice" value="40" >
     </E>
@@ -156,7 +158,7 @@
     </E>
     <E key="scavenger_poison | $damage_projectile" value="4" >
     </E>
-    <E key="scavenger_smg | $damage_explosion" value="66" >
+    <E key="scavenger_smg | $damage_explosion" value="67" >
     </E>
     <E key="scavenger_smg | $damage_melee" value="48" >
     </E>
@@ -182,7 +184,7 @@
     </E>
     <E key="sniper | $damage_melee" value="34" >
     </E>
-    <E key="sniper | $damage_projectile" value="142" >
+    <E key="sniper | $damage_projectile" value="143" >
     </E>
     <E key="tank | $damage_explosion" value="10" >
     </E>
